@@ -32,6 +32,7 @@
     "next": "^12.0.4",
     "next-svgr": "^0.0.2",
     "next-tinacms-cloudinary": "^3.5.23",
+    "nth-check": "^2.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
@@ -43,6 +44,7 @@
   },
   "resolutions": {
     "final-form": "4.20.1",
-    "@headlessui/react": "1.4.1"
+    "@headlessui/react": "1.4.1",
+    "nth-check": "^2.1.1"
   }
 }
