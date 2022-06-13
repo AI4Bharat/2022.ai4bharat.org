@@ -1,5 +1,5 @@
 function Test() {
-    return <div>Testing writing content directly in JSX</div>
+    return <div>Testing adding a page directly in JSX</div>
   }
   
   export default Test
