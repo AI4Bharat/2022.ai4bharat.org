@@ -1,7 +1,7 @@
 ---
 blocks:
   - quote: Areas Page
-    color: primary
+    color: tint
     _template: testimonial
   - items:
       - icon:
