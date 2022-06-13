@@ -3,21 +3,29 @@
     "icon": {
       "color": "orange",
       "style": "float",
-      "name": "tina"
+      "name": "AI4B"
     },
     "color": "default",
     "nav": [
       {
-        "href": "",
+        "href": "home",
         "label": "Home"
       },
       {
-        "href": "test",
+        "href": "about",
         "label": "About"
       },
       {
-        "href": "posts",
-        "label": "Blog"
+        "href": "areas",
+        "label": "Areas"
+      },
+      {
+        "href": "resources",
+        "label": "Resources"
+      },
+      {
+        "href": "positions",
+        "label": "Positions"
       }
     ]
   },
@@ -30,8 +38,8 @@
     }
   },
   "theme": {
-    "color": "blue",
-    "font": "sans",
+    "color": "orange",
+    "font": "lato",
     "icon": "boxicon",
     "darkMode": "system"
   }
