@@ -9,25 +9,29 @@ blocks:
           style: float
           name: ''
         title: Datasets
-        text: Placeholder text.
+      
+        link: '/resource/datasets'
       - icon:
           color: ''
           style: float
           name: ''
         title: Models
-        text: Placeholder text.
+        
+        link: '/resource/models'
       - icon:
           color: ''
           style: float
           name: ''
         title: Data Reports
-        text: Placeholder text.
+       
+        link: '/resource/data-reports'
       - icon:
           color: ''
           style: float
           name: ''
         title: Publications
-        text: Placeholder text.
+    
+        link: '/resource/publications'
     _template: features
 ---
 

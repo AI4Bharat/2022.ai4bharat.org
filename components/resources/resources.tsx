@@ -4,7 +4,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { BsArrowRight } from "react-icons/bs";
 import { useTheme } from "../layout";
 
-export const Areas = ({ data }) => {
+export const Resources = ({ data }) => {
   const theme = useTheme();
   const titleColorClasses = {
     blue: "group-hover:text-blue-600 dark:group-hover:text-blue-300",
@@ -19,16 +19,16 @@ export const Areas = ({ data }) => {
 console.log(data);
   return (
     <>
-      {data.map((areaData) => {
-        const area = areaData.node;
+      {data.map((resourceData) => {
+        const resource = resourceData.node;
         return (
           <Link
-            key={area._sys.filename}
-            href={`/area/` + area._sys.filename}
+            key={resource._sys.filename}
+            href={`/resource/` + resource._sys.filename}
             passHref
           >
             <a
-              key={area.id}
+              key={resource.id}
               className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600"
             >
               <h3
@@ -36,7 +36,7 @@ console.log(data);
                   titleColorClasses[theme.color]
                 }`}
               >
-                {area._values.title}{" "}
+                {resource._values.title}{" "}
                 <span className="inline-block opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out">
                   <BsArrowRight className="inline-block h-8 -mt-1 ml-1 w-auto opacity-70" />
                 </span>

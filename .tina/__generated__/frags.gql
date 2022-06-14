@@ -11,19 +11,6 @@ fragment PostParts on Post {
   _body
 }
 
-fragment AreaParts on Area {
-  title
-  heroImg
-  excerpt
-  author {
-    ... on Document {
-      id
-    }
-  }
-  date
-  _body
-}
-
 fragment GlobalParts on Global {
   header {
     __typename
@@ -96,6 +83,7 @@ fragment PageParts on Page {
           name
         }
         title
+        link
         text
       }
       color
@@ -110,4 +98,17 @@ fragment PageParts on Page {
       color
     }
   }
+}
+
+fragment AreaParts on Area {
+  title
+  heroImg
+  excerpt
+  author {
+    ... on Document {
+      id
+    }
+  }
+  date
+  _body
 }

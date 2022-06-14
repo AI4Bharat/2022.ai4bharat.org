@@ -1,10 +1,10 @@
-import { Area } from "../../components/areas/area";
+import { Resource } from "../../components/resources/resource";
 import { ExperimentalGetTinaClient } from "../../.tina/__generated__/types";
 import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../../components/layout";
 
 // Use the props returned by get static props
-export default function BlogPostPage(
+export default function ResourcePostPage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   const { data } = useTina({
@@ -12,11 +12,11 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
-  if (data && data.post) {
+  if (data && data.post) { //problem here
     console.log(data);
     return (
       <Layout rawData={data} data={data.global as any}>
-        <Area {...data.post} />;
+        <Resource {...data.post} />;
       </Layout>
     );
   }

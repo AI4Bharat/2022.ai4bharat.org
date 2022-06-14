@@ -1,6 +1,6 @@
 ---
 blocks:
-  - quote: Areas Page
+  - quote: Areas
     color: tint
     _template: testimonial
   - items:
@@ -9,43 +9,50 @@ blocks:
           style: float
           name: ''
         title: Translation
-        text: ''
+        link: /area/translation
+        text: 
       - icon:
           color: ''
           style: float
           name: ''
         title: Tools
-        text: ''
+        link: /area/tools
+        text: 
       - icon:
           color: ''
           style: float
           name: ''
         title: Speech Recognition
-        text: ''
+        link: /area/speech-recognition
+        text: 
       - icon:
           color: ''
           style: float
           name: ''
         title: Language Generation
+        link: /area/language-generation
         text: ''
       - icon:
           color: ''
           style: float
           name: ''
         title: Language Understanding
-        text: ''
+        link: /area/language-understanding
+        text: 
       - icon:
           color: ''
           style: float
           name: ''
         title: Sign Language
-        text: ''
+        link: /area/sign-language
+        text: 
       - icon:
           color: ''
           style: float
           name: ''
         title: Speech Synthesis
-        text: ' '
+        link: /area/speech-synthesis
+        text: 
     _template: features
 ---
 
