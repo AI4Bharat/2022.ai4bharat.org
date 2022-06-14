@@ -75,6 +75,8 @@ export type Query = {
   document: DocumentNode;
   post: Post;
   postConnection: PostConnection;
+  area: Area;
+  areaConnection: AreaConnection;
   global: Global;
   globalConnection: GlobalConnection;
   author: Author;
@@ -111,6 +113,20 @@ export type QueryPostArgs = {
 
 
 export type QueryPostConnectionArgs = {
+  before?: InputMaybe<Scalars['String']>;
+  after?: InputMaybe<Scalars['String']>;
+  first?: InputMaybe<Scalars['Float']>;
+  last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryAreaArgs = {
+  relativePath?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryAreaConnectionArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
@@ -195,7 +211,7 @@ export type CollectionDocumentsArgs = {
   sort?: InputMaybe<Scalars['String']>;
 };
 
-export type DocumentNode = Post | Global | Author | Page;
+export type DocumentNode = Post | Area | Global | Author | Page;
 
 export type PostAuthor = Author;
 
@@ -223,6 +239,34 @@ export type PostConnection = Connection & {
   pageInfo: PageInfo;
   totalCount: Scalars['Float'];
   edges?: Maybe<Array<Maybe<PostConnectionEdges>>>;
+};
+
+export type AreaAuthor = Author;
+
+export type Area = Node & Document & {
+  __typename?: 'Area';
+  title?: Maybe<Scalars['String']>;
+  heroImg?: Maybe<Scalars['String']>;
+  excerpt?: Maybe<Scalars['JSON']>;
+  author?: Maybe<AreaAuthor>;
+  date?: Maybe<Scalars['String']>;
+  _body?: Maybe<Scalars['JSON']>;
+  id: Scalars['ID'];
+  _sys: SystemInfo;
+  _values: Scalars['JSON'];
+};
+
+export type AreaConnectionEdges = {
+  __typename?: 'AreaConnectionEdges';
+  cursor: Scalars['String'];
+  node?: Maybe<Area>;
+};
+
+export type AreaConnection = Connection & {
+  __typename?: 'AreaConnection';
+  pageInfo: PageInfo;
+  totalCount: Scalars['Float'];
+  edges?: Maybe<Array<Maybe<AreaConnectionEdges>>>;
 };
 
 export type GlobalHeaderIcon = {
@@ -400,6 +444,8 @@ export type Mutation = {
   createDocument: DocumentNode;
   updatePost: Post;
   createPost: Post;
+  updateArea: Area;
+  createArea: Area;
   updateGlobal: Global;
   createGlobal: Global;
   updateAuthor: Author;
@@ -448,6 +494,18 @@ export type MutationCreatePostArgs = {
 };
 
 
+export type MutationUpdateAreaArgs = {
+  relativePath: Scalars['String'];
+  params: AreaMutation;
+};
+
+
+export type MutationCreateAreaArgs = {
+  relativePath: Scalars['String'];
+  params: AreaMutation;
+};
+
+
 export type MutationUpdateGlobalArgs = {
   relativePath: Scalars['String'];
   params: GlobalMutation;
@@ -485,12 +543,22 @@ export type MutationCreatePageArgs = {
 
 export type DocumentMutation = {
   post?: InputMaybe<PostMutation>;
+  area?: InputMaybe<AreaMutation>;
   global?: InputMaybe<GlobalMutation>;
   author?: InputMaybe<AuthorMutation>;
   page?: InputMaybe<PageMutation>;
 };
 
 export type PostMutation = {
+  title?: InputMaybe<Scalars['String']>;
+  heroImg?: InputMaybe<Scalars['String']>;
+  excerpt?: InputMaybe<Scalars['JSON']>;
+  author?: InputMaybe<Scalars['String']>;
+  date?: InputMaybe<Scalars['String']>;
+  _body?: InputMaybe<Scalars['JSON']>;
+};
+
+export type AreaMutation = {
   title?: InputMaybe<Scalars['String']>;
   heroImg?: InputMaybe<Scalars['String']>;
   excerpt?: InputMaybe<Scalars['JSON']>;
@@ -629,6 +697,8 @@ export type BlogPostQueryQuery = { __typename?: 'Query', post: { __typename?: 'P
 
 export type PostPartsFragment = { __typename?: 'Post', title?: string | null, heroImg?: string | null, excerpt?: any | null, date?: string | null, _body?: any | null, author?: { __typename?: 'Author', id: string } | null };
 
+export type AreaPartsFragment = { __typename?: 'Area', title?: string | null, heroImg?: string | null, excerpt?: any | null, date?: string | null, _body?: any | null, author?: { __typename?: 'Author', id: string } | null };
+
 export type GlobalPartsFragment = { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, social?: { __typename: 'GlobalFooterSocial', facebook?: string | null, twitter?: string | null, instagram?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null, darkMode?: string | null } | null };
 
 export type AuthorPartsFragment = { __typename?: 'Author', name?: string | null, avatar?: string | null };
@@ -646,6 +716,18 @@ export type PostConnectionQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'Post', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, date?: string | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } | null } | null> | null } };
+
+export type AreaQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
+
+
+export type AreaQuery = { __typename?: 'Query', area: { __typename?: 'Area', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, date?: string | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } };
+
+export type AreaConnectionQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type AreaConnectionQuery = { __typename?: 'Query', areaConnection: { __typename?: 'AreaConnection', totalCount: number, edges?: Array<{ __typename?: 'AreaConnectionEdges', node?: { __typename?: 'Area', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, date?: string | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } | null } | null> | null } };
 
 export type GlobalQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -729,6 +811,20 @@ export const LayoutQueryFragmentFragmentDoc = gql`
     ${GlobalPartsFragmentDoc}`;
 export const PostPartsFragmentDoc = gql`
     fragment PostParts on Post {
+  title
+  heroImg
+  excerpt
+  author {
+    ... on Document {
+      id
+    }
+  }
+  date
+  _body
+}
+    `;
+export const AreaPartsFragmentDoc = gql`
+    fragment AreaParts on Area {
   title
   heroImg
   excerpt
@@ -882,6 +978,47 @@ export const PostConnectionDocument = gql`
   }
 }
     ${PostPartsFragmentDoc}`;
+export const AreaDocument = gql`
+    query area($relativePath: String!) {
+  area(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...AreaParts
+  }
+}
+    ${AreaPartsFragmentDoc}`;
+export const AreaConnectionDocument = gql`
+    query areaConnection {
+  areaConnection {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...AreaParts
+      }
+    }
+  }
+}
+    ${AreaPartsFragmentDoc}`;
 export const GlobalDocument = gql`
     query global($relativePath: String!) {
   global(relativePath: $relativePath) {
@@ -1022,6 +1159,12 @@ export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) 
       },
     postConnection(variables?: PostConnectionQueryVariables, options?: C): Promise<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}> {
         return requester<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}, PostConnectionQueryVariables>(PostConnectionDocument, variables, options);
+      },
+    area(variables: AreaQueryVariables, options?: C): Promise<{data: AreaQuery, variables: AreaQueryVariables, query: string}> {
+        return requester<{data: AreaQuery, variables: AreaQueryVariables, query: string}, AreaQueryVariables>(AreaDocument, variables, options);
+      },
+    areaConnection(variables?: AreaConnectionQueryVariables, options?: C): Promise<{data: AreaConnectionQuery, variables: AreaConnectionQueryVariables, query: string}> {
+        return requester<{data: AreaConnectionQuery, variables: AreaConnectionQueryVariables, query: string}, AreaConnectionQueryVariables>(AreaConnectionDocument, variables, options);
       },
     global(variables: GlobalQueryVariables, options?: C): Promise<{data: GlobalQuery, variables: GlobalQueryVariables, query: string}> {
         return requester<{data: GlobalQuery, variables: GlobalQueryVariables, query: string}, GlobalQueryVariables>(GlobalDocument, variables, options);

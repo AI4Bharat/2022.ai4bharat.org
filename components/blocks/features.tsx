@@ -4,14 +4,18 @@ import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
+import Link from "next/link";
 
 export const Feature = ({ featuresColor, data, tinaField }) => {
+  console.log(data)
   return (
+    
     <div
       data-tinafield={tinaField}
       className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
       style={{ flexBasis: "16rem" }}
     >
+
       {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
@@ -20,12 +24,23 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
         />
       )}
       {data.title && (
+        <Link
+            
+        href={`/datasets`}
+        passHref
+      >
+        <a
+          key={data.id}
+        
+        >
         <h3
           data-tinafield={`${tinaField}.title`}
           className="text-2xl font-semibold title-font"
         >
           {data.title}
         </h3>
+        </a>
+          </Link>
       )}
       {data.text && (
         <p

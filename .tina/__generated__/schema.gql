@@ -50,6 +50,8 @@ type Query {
   document(collection: String, relativePath: String): DocumentNode!
   post(relativePath: String): Post!
   postConnection(before: String, after: String, first: Float, last: Float, sort: String): PostConnection!
+  area(relativePath: String): Area!
+  areaConnection(before: String, after: String, first: Float, last: Float, sort: String): AreaConnection!
   global(relativePath: String): Global!
   globalConnection(before: String, after: String, first: Float, last: Float, sort: String): GlobalConnection!
   author(relativePath: String): Author!
@@ -81,7 +83,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
 }
 
-union DocumentNode = Post | Global | Author | Page
+union DocumentNode = Post | Area | Global | Author | Page
 
 union PostAuthor = Author
 
@@ -106,6 +108,31 @@ type PostConnection implements Connection {
   pageInfo: PageInfo!
   totalCount: Float!
   edges: [PostConnectionEdges]
+}
+
+union AreaAuthor = Author
+
+type Area implements Node & Document {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: AreaAuthor
+  date: String
+  _body: JSON
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+type AreaConnectionEdges {
+  cursor: String!
+  node: Area
+}
+
+type AreaConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [AreaConnectionEdges]
 }
 
 type GlobalHeaderIcon {
@@ -259,6 +286,8 @@ type Mutation {
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   updatePost(relativePath: String!, params: PostMutation!): Post!
   createPost(relativePath: String!, params: PostMutation!): Post!
+  updateArea(relativePath: String!, params: AreaMutation!): Area!
+  createArea(relativePath: String!, params: AreaMutation!): Area!
   updateGlobal(relativePath: String!, params: GlobalMutation!): Global!
   createGlobal(relativePath: String!, params: GlobalMutation!): Global!
   updateAuthor(relativePath: String!, params: AuthorMutation!): Author!
@@ -269,12 +298,22 @@ type Mutation {
 
 input DocumentMutation {
   post: PostMutation
+  area: AreaMutation
   global: GlobalMutation
   author: AuthorMutation
   page: PageMutation
 }
 
 input PostMutation {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: String
+  date: String
+  _body: JSON
+}
+
+input AreaMutation {
   title: String
   heroImg: String
   excerpt: JSON
