@@ -29,7 +29,7 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
         <Icon
           tinaField={`${tinaField}.icon`}
           parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
+          data={{ size: "medium", ...data.icon }}
         />
       )}
       {data.title && (
@@ -37,8 +37,9 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
         
         <h3
           data-tinafield={`${tinaField}.title`}
-          className="text-2xl font-semibold title-font"
+          className="text-lg font-semibold title-font"
         >
+          {/*changed from 2xl to lg*/}
           {data.title}
         </h3>
       

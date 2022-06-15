@@ -9,50 +9,64 @@ blocks:
           style: float
           name: ''
         title: Translation
-        link: /area/translation
-        text: 
+        link: 'https://indicnlp.ai4bharat.org/indic-trans/'
+        text: >
+          Creating open source machine translation models and parallel corpora
+          (Samānantar) for Indian languages.
       - icon:
           color: ''
           style: float
           name: ''
         title: Tools
         link: /area/tools
-        text: 
+        text: ( To be added )
       - icon:
           color: ''
           style: float
           name: ''
         title: Speech Recognition
         link: /area/speech-recognition
-        text: 
+        text: ( To be added )
       - icon:
           color: ''
           style: float
           name: ''
         title: Language Generation
         link: /area/language-generation
-        text: ''
+        text: ( To be added )
       - icon:
           color: ''
           style: float
           name: ''
         title: Language Understanding
         link: /area/language-understanding
-        text: 
+        text: ( To be added )
       - icon:
           color: ''
           style: float
           name: ''
         title: Sign Language
-        link: /area/sign-language
-        text: 
+        link: 'https://sign-language.ai4bharat.org/#/'
+        text: >
+          Collecting data and developing tools for recognizing Indian Sign
+          Language, specifically in workplace contexts. Funded by Microsoft's AI
+          For Accessibility Grant, 2021.
       - icon:
           color: ''
           style: float
           name: ''
         title: Speech Synthesis
         link: /area/speech-synthesis
-        text: 
-    _template: features
+        text: ( To be added )
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Fonts Generation
+        link: 'https://fonts.ai4bharat.org/#/'
+        text: >-
+          Generating fonts using A.I. for Indian Language-Scripts using
+          style-transfer GANs
+    _template: featuresAlt
 ---
 

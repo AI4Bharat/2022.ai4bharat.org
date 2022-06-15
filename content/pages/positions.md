@@ -4,10 +4,6 @@ blocks:
       # Hiring
 
 
-
-
-
-
       Our group focuses on building NLP ecosystem for Indian languages and
       seeking new models and techniques better suited for Indian languages. Our
       project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search

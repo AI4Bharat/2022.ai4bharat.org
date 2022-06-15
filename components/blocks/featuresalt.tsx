@@ -29,7 +29,7 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
         <Icon
           tinaField={`${tinaField}.icon`}
           parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
+          data={{ size: "medium", ...data.icon }}
         />
       )}
       {data.title && (
@@ -37,16 +37,17 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
         
         <h3
           data-tinafield={`${tinaField}.title`}
-          className="text-2xl font-semibold title-font"
+          className="text-lg font-semibold title-font"
         >
           {data.title}
         </h3>
-      
+
       )}
+            {/* Changed xl to lg and base to sm */}
       {data.text && (
         <p
           data-tinafield={`${tinaField}.text`}
-          className="text-base opacity-80 leading-relaxed"
+          className="text-sm opacity-80 leading-relaxed"
         >
           {data.text}
         </p>
