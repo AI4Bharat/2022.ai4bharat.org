@@ -143,7 +143,6 @@ type GlobalTheme {
   color: String
   font: String
   icon: String
-  darkMode: String
 }
 
 type Global implements Node & Document {
@@ -365,7 +364,6 @@ input GlobalThemeMutation {
   color: String
   font: String
   icon: String
-  darkMode: String
 }
 
 input GlobalMutation {

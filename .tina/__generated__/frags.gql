@@ -43,7 +43,6 @@ fragment GlobalParts on Global {
     color
     font
     icon
-    darkMode
   }
 }
 
