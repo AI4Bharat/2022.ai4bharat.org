@@ -38,11 +38,11 @@ export const Testimonial = ({ data, parentField = "" }) => {
               className={`block mx-auto h-0.5 w-1/6 ${
                 data.color === "primary"
                   ? `bg-blue-600`
-                  : `bg-gray-200 dark:bg-gray-700`
+                  : `bg-orange-200 dark:bg-gray-700`
               }`}
             ></span>
           </div>
-          <footer className="text-center">
+         {/* <footer className="text-center">
             <p
               data-tinafield={`${parentField}.author`}
               className={`tracking-wide title-font font-bold text-lg ${
@@ -53,7 +53,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
             >
               {data.author}
             </p>
-          </footer>
+          </footer>*/}
         </blockquote>
       </Container>
     </Section>

@@ -14,7 +14,7 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
     <div
       data-tinafield={tinaField}
       className="flex-4 flex flex-col p-12 gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto hover:bg-gray-100"
-      style={{ flexBasis: "16rem" }}
+      style={{ flexBasis: "12rem" }}
     ><Link
        
     href={data.link}
@@ -64,7 +64,7 @@ export const Features = ({ data, parentField }) => {
 
       <Container
         className={`flex flex-wrap gap-x-20 gap-y-10 `}
-        size="large"
+        size="small"
       >
         {data.items &&
           data.items.map(function (block, i) {

@@ -1,6 +1,6 @@
 ---
 blocks:
-  - quote: Resources Page
+  - quote: Resources
     color: tint
     _template: testimonial
   - items:
@@ -10,21 +10,21 @@ blocks:
           name: ''
         title: Datasets
       
-        link: '/resource/datasets'
+        link: '/datasets'
       - icon:
           color: ''
           style: float
           name: ''
         title: Models
         
-        link: '/resource/models'
+        link: '/models'
       - icon:
           color: ''
           style: float
           name: ''
         title: Data Reports
        
-        link: '/resource/data-reports'
+        link: '/data-reports'
       - icon:
           color: ''
           style: float

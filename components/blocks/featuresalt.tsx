@@ -13,7 +13,7 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
     
     <div
       data-tinafield={tinaField}
-      className="columns-2 p-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto hover:bg-gray-100"
+      className="columns-2 p-6 text-center items-center lg:items-start lg:text-left w-full mx-auto hover:bg-gray-100"
    
     ><Link
        
@@ -63,8 +63,8 @@ export const FeaturesAlt = ({ data, parentField }) => {
     <Section color={data.color}>
 
       <Container
-        className={`flex flex-wrap gap-x-20 gap-y-10 `}
-        size="large"
+        className={`flex flex-wrap gap-x-20 gap-y-10 pb-24`}
+        size="small"
       >
         {data.items &&
           data.items.map(function (block, i) {
