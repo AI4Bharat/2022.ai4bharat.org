@@ -18,8 +18,9 @@ blocks:
           style: float
           name: ''
         title: Tools
-        link: /area/tools
-        text: ( To be added )
+        link: https://docs.ezannotate.ai4bharat.org/#/
+        text: >
+          ezAnnotation tool for labeling datasets for machine learning and NLP tasks.
       - icon:
           color: ''
           style: float
