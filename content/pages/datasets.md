@@ -9,7 +9,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicCorp
-        link: 'https://arxiv.org/abs/2203.05437'
+        link: /datasets/indic-corp
         text: >-
           A lot of NLP models require a large amount of training data, which
           most of the Indian languages lack. In this project, we develop a
@@ -21,25 +21,8 @@ blocks:
           color: white
           style: circle
           name: AI4B
-        title: IndicGLUE
-        link: 'https://arxiv.org/abs/2109.02903'
-        text: >-
-          This is a benchmark containing various tasks to evaluate the natural
-          language understanding capabilities of language models for Indian
-          languages.
-      - icon:
-          color: white
-          style: circle
-          name: AI4B
-        title: IndicNLG Suite
-        link: 'https://arxiv.org/abs/2104.05596'
-        text: ' This is a benchmark containing various tasks to evaluate the natural language generation capabilities of language models for Indian languages.'
-      - icon:
-          color: white
-          style: circle
-          name: AI4B
         title: Samanantar
-        link: 'https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf'
+        link: /datasets/samanantar
         text: >-
           Samanantar is the largest publicly available parallel corpora
           collection for Indic languages : Assamese, Bengali, Gujarati, Hindi,
@@ -50,11 +33,28 @@ blocks:
           style: circle
           name: AI4B
         title: Aksharantar
-        link: 'https://arxiv.org/pdf/2005.00085.pdf'
+        link: /datasets/aksharantar
         text: >-
           Aksharantar is the largest publicly available transliteration dataset
           for 21 Indic languages. The corpus has 26M Indic language-English
           transliteration pairs.
+      - icon:
+          color: white
+          style: circle
+          name: AI4B
+        title: IndicGLUE
+        link: /datasets/indic-glue
+        text: >-
+          This is a benchmark containing various tasks to evaluate the natural
+          language understanding capabilities of language models for Indian
+          languages.
+      - icon:
+          color: white
+          style: circle
+          name: AI4B
+        title: IndicNLG Suite
+        link: /datasets/indic-nlg-suite
+        text: ' This is a benchmark containing various tasks to evaluate the natural language generation capabilities of language models for Indian languages.'
     _template: featuresAlt
 ---
 

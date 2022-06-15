@@ -26,17 +26,15 @@ blocks:
       For any queries, feel free to reach us at:
 
 
-      *   Anoop Kunchukuttan
+      * Anoop Kunchukuttan
       ([anoop.kunchukuttan@gmail.com](mailto:anoop.kunchukuttan@gmail.com))
 
-      *   Mitesh Khapra
+      * Mitesh Khapra
       ([miteshk@cse.iitm.ac.in](mailto:miteshk@cse.iitm.ac.in))
 
-      *   Pratyush Kumar
+      * Pratyush Kumar
       ([pratyush@cse.iitm.ac.in](mailto:pratyushk@cse.iitm.ac.in))
 
-      *   Divyanshu Kakwani
-      ([divkakwani@gmail.com](mailto:divkakwani@gmail.com))
 
 
 

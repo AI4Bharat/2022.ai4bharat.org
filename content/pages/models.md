@@ -9,7 +9,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicFT
-        link: /models
+        link: /models/indic-ft
         text: >-
           fastText is a well-suited model for Indian languages because of their
           rich morphological structure. We pre-train and benchmark fastText
@@ -21,7 +21,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicBERT
-        link: 'https://arxiv.org/abs/2109.02903'
+        link: /models/indic-bert
         text: >-
           To improve performance and coverage of Indian languages on a wide
           variety of tasks, we also develop and evaluate IndicBERT. IndicBERT is
@@ -34,7 +34,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicBART
-        link: 'https://arxiv.org/abs/2104.05596'
+        link: /models/indic-bart
         text: >-
           IndicBART is a multilingual, sequence-to-sequence pre-trained model
           focusing on Indic languages and English. It currently supports 12
@@ -44,7 +44,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicTrans
-        link: 'https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf'
+        link: /models/indic-trans
         text: >
           IndicTrans is a Transformer-XL model trained on samanantar dataset.
           Two models are available which can translate from Indic to English and
@@ -56,17 +56,23 @@ blocks:
           style: circle
           name: AI4B
         title: IndicXLit
-        link: 'https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf'
+        link: /models/indic-x-lit
         text: >
-          IndicXlit is a Transformer-based multilingual transliteration model (with ~11M parameters) for romanised to Indic script conversion, supporting 21 languages from the Indian subcontinent.
+          IndicXlit is a Transformer-based multilingual transliteration model
+          (with ~11M parameters) for romanised to Indic script conversion,
+          supporting 21 languages from the Indian subcontinent.
       - icon:
           color: white
           style: circle
           name: AI4B
         title: IndicWav2Vec
-        link: 'https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf'
+        link: /models/indic-wav-2-vec
         text: >
-          IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
+          IndicWav2Vec is a multilingual speech model pretrained on 40 Indian
+          langauges. This model represents the largest diversity of Indian
+          languages in the pool of multilingual speech models. We fine-tune this
+          model for downstream ASR for 9 languages and obtain state-of-the-art
+          results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
     _template: featuresAlt
 ---
 
