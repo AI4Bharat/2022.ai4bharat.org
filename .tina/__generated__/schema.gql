@@ -224,6 +224,24 @@ type PageBlocksFeatures {
   color: String
 }
 
+type PageBlocksFeaturesAltItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksFeaturesAltItems {
+  icon: PageBlocksFeaturesAltItemsIcon
+  title: String
+  link: String
+  text: String
+}
+
+type PageBlocksFeaturesAlt {
+  items: [PageBlocksFeaturesAltItems]
+  color: String
+}
+
 type PageBlocksContent {
   body: JSON
   color: String
@@ -235,7 +253,7 @@ type PageBlocksTestimonial {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksContent | PageBlocksTestimonial
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksContent | PageBlocksTestimonial
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -400,6 +418,24 @@ input PageBlocksFeaturesMutation {
   color: String
 }
 
+input PageBlocksFeaturesAltItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksFeaturesAltItemsMutation {
+  icon: PageBlocksFeaturesAltItemsIconMutation
+  title: String
+  link: String
+  text: String
+}
+
+input PageBlocksFeaturesAltMutation {
+  items: [PageBlocksFeaturesAltItemsMutation]
+  color: String
+}
+
 input PageBlocksContentMutation {
   body: JSON
   color: String
@@ -414,6 +450,7 @@ input PageBlocksTestimonialMutation {
 input PageBlocksMutation {
   hero: PageBlocksHeroMutation
   features: PageBlocksFeaturesMutation
+  featuresAlt: PageBlocksFeaturesAltMutation
   content: PageBlocksContentMutation
   testimonial: PageBlocksTestimonialMutation
 }

@@ -88,6 +88,21 @@ fragment PageParts on Page {
       }
       color
     }
+    ... on PageBlocksFeaturesAlt {
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        title
+        link
+        text
+      }
+      color
+    }
     ... on PageBlocksContent {
       body
       color

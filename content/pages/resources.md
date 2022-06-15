@@ -31,7 +31,7 @@ blocks:
           name: ''
         title: Publications
     
-        link: '/resource/publications'
+        link: '/publications'
     _template: features
 ---
 
