@@ -2115,13 +2115,6 @@
   dependencies:
     isomorphic-fetch "^3.0.0"
 
-"@tinacms/schema-tools@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.4.tgz#dd020c7218a6718b755eaba093dd8ba2064fa72e"
-  integrity sha512-MnOS75o22ce21mbX48uHgHV0yA7R7g4vZzD2g3WYxKg2yQTAuZUyJFwSZav1I7e6WAR4DQAOqymLgK51W1eE2A==
-  dependencies:
-    zod "^3.14.3"
-
 "@tinacms/schema-tools@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.5.tgz#76ae500ac6cac02dffd48cf778a6204db0c448bb"
