@@ -241,6 +241,36 @@ type PageBlocksFeaturesAlt {
   color: String
 }
 
+type PageBlocksFeaturesAlt2ItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksFeaturesAlt2Items {
+  icon: PageBlocksFeaturesAlt2ItemsIcon
+  title: String
+  link: String
+  text: String
+}
+
+type PageBlocksFeaturesAlt2 {
+  items: [PageBlocksFeaturesAlt2Items]
+  color: String
+}
+
+type PageBlocksCardGrid2Items {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+type PageBlocksCardGrid2 {
+  items: [PageBlocksCardGrid2Items]
+  color: String
+}
+
 type PageBlocksContent {
   body: JSON
   color: String
@@ -252,7 +282,7 @@ type PageBlocksTestimonial {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksContent | PageBlocksTestimonial
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksTestimonial
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -434,6 +464,36 @@ input PageBlocksFeaturesAltMutation {
   color: String
 }
 
+input PageBlocksFeaturesAlt2ItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksFeaturesAlt2ItemsMutation {
+  icon: PageBlocksFeaturesAlt2ItemsIconMutation
+  title: String
+  link: String
+  text: String
+}
+
+input PageBlocksFeaturesAlt2Mutation {
+  items: [PageBlocksFeaturesAlt2ItemsMutation]
+  color: String
+}
+
+input PageBlocksCardGrid2ItemsMutation {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+input PageBlocksCardGrid2Mutation {
+  items: [PageBlocksCardGrid2ItemsMutation]
+  color: String
+}
+
 input PageBlocksContentMutation {
   body: JSON
   color: String
@@ -449,6 +509,8 @@ input PageBlocksMutation {
   hero: PageBlocksHeroMutation
   features: PageBlocksFeaturesMutation
   featuresAlt: PageBlocksFeaturesAltMutation
+  featuresAlt2: PageBlocksFeaturesAlt2Mutation
+  cardGrid2: PageBlocksCardGrid2Mutation
   content: PageBlocksContentMutation
   testimonial: PageBlocksTestimonialMutation
 }

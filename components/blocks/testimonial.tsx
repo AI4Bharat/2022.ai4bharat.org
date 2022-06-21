@@ -9,7 +9,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
       <Container size="small">
         <blockquote>
           <div
-            className={`relative z-10 max-w-3xl mx-auto text-3xl lg:text-4xl font-bold tracking-normal text-center title-font ${
+            className={`relative z-10 max-w-3xl mx-auto text-2xl lg:text-4xl mt-8 font-bold tracking-normal text-center title-font ${
               data.color === "primary"
                 ? `text-white`
                 : `text-gray-700 dark:text-gray-50`

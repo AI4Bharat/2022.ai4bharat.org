@@ -102,6 +102,31 @@ fragment PageParts on Page {
       }
       color
     }
+    ... on PageBlocksFeaturesAlt2 {
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        title
+        link
+        text
+      }
+      color
+    }
+    ... on PageBlocksCardGrid2 {
+      items {
+        __typename
+        title
+        image
+        link
+        text
+      }
+      color
+    }
     ... on PageBlocksContent {
       body
       color

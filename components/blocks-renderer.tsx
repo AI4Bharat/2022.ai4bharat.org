@@ -3,6 +3,7 @@ import type { Page } from "../.tina/__generated__/types";
 import { Content } from "./blocks/content";
 import { Features } from "./blocks/features";
 import { FeaturesAlt } from "./blocks/featuresalt";
+import { FeaturesAlt2 } from "./blocks/featuresalt2";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 
@@ -48,6 +49,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     <FeaturesAlt data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+                case "PageBlocksFeaturesAlt2":
+                  return (
+                    <div
+                      data-tinafield={`blocks.${i}`}
+                      key={i + block.__typename}
+                    >
+                      <FeaturesAlt2 data={block} parentField={`blocks.${i}`} />
+                    </div>
+                  );
               case "PageBlocksTestimonial":
                 return (
                   <div

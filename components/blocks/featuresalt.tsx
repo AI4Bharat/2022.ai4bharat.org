@@ -5,66 +5,65 @@ import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import Link from "next/link";
+import Image from "next/image";
 //   style={{ flexBasis: "16rem" }}
 export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
   console.log(data)
   console.log(data.link)
   return (
-    
-    <div
-      data-tinafield={tinaField}
-      className="columns-2 p-6 text-center items-center lg:items-start lg:text-left w-full mx-auto hover:bg-gray-100"
-   
-    ><Link
-       
-    href={data.link}
-    passHref
-  >
-    <a   
-      key={data.id}
-    
-    >
 
-      {data.icon && (
+  <div className="relative transform rounded overflow-hidden shadow-lg mb-6 hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>
+
+    
+    <div className="px-6 py-4 mb-6">
+    {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
           parentColor={featuresColor}
-          data={{ size: "medium", ...data.icon }}
+          data={{ size: "small", ...data.icon }}
+          className="mb-4"
         />
       )}
-      {data.title && (
-      
-        
-        <h3
-          data-tinafield={`${tinaField}.title`}
-          className="text-lg font-semibold title-font"
-        >
+    {data.title && ( 
+      <div 
+        className="font-bold text-2xl mb-2" 
+        data-tinafield={`${tinaField}.title`}>
           {data.title}
-        </h3>
+      </div> 
+    )}
 
-      )}
-            {/* Changed xl to lg and base to sm */}
-      {data.text && (
-        <p
-          data-tinafield={`${tinaField}.text`}
-          className="text-sm opacity-80 leading-relaxed"
-        >
-          {data.text}
-        </p>
-      )}
-      {data.actions && <Actions actions={data.actions} />}
-      </a>
-          </Link>
+    {data.text && (
+      <p 
+      className="text-gray-700 text-base mb-4"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.text}
+      </p> 
+    )}
+    
+     {data.actions && <Actions actions={data.actions} />}
+
     </div>
+    <Link
+       href={data.link}
+       passHref
+     >
+       <a key={data.id}>
+    <div className="p-2 bg-orange-200 w-full h-10 absolute inset-x-0 bottom-0 mt-12"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none">Know More →</p></div>
+    </a>
+          </Link> 
+  </div>
+
+    
   );
 };
 
 export const FeaturesAlt = ({ data, parentField }) => {
   return (
-    <Section color={data.color}>
+    <Section color={data.color} className="pb-12">
 
       <Container
-        className={`flex flex-wrap gap-x-20 gap-y-10 pb-24`}
+        className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10"
         size="small"
       >
         {data.items &&

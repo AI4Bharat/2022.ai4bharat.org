@@ -5,66 +5,61 @@ import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import Link from "next/link";
-
-export const Feature = ({ featuresColor, data, tinaField }) => {
+import Image from "next/image";
+//   style={{ flexBasis: "16rem" }}
+export const CardGrid2 = ({ featuresColor, data, tinaField }) => {
   console.log(data)
+  console.log(data.image);
   console.log(data.link)
   return (
+<div>
+  <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 flex flex-col lg:flex-row overflow-hidden" >
+ 
     
-    <div
-      data-tinafield={tinaField}
-      className="flex-4 flex flex-col p-12 gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto hover:bg-gray-100 "
-      style={{ flexBasis: "12rem" }}
-    ><Link
-       
-    href={data.link}
-    passHref
-  >
-    <a   
-      key={data.id}
-    
-    >
 
-      {data.icon && (
-        <Icon
-          tinaField={`${tinaField}.icon`}
-          parentColor={featuresColor}
-          data={{ size: "medium", ...data.icon }}
-        />
-      )}
+{data.image && ( 
+      <Image src={data.image} width={200} height={150} />
+)}
+      <div className="p-4 flex flex-col justify-between leading-normal w-full">
       {data.title && (
-      
-        
-        <h3
-          data-tinafield={`${tinaField}.title`}
-          className="text-lg font-semibold title-font"
-        >
-          {/*changed from 2xl to lg*/}
-          {data.title}
-        </h3>
-      
-      )}
-      {data.text && (
-        <p
-          data-tinafield={`${tinaField}.text`}
-          className="text-base opacity-80 leading-relaxed"
-        >
-          {data.text}
-        </p>
-      )}
-      {data.actions && <Actions actions={data.actions} />}
-      </a>
-          </Link>
-    </div>
+            <div data-tinafield={`${tinaField}.title`} className="text-black font-bold text-2xl mb-2 leading-tight"> {data.title}</div>
+       
+            )}
+      </div>
+
+    {data.text && (
+      <p 
+      className="text-gray-700 text-base mb-4"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.text}
+      </p> 
+    )}
+    
+     {data.actions && <Actions actions={data.actions} />}
+
+
+
+
+  </div>
+
+  
+ 
+     
+  
+</div>
+
+
+    
   );
 };
 
-export const Features = ({ data, parentField }) => {
+export const CardsGrid2 = ({ data, parentField }) => {
   return (
-    <Section color={data.color}>
+    <Section color={data.color} className="pb-12">
 
       <Container
-        className={`flex flex-wrap gap-x-20 gap-y-10 `}
+        className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10"
         size="small"
       >
         {data.items &&
@@ -72,7 +67,7 @@ export const Features = ({ data, parentField }) => {
             return (
             <>
            
-              <Feature
+              <CardGrid2
                 tinaField={`${parentField}.items.${i}`}
                 featuresColor={data.color}
                 key={i}
@@ -86,24 +81,20 @@ export const Features = ({ data, parentField }) => {
   );
 };
 
-const defaultFeature = {
+const defaultCardGrid2 = {
   title: "Here's Another Feature",
   text: "This is where you might talk about the feature, if this wasn't just filler text.",
-  icon: {
-    color: "",
-    style: "float",
-    name: "",
-  },
+  image: "/mountain.png"
   
 };
 
-export const featureBlockSchema: TinaTemplate = {
-  name: "features",
-  label: "Features",
+export const CardGrid2BlockSchema: TinaTemplate = {
+  name: "cardGrid2",
+  label: "CardGrid2",
   ui: {
     previewSrc: "/blocks/features.png",
     defaultItem: {
-      items: [defaultFeature, defaultFeature, defaultFeature],
+      items: [defaultCardGrid2, defaultCardGrid2, defaultCardGrid2],
     },
   },
   fields: [
@@ -114,15 +105,19 @@ export const featureBlockSchema: TinaTemplate = {
       list: true,
       ui: {
         defaultItem: {
-          ...defaultFeature,
+          ...defaultCardGrid2,
         },
       },
       fields: [
-        iconSchema,
         {
           type: "string",
           label: "Title",
           name: "title",
+        },
+        {
+          type: "string",
+          label: "Image",
+          name: "image",
         },
         {
           type: "string",
