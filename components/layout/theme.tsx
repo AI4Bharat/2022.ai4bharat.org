@@ -70,7 +70,6 @@ export const Theme = ({ data, children }) => {
         color,
         icon,
         font,
-        darkMode,
       }}
     >
       {children}
