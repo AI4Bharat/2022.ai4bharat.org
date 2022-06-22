@@ -208,6 +208,25 @@ export const Footer = ({ data, icon, rawData }) => {
         
         </p>
         <p className="flex items-center justify-center md:justify-start mb-4">
+            {data.social && data.social.github && (
+              <a
+                className="flex items-center justify-center md:justify-start mb-4 mr-4"
+                href={data.social.github}
+                target="_blank"
+              >
+                <FaGithub
+                  className={`${socialIconClasses} ${
+                    socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                  }`}
+                />
+                <p className="ml-4">github.com/AI4Bharat</p>
+              </a>
+            )}
+            
+          </p>
+        <p className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.twitter && (
               <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
@@ -246,25 +265,7 @@ export const Footer = ({ data, icon, rawData }) => {
             )}
            
           </p>
-          <p className="flex items-center justify-center md:justify-start mb-4">
-            {data.social && data.social.github && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.github}
-                target="_blank"
-              >
-                <FaGithub
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">github.com/AI4Bharat</p>
-              </a>
-            )}
-            
-          </p>
+
       </div>
     </div>
   </div>
