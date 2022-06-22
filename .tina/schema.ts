@@ -37,15 +37,15 @@ const schema = defineSchema({
           name: "author",
           collections: ["author"],
         },
-        {
-          type: "datetime",
-          label: "Posted Date",
-          name: "date",
-          ui: {
-            dateFormat: "MMMM DD YYYY",
-            timeFormat: "hh:mm A",
-          },
-        },
+        // {
+        //   type: "datetime",
+        //   label: "Posted Date",
+        //   name: "date",
+        //   ui: {
+        //     dateFormat: "MMMM DD YYYY",
+        //     timeFormat: "hh:mm A",
+        //   },
+        // },
         {
           type: "rich-text",
           label: "Body",
@@ -165,6 +165,72 @@ const schema = defineSchema({
                 },
               ],
             },
+            {
+              type: "object",
+              label: "Area Nav Links",
+              name: "areas",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  href: "home",
+                  label: "Translation",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Link",
+                  name: "href",
+                },
+                {
+                  type: "string",
+                  label: "Label",
+                  name: "label",
+                },
+               iconSchema,
+                {
+                  type: "string",
+                  label: "Description",
+                  name: "description",
+                },
+              ],
+            },
+            {
+              type: "object",
+              label: "Resource Nav Links",
+              name: "resources",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  href: "home",
+                  label: "Translation",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Link",
+                  name: "href",
+                },
+                {
+                  type: "string",
+                  label: "Label",
+                  name: "label",
+                },
+               iconSchema,
+                {
+                  type: "string",
+                  label: "Description",
+                  name: "description",
+                },
+              ],
+            },
           ],
         },
         {
@@ -198,8 +264,8 @@ const schema = defineSchema({
                 },
                 {
                   type: "string",
-                  label: "Instagram",
-                  name: "instagram",
+                  label: "LinkedIn",
+                  name: "linkedin",
                 },
                 {
                   type: "string",

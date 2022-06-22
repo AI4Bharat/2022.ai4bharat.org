@@ -7,7 +7,6 @@ fragment PostParts on Post {
       id
     }
   }
-  date
   _body
 }
 
@@ -26,6 +25,30 @@ fragment GlobalParts on Global {
       href
       label
     }
+    areas {
+      __typename
+      href
+      label
+      icon {
+        __typename
+        color
+        style
+        name
+      }
+      description
+    }
+    resources {
+      __typename
+      href
+      label
+      icon {
+        __typename
+        color
+        style
+        name
+      }
+      description
+    }
   }
   footer {
     __typename
@@ -34,7 +57,7 @@ fragment GlobalParts on Global {
       __typename
       facebook
       twitter
-      instagram
+      linkedin
       github
     }
   }

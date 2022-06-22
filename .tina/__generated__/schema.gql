@@ -92,7 +92,6 @@ type Post implements Node & Document {
   heroImg: String
   excerpt: JSON
   author: PostAuthor
-  date: String
   _body: JSON
   id: ID!
   _sys: SystemInfo!
@@ -121,16 +120,44 @@ type GlobalHeaderNav {
   label: String
 }
 
+type GlobalHeaderAreasIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderAreas {
+  href: String
+  label: String
+  icon: GlobalHeaderAreasIcon
+  description: String
+}
+
+type GlobalHeaderResourcesIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderResources {
+  href: String
+  label: String
+  icon: GlobalHeaderResourcesIcon
+  description: String
+}
+
 type GlobalHeader {
   icon: GlobalHeaderIcon
   color: String
   nav: [GlobalHeaderNav]
+  areas: [GlobalHeaderAreas]
+  resources: [GlobalHeaderResources]
 }
 
 type GlobalFooterSocial {
   facebook: String
   twitter: String
-  instagram: String
+  linkedin: String
   github: String
 }
 
@@ -357,7 +384,6 @@ input PostMutation {
   heroImg: String
   excerpt: JSON
   author: String
-  date: String
   _body: JSON
 }
 
@@ -372,16 +398,44 @@ input GlobalHeaderNavMutation {
   label: String
 }
 
+input GlobalHeaderAreasIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderAreasMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderAreasIconMutation
+  description: String
+}
+
+input GlobalHeaderResourcesIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderResourcesMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderResourcesIconMutation
+  description: String
+}
+
 input GlobalHeaderMutation {
   icon: GlobalHeaderIconMutation
   color: String
   nav: [GlobalHeaderNavMutation]
+  areas: [GlobalHeaderAreasMutation]
+  resources: [GlobalHeaderResourcesMutation]
 }
 
 input GlobalFooterSocialMutation {
   facebook: String
   twitter: String
-  instagram: String
+  linkedin: String
   github: String
 }
 
