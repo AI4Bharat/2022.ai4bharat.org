@@ -196,6 +196,11 @@ const schema = defineSchema({
                   label: "Description",
                   name: "description",
                 },
+                {
+                  type: "boolean",
+                  label: "Coming Soon",
+                  name: "comingSoon",
+                }
               ],
             },
             {
@@ -252,6 +257,11 @@ const schema = defineSchema({
               label: "Social Links",
               name: "social",
               fields: [
+                {
+                  type: "string",
+                  label: "Map",
+                  name: "map",
+                },
                 {
                   type: "string",
                   label: "Facebook",
@@ -330,11 +340,11 @@ const schema = defineSchema({
                   value: "sans",
                 },
                 {
-                  label: "Nunito",
+                  label: "Cormorant Garamond",
                   value: "nunito",
                 },
                 {
-                  label: "Lato",
+                  label: "Proza Libre",
                   value: "lato",
                 },
               ],

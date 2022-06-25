@@ -14,8 +14,7 @@ blocks:
       alt: AI4Bharat
     color: default
     _template: hero
-
-  - body: >+
+  - body: >
       # The Case for AI4Bharat
 
 
@@ -41,24 +40,23 @@ blocks:
           style: float
           name: world
         title: 'Prof. Mitesh Khapra, IIT Madras'
-        link: '/home'
+        link: /home
         text: ''
       - icon:
           color: ''
           style: float
           name: map
         title: 'Prof. Pratyush Kumar, IIT Madras'
-        link: '/home'
+        link: /home
         text: ''
       - icon:
           color: ''
           style: float
           name: settings
         title: 'Anoop Kunchukuttan, Microsoft Research'
-        link: '/home'
+        link: /home
         text: ''
     _template: features
-
   - quote: Areas
     color: tint
     _template: testimonial
@@ -69,67 +67,70 @@ blocks:
           name: world
         title: Translation
         link: 'https://indicnlp.ai4bharat.org/indic-trans/'
-        text: >
+        comingSoon: false
+        text: >-
           Creating open source machine translation models and parallel corpora
           (Samānantar) for Indian languages.
       - icon:
           color: ''
           style: float
           name: chart
-        title: Tools
-        link: 'https://docs.ezannotate.ai4bharat.org/#/'
-        text: >
-          ezAnnotation tool for labeling datasets for machine learning and NLP
-          tasks.
+        title: Transliteration
+        link: /area/transliteration
+        comingSoon: false
+        text: ''
       - icon:
           color: ''
           style: float
           name: chat
         title: Speech Recognition
         link: /area/speech-recognition
-        text: 
-      - icon:
-          color: ''
-          style: float
-          name: shield
-        title: Language Generation
-        link: /area/language-generation
-        text: 
-      - icon:
-          color: ''
-          style: float
-          name: cloud
-        title: Language Understanding
-        link: /area/language-understanding
-        text: 
-      - icon:
-          color: ''
-          style: float
-          name: like
-        title: Sign Language
-        link: 'https://sign-language.ai4bharat.org/#/'
-        text: >
-          Collecting data and developing tools for recognizing Indian Sign
-          Language, specifically in workplace contexts. Funded by Microsoft's AI
-          For Accessibility Grant, 2021.
+        comingSoon: false
+        text: ''
       - icon:
           color: ''
           style: float
           name: settings
         title: Speech Synthesis
         link: /area/speech-synthesis
-        text: 
+        comingSoon: true
+        text: ''
+      - icon:
+          color: ''
+          style: float
+          name: cloud
+        title: Language Understanding
+        link: /area/language-understanding
+        comingSoon: false
+        text: ''
+      - icon:
+          color: ''
+          style: float
+          name: shield
+        title: Language Generation
+        link: /area/language-generation
+        comingSoon: false
+        text: ''
+      - icon:
+          color: ''
+          style: float
+          name: like
+        title: Sign Language
+        link: 'https://sign-language.ai4bharat.org/#/'
+        comingSoon: false
+        text: >-
+          Collecting data and developing tools for recognizing Indian Sign
+          Language, specifically in workplace contexts. Funded by Microsoft's AI
+          For Accessibility Grant, 2021.
       - icon:
           color: ''
           style: float
           name: map
-        title: Fonts Generation
-        link: 'https://fonts.ai4bharat.org/#/'
-        text: >-
-          Generating fonts using A.I. for Indian Language-Scripts using
-          style-transfer GANs
+        title: Shoonya
+        link: /area/shoonya
+        comingSoon: true
+        text: ''
     _template: featuresAlt
-    
   - quote: Resources
     color: tint
     _template: testimonial
@@ -137,28 +138,27 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: 'AI4B'
+          name: AI4B
         title: Datasets
         link: /datasets
       - icon:
           color: ''
           style: float
-          name: 'AI4B'
+          name: AI4B
         title: Models
         link: /models
       - icon:
           color: ''
           style: float
-          name: 'AI4B'
+          name: AI4B
         title: Data Reports
         link: /data-reports
       - icon:
           color: ''
           style: float
-          name: 'AI4B'
+          name: AI4B
         title: Publications
         link: /publications
     _template: featuresAlt2
-  
 ---
 

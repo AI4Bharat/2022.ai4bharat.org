@@ -37,7 +37,7 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
         
         <h3
           data-tinafield={`${tinaField}.title`}
-          className="text-lg font-semibold title-font"
+          className="text-lg title-font"
         >
           {/*changed from 2xl to lg*/}
           {data.title}

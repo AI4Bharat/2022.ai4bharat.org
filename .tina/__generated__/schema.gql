@@ -131,6 +131,7 @@ type GlobalHeaderAreas {
   label: String
   icon: GlobalHeaderAreasIcon
   description: String
+  comingSoon: Boolean
 }
 
 type GlobalHeaderResourcesIcon {
@@ -155,6 +156,7 @@ type GlobalHeader {
 }
 
 type GlobalFooterSocial {
+  map: String
   facebook: String
   twitter: String
   linkedin: String
@@ -260,6 +262,7 @@ type PageBlocksFeaturesAltItems {
   icon: PageBlocksFeaturesAltItemsIcon
   title: String
   link: String
+  comingSoon: Boolean
   text: String
 }
 
@@ -409,6 +412,7 @@ input GlobalHeaderAreasMutation {
   label: String
   icon: GlobalHeaderAreasIconMutation
   description: String
+  comingSoon: Boolean
 }
 
 input GlobalHeaderResourcesIconMutation {
@@ -433,6 +437,7 @@ input GlobalHeaderMutation {
 }
 
 input GlobalFooterSocialMutation {
+  map: String
   facebook: String
   twitter: String
   linkedin: String
@@ -510,6 +515,7 @@ input PageBlocksFeaturesAltItemsMutation {
   icon: PageBlocksFeaturesAltItemsIconMutation
   title: String
   link: String
+  comingSoon: Boolean
   text: String
 }
 

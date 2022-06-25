@@ -7,6 +7,7 @@ import { Icon } from "../util/icon";
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
+import { FaBullhorn } from "react-icons/fa";
 import {
   BookmarkAltIcon,
   CalendarIcon,
@@ -403,7 +404,7 @@ export const Header = ({ data }) => {
     <div className={`bg-gradient-to-b ${headerColorCss} sticky top-0 z-50`}>
       <Container size="custom" className="py-0 relative z-10 max-w-8xl">
         <div className="flex items-center justify-between">
-          <h4 className="select-none text-lg font-bold tracking-tight my-4 transition duration-150 ease-out transform">
+          <h4 className="select-none text-lg tracking-tight my-4 transition duration-150 ease-out transform">
             <Link href="/" passHref>
               <a className="flex items-center">
                 <Icon
@@ -440,7 +441,7 @@ export const Header = ({ data }) => {
           </div>
           
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-          <a href="/home" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="/home" className="text-sm font-semibold text-gray-500 hover:text-gray-900">
               Home
             </a>
             <Popover className="relative">
@@ -449,7 +450,7 @@ export const Header = ({ data }) => {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
                     <span>Areas</span>
@@ -506,8 +507,11 @@ export const Header = ({ data }) => {
                                   className="flex-shrink-0 h-6 w-6 text-indigo-600"
                                 /> 
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">{item.label}</p>
-                                <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                <p className="text-sm font-semibold text-gray-900">{item.label}</p>
+                                <p className="mt-1 text-xs text-gray-500">{item.description}</p>
+                                { item.comingSoon && (
+        <span className="mb-4 py-1 px-3 rounded-full bg-cyan-200 text-[0.65rem] inline-block"><FaBullhorn className="inline-block mr-2 pb-0.5 bg-color-white"/>Coming Soon</span>
+      )} 
                               </div>
                             </a>
                           ))
@@ -519,7 +523,7 @@ export const Header = ({ data }) => {
                             <div key={item.name} className="flow-root">
                               <a
                                 href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                                className="-m-3 p-3 flex items-center rounded-md text-xs font-semibold text-gray-900 hover:bg-gray-100"
                               >
                                 <item.icon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
                                 <span className="ml-3">{item.name}</span>
@@ -540,7 +544,7 @@ export const Header = ({ data }) => {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}
                   >
                     <span>Resources</span>
@@ -597,8 +601,9 @@ export const Header = ({ data }) => {
                                   className="flex-shrink-0 h-6 w-6 text-indigo-600"
                                 /> 
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">{item.label}</p>
+                                <p className="text-sm font-semibold text-gray-900">{item.label}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                        
                               </div>
                             </a>
                           ))
@@ -626,7 +631,7 @@ export const Header = ({ data }) => {
             </Popover>
 
            
-            <a href="/positions" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/positions" className="text-sm font-semibold text-gray-500 hover:text-gray-900">
               Positions
             </a>
 {/* 
@@ -749,11 +754,11 @@ export const Header = ({ data }) => {
                     <a
                     key={item.label}
                     href={item.href}
-                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                      className="-m-3 p-3 flex font-semibold items-center rounded-md hover:bg-gray-50"
                     >
                      
                      
-                      <span className="ml-3 text-base font-medium text-gray-900">{item.label}</span>
+                      <span className="ml-3 text-sm text-gray-900">{item.label}</span>
                     </a>
                   ))}
                 </nav>

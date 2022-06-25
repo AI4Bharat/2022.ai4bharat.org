@@ -108,7 +108,7 @@ export const Footer = ({ data, icon, rawData }) => {
       <div className="max-w-xs px-2">
         <h6 className="
             uppercase
-            font-black
+            font-bold
             mb-4
             flex
             items-center
@@ -135,7 +135,7 @@ export const Footer = ({ data, icon, rawData }) => {
         </p>
       </div>
       <div className="">
-        <h6 className="uppercase font-black mb-4 flex justify-center md:justify-start">
+        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
           Resources
         </h6>
         <p className="mb-4">
@@ -152,7 +152,7 @@ export const Footer = ({ data, icon, rawData }) => {
         </p>
       </div>
       <div className="">
-        <h6 className="uppercase font-black mb-4 flex justify-center md:justify-start">
+        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
           Useful links
         </h6>
         <p className="mb-4">
@@ -169,13 +169,14 @@ export const Footer = ({ data, icon, rawData }) => {
         </p>
       </div>
       <div className="">
-        <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
           Contact
         </h6>
-        <p className="flex items-center justify-center md:justify-start mb-4">
-        <a
+        <div className="flex items-center justify-center md:justify-start mb-4">
+        {data.social && data.social.map && (
+              <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href="https://ai4bharat.org/"
+                href={data.social.map}
                 target="_blank"
               >
                 <FaMapMarkerAlt
@@ -186,9 +187,10 @@ export const Footer = ({ data, icon, rawData }) => {
                   }`}
                 />
               </a>
+        )}
           Address: IIT-Madras Research Park, Taramani, Chennai-600113
-        </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+        </div>
+        <div className="flex items-center justify-center md:justify-start mb-4">
         {data.social && data.social.facebook && (
               <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
@@ -206,8 +208,8 @@ export const Footer = ({ data, icon, rawData }) => {
               </a>
             )}
         
-        </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+        </div>
+        <div className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.github && (
               <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
@@ -225,8 +227,8 @@ export const Footer = ({ data, icon, rawData }) => {
               </a>
             )}
             
-          </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+          </div>
+        <div className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.twitter && (
               <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
@@ -244,8 +246,8 @@ export const Footer = ({ data, icon, rawData }) => {
               </a>
             )}
             
-        </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+        </div>
+        <div className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.linkedin && (
               <a
                 className="flex items-center justify-center md:justify-start mb-4"
@@ -264,14 +266,14 @@ export const Footer = ({ data, icon, rawData }) => {
               </a>
             )}
            
-          </p>
+          </div>
 
       </div>
     </div>
   </div>
   <div className="text-center p-6 bg-gray-200">
 
-    <a className="text-gray-600 font-black" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
+    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
   </div>
 
     </footer>

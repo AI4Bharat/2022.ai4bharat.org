@@ -37,17 +37,19 @@
           "style": "float",
           "name": "world"
         },
-        "description": "Open source machine translation models and parallel corpora for Indian languages."
+        "description": "Open source machine translation models and parallel corpora for Indian languages.",
+        "comingSoon" : false
       },
       {
-        "href": "https://docs.ezannotate.ai4bharat.org/#/",
-        "label": "Tools",
+        "href": "/area/transliteration",
+        "label": "Transliteration",
         "icon": {
           "color": "orange",
           "style": "float",
           "name": "chart"
         },
-        "description": "ezAnnotation tool for labeling datasets for machine learning and NLP tasks."
+        "description": "",
+        "comingSoon" : false
       },
       {
         "href": "/area/speech-recognition",
@@ -57,27 +59,8 @@
           "style": "float",
           "name": "chat"
         },
-        "description": ""
-      },
-      {
-        "href": "/area/language-generation",
-        "label": "Language Generation",
-        "icon": {
-          "color": "orange",
-          "style": "float",
-          "name": "shield"
-        },
-        "description": ""
-      },
-      {
-        "href": "/area/language-understanding",
-        "label": "Language Understanding",
-        "icon": {
-          "color": "orange",
-          "style": "float",
-          "name": "cloud"
-        },
-        "description": ""
+        "description": "",
+        "comingSoon" : false
       },
       {
         "href": "/area/speech-synthesis",
@@ -87,7 +70,30 @@
           "style": "float",
           "name": "settings"
         },
-        "description": ""
+        "description": "",
+        "comingSoon" : true
+      },
+      {
+        "href": "/area/language-understanding",
+        "label": "Language Understanding",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "cloud"
+        },
+        "description": "",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/language-generation",
+        "label": "Language Generation",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "shield"
+        },
+        "description": "",
+        "comingSoon" : false
       },
       {
         "href": "https://sign-language.ai4bharat.org/#/",
@@ -97,17 +103,19 @@
           "style": "float",
           "name": "like"
         },
-        "description": "Collecting data and developing tools for recognizing Indian Sign Language."
+        "description": "Collecting data and developing tools for recognizing Indian Sign Language.",
+        "comingSoon" : false
       },
       {
-        "href": "https://fonts.ai4bharat.org/#/",
-        "label": "Fonts Generation",
+        "href": "/area/shoonya",
+        "label": "Shoonya",
         "icon": {
           "color": "orange",
           "style": "float",
           "name": "map"
         },
-        "description": "Generating fonts using A.I. for Indian Language-Scripts."
+        "description": "",
+        "comingSoon" : true
       }
     ],
     "resources": [
@@ -156,10 +164,11 @@
   "footer": {
     "color": "default",
     "social": {
+      "map": "https://ai4bharat.org/",
       "facebook": "https://www.facebook.com/onefourthlabs",
       "twitter": "https://twitter.com/ai4bharat",
       "linkedin": "https://www.linkedin.com/company/ai4bharat/",
-      "github" : "https://github.com/AI4Bharat"
+      "github": "https://github.com/AI4Bharat"
     }
   },
   "theme": {

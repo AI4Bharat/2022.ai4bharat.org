@@ -11,7 +11,8 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
-      teal: colors.cyan,
+      cyan: colors.cyan,
+      sky: colors.sky,
       green: colors.emerald,
       red: colors.rose,
       purple: colors.purple,
@@ -99,8 +100,8 @@ module.exports = {
         "-1": "-1",
       },
       fontFamily: {
-        nunito: ["Work Sans", ...defaultTheme.fontFamily.sans],
-        lato: ["Crimson Text", ...defaultTheme.fontFamily.sans],
+        nunito: ["Proza Libre", ...defaultTheme.fontFamily.sans],
+        lato: ["Cormorant Garamond", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
