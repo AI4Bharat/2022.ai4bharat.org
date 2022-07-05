@@ -1,5 +1,7 @@
 ---
 blocks:
+  - embedCode: 2g811Eo7K8U
+    _template: videoCarousel
   - tagline: ''
     headline: AI4Bharat
     text: >
