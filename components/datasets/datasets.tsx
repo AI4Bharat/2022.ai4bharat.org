@@ -16,7 +16,7 @@ export const Datasets = ({ data }) => {
     orange: "group-hover:text-orange-600 dark:group-hover:text-orange-300",
     yellow: "group-hover:text-yellow-500 dark:group-hover:text-yellow-300",
   };
-console.log(data);
+// console.log(data);
   return (
     <>
       {data.map((datasetData) => {

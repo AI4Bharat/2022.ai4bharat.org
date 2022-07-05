@@ -3,6 +3,25 @@ import { Container } from "../util/container";
 import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
+import YouTube, { YouTubeProps } from 'react-youtube';
+
+function VideoPlayer() {
+  const onPlayerReady: YouTubeProps['onReady'] = (event) => {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
+
+  const opts: YouTubeProps['opts'] = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
+  return <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={onPlayerReady} />;
+}
 
 export const Content = ({ data, parentField = "" }) => {
   return (
@@ -14,7 +33,16 @@ export const Content = ({ data, parentField = "" }) => {
         data-tinafield={`${parentField}.body`}
         size="large"
       >
+      <span className="">
+      <span className="">
+        {/* <VideoPlayer /> */}
+        </span>
+        
+        <div className="">
         <TinaMarkdown content={data.body} />
+        </div>
+       
+      </span>
       </Container>
     </Section>
   );

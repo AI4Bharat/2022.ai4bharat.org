@@ -3,6 +3,9 @@ import { contentBlockSchema } from "../components/blocks/content";
 import { featureBlockSchema } from "../components/blocks/features";
 import { featureAltBlockSchema } from "../components/blocks/featuresalt";
 import { featureAltBlockSchema2 } from "../components/blocks/featuresalt2";
+import { featureAltBlockSchema3 } from "../components/blocks/featuresalt3";
+import { videoBlockSchema } from "../components/blocks/video"
+import { flatCardGridBlockSchema } from "../components/blocks/flatCardGrid";
 import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
@@ -200,7 +203,12 @@ const schema = defineSchema({
                   type: "boolean",
                   label: "Coming Soon",
                   name: "comingSoon",
-                }
+                },
+                {
+                  type: "boolean",
+                  label: "Updated",
+                  name: "updated",
+                },
               ],
             },
             {
@@ -234,6 +242,34 @@ const schema = defineSchema({
                   label: "Description",
                   name: "description",
                 },
+              ],
+            },
+            {
+              type: "object",
+              label: "Calls To Action",
+              name: "callsToAction",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  href: "home",
+                  label: "Watch Video",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Link",
+                  name: "href",
+                },
+                {
+                  type: "string",
+                  label: "Label",
+                  name: "label",
+                },
+                iconSchema
               ],
             },
           ],
@@ -301,8 +337,8 @@ const schema = defineSchema({
                   value: "blue",
                 },
                 {
-                  label: "Teal",
-                  value: "teal",
+                  label: "Cyan",
+                  value: "cyan",
                 },
                 {
                   label: "Green",
@@ -327,6 +363,10 @@ const schema = defineSchema({
                 {
                   label: "Yellow",
                   value: "yellow",
+                },
+                {
+                  label: "Gray",
+                  value: "gray",
                 },
               ],
             },
@@ -404,6 +444,10 @@ const schema = defineSchema({
             featureBlockSchema,
             featureAltBlockSchema,
             featureAltBlockSchema2,
+            featureAltBlockSchema3,
+            videoBlockSchema,
+            flatCardGridBlockSchema,
+
             CardGrid2BlockSchema,
             contentBlockSchema,
             testimonialBlockSchema,

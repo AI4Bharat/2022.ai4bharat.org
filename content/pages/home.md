@@ -1,5 +1,7 @@
 ---
 blocks:
+  - embedCode: Ny_24QMdyYM
+    _template: video
   - tagline: ''
     headline: AI4Bharat
     text: >
@@ -9,6 +11,11 @@ blocks:
       AI4Bhārat is a non-profit, open-source community of engineers, domain
       experts, policy makers, and academicians collaborating to build AI
       solutions to solve India’s problems, today.
+    actions:
+      - label: Register For Event
+        type: button
+        icon: true
+        link: /
     image:
       src: /rural-children.jpeg
       alt: AI4Bharat
@@ -68,6 +75,7 @@ blocks:
         title: Translation
         link: 'https://indicnlp.ai4bharat.org/indic-trans/'
         comingSoon: false
+        updated: false
         text: >-
           Creating open source machine translation models and parallel corpora
           (Samānantar) for Indian languages.
@@ -78,6 +86,7 @@ blocks:
         title: Transliteration
         link: /area/transliteration
         comingSoon: false
+        updated: false
         text: ''
       - icon:
           color: ''
@@ -86,6 +95,7 @@ blocks:
         title: Speech Recognition
         link: /area/speech-recognition
         comingSoon: false
+        updated: false
         text: ''
       - icon:
           color: ''
@@ -94,6 +104,7 @@ blocks:
         title: Speech Synthesis
         link: /area/speech-synthesis
         comingSoon: true
+        updated: false
         text: ''
       - icon:
           color: ''
@@ -102,6 +113,7 @@ blocks:
         title: Language Understanding
         link: /area/language-understanding
         comingSoon: false
+        updated: false
         text: ''
       - icon:
           color: ''
@@ -110,6 +122,7 @@ blocks:
         title: Language Generation
         link: /area/language-generation
         comingSoon: false
+        updated: false
         text: ''
       - icon:
           color: ''
@@ -118,6 +131,7 @@ blocks:
         title: Sign Language
         link: 'https://sign-language.ai4bharat.org/#/'
         comingSoon: false
+        updated: false
         text: >-
           Collecting data and developing tools for recognizing Indian Sign
           Language, specifically in workplace contexts. Funded by Microsoft's AI
@@ -129,6 +143,7 @@ blocks:
         title: Shoonya
         link: /area/shoonya
         comingSoon: true
+        updated: false
         text: ''
     _template: featuresAlt
   - quote: Resources

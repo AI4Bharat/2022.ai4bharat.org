@@ -48,14 +48,16 @@ import {
   SupportIcon,
   ViewGridIcon,
   XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+} from '@heroicons/react/outline';
+import { FaBullhorn } from "react-icons/fa";
+import { ChevronDownIcon } from '@heroicons/react/solid';
 import { FiAperture } from "react-icons/fi";
 import { useTheme } from "../layout";
 import { FaBeer, FaCoffee } from "react-icons/fa";
 import TinaIconSvg from "../../public/tina.svg";
 import AI4BharatIcon from "../../public/logo 1.svg";
 import type { TinaField } from "tinacms";
+//import IoMdCheckmarkCircleOutline from "react-icons";
 
 const iconOptions = {
   code: { bi: BiCodeBlock, hi: HiTerminal },
@@ -79,6 +81,10 @@ const iconOptions = {
   aperture: { bi: FiAperture, hi: FiAperture },
   bookmark: { bi: BookmarkAltIcon, hi: BookmarkAltIcon },
   tina: { bi: TinaIconSvg, hi: TinaIconSvg },
+  play: { bi: PlayIcon, hi: PlayIcon},
+  phone: { bi: PhoneIcon, hi: PhoneIcon},
+  bullhorn: { bi: FaBullhorn, hi: FaBullhorn},
+  //check : { bi: IoMdCheckmarkCircleOutline, hi: IoMdCheckmarkCircleOutline},
   AI4B : { bi: AI4BharatIcon, hi: AI4BharatIcon }
 };
 
@@ -119,6 +125,10 @@ const iconColorClass: { [name: string]: { regular: string; circle: string } } =
     white: {
       regular: "text-white opacity-80",
       circle: "bg-white-400 dark:bg-white-500 text-white-50",
+    },
+    gray: {
+      regular: "text-white opacity-80",
+      circle: "bg-gray-400 dark:bg-gray-500 text-gray-50",
     },
   };
 

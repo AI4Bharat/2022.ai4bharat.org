@@ -38,7 +38,7 @@
           "name": "world"
         },
         "description": "Open source machine translation models and parallel corpora for Indian languages.",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "/area/transliteration",
@@ -49,7 +49,7 @@
           "name": "chart"
         },
         "description": "",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "/area/speech-recognition",
@@ -60,7 +60,7 @@
           "name": "chat"
         },
         "description": "",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "/area/speech-synthesis",
@@ -71,7 +71,7 @@
           "name": "settings"
         },
         "description": "",
-        "comingSoon" : true
+        "comingSoon": true
       },
       {
         "href": "/area/language-understanding",
@@ -82,7 +82,7 @@
           "name": "cloud"
         },
         "description": "",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "/area/language-generation",
@@ -93,7 +93,7 @@
           "name": "shield"
         },
         "description": "",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "https://sign-language.ai4bharat.org/#/",
@@ -104,7 +104,7 @@
           "name": "like"
         },
         "description": "Collecting data and developing tools for recognizing Indian Sign Language.",
-        "comingSoon" : false
+        "comingSoon": false
       },
       {
         "href": "/area/shoonya",
@@ -115,7 +115,7 @@
           "name": "map"
         },
         "description": "",
-        "comingSoon" : true
+        "comingSoon": true
       }
     ],
     "resources": [
@@ -158,6 +158,26 @@
           "name": "shield"
         },
         "description": ""
+      }
+    ],
+    "callsToAction": [
+      {
+        "href": "#",
+        "label": "Watch Demo",
+        "icon": {
+          "color": "gray",
+          "style": "float",
+          "name": "play"
+        }
+      },
+      {
+        "href": "#",
+        "label": "Contact Us",
+        "icon": {
+          "color": "gray",
+          "style": "float",
+          "name": "phone"
+        }
       }
     ]
   },
