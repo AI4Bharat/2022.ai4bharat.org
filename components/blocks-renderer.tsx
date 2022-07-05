@@ -6,6 +6,7 @@ import { FeaturesAlt } from "./blocks/featuresalt";
 import { FeaturesAlt2 } from "./blocks/featuresalt2";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
+import { VideoCarousel } from "./blocks/videoCarousel";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
   return (
@@ -56,6 +57,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                       key={i + block.__typename}
                     >
                       <FeaturesAlt2 data={block} parentField={`blocks.${i}`} />
+                    </div>
+                  );
+                case "PageBlocksVideoCarousel":
+                  return (
+                    <div
+                      data-tinafield={`blocks.${i}`}
+                      key={i + block.__typename}
+                    >
+                      <VideoCarousel data={block} parentField={`blocks.${i}`} />
                     </div>
                   );
               case "PageBlocksTestimonial":

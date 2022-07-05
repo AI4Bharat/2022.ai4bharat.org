@@ -37,6 +37,7 @@ fragment GlobalParts on Global {
       }
       description
       comingSoon
+      updated
     }
     resources {
       __typename
@@ -124,6 +125,7 @@ fragment PageParts on Page {
         title
         link
         comingSoon
+        updated
         text
       }
       color
@@ -155,6 +157,10 @@ fragment PageParts on Page {
     }
     ... on PageBlocksContent {
       body
+      color
+    }
+    ... on PageBlocksVideoCarousel {
+      embedCode
       color
     }
     ... on PageBlocksTestimonial {

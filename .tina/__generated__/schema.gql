@@ -132,6 +132,7 @@ type GlobalHeaderAreas {
   icon: GlobalHeaderAreasIcon
   description: String
   comingSoon: Boolean
+  updated: Boolean
 }
 
 type GlobalHeaderResourcesIcon {
@@ -263,6 +264,7 @@ type PageBlocksFeaturesAltItems {
   title: String
   link: String
   comingSoon: Boolean
+  updated: Boolean
   text: String
 }
 
@@ -306,13 +308,18 @@ type PageBlocksContent {
   color: String
 }
 
+type PageBlocksVideoCarousel {
+  embedCode: String
+  color: String
+}
+
 type PageBlocksTestimonial {
   quote: String
   author: String
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksTestimonial
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -413,6 +420,7 @@ input GlobalHeaderAreasMutation {
   icon: GlobalHeaderAreasIconMutation
   description: String
   comingSoon: Boolean
+  updated: Boolean
 }
 
 input GlobalHeaderResourcesIconMutation {
@@ -516,6 +524,7 @@ input PageBlocksFeaturesAltItemsMutation {
   title: String
   link: String
   comingSoon: Boolean
+  updated: Boolean
   text: String
 }
 
@@ -559,6 +568,11 @@ input PageBlocksContentMutation {
   color: String
 }
 
+input PageBlocksVideoCarouselMutation {
+  embedCode: String
+  color: String
+}
+
 input PageBlocksTestimonialMutation {
   quote: String
   author: String
@@ -572,6 +586,7 @@ input PageBlocksMutation {
   featuresAlt2: PageBlocksFeaturesAlt2Mutation
   cardGrid2: PageBlocksCardGrid2Mutation
   content: PageBlocksContentMutation
+  videoCarousel: PageBlocksVideoCarouselMutation
   testimonial: PageBlocksTestimonialMutation
 }
 

@@ -7,6 +7,7 @@ import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
+import { videoCarouselBlockSchema } from "../components/blocks/videoCarousel";
 
 const schema = defineSchema({
   collections: [
@@ -200,7 +201,12 @@ const schema = defineSchema({
                   type: "boolean",
                   label: "Coming Soon",
                   name: "comingSoon",
-                }
+                },
+                {
+                  type: "boolean",
+                  label: "Updated",
+                  name: "updated",
+                },
               ],
             },
             {
@@ -406,6 +412,7 @@ const schema = defineSchema({
             featureAltBlockSchema2,
             CardGrid2BlockSchema,
             contentBlockSchema,
+            videoCarouselBlockSchema,
             testimonialBlockSchema,
           ],
         },

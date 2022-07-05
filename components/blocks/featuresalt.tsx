@@ -7,13 +7,14 @@ import { iconSchema } from "../util/icon";
 import Link from "next/link";
 import Image from "next/image";
 import { FaCrown } from "react-icons/fa";
-import { FaBullhorn, FaClock } from "react-icons/fa";
+import { FaBullhorn, FaClock, FaRegCheckCircle } from "react-icons/fa";
 import { AiOutlineCrown } from "react-icons/ai";
+import {IoMdCheckmarkCircleOutline} from "react-icons/io";
 //   style={{ flexBasis: "16rem" }}
 export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.link)
-  console.log(typeof(data.comingSoon))
+  // console.log(data)
+  // console.log(data.link)
+  // console.log(typeof(data.comingSoon))
   return (
 
   <div className="relative transform rounded overflow-hidden shadow-lg mb-6 hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>
@@ -21,7 +22,7 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
     
     <div className="px-6 py-4 mb-6">
     <div className="flex relative mb-12">
-    {data.icon && (
+      {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
           parentColor={featuresColor}
@@ -30,7 +31,10 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
         />
       )}
       { data.comingSoon && (
-        <span className="mb-4 absolute top-0 right-0 py-1 px-3 rounded-full bg-cyan-200 text-xs inline-block"><FaBullhorn className="inline-block mr-2 pb-0.5 bg-color-white"/>Coming Soon</span>
+        <span className="mb-4 absolute top-0 right-0 py-1 px-3 rounded-full bg-cyan-200 text-xs font-semibold inline-block"><FaBullhorn className="inline-block mr-2 pb-0.5 bg-color-white"/>Coming Soon</span>
+      )} 
+      { data.updated && (
+        <span className="mb-4 absolute top-0 right-0 py-1 px-3 rounded-full bg-green-200 text-xs font-semibold inline-block"><FaRegCheckCircle className="inline-block mr-2 pb-0.5 bg-color-white"/>Updated</span>
       )} 
       </div>
     {data.title && ( 
@@ -103,6 +107,7 @@ const defaultFeatureAlt = {
     name: "",
   },
   comingSoon: false,
+  updated: false,
 
   
 };
@@ -143,6 +148,11 @@ export const featureAltBlockSchema: TinaTemplate = {
           type: "boolean",
           label: "Coming Soon",
           name: "comingSoon",
+        },
+        {
+          type: "boolean",
+          label: "Updated",
+          name: "updated",
         },
         {
           type: "string",
