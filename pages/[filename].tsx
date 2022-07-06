@@ -2,7 +2,7 @@ import { Blocks } from "../components/blocks-renderer";
 import { ExperimentalGetTinaClient } from "../.tina/__generated__/types";
 import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../components/layout";
-import { FooterDataType } from '../utils/types'
+//import { FooterDataType } from '../utils/types'
 import matter from 'gray-matter'
 
 export default function HomePage(
@@ -14,7 +14,7 @@ export default function HomePage(
     data: props.data,
   });
   return (
-    <Layout footerData={props.footerData} data={data.global as any}>
+    <Layout data={data.global as any}>
       <Blocks {...data.page} />
     </Layout>
   );
@@ -26,16 +26,16 @@ export const getStaticProps = async ({ params }) => {
     relativePath: `${params.filename}.md`
   });
 
-  const datasets: FooterDataType['datasets'] = matter.read('./content/pages/datasets.md').data.blocks[1].items;
+  // const datasets: FooterDataType['datasets'] = matter.read('./content/pages/datasets.md').data.blocks[1].items;
 
   return {
     props: {
       data: tinaProps.data,
       query: tinaProps.query,
       variables: tinaProps.variables,
-      footerData: {
-        datasets
-      }
+      // footerData: {
+      //   datasets
+      // }
     },
   };
 };

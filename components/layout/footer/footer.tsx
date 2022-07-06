@@ -7,9 +7,9 @@ import { Container } from "../../util/container";
 import { RawRenderer } from "./rawRenderer";
 import { useTheme } from "..";
 import { Icon } from "../../util/icon";
-import { FooterDataType } from "../../../utils/types";
+//import { FooterDataType } from "../../../utils/types";
 
-export const Footer = ({ data, icon, footerData }: { data: any, icon: any, footerData: FooterDataType }) => {
+export const Footer = ({ data, icon }: { data: any, icon: any }) => {
   
   const theme = useTheme();
   const socialIconClasses = "h-7 w-auto";
@@ -144,7 +144,7 @@ export const Footer = ({ data, icon, footerData }: { data: any, icon: any, foote
               <details>
                 <summary>Datasets</summary>
                 <ul>
-                  {footerData.datasets?.map(({ title, link }) => <li><a href={link}>{title}</a></li>)}
+                  {/* {footerData.datasets?.map(({ title, link }) => <li><a href={link}>{title}</a></li>)} */}
                 </ul>
               </details>
             </p>
