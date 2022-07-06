@@ -11,9 +11,6 @@ import { FaBullhorn, FaClock } from "react-icons/fa";
 import { AiOutlineCrown } from "react-icons/ai";
 //   style={{ flexBasis: "16rem" }}
 export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.link)
-  console.log(typeof(data.comingSoon))
   return (
 
   <div className="relative transform rounded overflow-hidden shadow-lg mb-6 hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>
