@@ -3,36 +3,177 @@
     "icon": {
       "color": "orange",
       "style": "float",
-      "name": "tina"
+      "name": "AI4B"
     },
     "color": "default",
     "nav": [
       {
-        "href": "",
+        "href": "home",
         "label": "Home"
       },
       {
-        "href": "test",
+        "href": "about",
         "label": "About"
       },
       {
-        "href": "posts",
-        "label": "Blog"
+        "href": "areas",
+        "label": "Areas"
+      },
+      {
+        "href": "resources",
+        "label": "Resources"
+      },
+      {
+        "href": "positions",
+        "label": "Positions"
+      }
+    ],
+    "areas": [
+      {
+        "href": "https://indicnlp.ai4bharat.org/indic-trans/",
+        "label": "Translation",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "world"
+        },
+        "description": "Open source machine translation models and parallel corpora for Indian languages.",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/transliteration",
+        "label": "Transliteration",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "chart"
+        },
+        "description": "",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/speech-recognition",
+        "label": "Speech Recognition",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "chat"
+        },
+        "description": "",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/speech-synthesis",
+        "label": "Speech Synthesis",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "settings"
+        },
+        "description": "",
+        "comingSoon" : true
+      },
+      {
+        "href": "/area/language-understanding",
+        "label": "Language Understanding",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "cloud"
+        },
+        "description": "",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/language-generation",
+        "label": "Language Generation",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "shield"
+        },
+        "description": "",
+        "comingSoon" : false
+      },
+      {
+        "href": "https://sign-language.ai4bharat.org/#/",
+        "label": "Sign Language",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "like"
+        },
+        "description": "Collecting data and developing tools for recognizing Indian Sign Language.",
+        "comingSoon" : false
+      },
+      {
+        "href": "/area/shoonya",
+        "label": "Shoonya",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "map"
+        },
+        "description": "",
+        "comingSoon" : true
+      }
+    ],
+    "resources": [
+      {
+        "href": "/datasets",
+        "label": "Datasets",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "world"
+        },
+        "description": ""
+      },
+      {
+        "href": "/models",
+        "label": "Models",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "chart"
+        },
+        "description": ""
+      },
+      {
+        "href": "/data-reports",
+        "label": "Data Reports",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "chat"
+        },
+        "description": ""
+      },
+      {
+        "href": "/publications",
+        "label": "Publications",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "shield"
+        },
+        "description": ""
       }
     ]
   },
   "footer": {
     "color": "default",
     "social": {
-      "facebook": "/",
-      "twitter": "/",
-      "instagram": "/"
+      "map": "https://ai4bharat.org/",
+      "facebook": "https://www.facebook.com/onefourthlabs",
+      "twitter": "https://twitter.com/ai4bharat",
+      "linkedin": "https://www.linkedin.com/company/ai4bharat/",
+      "github": "https://github.com/AI4Bharat"
     }
   },
   "theme": {
-    "color": "blue",
-    "font": "sans",
-    "icon": "boxicon",
-    "darkMode": "system"
+    "color": "orange",
+    "font": "lato",
+    "icon": "boxicon"
   }
 }

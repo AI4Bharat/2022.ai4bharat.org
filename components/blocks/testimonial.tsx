@@ -6,42 +6,43 @@ import type { TinaTemplate } from "tinacms";
 export const Testimonial = ({ data, parentField = "" }) => {
   return (
     <Section color={data.color}>
-      <Container size="large">
+      <Container size="small">
         <blockquote>
           <div
-            className={`relative z-10 max-w-3xl mx-auto text-4xl lg:text-5xl font-bold tracking-normal text-center title-font ${
+            className={`relative z-10 max-w-3xl mx-auto text-2xl lg:text-4xl mt-8 font-semibold tracking-normal text-center title-font ${
               data.color === "primary"
                 ? `text-white`
                 : `text-gray-700 dark:text-gray-50`
             }`}
           >
+            {/* 
             <span
               className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-2	-left-4 leading-4 -z-1`}
             >
               &ldquo;
-            </span>
+            </span>*/}
             <p
               data-tinafield={`${parentField}.quote`}
               className="relative opacity-95"
             >
               {data.quote}
             </p>
-            <span
+            {/* <span
               className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-3	-right-4 leading-4 -z-1`}
             >
               &rdquo;
-            </span>
+            </span>*/}
           </div>
           <div className={`my-8 flex-grow-0`}>
             <span
               className={`block mx-auto h-0.5 w-1/6 ${
                 data.color === "primary"
                   ? `bg-blue-600`
-                  : `bg-gray-200 dark:bg-gray-700`
+                  : `bg-orange-200 dark:bg-gray-700`
               }`}
             ></span>
           </div>
-          <footer className="text-center">
+         {/* <footer className="text-center">
             <p
               data-tinafield={`${parentField}.author`}
               className={`tracking-wide title-font font-bold text-lg ${
@@ -52,7 +53,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
             >
               {data.author}
             </p>
-          </footer>
+          </footer>*/}
         </blockquote>
       </Container>
     </Section>

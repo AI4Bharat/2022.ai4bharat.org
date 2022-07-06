@@ -56,6 +56,8 @@ type Query {
   authorConnection(before: String, after: String, first: Float, last: Float, sort: String): AuthorConnection!
   page(relativePath: String): Page!
   pageConnection(before: String, after: String, first: Float, last: Float, sort: String): PageConnection!
+  area(relativePath: String): Area!
+  areaConnection(before: String, after: String, first: Float, last: Float, sort: String): AreaConnection!
 }
 
 type DocumentConnectionEdges {
@@ -81,7 +83,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
 }
 
-union DocumentNode = Post | Global | Author | Page
+union DocumentNode = Post | Global | Author | Page | Area
 
 union PostAuthor = Author
 
@@ -90,7 +92,6 @@ type Post implements Node & Document {
   heroImg: String
   excerpt: JSON
   author: PostAuthor
-  date: String
   _body: JSON
   id: ID!
   _sys: SystemInfo!
@@ -119,16 +120,46 @@ type GlobalHeaderNav {
   label: String
 }
 
+type GlobalHeaderAreasIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderAreas {
+  href: String
+  label: String
+  icon: GlobalHeaderAreasIcon
+  description: String
+  comingSoon: Boolean
+}
+
+type GlobalHeaderResourcesIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderResources {
+  href: String
+  label: String
+  icon: GlobalHeaderResourcesIcon
+  description: String
+}
+
 type GlobalHeader {
   icon: GlobalHeaderIcon
   color: String
   nav: [GlobalHeaderNav]
+  areas: [GlobalHeaderAreas]
+  resources: [GlobalHeaderResources]
 }
 
 type GlobalFooterSocial {
+  map: String
   facebook: String
   twitter: String
-  instagram: String
+  linkedin: String
   github: String
 }
 
@@ -141,7 +172,6 @@ type GlobalTheme {
   color: String
   font: String
   icon: String
-  darkMode: String
 }
 
 type Global implements Node & Document {
@@ -213,11 +243,61 @@ type PageBlocksFeaturesItemsIcon {
 type PageBlocksFeaturesItems {
   icon: PageBlocksFeaturesItemsIcon
   title: String
+  link: String
   text: String
 }
 
 type PageBlocksFeatures {
   items: [PageBlocksFeaturesItems]
+  color: String
+}
+
+type PageBlocksFeaturesAltItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksFeaturesAltItems {
+  icon: PageBlocksFeaturesAltItemsIcon
+  title: String
+  link: String
+  comingSoon: Boolean
+  text: String
+}
+
+type PageBlocksFeaturesAlt {
+  items: [PageBlocksFeaturesAltItems]
+  color: String
+}
+
+type PageBlocksFeaturesAlt2ItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksFeaturesAlt2Items {
+  icon: PageBlocksFeaturesAlt2ItemsIcon
+  title: String
+  link: String
+  text: String
+}
+
+type PageBlocksFeaturesAlt2 {
+  items: [PageBlocksFeaturesAlt2Items]
+  color: String
+}
+
+type PageBlocksCardGrid2Items {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+type PageBlocksCardGrid2 {
+  items: [PageBlocksCardGrid2Items]
   color: String
 }
 
@@ -232,7 +312,7 @@ type PageBlocksTestimonial {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksContent | PageBlocksTestimonial
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksTestimonial
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -252,6 +332,31 @@ type PageConnection implements Connection {
   edges: [PageConnectionEdges]
 }
 
+union AreaAuthor = Author
+
+type Area implements Node & Document {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: AreaAuthor
+  date: String
+  _body: JSON
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+type AreaConnectionEdges {
+  cursor: String!
+  node: Area
+}
+
+type AreaConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [AreaConnectionEdges]
+}
+
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
@@ -265,6 +370,8 @@ type Mutation {
   createAuthor(relativePath: String!, params: AuthorMutation!): Author!
   updatePage(relativePath: String!, params: PageMutation!): Page!
   createPage(relativePath: String!, params: PageMutation!): Page!
+  updateArea(relativePath: String!, params: AreaMutation!): Area!
+  createArea(relativePath: String!, params: AreaMutation!): Area!
 }
 
 input DocumentMutation {
@@ -272,6 +379,7 @@ input DocumentMutation {
   global: GlobalMutation
   author: AuthorMutation
   page: PageMutation
+  area: AreaMutation
 }
 
 input PostMutation {
@@ -279,7 +387,6 @@ input PostMutation {
   heroImg: String
   excerpt: JSON
   author: String
-  date: String
   _body: JSON
 }
 
@@ -294,16 +401,46 @@ input GlobalHeaderNavMutation {
   label: String
 }
 
+input GlobalHeaderAreasIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderAreasMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderAreasIconMutation
+  description: String
+  comingSoon: Boolean
+}
+
+input GlobalHeaderResourcesIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderResourcesMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderResourcesIconMutation
+  description: String
+}
+
 input GlobalHeaderMutation {
   icon: GlobalHeaderIconMutation
   color: String
   nav: [GlobalHeaderNavMutation]
+  areas: [GlobalHeaderAreasMutation]
+  resources: [GlobalHeaderResourcesMutation]
 }
 
 input GlobalFooterSocialMutation {
+  map: String
   facebook: String
   twitter: String
-  instagram: String
+  linkedin: String
   github: String
 }
 
@@ -316,7 +453,6 @@ input GlobalThemeMutation {
   color: String
   font: String
   icon: String
-  darkMode: String
 }
 
 input GlobalMutation {
@@ -360,11 +496,61 @@ input PageBlocksFeaturesItemsIconMutation {
 input PageBlocksFeaturesItemsMutation {
   icon: PageBlocksFeaturesItemsIconMutation
   title: String
+  link: String
   text: String
 }
 
 input PageBlocksFeaturesMutation {
   items: [PageBlocksFeaturesItemsMutation]
+  color: String
+}
+
+input PageBlocksFeaturesAltItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksFeaturesAltItemsMutation {
+  icon: PageBlocksFeaturesAltItemsIconMutation
+  title: String
+  link: String
+  comingSoon: Boolean
+  text: String
+}
+
+input PageBlocksFeaturesAltMutation {
+  items: [PageBlocksFeaturesAltItemsMutation]
+  color: String
+}
+
+input PageBlocksFeaturesAlt2ItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksFeaturesAlt2ItemsMutation {
+  icon: PageBlocksFeaturesAlt2ItemsIconMutation
+  title: String
+  link: String
+  text: String
+}
+
+input PageBlocksFeaturesAlt2Mutation {
+  items: [PageBlocksFeaturesAlt2ItemsMutation]
+  color: String
+}
+
+input PageBlocksCardGrid2ItemsMutation {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+input PageBlocksCardGrid2Mutation {
+  items: [PageBlocksCardGrid2ItemsMutation]
   color: String
 }
 
@@ -382,12 +568,24 @@ input PageBlocksTestimonialMutation {
 input PageBlocksMutation {
   hero: PageBlocksHeroMutation
   features: PageBlocksFeaturesMutation
+  featuresAlt: PageBlocksFeaturesAltMutation
+  featuresAlt2: PageBlocksFeaturesAlt2Mutation
+  cardGrid2: PageBlocksCardGrid2Mutation
   content: PageBlocksContentMutation
   testimonial: PageBlocksTestimonialMutation
 }
 
 input PageMutation {
   blocks: [PageBlocksMutation]
+}
+
+input AreaMutation {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: String
+  date: String
+  _body: JSON
 }
 
 schema {

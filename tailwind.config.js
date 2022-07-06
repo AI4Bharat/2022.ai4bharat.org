@@ -11,7 +11,8 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
-      teal: colors.cyan,
+      cyan: colors.cyan,
+      sky: colors.sky,
       green: colors.emerald,
       red: colors.rose,
       purple: colors.purple,
@@ -99,8 +100,8 @@ module.exports = {
         "-1": "-1",
       },
       fontFamily: {
-        nunito: ["Nunito", ...defaultTheme.fontFamily.sans],
-        lato: ["Lato", ...defaultTheme.fontFamily.sans],
+        nunito: ["Proza Libre", ...defaultTheme.fontFamily.sans],
+        lato: ["Cormorant Garamond", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -155,75 +156,12 @@ module.exports = {
             },
           },
         },
-        dark: {
-          css: {
-            color: theme("colors.gray.200"),
-            '[class~="lead"]': { color: theme("colors.gray.400") },
-            a: { color: theme("colors.gray.100") },
-            strong: { color: theme("colors.gray.100") },
-            "ul > li::before": { backgroundColor: theme("colors.gray.700") },
-            hr: { borderColor: theme("colors.gray.800") },
-            blockquote: {
-              color: theme("colors.gray.100"),
-              borderLeftColor: theme("colors.gray.800"),
-            },
-            h1: { color: theme("colors.gray.100") },
-            h2: { color: theme("colors.gray.100") },
-            h3: { color: theme("colors.gray.100") },
-            h4: { color: theme("colors.gray.100") },
-            code: {
-              color: theme("colors.gray.100"),
-              backgroundColor: theme("colors.gray.1000"),
-            },
-            "a code": { color: theme("colors.gray.100") },
-            pre: {
-              color: theme("colors.gray.200"),
-              backgroundColor: theme("colors.gray.900"),
-            },
-            thead: {
-              color: theme("colors.gray.100"),
-              borderBottomColor: theme("colors.gray.700"),
-            },
-            "tbody tr": { borderBottomColor: theme("colors.gray.800") },
-          },
-        },
-        primary: {
-          css: {
-            color: theme("colors.gray.50"),
-            '[class~="lead"]': { color: theme("colors.gray.400") },
-            a: { color: theme("colors.gray.100") },
-            strong: { color: theme("colors.gray.100") },
-            "ul > li::before": { backgroundColor: theme("colors.gray.700") },
-            hr: { borderColor: theme("colors.gray.800") },
-            blockquote: {
-              color: theme("colors.gray.100"),
-              borderLeftColor: theme("colors.gray.800"),
-            },
-            h1: { color: theme("colors.gray.100") },
-            h2: { color: theme("colors.gray.100") },
-            h3: { color: theme("colors.gray.100") },
-            h4: { color: theme("colors.gray.100") },
-            code: {
-              color: theme("colors.gray.100"),
-              backgroundColor: "rgba(0,0,0,0.15)",
-            },
-            "a code": { color: theme("colors.gray.100") },
-            pre: {
-              color: theme("colors.gray.200"),
-              backgroundColor: "rgba(0,0,0,0.15)",
-            },
-            thead: {
-              color: theme("colors.gray.100"),
-              borderBottomColor: theme("colors.gray.700"),
-            },
-            "tbody tr": { borderBottomColor: theme("colors.gray.800") },
-          },
-        },
+       
       }),
     },
   },
   variants: {
-    extend: { typography: ["tint", "dark", "primary"] },
+    extend: { typography: ["tint", "primary"] },
   },
   plugins: [require("@tailwindcss/typography")],
 };

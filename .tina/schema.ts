@@ -1,6 +1,9 @@
 import { defineSchema, defineConfig } from "tinacms";
 import { contentBlockSchema } from "../components/blocks/content";
 import { featureBlockSchema } from "../components/blocks/features";
+import { featureAltBlockSchema } from "../components/blocks/featuresalt";
+import { featureAltBlockSchema2 } from "../components/blocks/featuresalt2";
+import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
@@ -34,15 +37,15 @@ const schema = defineSchema({
           name: "author",
           collections: ["author"],
         },
-        {
-          type: "datetime",
-          label: "Posted Date",
-          name: "date",
-          ui: {
-            dateFormat: "MMMM DD YYYY",
-            timeFormat: "hh:mm A",
-          },
-        },
+        // {
+        //   type: "datetime",
+        //   label: "Posted Date",
+        //   name: "date",
+        //   ui: {
+        //     dateFormat: "MMMM DD YYYY",
+        //     timeFormat: "hh:mm A",
+        //   },
+        // },
         {
           type: "rich-text",
           label: "Body",
@@ -162,6 +165,77 @@ const schema = defineSchema({
                 },
               ],
             },
+            {
+              type: "object",
+              label: "Area Nav Links",
+              name: "areas",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  href: "home",
+                  label: "Translation",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Link",
+                  name: "href",
+                },
+                {
+                  type: "string",
+                  label: "Label",
+                  name: "label",
+                },
+               iconSchema,
+                {
+                  type: "string",
+                  label: "Description",
+                  name: "description",
+                },
+                {
+                  type: "boolean",
+                  label: "Coming Soon",
+                  name: "comingSoon",
+                }
+              ],
+            },
+            {
+              type: "object",
+              label: "Resource Nav Links",
+              name: "resources",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  href: "home",
+                  label: "Translation",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Link",
+                  name: "href",
+                },
+                {
+                  type: "string",
+                  label: "Label",
+                  name: "label",
+                },
+               iconSchema,
+                {
+                  type: "string",
+                  label: "Description",
+                  name: "description",
+                },
+              ],
+            },
           ],
         },
         {
@@ -185,6 +259,11 @@ const schema = defineSchema({
               fields: [
                 {
                   type: "string",
+                  label: "Map",
+                  name: "map",
+                },
+                {
+                  type: "string",
                   label: "Facebook",
                   name: "facebook",
                 },
@@ -195,8 +274,8 @@ const schema = defineSchema({
                 },
                 {
                   type: "string",
-                  label: "Instagram",
-                  name: "instagram",
+                  label: "LinkedIn",
+                  name: "linkedin",
                 },
                 {
                   type: "string",
@@ -261,11 +340,11 @@ const schema = defineSchema({
                   value: "sans",
                 },
                 {
-                  label: "Nunito",
+                  label: "Cormorant Garamond",
                   value: "nunito",
                 },
                 {
-                  label: "Lato",
+                  label: "Proza Libre",
                   value: "lato",
                 },
               ],
@@ -282,25 +361,6 @@ const schema = defineSchema({
                 {
                   label: "Heroicons",
                   value: "heroicon",
-                },
-              ],
-            },
-            {
-              type: "string",
-              name: "darkMode",
-              label: "Dark Mode",
-              options: [
-                {
-                  label: "System",
-                  value: "system",
-                },
-                {
-                  label: "Light",
-                  value: "light",
-                },
-                {
-                  label: "Dark",
-                  value: "dark",
                 },
               ],
             },
@@ -342,9 +402,119 @@ const schema = defineSchema({
           templates: [
             heroBlockSchema,
             featureBlockSchema,
+            featureAltBlockSchema,
+            featureAltBlockSchema2,
+            CardGrid2BlockSchema,
             contentBlockSchema,
             testimonialBlockSchema,
           ],
+        },
+      ],
+    },
+    {
+      label: "Areas",
+      name: "area",
+      path: "content/areas",
+      format: "mdx",
+      fields: [
+        {
+          type: "string",
+          label: "Title",
+          name: "title",
+        },
+        {
+          type: "image",
+          name: "heroImg",
+          label: "Hero Image",
+        },
+        {
+          type: "rich-text",
+          label: "Excerpt",
+          name: "excerpt",
+        },
+        {
+          type: "reference",
+          label: "Author",
+          name: "author",
+          collections: ["author"],
+        },
+        {
+          type: "datetime",
+          label: "Posted Date",
+          name: "date",
+          ui: {
+            dateFormat: "MMMM DD YYYY",
+            timeFormat: "hh:mm A",
+          },
+        },
+        {
+          type: "rich-text",
+          label: "Body",
+          name: "_body",
+          templates: [
+            {
+              name: "DateTime",
+              label: "Date & Time",
+              inline: true,
+              fields: [
+                {
+                  name: "format",
+                  label: "Format",
+                  type: "string",
+                  options: ["utc", "iso", "local"],
+                },
+              ],
+            },
+            {
+              name: "BlockQuote",
+              label: "Block Quote",
+              fields: [
+                {
+                  name: "children",
+                  label: "Quote",
+                  type: "rich-text",
+                },
+                {
+                  name: "authorName",
+                  label: "Author",
+                  type: "string",
+                },
+              ],
+            },
+            {
+              name: "NewsletterSignup",
+              label: "Newsletter Sign Up",
+              fields: [
+                {
+                  name: "children",
+                  label: "CTA",
+                  type: "rich-text",
+                },
+                {
+                  name: "placeholder",
+                  label: "Placeholder",
+                  type: "string",
+                },
+                {
+                  name: "buttonText",
+                  label: "Button Text",
+                  type: "string",
+                },
+                {
+                  name: "disclaimer",
+                  label: "Disclaimer",
+                  type: "rich-text",
+                },
+              ],
+              ui: {
+                defaultItem: {
+                  placeholder: "Enter your email",
+                  buttonText: "Notify Me",
+                },
+              },
+            },
+          ],
+          isBody: true,
         },
       ],
     },

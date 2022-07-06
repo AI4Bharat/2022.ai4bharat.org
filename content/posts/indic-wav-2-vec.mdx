@@ -1,0 +1,76 @@
+---
+title: IndicWav2Vec
+excerpt: ''
+date: '2022-06-15T10:50:00.000Z'
+---
+
+IndicWav2Vec is a multilingual speech model pretrained on 40 Indian langauges. This model represents the largest diversity of Indian languages in the pool of multilingual speech models. We fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
+
+As part of IndicWav2Vec we create largest publicly available corpora for 40 languages from 4 different language families. We also trained state-of-the-art ASR models for 9 Indian languages.
+
+All the resources (i) pretraining data (ii) pre-trained models (iii) fine-tuned models (iv) language models are made publicly available.
+
+Our paper is available on [arXiv](https://arxiv.org/abs/2111.03945)
+
+### Update 05-01-2022
+
+We are currently facing issues with access to the data. We will resolve this ASAP.
+
+### Code
+
+All the code and scripts for data processing, pretraining and fine-tuning can be found in our GitHub repository [here](https://github.com/AI4Bharat/IndicWav2Vec)
+
+### Downloads
+
+#### Pretraining Data
+
+The YouTube Video IDs we used for creating the pretraining data can be found [here](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data\_prep\_scripts/urls)
+
+The pipeline for data processing can be found [here](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data\_prep\_scripts)
+
+#### Pretrained Models
+
+*   IndicWav2Vec BASE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-base.pt)
+*   IndicWav2Vec LARGE can be downloaded from [here](https://storage.googleapis.com/indicwav2vec-public/pretraining-ckpts/indicwav2vec-large.pt)
+
+#### Fine-tuned Models
+
+Language-wise fine-tuned models can be found in the table
+
+#### Language Models
+
+Language-wise KenLM langauge models can be found in the table
+
+### Contributors
+
+*   Tahir Javed, ([IITM](https://www.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/))
+*   Sumanth Doddapaneni, ([AI4Bharat](https://ai4bharat.org/), [RBCDSAI](https://rbcdsai.iitm.ac.in/))
+*   Abhigyan Raman, ([AI4Bharat](https://ai4bharat.org/))
+*   Kaushal Bhogale, ([AI4Bharat](https://ai4bharat.org/))
+*   Gowtham Ramesh, ([AI4Bharat](https://ai4bharat.org/), [RBCDSAI](https://rbcdsai.iitm.ac.in/))
+*   Anoop Kunchukuttan, ([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org/))
+*   Pratyush Kumar, ([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org/))
+*   Mitesh Khapra, ([IITM](https://www.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/), [RBCDSAI](https://rbcdsai.iitm.ac.in/))
+
+### Citing
+
+If you are using any of the resources, please cite the following article:
+
+```
+@inproceedings{javed2021building,
+    title = {Towards Building ASR Systems for the Next Billion Users},
+    author = {Tahir Javed and Sumanth Doddapaneni and Abhigyan Raman and Kaushal Santosh Bhogale and Gowtham Ramesh and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},
+    booktitle = "Proceedings of the AAAI Conference on Artificial Intelligence",
+    year = "2022 (to appear)",
+}
+
+```
+
+### License
+
+The pretraining data and YouTube videos are licensed under a [Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+
+IndicWav2Vec is MIT-licensed. The license applies to all pretrained, fine-tuned and language models as well.
+
+
+

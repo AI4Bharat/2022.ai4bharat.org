@@ -153,3 +153,42 @@ query pageConnection {
     }
   }
 }
+
+query area($relativePath: String!) {
+  area(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...AreaParts
+  }
+}
+
+query areaConnection {
+  areaConnection {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...AreaParts
+      }
+    }
+  }
+}

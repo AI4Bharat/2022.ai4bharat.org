@@ -4,28 +4,45 @@ import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
+import Link from "next/link";
 
 export const Feature = ({ featuresColor, data, tinaField }) => {
+  console.log(data)
+  console.log(data.link)
   return (
+    
     <div
       data-tinafield={tinaField}
-      className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
-      style={{ flexBasis: "16rem" }}
+      className="flex-4 flex flex-col p-12 gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto hover:bg-gray-100 "
+      style={{ flexBasis: "12rem" }}
+    ><Link
+       
+    href={data.link}
+    passHref
+  >
+    <a   
+      key={data.id}
+    
     >
+
       {data.icon && (
         <Icon
           tinaField={`${tinaField}.icon`}
           parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
+          data={{ size: "medium", ...data.icon }}
         />
       )}
       {data.title && (
+      
+        
         <h3
           data-tinafield={`${tinaField}.title`}
-          className="text-2xl font-semibold title-font"
+          className="text-lg title-font"
         >
+          {/*changed from 2xl to lg*/}
           {data.title}
         </h3>
+      
       )}
       {data.text && (
         <p
@@ -36,6 +53,8 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
         </p>
       )}
       {data.actions && <Actions actions={data.actions} />}
+      </a>
+          </Link>
     </div>
   );
 };
@@ -43,19 +62,23 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
 export const Features = ({ data, parentField }) => {
   return (
     <Section color={data.color}>
+
       <Container
-        className={`flex flex-wrap gap-x-10 gap-y-8 text-left`}
-        size="large"
+        className={`flex flex-wrap gap-x-20 gap-y-10 `}
+        size="small"
       >
         {data.items &&
           data.items.map(function (block, i) {
             return (
+            <>
+           
               <Feature
                 tinaField={`${parentField}.items.${i}`}
                 featuresColor={data.color}
                 key={i}
                 data={block}
               />
+            </>
             );
           })}
       </Container>
@@ -71,6 +94,7 @@ const defaultFeature = {
     style: "float",
     name: "",
   },
+  
 };
 
 export const featureBlockSchema: TinaTemplate = {
@@ -99,6 +123,11 @@ export const featureBlockSchema: TinaTemplate = {
           type: "string",
           label: "Title",
           name: "title",
+        },
+        {
+          type: "string",
+          label: "Link",
+          name: "link",
         },
         {
           type: "string",

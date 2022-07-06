@@ -8,7 +8,7 @@ export const Content = ({ data, parentField = "" }) => {
   return (
     <Section color={data.color}>
       <Container
-        className={`max-w-4xl prose prose-lg ${
+        className={`max-w-4xl prose prose-sm ${
           data.color === "primary" ? `prose-primary` : `dark:prose-dark`
         }`}
         data-tinafield={`${parentField}.body`}
