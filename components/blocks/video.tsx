@@ -4,7 +4,7 @@ import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
 import YouTube, { YouTubeProps } from 'react-youtube';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+//import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { RightArrowIcon, LeftArrowIcon } from "tinacms";
 

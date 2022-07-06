@@ -8,8 +8,6 @@ import Link from "next/link";
 import Image from "next/image";
 //   style={{ flexBasis: "16rem" }}
 export const FeatureAlt2 = ({ featuresColor, data, tinaField }) => {
-  // console.log(data)
-  // console.log(data.link)
   return (
 
   <div className="relative w-48 mb-6 transform rounded overflow-hidden shadow-xl hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>

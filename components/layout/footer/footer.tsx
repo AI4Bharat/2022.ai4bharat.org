@@ -7,8 +7,10 @@ import { Container } from "../../util/container";
 import { RawRenderer } from "./rawRenderer";
 import { useTheme } from "..";
 import { Icon } from "../../util/icon";
+import { FooterDataType } from "../../../utils/types";
 
-export const Footer = ({ data, icon, rawData }) => {
+export const Footer = ({ data, icon, footerData }: { data: any, icon: any, footerData: FooterDataType }) => {
+  
   const theme = useTheme();
   const socialIconClasses = "h-7 w-auto";
   const socialIconColorClasses = {
@@ -44,9 +46,9 @@ export const Footer = ({ data, icon, rawData }) => {
       : footerColor.default;
 
   return (
-    
-      <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
-  {/* <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
+
+    <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
+      {/* <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div className="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
     </div>
@@ -103,10 +105,10 @@ export const Footer = ({ data, icon, rawData }) => {
       </a>
     </div>
   </div> */}
-  <div className="mx-6 py-10 text-center md:text-left">
-    <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div className="max-w-xs px-2">
-        <h6 className="
+      <div className="mx-6 py-10 text-center md:text-left">
+        <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="max-w-xs px-2">
+            <h6 className="
             uppercase
             font-bold
             mb-4
@@ -115,166 +117,165 @@ export const Footer = ({ data, icon, rawData }) => {
             justify-center
             md:justify-start
           ">
-           <a
+              <a
                 className="flex items-center justify-center md:justify-start mb-4 mr-4"
                 href="https://ai4bharat.org/"
                 target="_blank"
               >
                 <AI4BharatIcon
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
+                  className={`${socialIconClasses} ${socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                    }`}
                 />
               </a>
-          AI4Bharat
-        </h6>
-        <p className="">
-       Building AI solutions to solve India's problems, today.
-        </p>
-      </div>
-      <div className="">
-        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
-          Resources
-        </h6>
-        <p className="mb-4">
-          <a href="#!" className="text-gray-600">Datasets</a>
-        </p>
-        <p className="mb-4">
-          <a href="#!" className="text-gray-600">Models</a>
-        </p>
-        <p className="mb-4">
-          <a href="#!" className="text-gray-600">Data Reports</a>
-        </p>
-        <p>
-          <a href="#!" className="text-gray-600">Publications</a>
-        </p>
-      </div>
-      <div className="">
-        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
-          Useful links
-        </h6>
-        <p className="mb-4">
-          <a href="/home" className="text-gray-600">Home</a>
-        </p>
-        <p className="mb-4">
-          <a href="/positions" className="text-gray-600">Positions</a>
-        </p>
-        <p className="mb-4">
-          <a href="/home" className="text-gray-600">More</a>
-        </p>
-        <p>
-          <a href="/home" className="text-gray-600">Help</a>
-        </p>
-      </div>
-      <div className="">
-        <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
-          Contact
-        </h6>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-        {data.social && data.social.map && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.map}
-                target="_blank"
-              >
-                <FaMapMarkerAlt
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-        )}
-          Address: IIT-Madras Research Park, Taramani, Chennai-600113
-        </div>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-        {data.social && data.social.facebook && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.facebook}
-                target="_blank"
-              >
-                <FaFacebookF
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">facebook.com/onefourthlabs</p>
-              </a>
-            )}
-        
-        </div>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-            {data.social && data.social.github && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.github}
-                target="_blank"
-              >
-                <FaGithub
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">github.com/AI4Bharat</p>
-              </a>
-            )}
-            
+              AI4Bharat
+            </h6>
+            <p className="">
+              Building AI solutions to solve India's problems, today.
+            </p>
           </div>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-            {data.social && data.social.twitter && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.twitter}
-                target="_blank"
-              >
-                <FaTwitter
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">twitter.com/ai4bharat</p>
-              </a>
-            )}
-            
-        </div>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-            {data.social && data.social.linkedin && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4"
-                href={data.social.linkedin}
-                target="_blank"
-              >
-                <FaLinkedinIn
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">linkedin.com/company/ai4bharat</p>
-                 
-              </a>
-            )}
-           
+          <div className="">
+            <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
+              Resources
+            </h6>
+            <p className="mb-4">
+              {/* <a href="#!" className="text-gray-600">Datasets</a> */}
+              <details>
+                <summary>Datasets</summary>
+                <ul>
+                  {footerData.datasets?.map(({ title, link }) => <li><a href={link}>{title}</a></li>)}
+                </ul>
+              </details>
+            </p>
+            <p className="mb-4">
+              <a href="#!" className="text-gray-600">Models</a>
+            </p>
+            <p className="mb-4">
+              <a href="#!" className="text-gray-600">Data Reports</a>
+            </p>
+            <p>
+              <a href="#!" className="text-gray-600">Publications</a>
+            </p>
           </div>
+          <div className="">
+            <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
+              Useful links
+            </h6>
+            <p className="mb-4">
+              <a href="/home" className="text-gray-600">Home</a>
+            </p>
+            <p className="mb-4">
+              <a href="/positions" className="text-gray-600">Positions</a>
+            </p>
+            <p className="mb-4">
+              <a href="/home" className="text-gray-600">More</a>
+            </p>
+            <p>
+              <a href="/home" className="text-gray-600">Help</a>
+            </p>
+          </div>
+          <div className="">
+            <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
+              Contact
+            </h6>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              {data.social && data.social.map && (
+                <a
+                  className="flex items-center justify-center md:justify-start mb-4 mr-4"
+                  href={data.social.map}
+                  target="_blank"
+                >
+                  <FaMapMarkerAlt
+                    className={`${socialIconClasses} ${socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                      }`}
+                  />
+                </a>
+              )}
+              Address: IIT-Madras Research Park, Taramani, Chennai-600113
+            </div>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              {data.social && data.social.facebook && (
+                <a
+                  className="flex items-center justify-center md:justify-start mb-4 mr-4"
+                  href={data.social.facebook}
+                  target="_blank"
+                >
+                  <FaFacebookF
+                    className={`${socialIconClasses} ${socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                      }`}
+                  />
+                  <p className="ml-4">facebook.com/onefourthlabs</p>
+                </a>
+              )}
 
+            </div>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              {data.social && data.social.github && (
+                <a
+                  className="flex items-center justify-center md:justify-start mb-4 mr-4"
+                  href={data.social.github}
+                  target="_blank"
+                >
+                  <FaGithub
+                    className={`${socialIconClasses} ${socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                      }`}
+                  />
+                  <p className="ml-4">github.com/AI4Bharat</p>
+                </a>
+              )}
+
+            </div>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              {data.social && data.social.twitter && (
+                <a
+                  className="flex items-center justify-center md:justify-start mb-4 mr-4"
+                  href={data.social.twitter}
+                  target="_blank"
+                >
+                  <FaTwitter
+                    className={`${socialIconClasses} ${socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                      }`}
+                  />
+                  <p className="ml-4">twitter.com/ai4bharat</p>
+                </a>
+              )}
+
+            </div>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              {data.social && data.social.linkedin && (
+                <a
+                  className="flex items-center justify-center md:justify-start mb-4"
+                  href={data.social.linkedin}
+                  target="_blank"
+                >
+                  <FaLinkedinIn
+                    className={`${socialIconClasses} ${socialIconColorClasses[
+                      data.color === "primary" ? "primary" : theme.color
+                    ]
+                      }`}
+                  />
+                  <p className="ml-4">linkedin.com/company/ai4bharat</p>
+                </a>
+              )}
+
+            </div>
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div className="text-center p-6 bg-gray-200">
+      <div className="text-center p-6 bg-gray-200">
 
-    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
-  </div>
+        <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
+      </div>
 
     </footer>
   );

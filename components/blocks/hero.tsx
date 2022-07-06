@@ -52,13 +52,22 @@ export const Hero = ({ data, parentField }) => {
             </h3>
           )}
           {data.text && (
-            <div
-              data-tinafield={`${parentField}.text`}
-              className={`prose prose-lg mx-auto lg:mx-0 mb-10 ${
-                data.color === "primary" ? `prose-primary` : `dark:prose-dark`
-              }`}
-            >
-              <TinaMarkdown content={data.text} />
+            <div className="relative overflow-hidden">
+              <img
+                className="object-cover w-full h-48"
+                alt={data.image.alt}
+                src={data.image.src}
+              />
+              <div className="absolute top-0 left-0">
+                <div
+                  data-tinafield={`${parentField}.text`}
+                  className={`prose prose-lg mx-auto lg:mx-0 mb-10 ${
+                    data.color === "primary" ? `prose-primary` : `dark:prose-dark`
+                  }`}
+                >
+                  <TinaMarkdown content={data.text} />
+                </div>
+              </div>
             </div>
           )}
           {data.actions && (

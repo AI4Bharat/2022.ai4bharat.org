@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {
-    "@tinacms/cli": "^0.60.20",
+    "@tinacms/cli": "^0.60.22",
     "@types/js-cookie": "^3.0.0",
     "@types/node": "^16.11.7",
     "@types/react": "^17.0.35",
@@ -29,6 +29,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@tinacms/auth": "^0.50.2",
     "date-fns": "^2.23.0",
+    "gray-matter": "^4.0.3",
     "next": "^12.0.4",
     "next-svgr": "^0.0.2",
     "next-tinacms-cloudinary": "^3.5.23",
@@ -43,7 +44,7 @@
     "react-youtube": "^9.0.2",
     "styled-components": "^5.1.3",
     "styled-jsx": "^3.2.5",
-    "tinacms": "^0.68.8",
+    "tinacms": "^0.68.9",
     "typescript": "^4.5.2"
   },
   "resolutions": {
