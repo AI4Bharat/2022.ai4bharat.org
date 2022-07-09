@@ -153,6 +153,89 @@ blocks:
     highlightColor: yellow
     color: default
     _template: flatCardsGrid
+  - title: Models
+    header: Download our
+    description: >-
+      These include state of the art models for translation, ASR, sign language
+      recognition and more ...
+    items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Indic-ft '
+        link: /models/indic-ft
+        text: >-
+          Indic-ft is a group of subword-aware word embedding models trained on
+          our IndicNLP Corpora and is particularly well-suited for Indian
+          languages due to their highly agglutinative morphology
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Indic-Bert
+        link: /models/indic-bert
+        text: >-
+          IndicBERT is a multilingual ALBERT model pretrained exclusively on
+          IndicCorp for 12 major Indian languages and evaluated on diverse NLU
+          tasks. It has much fewer parameters than other multilingual models
+          (mBERT, XLM-R etc.) while performing on par or better than these
+          models.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicTrans
+        link: /models/indic-trans
+        text: >-
+          IndicTrans is a Transformer-4x ( ~434M ) multilingual NMT model
+          trained on Samanantar dataset for 11 Indian langauges. It performs
+          competitively or better than other publicly available open source
+          models, and  commercial systems like Google, Bing translate on most
+          translation benchmarks.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicWav2Vec
+        link: /models/indic-wav-2-vec
+        text: >-
+          IndicWav2Vec is a multilingual speech model pretrained on 40 Indian
+          languages (4 language families) and reaches state-of-the-art ASR for 9
+          Indian languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicBart
+        link: '/models/indic-bart '
+        text: >-
+          IndicBART is an mBART-like multilingual, sequence-to-sequence
+          pre-trained model focusing on 11 Indic languages and English. It
+          supports NLG applications like machine translation, summarization,
+          question generation, etc
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicXlit
+        link: /models/indic-x-lit
+        text: >-
+          IndicXlit is a transformer-based multilingual transliteration model
+          (~11M) for roman to native script conversion that supports 21 Indic
+          languages. It is trained on the Aksharantar dataset and achieves
+          state-of-the-art results on the Dakshina testset
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: OpenHands
+        link: /models/open-hands
+        text: >-
+          OpenHands is an open-source toolkit for multilingual sign language
+          recognition, supporting 7 different sign languages with lightweight
+          pose-based models achieving state-of-the-art results.
+    _template: flatCardsGrid
   - title: Translation
     header: Contributions
     items:
