@@ -7,6 +7,10 @@ import { FeaturesAlt2 } from "./blocks/featuresalt2";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 import { VideoCarousel } from "./blocks/videoCarousel";
+import { FlatCardsGrid } from "./blocks/flatCardsGrid";
+import { Banner } from "./blocks/banner";
+import { FAQ } from "./blocks/faq";
+import { Quote } from "./blocks/quote";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
   return (
@@ -68,6 +72,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                       <VideoCarousel data={block} parentField={`blocks.${i}`} />
                     </div>
                   );
+              case "PageBlocksBanner":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Banner data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
               case "PageBlocksTestimonial":
                 return (
                   <div
@@ -77,6 +90,35 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     <Testimonial data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
+                case "PageBlocksFaq":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <FAQ data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+
+                case "PageBlocksQuote":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Quote data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+            
+                case "PageBlocksFlatCardsGrid":
+                  return (
+                    <div
+                      data-tinafield={`blocks.${i}`}
+                      key={i + block.__typename}
+                    >
+                      <FlatCardsGrid data={block} parentField={`blocks.${i}`} />
+                    </div>
+                  );
               default:
                 return null;
             }

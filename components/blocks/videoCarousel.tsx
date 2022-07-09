@@ -26,6 +26,24 @@ export const VideoPlayer = ({embedCode})=> {
   return <YouTube videoId={embedCode} opts={opts} onReady={onPlayerReady}/>;
 }
 
+const MultipleVideos = ({videoData}) =>{
+    return(
+        <>
+    {videoData.videoDetails && (
+        videoData.videoDetails.map((videoDetail)=>{ 
+         
+            <div>
+                <VideoPlayer embedCode="vIhX37VNtZo"/>
+
+            </div>
+          
+           
+        })
+    )} 
+    </>
+    )
+}
+
 export const VideoCarousel = ({ data, parentField = "" }) => {
   const arrowStyles: CSSProperties = {
     position: 'absolute',
@@ -47,7 +65,12 @@ export const VideoCarousel = ({ data, parentField = "" }) => {
         data-tinafield={`${parentField}.body`}
         size="medium"
       >
+       {console.log('videoCarousel')}
       {console.log(data)}
+      {console.log(data.videoDetails?'true':'false')}
+      {data.videoDetails.map((videoDetail)=>{
+        console.log(videoDetail.embedCode)
+      })}
         {/* <VideoPlayer embedCode={data.embedCode}/> */}
 
         
@@ -67,7 +90,7 @@ export const VideoCarousel = ({ data, parentField = "" }) => {
           )
       }
         dynamicHeight={true} width="300" showStatus={false} showThumbs={false} showIndicators={false}>
-                <div>
+                {/* <div>
                 <VideoPlayer embedCode={data.embedCode}/>
                 </div>
                 <div>
@@ -77,7 +100,21 @@ export const VideoCarousel = ({ data, parentField = "" }) => {
                 <div>
                 <VideoPlayer embedCode={data.embedCode}/>
                  
-                </div>
+                </div> */}
+                 {/* {data.videoDetails && (
+                    data.videoDetails.map((videoDetail)=>{  */}
+                     
+                 
+                            {/* <VideoPlayer embedCode="vIhX37VNtZo"/> */}
+                            <MultipleVideos videoData={data} />
+                        
+                        <div>
+
+                        </div>
+                      
+{/*                        
+                    })
+                )}  */}
             </Carousel>
      
       </Container>
@@ -87,30 +124,54 @@ export const VideoCarousel = ({ data, parentField = "" }) => {
   );
 };
 
+const defaultVideoCarousel = {
+    title: "Here's Another Feature",
+    embedCode: "vIhX37VNtZo"
+    
+  };
+
 export const videoCarouselBlockSchema: TinaTemplate = {
-  name: "videoCarousel",
-  label: "Video Carousel",
-  ui: {
-    previewSrc: "/blocks/content.png",
-    defaultItem: {
-      embedCode: "2g811Eo7K8U",
+    name: "videoCarousel",
+    label: "Video Carousel",
+    ui: {
+      previewSrc: "/blocks/content.png",
+      defaultItem: {
+        items: [defaultVideoCarousel, defaultVideoCarousel],
+      },
     },
-  },
-  fields: [
-    {
-      type: "string",
-      label: "Youtube Embed Code",
-      name: "embedCode",
-    },
-    {
-      type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
-    },
-  ],
+    fields: [
+      {
+        type: "object",
+        label: "Video Details",
+        name: "videoDetails",
+        list: true,
+        ui: {
+          defaultItem: {
+            ...defaultVideoCarousel,
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Title",
+            name: "title",
+          },
+          {
+            type: "string",
+            label: "Video Embed Code",
+            name: "embedCode",
+          },
+        ],
+      },
+      {
+        type: "string",
+        label: "Color",
+        name: "color",
+        options: [
+          { label: "Default", value: "default" },
+          { label: "Tint", value: "tint" },
+          { label: "Primary", value: "primary" },
+        ],
+      },
+    ],
 };

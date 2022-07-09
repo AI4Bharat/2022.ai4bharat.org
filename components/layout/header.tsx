@@ -22,7 +22,8 @@ import {
   ViewGridIcon,
   XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import { ChevronDownIcon } from '@heroicons/react/solid';
+import { Banner } from "../blocks/banner";
 
 // const callsToAction = [
 //   { name: 'Watch Demo', href: '#', icon: PlayIcon },
@@ -66,7 +67,7 @@ export const Header = ({ data }) => {
     red: "border-b-3 border-red-300 dark:border-red-700",
     pink: "border-b-3 border-pink-200 dark:border-pink-700",
     purple: "border-b-3 border-purple-200 dark:border-purple-700",
-    orange: "border-b-3 border-orange-200 dark:border-orange-700",
+    orange: "border-b-3 border-orange-400 dark:border-orange-700",
     yellow: "border-b-3 border-yellow-300 dark:border-yellow-600",
     gray: "border-b-3 border-gray-300 dark:border-gray-600",
   };
@@ -90,6 +91,7 @@ export const Header = ({ data }) => {
   return (
     <div className={`bg-gradient-to-b ${headerColorCss} sticky top-0 z-50`}>
       <Container size="custom" className="py-0 relative z-10 max-w-8xl">
+        
         <div className="flex items-center justify-between">
           <h4 className="select-none text-lg tracking-tight my-4 transition duration-150 ease-out transform">
             <Link href="/" passHref>
@@ -113,7 +115,7 @@ export const Header = ({ data }) => {
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
         
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -129,7 +131,7 @@ export const Header = ({ data }) => {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900'
                     )}
                   >
                     <span>Areas</span>
@@ -188,13 +190,13 @@ export const Header = ({ data }) => {
                           ))
                           }
                         </div>
-                     
+                     {console.log(data.callsToAction)}
                         <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                           {data.callsToAction && data.callsToAction.map((item) => (
-                            <div key={item.label} className="flow-root">
+                            <div key={item.name} className="flow-root">
                               <a
                                 href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md text-xs font-semibold text-gray-900 hover:bg-gray-100"
+                                className="-m-3 p-3 flex items-center rounded-md text-xs font-semibold text-gray-900"
                               >
                                {( item.icon &&
                                 <Icon
@@ -208,7 +210,7 @@ export const Header = ({ data }) => {
                                   className="flex-shrink-0 h-6 w-6 text-gray-400"
                                    />
                                    )}
-                                <span className="ml-3">{item.label}</span>
+                                <span className="ml-3">{item.name}</span>
                               </a>
                             </div>
                           ))}
@@ -219,14 +221,14 @@ export const Header = ({ data }) => {
                 </>
               )}
             </Popover>
-
+            
             <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2'
                     )}
                   >
                     <span>Resources</span>
@@ -269,7 +271,7 @@ export const Header = ({ data }) => {
                                     color: item.icon.color,
                                     style: item.icon.style,
                                   }}
-                                  className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                  className="flex-shrink-0 h-6 w-6"
                                 /> 
                             )}
                               <div className="ml-4">
@@ -317,7 +319,7 @@ export const Header = ({ data }) => {
               <div className="flex items-center justify-between">
              
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -341,18 +343,19 @@ export const Header = ({ data }) => {
             </div>
 
           </div>
+          
         </Popover.Panel>
+        
       </Transition>
     </Popover>
 
         </div>
         <div
-          className={`absolute h-1 bg-gradient-to-r from-transparent ${
-            data.color === "primary" ? `via-white` : `via-black dark:via-white`
-          } to-transparent bottom-0 left-4 right-4 -z-1 opacity-5`}
+          className={`absolute h-1 bottom-0 left-4 right-4 -z-1 opacity-5`}
         />
       </Container>
       
+      <Banner data={data}/>
     </div>
   );
 };

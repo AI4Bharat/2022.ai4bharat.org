@@ -160,11 +160,58 @@ fragment PageParts on Page {
       color
     }
     ... on PageBlocksVideoCarousel {
-      embedCode
+      videoDetails {
+        __typename
+        title
+        embedCode
+      }
       color
     }
     ... on PageBlocksTestimonial {
       quote
+      author
+      color
+    }
+    ... on PageBlocksFlatCardsGrid {
+      title
+      header
+      description
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        chip {
+          __typename
+          color
+          style
+          text
+        }
+        title
+        link
+        text
+        iconColor
+      }
+      highlightColor
+      color
+    }
+    ... on PageBlocksBanner {
+      title
+      header
+      description
+      highlightColor
+      color
+    }
+    ... on PageBlocksFaq {
+      title
+      content
+      color
+    }
+    ... on PageBlocksQuote {
+      quoteContent
       author
       color
     }

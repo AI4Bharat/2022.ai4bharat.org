@@ -49,7 +49,7 @@ export const FeatureAlt2 = ({ featuresColor, data, tinaField }) => {
     )}
     </div>
     </div>
-    <div className="p-2 bg-orange-200 w-full h-2 rounded-t-md absolute inset-x-0 bottom-0"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none"></p></div>
+    <div className="p-2 bg-orange-400 w-full h-2 rounded-t-md absolute inset-x-0 bottom-0"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none"></p></div>
      {data.actions && <Actions actions={data.actions} />}
 
    

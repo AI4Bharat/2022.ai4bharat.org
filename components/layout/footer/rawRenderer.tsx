@@ -39,7 +39,7 @@ export const RawRenderer = ({ rawData, parentColor }) => {
           className={`absolute w-full h-full left-0 top-0 rounded -z-1 ${
             parentColor === "primary"
               ? `bg-white opacity-80`
-              : `bg-current opacity-15`
+              : `bg-current`
           }`}
         ></span>
       </button>

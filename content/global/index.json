@@ -28,6 +28,14 @@
         "label": "Positions"
       }
     ],
+    "callsToAction" : [
+    { "name": "Watch Demo",
+      "href": "#",
+      "icon": "PlayIcon" },
+    { "name": "Contact Us", 
+      "href": "#", 
+      "icon": "PlayIcon" }
+    ],
     "areas": [
       {
         "href": "https://indicnlp.ai4bharat.org/indic-trans/",

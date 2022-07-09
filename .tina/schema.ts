@@ -7,7 +7,13 @@ import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
+import { chipSchema } from "../components/util/chip";
 import { videoCarouselBlockSchema } from "../components/blocks/videoCarousel";
+import { flatCardsGridBlockSchema } from "../components/blocks/flatCardsGrid";
+
+import { bannerBlockSchema } from "../components/blocks/banner";
+import { faqBlockSchema } from "../components/blocks/faq";
+import { quoteBlockSchema } from "../components/blocks/quote"
 
 const schema = defineSchema({
   collections: [
@@ -414,6 +420,10 @@ const schema = defineSchema({
             contentBlockSchema,
             videoCarouselBlockSchema,
             testimonialBlockSchema,
+            flatCardsGridBlockSchema,
+            bannerBlockSchema,
+            faqBlockSchema,
+            quoteBlockSchema,
           ],
         },
       ],

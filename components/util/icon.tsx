@@ -109,7 +109,7 @@ const iconColorClass: { [name: string]: { regular: string; circle: string } } =
       circle: "bg-purple-400 dark:bg-purple-500 text-purple-50",
     },
     orange: {
-      regular: "text-orange-400",
+      regular: "text-orange-500",
       circle: "bg-orange-400 dark:bg-orange-500 text-orange-50",
     },
     yellow: {
@@ -157,7 +157,7 @@ export const Icon = ({
         data-tinafield={tinaField}
         className={`relative z-10 inline-flex items-center justify-center flex-shrink-0 ${iconSizeClasses} rounded-full ${iconColorClass[iconColor].circle} ${className}`}
       >
-        <IconSVG className="w-2/3 h-2/3" />
+        <IconSVG />
       </div>
     );
   } else {
