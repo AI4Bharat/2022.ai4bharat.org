@@ -5,17 +5,17 @@ excerpt: ''
 
 # ***IndicTrans***
 
-[Website](http://indicnlp.ai4bharat.org/samanantar) | [Paper](https://arxiv.org/abs/2104.05596) | [Video](https://youtu.be/QwYPOd1eBtQ?t=383)
+[Website](http://indicnlp.ai4bharat.org/samanantar) | [Paper](https://arxiv.org/abs/2104.05596) | [Video](https://youtu.be/QwYPOd1eBtQ?t=383)
 
 
 
-**IndicTrans** is a Transformer-4x ( ~434M ) multilingual NMT model trained on [Samanantar](https://indicnlp.ai4bharat.org/samanantar) dataset which is the largest publicly available parallel corpora collection for Indic languages at the time of writing ( 14 April 2021 ). It is a single script model i.e we convert all the Indic data to the Devanagari script which allows for ***better lexical sharing between languages for transfer learning, prevents fragmentation of the subword vocabulary between Indic languages and allows using a smaller subword vocabulary***. We currently release two models - Indic to English and English to Indic and support the following 11 indic languages:
+**IndicTrans** is a Transformer-4x ( ~434M ) multilingual NMT model trained on [Samanantar](https://indicnlp.ai4bharat.org/samanantar) dataset which is the largest publicly available parallel corpora collection for Indic languages at the time of writing ( 14 April 2021 ). It is a single script model i.e we convert all the Indic data to the Devanagari script which allows for ***better lexical sharing between languages for transfer learning, prevents fragmentation of the subword vocabulary between Indic languages and allows using a smaller subword vocabulary***. We currently release two models - Indic to English and English to Indic and support the following 11 indic languages:
 
 Assamese (as)Hindi (hi)Marathi (mr)Tamil (ta)Bengali (bn)Kannada (kn)Odia (or)Telugu (te)Gujarati (gu)Malayalam (ml)Punjabi (pa)
 
 ### Benchmarks
 
-We evaluate IndicTrans model on a [WAT2021](http://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2021/), [WAT2020](https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2020/), WMT (2014, 2019, 2020), [UFAL](https://ufal.mff.cuni.cz/~ramasamy/parallel/html), [PMI](https://data.statmt.org/pmindia) (subset of the PMIndia dataest created by us for Assamese) and [FLORES](https://github.com/facebookresearch/flores) benchmarks. It outperforms all publicly available open source models. It also outperforms commercial systems like Google, Bing translate on most datasets and performs competitively on Flores. Here are the results that we obtain:
+We evaluate IndicTrans model on a [WAT2021](http://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2021/), [WAT2020](https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2020/), WMT (2014, 2019, 2020), [UFAL](https://ufal.mff.cuni.cz/~ramasamy/parallel/html), [PMI](https://data.statmt.org/pmindia) (subset of the PMIndia dataest created by us for Assamese) and [FLORES](https://github.com/facebookresearch/flores) benchmarks. It outperforms all publicly available open source models. It also outperforms commercial systems like Google, Bing translate on most datasets and performs competitively on Flores. Here are the results that we obtain:
 
 **WAT2021WAT2020WMTUFALPMIFLORES-101**bnguhiknmlmrorpatatebnguhimlmrtatehigutataasasbnguhiknmlmrorpatateIN-EN29.640.343.936.434.633.534.443.233.236.220.024.123.620.420.418.318.529.725.124.130.229.923.332.234.337.928.831.730.830.135.828.633.5EN-IN15.325.638.619.114.720.118.933.113.514.111.415.320.07.212.76.27.625.517.29.910.911.66.920.322.634.518.916.316.113.926.916.322.0
 
@@ -58,32 +58,32 @@ Click to expand
 
 ### Download model
 
-Indic to English: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/indic-en.zip)
+Indic to English: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/indic-en.zip)
 
-English to Indic: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/en-indic.zip)
+English to Indic: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/en-indic.zip)
 
-Indic to Indic: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/m2m.zip)
+Indic to Indic: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/models/m2m.zip)
 
-[Mirror links](https://indicnlp.ai4bharat.org/indic-trans/#mirror-links) for the IndicTrans models
+[Mirror links](https://indicnlp.ai4bharat.org/indic-trans/#mirror-links) for the IndicTrans models
 
 ### Using hosted APIs
 
 Click to expand
 
 
-Refer to this colab notebook on how to use python to hit the API endpoints--> 
+Refer to this colab notebook on how to use python to hit the API endpoints--> 
 
 ### Accessing on ULCA
 
-You can try out our models at [ULCA](https://bhashini.gov.in/ulca/model/explore-models) and filter for IndicTrans models.
+You can try out our models at [ULCA](https://bhashini.gov.in/ulca/model/explore-models) and filter for IndicTrans models.
 
 ## Running Inference
 
 ### Command line interface
 
-The model is trained on single sentences and hence, users need to split parapgraphs to sentences before running the translation when using our command line interface (The python interface has `translate_paragraph` method to handle multi sentence translations).
+The model is trained on single sentences and hence, users need to split parapgraphs to sentences before running the translation when using our command line interface (The python interface has `translate_paragraph` method to handle multi sentence translations).
 
-Note: IndicTrans is trained with a max sequence length of **200** tokens (subwords). If your sentence is too long (> 200 tokens), the sentence will be truncated to 200 tokens before translation.
+Note: IndicTrans is trained with a max sequence length of **200** tokens (subwords). If your sentence is too long (> 200 tokens), the sentence will be truncated to 200 tokens before translation.
 
 Here is an example snippet to split paragraphs into sentences for English and Indic languages supported by our model:
 
@@ -122,13 +122,13 @@ split_sentences("""இத்தொற்றுநோய் உலகளாவி
 
 ```
 
-Follow the colab notebook to setup the environment, download the trained *IndicTrans* models and translating your own text.
+Follow the colab notebook to setup the environment, download the trained *IndicTrans* models and translating your own text.
 
-Colab notebook for command line inference --> 
+Colab notebook for command line inference --> 
 
 ### Python Inference
 
-Colab notebook for python inference --> 
+Colab notebook for python inference --> 
 
 The python interface is useful in case you want to reuse the model for multiple translations and do not want to reinitialize the model each time
 
@@ -148,7 +148,7 @@ Click to expand
 *   Learning rate: 5e-4
 *   Warmup\_steps: 4000
 
-Please refer to section 4, 5 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on training/experimental setup.
+Please refer to section 4, 5 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on training/experimental setup.
 
 ### Training procedure and code
 
@@ -194,7 +194,7 @@ Organize the developement set and test set of multiple benchmarks as follows:
 ...
 ```
 
-Removing dev and test set overlaps from training data Refer to "Training Data" subsection in section 4 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on how we use a strict overlap removal method.
+Removing dev and test set overlaps from training data Refer to "Training Data" subsection in section 4 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on how we use a strict overlap removal method.
 
 ```
 python3 remove_train_devtest_overlaps.py <train_data_dir> <all devtest dir>
@@ -235,7 +235,7 @@ Prepare the experiment folder and create the binarized data required for fairseq
 bash prepare_data_joint_training.sh '../indic-en-exp' 'indic' 'en'
 ```
 
-Start training with fairseq-train command. Please refer to [fairseq documentaion](https://fairseq.readthedocs.io/en/latest/command\_line\_tools.html) to know more about each of these options
+Start training with fairseq-train command. Please refer to [fairseq documentaion](https://fairseq.readthedocs.io/en/latest/command\_line\_tools.html) to know more about each of these options
 
 ```
 # some notable args:
@@ -279,7 +279,7 @@ fairseq-train ../indic-en-exp/final_bin \
 
 The above steps are further documented in our colab notebook
 
-Please refer to this [issue](https://github.com/AI4Bharat/indicTrans/issues/23) to see discussion of our training hyperparameters.
+Please refer to this [issue](https://github.com/AI4Bharat/indicTrans/issues/23) to see discussion of our training hyperparameters.
 
 ### WandB plots
 
@@ -305,7 +305,7 @@ The trained model will get saved in the experiment directory. It will have the f
      └── vocab.TGT
 ```
 
-To test the models after training, you can use `joint_translate.sh` to get output predictions and `compute_bleu.sh` to compute bleu scores.
+To test the models after training, you can use `joint_translate.sh` to get output predictions and `compute_bleu.sh` to compute bleu scores.
 
 ```
 # joint_translate takes src_file, output_fname, src_lang, tgt_lang, model_folder as inputs
@@ -337,7 +337,7 @@ bash compute_bleu.sh en_hi_outputs.txt <path to test.hi reference file> 'en' 'hi
 
 ### Detailed benchmarking results
 
-Refer to [Benchmarks](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#benchmarks) for results of IndicTrans model on various benchmarks. Please refer to table 6,7 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for comparison with other open source and commercial models and section 6 for detailed discussion of the results
+Refer to [Benchmarks](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#benchmarks) for results of IndicTrans model on various benchmarks. Please refer to table 6,7 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for comparison with other open source and commercial models and section 6 for detailed discussion of the results
 
 ## Finetuning model on your data
 
@@ -384,7 +384,7 @@ Organize the developement set and test set of multiple benchmarks as follows:
 ...
 ```
 
-Removing dev and test set overlaps from training data Refer to "Training Data" subsection in section 4 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on how we use a strict overlap removal method.
+Removing dev and test set overlaps from training data Refer to "Training Data" subsection in section 4 of our [paper](https://arxiv.org/ftp/arxiv/papers/2104/2104.05596.pdf) for more details on how we use a strict overlap removal method.
 
 ```
 python3 remove_train_devtest_overlaps.py <train_data_dir> <all devtest dir>
@@ -459,9 +459,9 @@ fairseq-train <exp_dir>/final_bin \
 --reset-optimizer
 ```
 
-The above steps (setup the environment, download the trained *IndicTrans* models and prepare your custom dataset for funetuning) are further documented in our colab notebook 
+The above steps (setup the environment, download the trained *IndicTrans* models and prepare your custom dataset for funetuning) are further documented in our colab notebook 
 
-Please refer to this [issue](https://github.com/AI4Bharat/indicTrans/issues/9) for some tips on finetuning.
+Please refer to this [issue](https://github.com/AI4Bharat/indicTrans/issues/9) for some tips on finetuning.
 
 **Note**: Since this is a big model (400M params), you might not be able to train with reasonable batch sizes in the free google Colab account. We are planning to release smaller models (after pruning / distallation) soon.
 
@@ -542,24 +542,24 @@ The IndicTrans code (and models) are released under the MIT License.
 
 ## Contributors
 
-*   Gowtham Ramesh, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [IITM](https://www.iitm.ac.in/))
-*   Sumanth Doddapaneni, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [IITM](https://www.iitm.ac.in/))
-*   Aravinth Bheemaraj, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Mayank Jobanputra, ([IITM](https://www.iitm.ac.in/))
-*   Raghavan AK, ([AI4Bharat](https://ai4bharat.org/))
-*   Ajitesh Sharma, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Sujit Sahoo, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Harshita Diddee, ([AI4Bharat](https://ai4bharat.org/))
-*   Mahalakshmi J, ([AI4Bharat](https://ai4bharat.org/))
-*   Divyanshu Kakwani, ([IITM](https://www.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/))
-*   Navneet Kumar, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Aswin Pradeep, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Srihari, Nagaraj, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Kumar Deepak, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
-*   Vivek Raghavan, ([EkStep](https://ekstep.in/))
-*   Anoop Kunchukuttan, ([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org/))
-*   Pratyush Kumar, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/), [IITM](https://www.iitm.ac.in/))
-*   Mitesh Shantadevi Khapra, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/), [IITM](https://www.iitm.ac.in/))
+*   Gowtham Ramesh, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [IITM](https://www.iitm.ac.in/))
+*   Sumanth Doddapaneni, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [IITM](https://www.iitm.ac.in/))
+*   Aravinth Bheemaraj, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Mayank Jobanputra, ([IITM](https://www.iitm.ac.in/))
+*   Raghavan AK, ([AI4Bharat](https://ai4bharat.org/))
+*   Ajitesh Sharma, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Sujit Sahoo, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Harshita Diddee, ([AI4Bharat](https://ai4bharat.org/))
+*   Mahalakshmi J, ([AI4Bharat](https://ai4bharat.org/))
+*   Divyanshu Kakwani, ([IITM](https://www.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/))
+*   Navneet Kumar, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Aswin Pradeep, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Srihari, Nagaraj, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Kumar Deepak, ([Tarento](https://www.linkedin.com/company/tarento-group/), [EkStep](https://ekstep.in/))
+*   Vivek Raghavan, ([EkStep](https://ekstep.in/))
+*   Anoop Kunchukuttan, ([Microsoft](https://www.microsoft.com/en-in/), [AI4Bharat](https://ai4bharat.org/))
+*   Pratyush Kumar, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/), [IITM](https://www.iitm.ac.in/))
+*   Mitesh Shantadevi Khapra, ([RBCDSAI](https://rbcdsai.iitm.ac.in/), [AI4Bharat](https://ai4bharat.org/), [IITM](https://www.iitm.ac.in/))
 
 ## Contact
 
