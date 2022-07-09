@@ -15,7 +15,7 @@ blocks:
         icon: true
         link: /
     image:
-      src: '/datasets.png'
+      src: /rural-children.jpeg
       alt: AI4Bharat
     color: default
     _template: hero
@@ -77,7 +77,7 @@ blocks:
         title: Labelled Data
         text: >-
           Collect the largest public labelled datasets across IN-22 for various
-          tasks with over  100M task units
+          tasks with over ​100M task units
         iconColor: cyan
       - icon:
           color: ''
@@ -112,7 +112,7 @@ blocks:
     header: Impact
     description: >-
       Build state-of-the-art, open, foundational AI models across tasks and
-      languages 
+      languages​
     items:
       - icon:
           color: orange
@@ -121,7 +121,7 @@ blocks:
         title: Foundational Models
         text: >-
           Be the first to open-source foundational models for translation,
-          speech recognition, & language models for IN-22  
+          speech recognition, & language models for IN-22 ​
         iconColor: yellow
       - icon:
           color: ''
@@ -130,7 +130,7 @@ blocks:
         title: Adoption of Models
         text: >-
           Ensure wide adoption of our models with 1 million downloads from
-          startups, enterprises, researchers, and governments  
+          startups, enterprises, researchers, and governments ​
         iconColor: yellow
       - icon:
           color: ''
@@ -139,7 +139,7 @@ blocks:
         title: Efficient Models
         text: >-
           Build efficient models that can be packaged to run on smartphones
-          enabling privacy and supporting uses-cases with low-connectivity 
+          enabling privacy and supporting uses-cases with low-connectivity​
         iconColor: yellow
       - icon:
           color: ''
@@ -148,7 +148,7 @@ blocks:
         title: Multilingual Transfer
         text: >-
           Innovate on new techniques to improve the performance of low-resource
-          languages by leveraging multilingual relations 
+          languages by leveraging multilingual relations​
         iconColor: yellow
     highlightColor: yellow
     color: default
@@ -179,14 +179,14 @@ blocks:
         text: >-
           Building a tool for speeding translation work in Indian languages
           including support for IndicTrans, transliteration, glossaries and
-          translator notes 
+          translator notes​
       - chip:
           text: ECOSYSTEM
         title: ANUVAAD
         text: >-
           An open-source tool for document-scale translation that is deployed
           and being used in the Supreme Court of India for translating
-          judgements 
+          judgements​
       - chip:
           color: orange
           style: filled
@@ -194,7 +194,7 @@ blocks:
         title: SHAASTRA
         text: >-
           A collaboration with IIT Madras for making high quality technical
-          articles available in multiple Indian languages on web and print 
+          articles available in multiple Indian languages on web and print​
     highlightColor: orange
     _template: flatCardsGrid
   - quote: Areas
