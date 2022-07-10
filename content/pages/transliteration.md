@@ -32,12 +32,19 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Aksharantar
+        link: /aksharantar
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          The largest publicly available
+
+          parallel transliteration corpora between the Roman script and scripts
+          for Indian languages. The corpora contains 26M
+
+          word pairs spanning 21 languages mined from Wikidata, Samanantar and
+          IndicCorp. It also contains a challenging and diverse benchmark for
+          evaluating transliteration models.
       - icon:
           color: ''
           style: float
