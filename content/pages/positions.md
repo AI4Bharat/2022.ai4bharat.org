@@ -111,5 +111,37 @@ blocks:
       *   Pratyush Kumar
       ([pratyush@cse.iitm.ac.in](mailto:pratyushk@cse.iitm.ac.in))
     _template: content
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: featuresAlt
 ---
 
