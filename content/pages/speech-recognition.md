@@ -25,11 +25,13 @@ blocks:
           style: float
           name: chat
         title: Pratilipi Dataset
-        comingSoon: false
+        link: /pratilipi
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          6,000 hours of speech and text for 10 Indian languages mined and
+          aligned from audio broadcasts and PDF transcripts. from All India
+          Radio.
       - icon:
           color: ''
           style: float
