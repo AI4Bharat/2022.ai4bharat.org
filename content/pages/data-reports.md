@@ -9,6 +9,8 @@ blocks:
           style: float
           name: AI4B
         title: May 2022
+        link: >-
+          https://indicnlp.ai4bharat.org/static/documents/DMU_Data_Report_May_2022.pdf
         comingSoon: false
         updated: false
         text: |-
