@@ -54,5 +54,16 @@ blocks:
         title: Koo
         text: Write about IndicNER for organising Koos based on NEs
     _template: flatCardsGrid
+  - tagline: ''
+    headline: IndicNLU Workshop
+    text: >
+      On 28th July, we are conducting a workshop to demonstrate our datasets,
+      models, and applications.
+    actions:
+      - label: Sign Up to Attend
+        type: button
+        icon: true
+        link: 'https://forms.office.com/r/vddNi9fuqS'
+    _template: hero
 ---
 
