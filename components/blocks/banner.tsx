@@ -57,7 +57,7 @@ export const bannerBlockSchema: TinaTemplate = {
   name: "banner",
   label: "Banner",
   ui: {
-    previewSrc: "/blocks/testimonial.png",
+    previewSrc: "/blocks/banner.png",
     defaultItem: {
       header: "Impact",
       title: "Data",

@@ -68,7 +68,6 @@ export const FeatureAlt2 = ({ featuresColor, data, tinaField }) => {
 export const FeaturesAlt2 = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12">
-
       <Container
         className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4"
   

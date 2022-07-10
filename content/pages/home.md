@@ -17,7 +17,7 @@ blocks:
       - label: Learn More
         type: link
         icon: true
-        link: ''
+        link: /AI4Bharat Launch.pdf
     image:
       src: /rural-children.jpeg
       alt: AI4Bharat
