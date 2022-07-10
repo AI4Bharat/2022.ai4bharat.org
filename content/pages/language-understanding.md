@@ -89,7 +89,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicNER
         comingSoon: false
         updated: false
         text: >-
