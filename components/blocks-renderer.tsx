@@ -15,6 +15,7 @@ import { PhotoCardsGrid2 } from "./blocks/photoCards2";
 import { PhotoCardSingle } from "./blocks/photoCardSingle";
 import { TeamCardsGrid } from "./blocks/teamCardsGrid";
 import { JobCardsGrid } from "./blocks/jobCards";
+import { PhotoCardSingleSmall } from "./blocks/photoCardSingleSmall";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
   return (
@@ -158,7 +159,16 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                         >
                           <JobCardsGrid data={block} parentField={`blocks.${i}`} />
                         </div>
-                      );    
+                      );
+                    case "PageBlocksPhotoCardSingleSmall":
+                      return (
+                        <div
+                          data-tinafield={`blocks.${i}`}
+                          key={i + block.__typename}
+                        >
+                          <PhotoCardSingleSmall data={block} parentField={`blocks.${i}`} />
+                        </div>
+                      );
               default:
                 return null;
             }

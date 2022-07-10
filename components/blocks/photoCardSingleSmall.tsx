@@ -3,7 +3,6 @@ import { Container } from "../util/container";
 import type { TinaTemplate } from "tinacms";
 
 const PhotoCard = ({ featuresColor, data, tinaField }) => {
-  console.log("was smaller=",data.small)
   return (
     <div data-tinafield={tinaField} className="w-full md:w-1/2 xl:w-1/3 px-4" >
       <div className="bg-white rounded-lg overflow-hidden mb-10">
@@ -24,7 +23,7 @@ const PhotoCard = ({ featuresColor, data, tinaField }) => {
   );
 };
 
-export const PhotoCardSingle = ({ data, parentField }) => {
+export const PhotoCardSingleSmall = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12">
 
@@ -51,11 +50,12 @@ const defaultPhotoCard = {
   title: "Here's Another Feature",
   text: "This is where you might talk about the feature, if this wasn't just filler text.",
   image: "/mountain.png"
+  
 };
 
-export const photoCardSingleBlockSchema: TinaTemplate = {
-  name: "photoCardSingle",
-  label: "Photo Card Single",
+export const photoCardSingleSmallBlockSchema: TinaTemplate = {
+  name: "photoCardSingleSmall",
+  label: "Photo Card Single Small",
   ui: {
     previewSrc: "/blocks/features.png",
     defaultItem: {

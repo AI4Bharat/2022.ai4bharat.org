@@ -214,8 +214,7 @@ blocks:
           AI4Bharat center with a focus on open-source tech as a public good.
           The team at EkStep Foundation, including Vivek Raghavan and Pramod
           Varma, also closely collaborate and mentor the center
-    _template: photoCardSingle
-  - items:
+      
       - title: 'MEITY, Govt of India'
         image: /mountain.png
         text: >-
@@ -225,7 +224,6 @@ blocks:
     _template: photoCardSingle
 
   - items:
-
       - title: Microsoft
         image: /mountain.png
         text: >-
@@ -238,7 +236,7 @@ blocks:
         text: >-
           CDAC has provided generous access to super-computing resources for
           training large AI models and hosting large amounts of data
-    _template: photoCardSingle
+    _template: photoCardSingleSmall
   - quote: Our Team
     author: Phil Karlton
     color: tint
