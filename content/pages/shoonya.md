@@ -27,7 +27,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: pin
         title: Transliteration Support
         text: >-
           Shoonya enables simplified input entry in Roman character with
