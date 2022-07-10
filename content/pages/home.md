@@ -214,7 +214,8 @@ blocks:
           AI4Bharat center with a focus on open-source tech as a public good.
           The team at EkStep Foundation, including Vivek Raghavan and Pramod
           Varma, also closely collaborate and mentor the center
-      
+    _template: photoCardSingle
+  - items:
       - title: 'MEITY, Govt of India'
         image: /mountain.png
         text: >-
@@ -222,6 +223,7 @@ blocks:
           India Bhasini project. As part of the DMU, AI4Bharat is collecting
           datasets across India’s 22 scheduled languages.
     _template: photoCardSingle
+
   - items:
 
       - title: Microsoft
