@@ -32,6 +32,14 @@ blocks:
         text: >-
           Shoonya enables simplified input entry in Roman character with
           transliteration from IndicXlit models supporting 20+ languages.  
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Maker-Checker Flow
+        text: >-
+          Shoonya provides multiple ways to evaluate the quality of translated
+          data with automated maker-checker flows.
     _template: flatCardsGrid
 ---
 
