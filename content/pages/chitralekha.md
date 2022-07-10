@@ -43,5 +43,26 @@ blocks:
           Chitralekha supports editing the transcriptions both in the source and
           target language in Roman characters with IndicXlit support.
     _template: flatCardsGrid
+  - quote: Chitralekha v1 Public Release is planned for 28th July
+    author: ''
+    color: primary
+    _template: testimonial
+  - items:
+      - title: Here's Another Feature
+        image: /mountain.png
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - title: Here's Another Feature
+        image: /mountain.png
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - title: Here's Another Feature
+        image: /mountain.png
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: photoCardsGrid2
 ---
 
