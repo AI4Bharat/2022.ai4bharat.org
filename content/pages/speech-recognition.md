@@ -80,7 +80,7 @@ blocks:
         updated: false
         text: >-
           Chitralekha is an open-source tool for video transcription with
-          IndicASR models with additional translation and transliteratoin
+          IndicASR models with additional translation and transliteration
           support.
     color: default
     _template: featuresAlt
