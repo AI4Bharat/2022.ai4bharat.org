@@ -32,8 +32,11 @@ blocks:
           text: Data
         title: Samanantar
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          The largest publicly available parallel corpora collection for Indic
+          languages containing ∼46.9M parallel sentences between English and 11
+          Indic languages, ranging from 142K pairs between English-Assamese to
+          8.6M pairs between English-Hindi. Of these 34.6M pairs are newly mined
+          as a part of this work.
       - icon:
           color: ''
           style: float
