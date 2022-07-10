@@ -35,9 +35,10 @@ blocks:
         title: Aksharantar
         link: /aksharantar
         text: >-
-          Aksharantar is the largest publicly available transliteration dataset
-          for 21 Indic languages. The corpus has 26M Indic language-English
-          transliteration pairs.
+          The largest publicly available parallel transliteration corpora
+          containing 26M word pairs spanning 21 languages mined from Wikidata,
+          Samanantar and IndicCorp. It also contains a challenging and diverse
+          benchmark for evaluating transliteration models.
       - icon:
           color: white
           style: circle
