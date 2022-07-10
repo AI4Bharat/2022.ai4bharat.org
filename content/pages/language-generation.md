@@ -5,7 +5,7 @@ blocks:
     text: |
       The context: what is it and what is our goal
     _template: hero
-  - quote: Our Contributions
+  - quote: Datasets
     author: Phil Karlton
     color: default
     _template: testimonial
