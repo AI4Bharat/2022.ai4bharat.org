@@ -11,9 +11,9 @@ blocks:
         title: May 2022
         comingSoon: false
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: |-
+          A report on building an
+          open data infrastructure for Indian languages.
       - icon:
           color: white
           style: circle
