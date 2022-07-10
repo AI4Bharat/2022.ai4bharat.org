@@ -60,10 +60,10 @@ blocks:
       On 28th July, we are conducting a workshop to demonstrate our datasets,
       models, and applications.
     actions:
-      - label: Action Label
+      - label: Sign Up to Attend
         type: button
         icon: true
-        link: /
+        link: 'https://forms.office.com/r/vddNi9fuqS'
       - label: Learn More
         type: link
         icon: false
