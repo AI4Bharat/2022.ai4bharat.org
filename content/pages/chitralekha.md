@@ -57,7 +57,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: chat
         title: Project BIRD
         text: >-
           We are working with Project BIRD from IIM Ahmedabad to provide same
