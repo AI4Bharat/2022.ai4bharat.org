@@ -10,7 +10,7 @@ blocks:
     _template: content
   - quote: Models
     author: Anoop K
-    color: ''
+    color: tint
     _template: testimonial
 ---
 
