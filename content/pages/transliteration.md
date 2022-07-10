@@ -39,8 +39,7 @@ blocks:
         text: >-
           The largest publicly available
 
-          parallel transliteration corpora between the Roman script and scripts
-          for Indian languages. The corpora contains 26M
+          parallel transliteration corpora containing 26M
 
           word pairs spanning 21 languages mined from Wikidata, Samanantar and
           IndicCorp. It also contains a challenging and diverse benchmark for
