@@ -9,7 +9,7 @@ blocks:
       Below we will have cards for IndicCorp, IndicGLUE, IndicBERT, IndicNER,
       NERCorpus?
     _template: hero
-  - quote: Our Contributions
+  - quote: Datasets
     author: Anoop K
     color: default
     _template: testimonial
