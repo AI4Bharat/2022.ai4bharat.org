@@ -12,16 +12,6 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
-        comingSoon: false
-        updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
           name: ball
         title: Dhwani Dataset
         link: /dhwani
@@ -30,6 +20,17 @@ blocks:
         text: >-
           17,000 hours of raw speech data for 40 Indian languages from a wide
           variety of domains including education, news, technology, and finance
+      - icon:
+          color: ''
+          style: float
+          name: code
+        title: IndicWav2Vec
+        link: /indic-wav-2-vec
+        comingSoon: false
+        updated: false
+        text: >-
+          State-of-the-art open-source ASR models for 9 languages (including
+          Nepali and Sinhalese) as measured on public benchmarks. 
       - icon:
           color: ''
           style: float
