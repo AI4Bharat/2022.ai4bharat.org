@@ -2,59 +2,14 @@ import * as React from "react";
 import {
   BiCodeBlock,
   BiLike,
-  BiMapAlt,
-  BiPalette,
-  BiPieChartAlt2,
-  BiPin,
-  BiShield,
-  BiSlider,
-  BiStore,
-  BiTennisBall,
-  BiTestTube,
-  BiTrophy,
-  BiUserCircle,
-  BiBeer,
-  BiChat,
-  BiCloud,
-  BiCoffeeTogo,
-  BiWorld,
 } from "react-icons/bi";
-import { ImTrophy } from "react-icons/im";
 import {
-  HiAdjustments,
-  HiBeaker,
-  HiChartBar,
-  HiChatAlt2,
-  HiCloud,
-  HiColorSwatch,
-  HiLocationMarker,
-  HiMap,
-  HiShieldCheck,
-  HiShoppingCart,
   HiTerminal,
   HiThumbUp,
-  HiUser,
+
 } from "react-icons/hi";
-import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import { FiAperture } from "react-icons/fi";
+
 import { useTheme } from "../layout";
-import { FaBeer, FaCoffee } from "react-icons/fa";
-import TinaIconSvg from "../../public/tina.svg";
-import AI4BharatIcon from "../../public/logo 1.svg";
 import type { TinaField } from "tinacms";
 
 const chipOptions = {
@@ -114,8 +69,6 @@ export const Chip = ({
   const theme = useTheme();
 
    const chipName = data.name || Object.keys(chipOptions)[0];
-   console.log('chipName '+ chipName);
-  // const ChipSVG = chipOptions[chipName][theme.icon === "boxicon" ? "bi" : "hi"];
 
   const chipSizeClasses = data.size && chipSizeClass[data.size];
 
@@ -127,9 +80,6 @@ export const Chip = ({
       ? theme.color
       : data.color
     : theme.color;
-
-    console.log('data.color '+data.color)
-    console.log(chipColorClass)
 
   if (data.style == "outline") {
     return (
@@ -144,13 +94,8 @@ export const Chip = ({
   } else {
     const chipColorClasses =
     chipColorClass[
-   // parentColor === "primary" &&
-    // (chipColor === theme.color || chipColor === "primary")
-    //   ? "white"
-    //   :
        chipColor
       ].filled;
-      {console.log(chipColorClasses)}
     return (
       
       <div>
@@ -161,21 +106,6 @@ export const Chip = ({
       </div>
     );
   }
-  // const chipColorClasses =
-  // chipColorClass[
-  //   parentColor === "primary" &&
-  //   (chipColor === theme.color || chipColor === "primary")
-  //     ? "white"
-  //     : chipColor
-  // ].filled;
-
-  // {console.log('data.text '+data.text)}
-  //   return(
-  //    <span className="space-x-6 ml-16">
-  //     <div className={`text-white ${chipColorClasses} uppercase w-min inline-block rounded mb-4 py-1 px-4 rounded-full text-xs font-semibold tracking-wider`}>{data.text}</div>
-  //     <div className="bg-orange-200 text-white w-min inline-block rounded mb-4 py-1 px-4 rounded-full text-xs font-semibold">hello</div>
-  //  </span>
-  //   );
 };
 
 const formatFieldLabel = (value: string) => {

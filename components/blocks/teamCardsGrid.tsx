@@ -1,48 +1,39 @@
-import { Actions } from "../util/actions";
 import { Section } from "../util/section";
 import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
-import Link from "next/link";
-import Image from "next/image";
-import { RightArrowIcon } from "tinacms";
 import { FaArrowRight } from "react-icons/fa";
 
-//   style={{ flexBasis: "16rem" }}
-
 export const TeamCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.image);
-  console.log(data.link)
   return (
-<div>
-                     
-                        <div className="relative mt-16 sm:mb-12">
-                            <div className="overflow-hidden shadow-md bg-white pb-5 rounded-lg">
-                              {data.personPhoto &&
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={data.personPhoto} className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
-                                </div>
-                              }
-                              {data.icon && (
-        <Icon
-          tinaField={`${tinaField}.icon`}
-          parentColor={featuresColor}
-          data={{ size: "small", ...data.icon }}
-          className="mb-4"
-        />
-      )}
-                                <div className="px-6 mt-16">
-                                  {data.personName &&
-                                    <div className="font-bold text-xl text-center p-1">{data.personName}</div>
-                                  }
-                                  {data.personDesignation &&
-                                    <p className="text-gray-800 text-sm text-center p-1">{data.personDesignation}</p>
-                                  }
-                                    {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
+    <div>
+
+      <div className="relative mt-16 sm:mb-12">
+        <div className="overflow-hidden shadow-md bg-white pb-5 rounded-lg">
+          {data.personPhoto &&
+            <div className="absolute -mt-20 w-full flex justify-center">
+              <div className="h-32 w-32">
+                <img src={data.personPhoto} className="rounded-full object-cover h-full w-full shadow-md" />
+              </div>
+            </div>
+          }
+          {data.icon && (
+            <Icon
+              tinaField={`${tinaField}.icon`}
+              parentColor={featuresColor}
+              data={{ size: "small", ...data.icon }}
+              className="mb-4"
+            />
+          )}
+          <div className="px-6 mt-16">
+            {data.personName &&
+              <div className="font-bold text-xl text-center p-1">{data.personName}</div>
+            }
+            {data.personDesignation &&
+              <p className="text-gray-800 text-sm text-center p-1">{data.personDesignation}</p>
+            }
+            {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
                                       <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -68,16 +59,16 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
                                             </div>
                                         </a>
                                     </div> */}
-                                </div>
-                            </div>
-                        </div>
-                     
-              
-                        
+          </div>
+        </div>
+      </div>
 
-</div>
 
-    
+
+
+    </div>
+
+
   );
 };
 
@@ -89,7 +80,7 @@ export const TeamCardsGrid = ({ data, parentField }) => {
         className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
         size="small"
       >
-   {/*     <div>
+        {/*     <div>
  <div className="container flex justify-center mx-auto pt-16">
                 <div>
                     <p className="text-gray-500 text-lg text-center font-normal pb-3">BUILDING TEAM</p>
@@ -103,38 +94,38 @@ export const TeamCardsGrid = ({ data, parentField }) => {
         {data.items &&
           data.items.map(function (block, i) {
             return (
-            <>
-           
-              <TeamCard
-                tinaField={`${parentField}.items.${i}`}
-                featuresColor={data.color}
-                key={i}
-                data={block}
-              />
-              
-            </>
+              <>
+
+                <TeamCard
+                  tinaField={`${parentField}.items.${i}`}
+                  featuresColor={data.color}
+                  key={i}
+                  data={block}
+                />
+
+              </>
             );
           })}
-                              {/* </div>
+        {/* </div>
                 </div>
             </div>
 
      
   
 </div> */}
-<div className="flex justify-center items-center">
-<a href="/home" className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-</div> 
+        <div className="flex justify-center items-center">
+          <a href="/home" className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+        </div>
       </Container>
     </Section>
   );
 };
 
 const defaultTeamCard = {
-  personName:"",
-  personDesignation:"",
-  personPhoto:"",
-  
+  personName: "",
+  personDesignation: "",
+  personPhoto: "",
+
 };
 
 export const teamCardsGridBlockSchema: TinaTemplate = {

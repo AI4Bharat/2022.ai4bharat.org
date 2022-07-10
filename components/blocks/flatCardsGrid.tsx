@@ -1,4 +1,3 @@
-import { Actions } from "../util/actions";
 import { Section } from "../util/section";
 import { Container } from "../util/container";
 import { Icon } from "../util/icon";
@@ -6,21 +5,12 @@ import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import { Chip } from "../util/chip";
 import { chipSchema } from "../util/chip";
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
-//   style={{ flexBasis: "16rem" }}
+
 export const FlatCard = ({ featuresColor, data, tinaField }) => {
-   console.log(data)
-  // console.log(data.link)
-  // console.log(typeof(data.comingSoon))
   return (
-
-  
-
    <>
 
        <div key={data.title} className="relative">
-
-       {console.log(data.chip)}
     {data.chip &&
       <Chip 
         data={{
@@ -66,7 +56,6 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
 };
 
 export const FlatCardsGrid = ({ data, parentField }) => {
-    {console.log('data.highlightColor '+data)}
   return (
     <Section color={data.color} className="pb-12  bg-white">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

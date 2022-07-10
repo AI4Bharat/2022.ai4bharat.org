@@ -8,8 +8,6 @@ export default function HomePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   const areas = props.data.postConnection.edges;
-  console.log(areas);
-
   return (
     <Layout>
       <Section className="flex-1">

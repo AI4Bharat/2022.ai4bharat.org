@@ -3,7 +3,6 @@ import { Container } from "../util/container";
 import type { TinaTemplate } from "tinacms";
 
 const PhotoCard = ({ featuresColor, data, tinaField }) => {
-  console.log("was smaller=",data.small)
   return (
     <div data-tinafield={tinaField} className="w-full md:w-1/2 xl:w-1/3 px-4" >
       <div className="bg-white rounded-lg overflow-hidden mb-10">

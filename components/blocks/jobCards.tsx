@@ -4,28 +4,17 @@ import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
-import Link from "next/link";
-import Image from "next/image";
-import { Fragment } from 'react'
 import {
   BriefcaseIcon,
-  CalendarIcon,
   CheckIcon,
-  ChevronDownIcon,
-  CurrencyDollarIcon,
-  LinkIcon,
   LocationMarkerIcon,
-  PencilIcon,
 } from '@heroicons/react/solid'
-import { Menu, Transition } from '@headlessui/react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 //   style={{ flexBasis: "16rem" }}
 export const JobCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.link)
   return (
 
     <div className="lg:items-center border border-gray-200 bg-white rounded-lg p-6 shadow-lg">

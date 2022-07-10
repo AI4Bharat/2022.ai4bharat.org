@@ -13,7 +13,6 @@ export default function ResourcePostPage(
     data: props.data,
   });
   if (data && data.post) { //problem here
-    console.log(data);
     return (
       <Layout rawData={data} data={data.global as any}>
         <Resource {...data.post} />;

@@ -5,16 +5,9 @@ import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import Link from "next/link";
-import Image from "next/image";
-import { FaCrown } from "react-icons/fa";
-import { FaBullhorn, FaClock, FaRegCheckCircle } from "react-icons/fa";
-import { AiOutlineCrown } from "react-icons/ai";
-import {IoMdCheckmarkCircleOutline} from "react-icons/io";
-//   style={{ flexBasis: "16rem" }}
+import { FaBullhorn, FaRegCheckCircle } from "react-icons/fa";
+
 export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
-  // console.log(data)
-  // console.log(data.link)
-  // console.log(typeof(data.comingSoon))
   return (
 
   <div className="relative transform rounded overflow-hidden shadow-lg mb-6 hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>
