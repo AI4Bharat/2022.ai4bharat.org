@@ -42,7 +42,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicGLUE
         comingSoon: false
         updated: false
         text: >-
