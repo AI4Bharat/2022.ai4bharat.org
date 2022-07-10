@@ -47,8 +47,10 @@ blocks:
           text: Model
         title: IndicTrans
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          A multilingual single-script model for translating between English and
+          Indian languages. This model is trained using the Samanantar corpus
+          and at the time of its release it was the state of the art open source
+          model as evaluated on Facebook's FLORES benchmark.
       - icon:
           color: ''
           style: float
