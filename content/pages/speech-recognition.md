@@ -70,6 +70,7 @@ blocks:
         text: >-
           Much smaller ASR models which can be quantized and executed on Android
           devices to support privacy-preserving inference on personal devices.
+    color: default
     _template: featuresAlt
 ---
 
