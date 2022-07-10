@@ -14,7 +14,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicNLG Suite
         comingSoon: false
         updated: false
         text: >-
