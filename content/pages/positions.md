@@ -26,7 +26,7 @@ blocks:
           name: ''
         title: AI Residents
         link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Looking for recently graduates with a Bachelor’s degree in Computer
