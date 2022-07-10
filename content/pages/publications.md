@@ -14,7 +14,7 @@ blocks:
         link: 'https://aclanthology.org/2022.acl-long.150/'
         comingSoon: false
         updated: false
-        text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra'
+        text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra. ACL 2022.'
       - icon:
           color: white
           style: circle
