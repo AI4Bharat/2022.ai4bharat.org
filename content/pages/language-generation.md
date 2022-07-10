@@ -43,7 +43,7 @@ blocks:
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
-    color: primary
+    color: default
     _template: testimonial
   - items:
       - icon:
