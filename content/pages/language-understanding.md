@@ -52,8 +52,8 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicExtreme
-        comingSoon: false
+        title: IndicXtreme
+        comingSoon: true
         updated: false
         text: >-
           This is where you might talk about the feature, if this wasn't just
