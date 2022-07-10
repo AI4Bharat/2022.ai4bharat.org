@@ -23,7 +23,7 @@ blocks:
     _template: featuresAlt
   - quote: Models
     author: Phil Karlton
-    color: primary
+    color: default
     _template: testimonial
   - quote: Our Partners
     author: Phil Karlton
