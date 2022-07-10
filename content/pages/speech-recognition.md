@@ -72,5 +72,9 @@ blocks:
           devices to support privacy-preserving inference on personal devices.
     color: default
     _template: featuresAlt
+  - quote: Our Partners
+    author: ''
+    color: default
+    _template: testimonial
 ---
 
