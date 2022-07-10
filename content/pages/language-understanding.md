@@ -32,16 +32,6 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicBERT
-        comingSoon: false
-        updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
         title: IndicGLUE
         comingSoon: false
         updated: false
