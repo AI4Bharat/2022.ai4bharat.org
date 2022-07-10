@@ -45,5 +45,13 @@ blocks:
     author: Phil Karlton
     color: primary
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Coming Soon
+        text: ''
+    _template: flatCardsGrid
 ---
 
