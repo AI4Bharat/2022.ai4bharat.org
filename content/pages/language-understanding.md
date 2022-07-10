@@ -32,7 +32,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicBERT
         comingSoon: false
         updated: false
         text: >-
