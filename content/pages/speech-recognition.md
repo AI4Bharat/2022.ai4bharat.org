@@ -62,7 +62,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: aperture
         title: On-Device ASR
         link: /on-device-asr
         comingSoon: true
