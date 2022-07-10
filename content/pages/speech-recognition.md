@@ -23,8 +23,8 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: chat
+        title: Pratilipi Dataset
         comingSoon: false
         updated: false
         text: >-
