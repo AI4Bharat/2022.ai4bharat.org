@@ -50,7 +50,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Biography Generation
         comingSoon: false
         updated: false
         text: >-
