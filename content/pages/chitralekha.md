@@ -38,10 +38,10 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Transliteration Support
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Chitralekha supports editing the transcriptions both in the source and
+          target language in Roman characters with IndicXlit support.
     _template: flatCardsGrid
 ---
 
