@@ -3,7 +3,7 @@ blocks:
   - tagline: ''
     headline: AI4Bharat Launch
     text: >
-      ## Let us solve India's challenges with A.I.
+      ##
 
 
       Nilekani Center at AI4Bharat is launching on 28th July 2022 at IIT Madras.
