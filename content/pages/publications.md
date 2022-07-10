@@ -8,12 +8,12 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Here's Another Feature
+        title: >-
+          OpenHands: Making Sign Language Recognition Accessible with Pose-based
+          Pretrained Models across Languages.
         comingSoon: false
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra'
       - icon:
           color: white
           style: circle
