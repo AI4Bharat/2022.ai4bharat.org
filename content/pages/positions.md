@@ -130,12 +130,16 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: AI Residents
-        comingSoon: false
+        title: Full Stack Developers
+        link: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSel3F8MmkET7cfgzi2nCxPAcY6-UuXcVt1tY7YmNykEY8xUhg/viewform
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          We are looking for highly motivated and capable frontend developers
+          for a 3-6 month long internship program, who would work alongside us
+          in building a feature-rich, open-source AI platform targeted at Indian
+          problems and diversity.
       - icon:
           color: ''
           style: float
