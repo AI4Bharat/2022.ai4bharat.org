@@ -136,12 +136,15 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        comingSoon: false
+        title: Language Experts
+        link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Looking for skilled translators who can translate between English and
+          their native language.The ideal candidate has experience in
+          linguistics, particularly syntax at the university level and enjoys
+          working from home, full time. 
     _template: featuresAlt
 ---
 
