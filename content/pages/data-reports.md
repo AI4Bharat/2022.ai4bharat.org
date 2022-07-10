@@ -23,9 +23,7 @@ blocks:
         title: Oct 2022
         link: ''
         comingSoon: true
-        text: |-
-          A report on building an
-          open data infrastructure for Indian languages.
+        text: A report on collecting voice data from every district in Tamil Nadu.
     _template: featuresAlt
 ---
 
