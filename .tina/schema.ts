@@ -17,6 +17,7 @@ import { faqBlockSchema } from "../components/blocks/faq";
 import { quoteBlockSchema } from "../components/blocks/quote";
 import { teamCardsGridBlockSchema } from "../components/blocks/teamCardsGrid";
 import { jobCardsGridBlockSchema } from "../components/blocks/jobCards";
+import { photoCardSingleSmallBlockSchema } from "../components/blocks/photoCardSingleSmall";
 
 const schema = defineSchema({
   collections: [
@@ -430,6 +431,7 @@ const schema = defineSchema({
             teamCardsGridBlockSchema,
             photoCardsGrid2BlockSchema,
             photoCardSingleBlockSchema,
+            photoCardSingleSmallBlockSchema,
             jobCardsGridBlockSchema,
           ],
         },

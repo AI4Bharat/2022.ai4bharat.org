@@ -65,12 +65,6 @@ export const VideoCarousel = ({ data, parentField = "" }) => {
         data-tinafield={`${parentField}.body`}
         size="medium"
       >
-       {console.log('videoCarousel')}
-      {console.log(data)}
-      {console.log(data.videoDetails?'true':'false')}
-      {data.videoDetails.map((videoDetail)=>{
-        console.log(videoDetail.embedCode)
-      })}
         {/* <VideoPlayer embedCode={data.embedCode}/> */}
 
         

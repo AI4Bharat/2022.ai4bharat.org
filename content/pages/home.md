@@ -208,16 +208,19 @@ blocks:
     _template: testimonial
   - items:
       - title: Nandan Nilekani
-        image: /mountain.png
+        image: >-
+          https://pbs.twimg.com/profile_images/433527646433996801/6uVeWNXV_400x400.jpeg
         text: >-
           Nandan Nilekani has generously contributed to the formation of the
-          AI4Bharat center with a focus on open-source tech as a public good.
+          AI4Bharat center with a focus on open-source tech as a public good.  
           The team at EkStep Foundation, including Vivek Raghavan and Pramod
           Varma, also closely collaborate and mentor the center
+    color: default
     _template: photoCardSingle
   - items:
       - title: 'MEITY, Govt of India'
-        image: /mountain.png
+        image: >-
+          https://pbs.twimg.com/profile_images/1265215452516474880/sLpxBZCX_400x400.jpg
         text: >-
           AI4Bharat is the official Data Management Unit (DMU) of the Digital
           India Bhasini project. As part of the DMU, AI4Bharat is collecting
@@ -225,17 +228,17 @@ blocks:
     _template: photoCardSingle
   - items:
       - title: Microsoft
-        image: /mountain.png
+        image: ''
         text: >-
           Microsoft’s Research Lab and India Development Center (IDC) have
           supported AI4Bharat with unrestricted research grants and time for
           researchers to contribute towards open-source technologies.
       - title: CDAC
-        image: /mountain.png
+        image: ''
         text: >-
           CDAC has provided generous access to super-computing resources for
           training large AI models and hosting large amounts of data
-    _template: photoCardsGrid2
+    _template: photoCardSingle
   - quote: Our Team
     author: Phil Karlton
     color: tint

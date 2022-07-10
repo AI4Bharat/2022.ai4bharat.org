@@ -251,6 +251,16 @@ fragment PageParts on Page {
       }
       color
     }
+    ... on PageBlocksPhotoCardSingleSmall {
+      items {
+        __typename
+        title
+        image
+        link
+        text
+      }
+      color
+    }
     ... on PageBlocksJobCardsGrid {
       items {
         __typename
