@@ -90,10 +90,11 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Karya
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Karya is an application developed at Microsoft Research and maintained
+          by Karya Inc. We are using Karya to collect voice samples from across
+          the country.
       - icon:
           color: ''
           style: float
