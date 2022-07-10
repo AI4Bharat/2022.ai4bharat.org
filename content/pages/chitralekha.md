@@ -53,7 +53,8 @@ blocks:
         title: NPTEL
         text: >-
           We are working with NPTEL to help their language contributors provide
-          transcriptions for NPTEL's videos on higher education. 
+          transcriptions for NPTEL's videos on higher education in various
+          Indian languages.
       - icon:
           color: ''
           style: float
