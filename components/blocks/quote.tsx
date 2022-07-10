@@ -27,23 +27,24 @@ export const Quote = ({ data, parentField = "" }) => {
     <Section color={data.color}>
       
       <Container size="small">
-        <span className="inline-block hidden lg:block absolute right-0 w-max video-player"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span>
-      <span className="component inline-block max-w-lg rounded-lg bg-gradient-to-r from-cyan-600 via-cyan-400 to-cyan-600 p-10 mx-1 md:mx-10 lg:-ml-12">
+        {/* bg-gradient-to-r from-cyan-600 via-cyan-400 to-cyan-600  */}
+        {/* <span className="inline-block hidden lg:block absolute right-0 w-max video-player"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span> */}
+      <span className="component inline-block flex justify-center items-center text-center rounded-lgp-10 mx-1 md:mx-10">
       <span
-              className={`block text-8xl transform translate-y-6 text-white	-left-4 leading-4 -z-1`}
+              className={`block text-8xl transform text-black	-left-4 leading-4 -z-1`}
             >
               &ldquo;
             </span>
-        <blockquote className="text-white text-center p-10 w-full m-1 font-lato text-2xl font-semibold">
+        <blockquote className="text-black text-center p-10 w-full m-1 font-lato text-2xl font-semibold">
             {data.quoteContent}
             <br/>
 			<cite className="p-2 font-normal"> - {data.author}</cite>
 		</blockquote>
-        {/* <span
-              className={`block text-8xl transform translate-y-6 translate-x-96 text-white leading-4 -z-1`}
+        <span
+              className={`block text-8xl transform leading-4 -z-1`}
             >
               &rdquo;
-            </span> */}
+            </span>
     
 	</span>
       </Container>

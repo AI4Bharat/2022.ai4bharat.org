@@ -7,78 +7,67 @@ import { iconSchema } from "../util/icon";
 import Link from "next/link";
 import Image from "next/image";
 //   style={{ flexBasis: "16rem" }}
-export const FeatureAlt2 = ({ featuresColor, data, tinaField }) => {
+export const PhotoCard = ({ featuresColor, data, tinaField }) => {
   console.log(data)
+  console.log(data.image);
   console.log(data.link)
   return (
+    <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 overflow-hidden flex flex-col lg:flex-row" >
 
-  <div className="relative w-48 mb-6 transform rounded overflow-hidden shadow-xl hover:bg-gray-50 transition duration-500 hover:scale-110" data-tinafield={tinaField}>
-  {data.link &&
-  <Link
-       href={data.link}
-       passHref
-     >
-       <a key={data.id}>
-
-    <div className="px-6 py-4 mb-6">
-      
-    {data.icon && (
-        <Icon
-          tinaField={`${tinaField}.icon`}
-          parentColor={featuresColor}
-          data={{ size: "small", ...data.icon }}
-          className="mb-4"
-        />
-      )}
-
+    {data.image && ( 
+          <Image src={data.image} width={500} height={150} />
+    )}
     <div>
-    {data.title && ( 
-      <div 
-        className="text-xl mb-2 font-semibold" 
-        data-tinafield={`${tinaField}.title`}>
-          {data.title}
-      </div> 
-    )}
-
-    {data.text && (
-      <p 
-      className="text-gray-700 text-base mb-4"
-      data-tinafield={`${tinaField}.text`}
-      >
-        {data.text}
-      </p> 
-    )}
-    </div>
-    </div>
-    <div className="p-2 bg-orange-400 w-full h-2 rounded-t-md absolute inset-x-0 bottom-0"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none"></p></div>
-     {data.actions && <Actions actions={data.actions} />}
-
-   
-  
+          <div className="p-4 justify-between leading-normal w-full">
+          {data.title && (
+                <div data-tinafield={`${tinaField}.title`} className="font-bold text-xl mb-2 leading-tight"> {data.title}</div>
+           
+                )}
+          </div>
     
-    </a>
-          </Link> 
-}
-  </div>
+        {data.text && (
+          <p 
+          className="text-gray-700 text-base mb-4 px-6"
+          data-tinafield={`${tinaField}.text`}
+          >
+            {data.text}
+          </p> 
+        )}
+        </div>
 
+         {data.actions && <Actions actions={data.actions} />}
+    
+    
+    
+    
+      </div>
+    
+      
+     
+         
+     
+    
+  
     
   );
 };
 
-export const FeaturesAlt2 = ({ data, parentField }) => {
+export const PhotoCardsGrid2 = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12">
 
       <Container
-        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4"
-  
+        className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10"
+        size="small"
       >
         {data.items &&
           data.items.map(function (block, i) {
             return (
             <>
-           
-              <FeatureAlt2
+        
+
+  
+              <PhotoCard
                 tinaField={`${parentField}.items.${i}`}
                 featuresColor={data.color}
                 key={i}
@@ -92,24 +81,20 @@ export const FeaturesAlt2 = ({ data, parentField }) => {
   );
 };
 
-const defaultFeatureAlt2 = {
+const defaultPhotoCard = {
   title: "Here's Another Feature",
   text: "This is where you might talk about the feature, if this wasn't just filler text.",
-  icon: {
-    color: "",
-    style: "float",
-    name: "",
-  },
+  image: "/mountain.png"
   
 };
 
-export const featureAltBlockSchema2: TinaTemplate = {
-  name: "featuresAlt2",
-  label: "FeaturesAlt2",
+export const photoCardsGrid2BlockSchema: TinaTemplate = {
+  name: "photoCardsGrid2",
+  label: "Photo Cards Grid",
   ui: {
     previewSrc: "/blocks/features.png",
     defaultItem: {
-      items: [defaultFeatureAlt2, defaultFeatureAlt2, defaultFeatureAlt2],
+      items: [defaultPhotoCard, defaultPhotoCard, defaultPhotoCard],
     },
   },
   fields: [
@@ -120,15 +105,19 @@ export const featureAltBlockSchema2: TinaTemplate = {
       list: true,
       ui: {
         defaultItem: {
-          ...defaultFeatureAlt2,
+          ...defaultPhotoCard,
         },
       },
       fields: [
-        iconSchema,
         {
           type: "string",
           label: "Title",
           name: "title",
+        },
+        {
+          type: "string",
+          label: "Image",
+          name: "image",
         },
         {
           type: "string",

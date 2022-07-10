@@ -44,14 +44,14 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
                     : `bg-gray-200`
       }`}>
      
-                     <ScaleIcon className="h-6 w-6 text-white" aria-hidden="true" /> 
+                     {/* <ScaleIcon className="h-6 w-6 text-white" aria-hidden="true" />  */}
        
-                     {/* <Icon
+                     <Icon
                         tinaField={`${tinaField}.icon`}
                         parentColor={featuresColor}
                         data={{ size: "small", ...data.icon }}
-                        className="mb-4 absolute top-0 left-0"
-                        /> */}
+                        className="h-6 w-6 text-white"
+                        />
                   </div>
                 }   
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
@@ -101,7 +101,7 @@ export const FlatCardsGrid = ({ data, parentField }) => {
        
         size="small"
       >
-          <div className="mt-10">
+          <div className="">
           <dl className="space-y-10 content-evenly md:space-y-0 md:grid md:grid-cols-2 md:gap-x-16 md:gap-y-10">
           
         {data.items &&

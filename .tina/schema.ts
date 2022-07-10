@@ -10,10 +10,13 @@ import { iconSchema } from "../components/util/icon";
 import { chipSchema } from "../components/util/chip";
 import { videoCarouselBlockSchema } from "../components/blocks/videoCarousel";
 import { flatCardsGridBlockSchema } from "../components/blocks/flatCardsGrid";
-
+import { photoCardsGrid2BlockSchema } from "../components/blocks/photoCards2";
+import { photoCardSingleBlockSchema } from "../components/blocks/photoCardSingle";
 import { bannerBlockSchema } from "../components/blocks/banner";
 import { faqBlockSchema } from "../components/blocks/faq";
-import { quoteBlockSchema } from "../components/blocks/quote"
+import { quoteBlockSchema } from "../components/blocks/quote";
+import { teamCardsGridBlockSchema } from "../components/blocks/teamCardsGrid";
+import { jobCardsGridBlockSchema } from "../components/blocks/jobCards";
 
 const schema = defineSchema({
   collections: [
@@ -424,6 +427,10 @@ const schema = defineSchema({
             bannerBlockSchema,
             faqBlockSchema,
             quoteBlockSchema,
+            teamCardsGridBlockSchema,
+            photoCardsGrid2BlockSchema,
+            photoCardSingleBlockSchema,
+            jobCardsGridBlockSchema,
           ],
         },
       ],

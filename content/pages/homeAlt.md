@@ -27,16 +27,18 @@ blocks:
     author: ''
     color: tint
     _template: testimonial
-  - body: |
-      ## **Bring parity with respect to English**
+  - body: |+
+      ## **Bring parity with respect to English **
 
-      ## in AI technologies for Indian languages
+      ## **in** AI technologies for Indian languages&#x20;
 
-      ## with open-source **contributions in**
+      ## **with** open-source contributions **in **
 
-      ## &#x20;datasets, models, **and** applications
+      ## datasets, models, **and** applications
 
-      ## &#x20;**and by enabling an** innovation ecosystem
+      ** and by enabling an** innovation ecosystem
+
+
     _template: content
   - quote: Our Impact Axes
     author: ''
@@ -307,5 +309,109 @@ blocks:
     author: Vikram Sarabhai
     color: default
     _template: quote
+  - title: How can I support AI4Bharat?
+    content: >-
+      You can volunteer to contribute to our projects, propose new projects, or
+      sponsor our works !
+    _template: faq
+  - title: Data
+    header: Impact
+    description: ' Curate and create the largest public datasets across tasks and languages'
+    items:
+      - title: Labelled Data
+        text: >-
+          Collect the largest public labelled datasets across IN-22 for various
+          tasks with over  100M task units
+        iconColor: cyan
+      - title: Web Scale Data
+        text: >-
+          Build open systems and AI models to mine text and audio data at web
+          scale which yield noisier but larger volume of data
+        iconColor: cyan
+      - title: Benchmark Data
+        text: >-
+          Fingerprint the diverse usage of language data by creating
+          representative and authoritative benchmarks across IN-22 & tasks
+        iconColor: cyan
+      - title: Specialization
+        text: >-
+          Adequately represent domains such as education and payments that are
+          identified to important based on usage
+        iconColor: cyan
+    highlightColor: cyan
+    _template: flatCardsGrid
+  - title: AI Models
+    header: Impact
+    description: >-
+      Build state-of-the-art, open, foundational AI models across tasks and
+      languages 
+    items:
+      - title: Foundational Models
+        text: >-
+          Be the first to open-source foundational models for translation,
+          speech recognition, & language models for IN-22  
+        iconColor: yellow
+      - title: Adoption of Models
+        text: >-
+          Ensure wide adoption of our models with 1 million downloads from
+          startups, enterprises, researchers, and governments  
+        iconColor: yellow
+      - title: Efficient Models
+        text: >-
+          Build efficient models that can be packaged to run on smartphones
+          enabling privacy and supporting uses-cases with low-connectivity 
+        iconColor: yellow
+      - title: Multilingual Transfer
+        text: >-
+          Innovate on new techniques to improve the performance of low-resource
+          languages by leveraging multilingual relations 
+        iconColor: yellow
+    highlightColor: yellow
+    color: default
+    _template: flatCardsGrid
+  - title: Translation
+    header: Contributions
+    items:
+      - chip:
+          color: green
+          style: filled
+          text: DATA
+        title: SAMANANTAR
+        text: >-
+          Created the largest public parallel corpora with 35 million En-Indic
+          language translation pairs mined from crawled web text
+      - chip:
+          color: yellow
+          style: filled
+          text: MODEL
+        title: INDIC TRANS
+        text: >-
+          Trained state-of-the-art open translation models between English and
+          11 Indic languages that are available on ULCA
+      - chip:
+          color: blue
+          text: APPLICATION
+        title: SHOONYA
+        text: >-
+          Building a tool for speeding translation work in Indian languages
+          including support for IndicTrans, transliteration, glossaries and
+          translator notes 
+      - chip:
+          text: ECOSYSTEM
+        title: ANUVAAD
+        text: >-
+          An open-source tool for document-scale translation that is deployed
+          and being used in the Supreme Court of India for translating
+          judgements 
+      - chip:
+          color: orange
+          style: filled
+          text: ECOSYSTEM
+        title: SHAASTRA
+        text: >-
+          A collaboration with IIT Madras for making high quality technical
+          articles available in multiple Indian languages on web and print 
+    highlightColor: orange
+    _template: flatCardsGrid
 ---
 

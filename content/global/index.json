@@ -28,14 +28,6 @@
         "label": "Positions"
       }
     ],
-    "callsToAction" : [
-    { "name": "Watch Demo",
-      "href": "#",
-      "icon": "PlayIcon" },
-    { "name": "Contact Us", 
-      "href": "#", 
-      "icon": "PlayIcon" }
-    ],
     "areas": [
       {
         "href": "https://indicnlp.ai4bharat.org/indic-trans/",
@@ -45,8 +37,8 @@
           "style": "float",
           "name": "world"
         },
-        "description": "Open source machine translation models and parallel corpora for Indian languages.",
-        "comingSoon" : false
+        "description": "Open-source datasets (Samanantar) and models (IndicTrans) for neural machine translation between English and 12 Indic languages.",
+        "comingSoon": false
       },
       {
         "href": "/area/transliteration",
@@ -56,8 +48,8 @@
           "style": "float",
           "name": "chart"
         },
-        "description": "",
-        "comingSoon" : false
+        "description": "Open-source datasets and benchmarks (Aksharantar), models (IndicXlit), and applications for transliteration between Roman and scripts for 20+ Indic languages.",
+        "comingSoon": false
       },
       {
         "href": "/area/speech-recognition",
@@ -67,19 +59,8 @@
           "style": "float",
           "name": "chat"
         },
-        "description": "",
-        "comingSoon" : false
-      },
-      {
-        "href": "/area/speech-synthesis",
-        "label": "Speech Synthesis",
-        "icon": {
-          "color": "orange",
-          "style": "float",
-          "name": "settings"
-        },
-        "description": "",
-        "comingSoon" : true
+        "description": "Open-source models (IndicWav2Vec) for speech recognition in 9 Indian languages.",
+        "comingSoon": false
       },
       {
         "href": "/area/language-understanding",
@@ -89,8 +70,8 @@
           "style": "float",
           "name": "cloud"
         },
-        "description": "",
-        "comingSoon" : false
+        "description": "Open-source language models (IndicBERT), benchmarks (IndicGLUE), and entity recognizers (IndicNER) for 10 Indian languages.",
+        "comingSoon": false
       },
       {
         "href": "/area/language-generation",
@@ -100,8 +81,8 @@
           "style": "float",
           "name": "shield"
         },
-        "description": "",
-        "comingSoon" : false
+        "description": "Open-source language generation model (IndicBART) and benchmarks (IndicNLG Suite) for 10 Indian languages.",
+        "comingSoon": false
       },
       {
         "href": "https://sign-language.ai4bharat.org/#/",
@@ -111,8 +92,8 @@
           "style": "float",
           "name": "like"
         },
-        "description": "Collecting data and developing tools for recognizing Indian Sign Language.",
-        "comingSoon" : false
+        "description": "Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for sign recognition for various 10 sign languages from around the world.",
+        "comingSoon": false
       },
       {
         "href": "/area/shoonya",
@@ -122,8 +103,17 @@
           "style": "float",
           "name": "map"
         },
-        "description": "",
-        "comingSoon" : true
+        "description": "Open-source workbench for AI-assisted language work on Indian languages with initial focus on translation.",
+        "comingSoon": true
+      },
+      {
+        "href": "home",
+        "label": "Chitralekha",
+        "icon": {
+          "name": "code"
+        },
+        "description": "Open-source tool for AI-assisted video subtitling and translating with a focus on educational and media content.",
+        "comingSoon": true
       }
     ],
     "resources": [

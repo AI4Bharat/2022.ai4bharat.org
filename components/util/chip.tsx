@@ -137,7 +137,7 @@ export const Chip = ({
         data-tinafield={tinaField}
         className={`relative z-10 inline-flex items-center justify-center flex-shrink-0 ${chipSizeClasses} rounded-full ${chipColorClass[chipColor].outline} ${className}`}
       >
-        <div>Hi</div>
+        <div>{data.text}</div>
         {/* <ChipSVG className="w-2/3 h-2/3" /> */}
       </div>
     );
