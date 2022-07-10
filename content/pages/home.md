@@ -7,7 +7,7 @@ blocks:
 
 
       Nilekani Center at AI4Bharat is launching on 28th July 2022 at IIT Madras.
-      Co-located with the launch will be the First AI4Bharat Workshop on Indian
+      Co-located with the launch will be the first AI4Bharat Workshop on Indian
       Language AI.
     actions:
       - label: Sign Up For Event
