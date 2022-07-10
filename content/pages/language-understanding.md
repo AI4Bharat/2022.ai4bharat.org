@@ -9,14 +9,6 @@ blocks:
     author: Anoop K
     color: default
     _template: testimonial
-  - body: |
-      Datasets and Models for Indian language understanding&#x20;
-    color: default
-    _template: content
-  - quote: Models
-    author: Anoop K
-    color: tint
-    _template: testimonial
   - items:
       - icon:
           color: ''
@@ -50,5 +42,9 @@ blocks:
           filler text.
     color: default
     _template: featuresAlt
+  - quote: Our Partners
+    author: Anoop K
+    color: tint
+    _template: testimonial
 ---
 
