@@ -70,6 +70,10 @@ blocks:
           filler text.
     color: default
     _template: featuresAlt
+  - quote: Models
+    author: Anoop K
+    color: default
+    _template: testimonial
   - quote: Our Partners
     author: Anoop K
     color: tint
