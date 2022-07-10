@@ -90,11 +90,14 @@ blocks:
           style: float
           name: ''
         title: Here's Another Feature
-        comingSoon: false
+        link: /indic-trans
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          A multilingual single-script transformer based model for translating
+          between English and Indian languages. This model is trained using the
+          Samanantar corpus and at the time of its release was the state of the
+          art open source model as evaluated on Facebook's FLORES benchmark.
       - icon:
           color: ''
           style: float
