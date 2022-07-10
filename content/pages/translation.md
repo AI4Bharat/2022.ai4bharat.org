@@ -84,10 +84,11 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Shaastra
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Our goal is to improve the reach of this monthly science and
+          technology magazine published by IIT Madras by helping in translating
+          it to multiple Indian languages using Shoonya
       - icon:
           color: ''
           style: float
