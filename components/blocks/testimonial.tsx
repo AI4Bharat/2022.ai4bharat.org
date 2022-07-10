@@ -62,7 +62,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
 
 export const testimonialBlockSchema: TinaTemplate = {
   name: "testimonial",
-  label: "Testimonial",
+  label: "Single Heading",
   ui: {
     previewSrc: "/blocks/testimonial.png",
     defaultItem: {
