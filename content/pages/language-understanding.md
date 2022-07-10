@@ -18,12 +18,16 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicCorp
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Large sentence-level monolingual
+
+          corpora for 11 languages from two language families (Indo-Aryan branch
+          and Dravidian) and Indian English with an average 9-fold increase in
+          size over OSCAR. This corpora was created by crawling content from
+          news articles, magazines and blogposts.
       - icon:
           color: ''
           style: float
