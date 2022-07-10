@@ -116,5 +116,17 @@ blocks:
           We are working with NPTEL to deploy the Chitralekha tool for
           subtitling and translating higher education videos. 
     _template: flatCardsGrid
+  - tagline: ''
+    headline: IndicASR Workshop
+    text: >
+      On 28th July, we are conducting a workshop to demonstrate our datasets,
+      models, and applications.&#x20;
+    actions:
+      - label: Sign Up to Attend
+        type: button
+        icon: true
+        link: 'https://forms.office.com/r/vddNi9fuqS'
+    color: default
+    _template: hero
 ---
 
