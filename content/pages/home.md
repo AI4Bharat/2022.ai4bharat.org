@@ -214,7 +214,7 @@ blocks:
           center. 
     _template: photoCardSingle
   - items:
-      - title: 'MEITY, Govt of India'
+      - title: 'MeitY, Govt of India'
         image: /mountain.png
         text: >-
           AI4Bharat is the official Data Management Unit (DMU) of the Digital
