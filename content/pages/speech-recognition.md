@@ -98,11 +98,11 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: chat
+        title: NPTEL
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          We are working with NPTEL to deploy the Chitralekha tool for
+          subtitling and translating higher education videos. 
     _template: flatCardsGrid
 ---
 
