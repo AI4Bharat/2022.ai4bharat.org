@@ -19,7 +19,8 @@ blocks:
         icon: true
         link: ''
     image:
-      src: /rural-children.jpeg
+      src: >-
+        https://res.cloudinary.com/dechqhn3b/image/upload/v1657467743/AI4BharatLaunch_gsqlw3.png
       alt: AI4Bharat
     color: default
     _template: hero
