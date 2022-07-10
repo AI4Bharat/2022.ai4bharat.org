@@ -63,9 +63,9 @@ blocks:
         type: button
         icon: true
         link: 'https://forms.office.com/r/vddNi9fuqS'
-      - label: Action Label
-        type: button
-        icon: true
+      - label: Learn More
+        type: link
+        icon: false
         link: /
     _template: hero
 ---
