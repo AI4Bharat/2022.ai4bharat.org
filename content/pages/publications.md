@@ -15,7 +15,7 @@ blocks:
         text: >-
           Tahir Javed, Sumanth Doddapaneni, Abhigyan Raman, Kaushal Santosh
           Bhogale, Gowtham Ramesh, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M.
-          Khapra
+          Khapra. AAAI 2022.
       - icon:
           color: ''
           style: float
