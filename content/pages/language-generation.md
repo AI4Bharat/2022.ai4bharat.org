@@ -40,7 +40,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicBARTSS
         comingSoon: false
         updated: false
         text: >-
