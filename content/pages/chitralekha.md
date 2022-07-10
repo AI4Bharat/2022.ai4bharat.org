@@ -21,7 +21,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Automatic Transcription
+        title: Transcription Support
         text: >-
           Chitralekha supports transcribing the input video with IndicASR for
           English and 9 Indian languages. This automatically creates timestamped
