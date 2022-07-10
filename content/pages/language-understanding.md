@@ -46,5 +46,13 @@ blocks:
     author: Anoop K
     color: tint
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Koo
+        text: Write about IndicNER for organising Koos based on NEs
+    _template: flatCardsGrid
 ---
 
