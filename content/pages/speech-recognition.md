@@ -35,13 +35,15 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
-        comingSoon: false
+          name: trophy
+        title: IndicSUPERB
+        link: /indic-superb
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          A benchmark of speech recognition tasks including ASR, speaker
+          verification and identification, and keyword detection for 10 Indian
+          languages.
     _template: featuresAlt
 ---
 
