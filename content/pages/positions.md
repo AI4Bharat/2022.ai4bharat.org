@@ -1,5 +1,11 @@
 ---
 blocks:
+  - tagline: ''
+    headline: Join Us
+    text: >
+      We are building a team of language experts, engineers and researchers to
+      help us create datastets, tools and models for Indian languages
+    _template: hero
   - body: >
       # Hiring
 
