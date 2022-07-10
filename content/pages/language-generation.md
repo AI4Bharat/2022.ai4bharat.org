@@ -58,6 +58,15 @@ blocks:
     text: >
       On 28th July, we are conducting a workshop to demonstrate our datasets,
       models, and applications.
+    actions:
+      - label: Sign Up to Attend
+        type: button
+        icon: true
+        link: 'https://forms.office.com/r/vddNi9fuqS'
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
     _template: hero
 ---
 
