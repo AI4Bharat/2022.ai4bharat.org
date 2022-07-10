@@ -40,6 +40,14 @@ blocks:
         text: >-
           Shoonya provides multiple ways to evaluate the quality of translated
           data with automated maker-checker flows.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Context View
+        text: >-
+          Shoonya allows translators to see paragraph level context when
+          translating an individual sentence. 
     _template: flatCardsGrid
 ---
 
