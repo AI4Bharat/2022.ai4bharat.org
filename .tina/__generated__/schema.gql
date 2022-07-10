@@ -417,6 +417,18 @@ type PageBlocksPhotoCardSingle {
   color: String
 }
 
+type PageBlocksPhotoCardSingleSmallItems {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+type PageBlocksPhotoCardSingleSmall {
+  items: [PageBlocksPhotoCardSingleSmallItems]
+  color: String
+}
+
 type PageBlocksJobCardsGridItemsIcon {
   color: String
   style: String
@@ -437,7 +449,7 @@ type PageBlocksJobCardsGrid {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksPhotoCardSingleSmall | PageBlocksJobCardsGrid
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -795,6 +807,18 @@ input PageBlocksPhotoCardSingleMutation {
   color: String
 }
 
+input PageBlocksPhotoCardSingleSmallItemsMutation {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+input PageBlocksPhotoCardSingleSmallMutation {
+  items: [PageBlocksPhotoCardSingleSmallItemsMutation]
+  color: String
+}
+
 input PageBlocksJobCardsGridItemsIconMutation {
   color: String
   style: String
@@ -831,6 +855,7 @@ input PageBlocksMutation {
   teamCardsGrid: PageBlocksTeamCardsGridMutation
   photoCardsGrid2: PageBlocksPhotoCardsGrid2Mutation
   photoCardSingle: PageBlocksPhotoCardSingleMutation
+  photoCardSingleSmall: PageBlocksPhotoCardSingleSmallMutation
   jobCardsGrid: PageBlocksJobCardsGridMutation
 }
 
