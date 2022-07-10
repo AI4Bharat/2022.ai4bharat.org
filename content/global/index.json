@@ -160,7 +160,7 @@
     ]
   },
   "footer": {
-    "color": "primary",
+    "color": "default",
     "social": {
       "map": "https://ai4bharat.org/",
       "facebook": "https://www.facebook.com/onefourthlabs",
