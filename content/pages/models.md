@@ -56,10 +56,12 @@ blocks:
           name: AI4B
         title: IndicXLit
         link: /indic-x-lit
-        text: >
-          IndicXlit is a Transformer-based multilingual transliteration model
-          (with ~11M parameters) for romanised to Indic script conversion,
-          supporting 21 languages from the Indian subcontinent.
+        text: >-
+          A multilingual transformer based model for transliteration from
+          romanized input to native language scripts supporting 21 languages.
+          This model is trained using Aksharantar corpus and at the time of its
+          release was the state of the art open source model as evaluated on
+          Google's Dakshina benchmark and our Aksharantar benchmark.
       - icon:
           color: white
           style: circle
