@@ -127,7 +127,7 @@ blocks:
         icon: true
         link: /
       - label: Sign Up to Attend
-        type: link
+        type: button
         icon: true
         link: 'https://forms.office.com/r/vddNi9fuqS'
     color: default
