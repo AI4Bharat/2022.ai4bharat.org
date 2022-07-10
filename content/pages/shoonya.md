@@ -11,7 +11,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: user
         title: Workplace Management
         text: >-
           Shoonya provides hierarchical way to manage language work into
