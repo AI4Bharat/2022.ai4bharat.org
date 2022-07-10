@@ -20,6 +20,10 @@ blocks:
       multilngual models which exploit the similarity between Indian languages.
     color: default
     _template: hero
+  - quote: Our Contributions
+    author: Phil Karlton
+    color: default
+    _template: testimonial
   - title: Our Contributions
     items:
       - icon:
