@@ -70,6 +70,18 @@ blocks:
         text: >-
           Much smaller ASR models which can be quantized and executed on Android
           devices to support privacy-preserving inference on personal devices.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Chitralekha
+        link: /chitralekha
+        comingSoon: true
+        updated: false
+        text: >-
+          Chitralekha is an open-source tool for video transcription with
+          IndicASR models with additional translation and transliteratoin
+          support.
     color: default
     _template: featuresAlt
   - quote: Our Partners
