@@ -26,7 +26,7 @@ blocks:
         text: >-
           Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish
           Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra,
-          Pratyush Kumar.
+          Pratyush Kumar. arXiv, 2022.
       - icon:
           color: white
           style: circle
