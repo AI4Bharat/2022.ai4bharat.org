@@ -30,16 +30,6 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Biography Generation
-        comingSoon: false
-        updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
         title: IndicBART
         comingSoon: false
         updated: false
@@ -60,7 +50,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Question Generation
+        title: Generation Tasks
         comingSoon: false
         updated: false
         text: >-
