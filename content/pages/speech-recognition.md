@@ -14,6 +14,7 @@ blocks:
           style: float
           name: ball
         title: Dhwani Dataset
+        link: /dhwani
         comingSoon: false
         updated: true
         text: >-
