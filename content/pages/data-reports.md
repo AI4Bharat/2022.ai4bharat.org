@@ -7,8 +7,8 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: AI4B
+        title: May 2022
         comingSoon: false
         updated: false
         text: >-
