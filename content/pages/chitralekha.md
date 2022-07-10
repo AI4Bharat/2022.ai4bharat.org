@@ -29,11 +29,14 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: chat
+        chip:
+          color: red
+          text: MODEL
+        title: Translation Support
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Chitralekha supports translating the transcription into English and 12
+          Indian languages supported by IndicTrans.
     _template: flatCardsGrid
 ---
 
