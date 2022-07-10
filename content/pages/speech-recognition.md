@@ -31,7 +31,7 @@ blocks:
         title: IndicWav2Vec
         link: /indic-wav-2-vec
         comingSoon: false
-        updated: false
+        updated: true
         text: >-
           State-of-the-art open-source ASR models for 9 languages (including
           Nepali and Sinhalese) as measured on public benchmarks. 
