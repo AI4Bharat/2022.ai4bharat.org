@@ -48,12 +48,16 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicXlit
+        link: /indic-xlit
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          A multilingual transformer based model for transliteration from
+          romanized input to native language scripts supporting 21 languages.
+          This model is trained using Aksharantar corpus and at the time of its
+          release was the state of the art open source model as evaluated on
+          Google's Dakshina benchmark and our Aksharantar benchmark.
       - icon:
           color: ''
           style: float
