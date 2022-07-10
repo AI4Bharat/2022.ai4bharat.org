@@ -62,12 +62,14 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        comingSoon: false
+        title: IndicLangID
+        link: /
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          A model for identifying the language of romanized content on social
+          media. This model will be trained using the large number of romanized
+          Indian language words in Aksharantar.
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
