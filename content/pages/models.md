@@ -45,12 +45,11 @@ blocks:
           name: AI4B
         title: IndicTrans
         link: /indic-trans
-        text: >
-          IndicTrans is a Transformer-XL model trained on samanantar dataset.
-          Two models are available which can translate from Indic to English and
-          English to Indic. The model can perform translations for 11
-          lanaguages: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam,
-          Marathi, Oriya, Punjabi, Tamil, Telugu.
+        text: >-
+          A multilingual single-script transformer based model for translating
+          between English and Indian languages. This model is trained using the
+          Samanantar corpus and at the time of its release was the state of the
+          art open source model as evaluated on Facebook's FLORES benchmark.
       - icon:
           color: white
           style: circle
