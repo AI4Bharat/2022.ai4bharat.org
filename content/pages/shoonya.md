@@ -49,9 +49,9 @@ blocks:
           Shoonya allows translators to see paragraph level context when
           translating an individual sentence. 
       - icon:
-          color: ''
+          color: orange
           style: float
-          name: ''
+          name: chat
         title: Cross-lingual Support
         text: >-
           For low-resource language, Shoonya supports showing annotators
