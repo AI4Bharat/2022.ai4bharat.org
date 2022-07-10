@@ -43,26 +43,26 @@ blocks:
           Chitralekha supports editing the transcriptions both in the source and
           target language in Roman characters with IndicXlit support.
     _template: flatCardsGrid
-  - body: |
-      # Partners
-    _template: content
-  - items:
-      - title: Here's Another Feature
-        image: /mountain.png
+  - title: Partners
+    header: ''
+    items:
+      - icon:
+          color: ''
+          style: float
+          name: store
+        title: NPTEL
+        text: >-
+          We are working with NPTEL to help their language contributors provide
+          transcriptions for NPTEL's videos on higher education. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
-      - title: Here's Another Feature
-        image: /mountain.png
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - title: Here's Another Feature
-        image: /mountain.png
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-    _template: photoCardsGrid2
+    _template: flatCardsGrid
   - quote: Chitralekha v1 Public Release is planned for 28th July
     author: ''
     color: primary
