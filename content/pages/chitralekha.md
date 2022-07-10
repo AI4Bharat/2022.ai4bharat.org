@@ -58,10 +58,10 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Project BIRD
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          We are working with Project BIRD from IIM Ahmedabad to provide same
+          language subtitling for improving literacy in Indian languages.
     _template: flatCardsGrid
   - quote: Chitralekha v1 Public Release is planned for 28th July
     author: ''
