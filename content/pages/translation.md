@@ -71,5 +71,31 @@ blocks:
     author: Phil Karlton
     color: default
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: DesiCrew
+        text: >-
+          We are in discussions with DesiCrew to deploy Shoonya to help them
+          better manage their translation workflows
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: flatCardsGrid
 ---
 
