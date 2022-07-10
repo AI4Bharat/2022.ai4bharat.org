@@ -48,6 +48,14 @@ blocks:
         text: >-
           Shoonya allows translators to see paragraph level context when
           translating an individual sentence. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Cross-lingual Support
+        text: >-
+          For low-resource language, Shoonya supports showing annotators
+          translations in other languages.
     _template: flatCardsGrid
 ---
 
