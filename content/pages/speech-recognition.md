@@ -76,5 +76,32 @@ blocks:
     author: ''
     color: default
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: user
+        title: DesiCrew
+        text: >-
+          We are working with Desicrew to collect voice samples from across 500
+          districts in the country. We are beginning with TamilNadu in August
+          2022.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: flatCardsGrid
 ---
 
