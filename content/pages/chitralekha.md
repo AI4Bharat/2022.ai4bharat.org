@@ -21,10 +21,11 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Automatic Transcription
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Chitralekha supports transcribing the input video with IndicASR for
+          English and 9 Indian languages. This automatically creates timestamped
+          transcription cards which can be edited. 
       - icon:
           color: ''
           style: float
