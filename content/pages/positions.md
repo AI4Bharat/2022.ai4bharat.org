@@ -13,7 +13,7 @@ blocks:
           name: ''
         title: Language Experts
         link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Looking for skilled translators who can translate between English and
