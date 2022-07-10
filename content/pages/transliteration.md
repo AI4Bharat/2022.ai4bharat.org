@@ -23,5 +23,9 @@ blocks:
       Indic languages along with models for transliteration of romanized inputs
       into native script.
     _template: hero
+  - quote: Our Contributions
+    author: Phil Karlton
+    color: default
+    _template: testimonial
 ---
 
