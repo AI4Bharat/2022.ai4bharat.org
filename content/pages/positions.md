@@ -116,17 +116,21 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        comingSoon: false
+        title: AI Residents
+        link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Looking for recently graduates with a Bachelor’s degree in Computer
+          Science and Engineering or related fields to work on cutting edge
+          research problems of national importance. Candidates should have
+          excellent programming skills and a strong grasp of fundamentals of
+          Deep Learning.
       - icon:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: AI Residents
         comingSoon: false
         updated: false
         text: >-
