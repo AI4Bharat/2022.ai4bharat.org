@@ -63,7 +63,7 @@ blocks:
           style: float
           name: ''
         title: IndicNER
-        comingSoon: false
+        comingSoon: true
         updated: false
         text: >-
           This is where you might talk about the feature, if this wasn't just
