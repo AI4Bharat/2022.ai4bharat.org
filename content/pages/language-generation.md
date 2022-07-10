@@ -53,5 +53,11 @@ blocks:
         title: Coming Soon
         text: ''
     _template: flatCardsGrid
+  - tagline: ''
+    headline: IndicNLG Workshop
+    text: >
+      On 28th July, we are conducting a workshop to demonstrate our datasets,
+      models, and applications.
+    _template: hero
 ---
 
