@@ -415,3 +415,194 @@ blocks:
     _template: flatCardsGrid
 ---
 
+      - icon:
+          color: ''
+          style: float
+          name: chat
+        title: Benchmark Data
+        text: >-
+          Fingerprint the diverse usage of language data by creating
+          representative and authoritative benchmarks across IN-22 & tasks
+        iconColor: cyan
+      - icon:
+          color: AI4B
+          style: float
+          name: settings
+        title: Specialization
+        text: >-
+          Adequately represent domains such as education and payments that are
+          identified to important based on usage
+        iconColor: cyan
+    highlightColor: cyan
+    _template: flatCardsGrid
+  - title: AI Models
+    header: Impact
+    description: >-
+      Build state-of-the-art, open, foundational AI models across tasks and
+      languages 
+    items:
+      - icon:
+          color: orange
+          style: float
+          name: world
+        title: Foundational Models
+        text: >-
+          Be the first to open-source foundational models for translation,
+          speech recognition, & language models for IN-22  
+        iconColor: yellow
+      - icon:
+          color: ''
+          style: float
+          name: chart
+        title: Adoption of Models
+        text: >-
+          Ensure wide adoption of our models with 1 million downloads from
+          startups, enterprises, researchers, and governments  
+        iconColor: yellow
+      - icon:
+          color: ''
+          style: float
+          name: chat
+        title: Efficient Models
+        text: >-
+          Build efficient models that can be packaged to run on smartphones
+          enabling privacy and supporting uses-cases with low-connectivity 
+        iconColor: yellow
+      - icon:
+          color: ''
+          style: float
+          name: settings
+        title: Multilingual Transfer
+        text: >-
+          Innovate on new techniques to improve the performance of low-resource
+          languages by leveraging multilingual relations 
+        iconColor: yellow
+    highlightColor: yellow
+    color: default
+    _template: flatCardsGrid
+  - title: Models
+    header: Download our
+    description: >-
+      These include state of the art models for translation, ASR, sign language
+      recognition and more ...
+    items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Indic-ft '
+        link: /models/indic-ft
+        text: >-
+          Indic-ft is a group of subword-aware word embedding models trained on
+          our IndicNLP Corpora and is particularly well-suited for Indian
+          languages due to their highly agglutinative morphology
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Indic-Bert
+        link: /models/indic-bert
+        text: >-
+          IndicBERT is a multilingual ALBERT model pretrained exclusively on
+          IndicCorp for 12 major Indian languages and evaluated on diverse NLU
+          tasks. It has much fewer parameters than other multilingual models
+          (mBERT, XLM-R etc.) while performing on par or better than these
+          models.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicTrans
+        link: /models/indic-trans
+        text: >-
+          IndicTrans is a Transformer-4x ( ~434M ) multilingual NMT model
+          trained on Samanantar dataset for 11 Indian langauges. It performs
+          competitively or better than other publicly available open source
+          models, and  commercial systems like Google, Bing translate on most
+          translation benchmarks.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicWav2Vec
+        link: /models/indic-wav-2-vec
+        text: >-
+          IndicWav2Vec is a multilingual speech model pretrained on 40 Indian
+          languages (4 language families) and reaches state-of-the-art ASR for 9
+          Indian languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicBart
+        link: '/models/indic-bart '
+        text: >-
+          IndicBART is an mBART-like multilingual, sequence-to-sequence
+          pre-trained model focusing on 11 Indic languages and English. It
+          supports NLG applications like machine translation, summarization,
+          question generation, etc
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicXlit
+        link: /models/indic-x-lit
+        text: >-
+          IndicXlit is a transformer-based multilingual transliteration model
+          (~11M) for roman to native script conversion that supports 21 Indic
+          languages. It is trained on the Aksharantar dataset and achieves
+          state-of-the-art results on the Dakshina testset
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: OpenHands
+        link: /models/open-hands
+        text: >-
+          OpenHands is an open-source toolkit for multilingual sign language
+          recognition, supporting 7 different sign languages with lightweight
+          pose-based models achieving state-of-the-art results.
+    _template: flatCardsGrid
+  - title: Translation
+    header: Contributions
+    items:
+      - chip:
+          color: green
+          style: filled
+          text: DATA
+        title: SAMANANTAR
+        text: >-
+          Created the largest public parallel corpora with 35 million En-Indic
+          language translation pairs mined from crawled web text
+      - chip:
+          color: yellow
+          style: filled
+          text: MODEL
+        title: INDIC TRANS
+        text: >-
+          Trained state-of-the-art open translation models between English and
+          11 Indic languages that are available on ULCA
+      - chip:
+          color: blue
+          text: APPLICATION
+        title: SHOONYA
+        text: >-
+          Building a tool for speeding translation work in Indian languages
+          including support for IndicTrans, transliteration, glossaries and
+          translator notes 
+      - chip:
+          text: ECOSYSTEM
+        title: ANUVAAD
+        text: >-
+          An open-source tool for document-scale translation that is deployed
+          and being used in the Supreme Court of India for translating
+          judgements 
+      - chip:
+          color: orange
+          style: filled
+          text: ECOSYSTEM
+        title: SHAASTRA
+        text: >-
+          A collaboration with IIT Madras for making high quality technical
+          articles available in multiple Indian languages on web and print 
+    highlightColor: orange

@@ -74,6 +74,7 @@ const schema = defineSchema({
                 },
               ],
             },
+            
             {
               name: "BlockQuote",
               label: "Block Quote",

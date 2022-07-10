@@ -27,14 +27,14 @@ export const Content = ({ data, parentField = "" }) => {
   return (
     <Section color={data.color}>
       <Container
-        className={`max-w-4xl prose prose-sm ${
+        className={`prose prose-sm ${
           data.color === "primary" ? `prose-primary` : `dark:prose-dark`
         }`}
         data-tinafield={`${parentField}.body`}
         size="large"
       >
         <div>
-        <span className="inline-block"><TinaMarkdown content={data.body}/></span> 
+        <span><TinaMarkdown content={data.body}/></span> 
         {/* <span className="inline-block"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span> */}
         </div>
       </Container>
