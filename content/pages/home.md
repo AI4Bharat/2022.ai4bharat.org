@@ -13,7 +13,7 @@ blocks:
       - label: Sign Up For Event
         type: button
         icon: true
-        link: /
+        link: 'https://forms.office.com/r/vddNi9fuqS'
       - label: Learn More
         type: link
         icon: true
