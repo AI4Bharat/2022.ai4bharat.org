@@ -67,5 +67,9 @@ blocks:
           initial hints and reduce the cognitive load on humans, thereby
           improving the efficiency of human translation.
     _template: featuresAlt
+  - quote: Our Partners
+    author: Phil Karlton
+    color: default
+    _template: testimonial
 ---
 
