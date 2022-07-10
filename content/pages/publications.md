@@ -51,7 +51,7 @@ blocks:
           Jobanputra, Raghavan AK, Ajitesh Sharma, Sujit Sahoo, Harshita Diddee,
           Mahalakshmi J, Divyanshu Kakwani, Navneet Kumar, Aswin Pradeep, Kumar
           Deepak, Vivek Raghavan, Anoop Kunchukuttan, Pratyush Kumar, Mitesh
-          Shantadevi Khapra. 2022.
+          Shantadevi Khapra. TACL 2022.
       - icon:
           color: white
           style: circle
