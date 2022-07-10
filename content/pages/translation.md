@@ -61,9 +61,9 @@ blocks:
         title: Shoonya
         text: >-
           IndicTrans powers the translation workflow in our open-source
-          annotation platform Shoonya by populating automatic translations from
-          currently supporting 12 Indic languages. These automatic translations
-          act as initial hints which can then be edited by humans, thereby
+          annotation platform Shoonya by populating automatic translations which
+          can then be edited by humans. These automatic translations act as
+          initial hints and reduce the cognitive load on humans, thereby
           improving the efficiency of human translation. 
     _template: flatCardsGrid
 ---
