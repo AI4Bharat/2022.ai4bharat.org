@@ -37,6 +37,7 @@ fragment GlobalParts on Global {
       }
       description
       comingSoon
+      updated
     }
     resources {
       __typename
@@ -124,6 +125,7 @@ fragment PageParts on Page {
         title
         link
         comingSoon
+        updated
         text
       }
       color
@@ -157,9 +159,113 @@ fragment PageParts on Page {
       body
       color
     }
+    ... on PageBlocksVideoCarousel {
+      videoDetails {
+        __typename
+        title
+        embedCode
+      }
+      color
+    }
     ... on PageBlocksTestimonial {
       quote
       author
+      color
+    }
+    ... on PageBlocksFlatCardsGrid {
+      title
+      header
+      description
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        chip {
+          __typename
+          color
+          style
+          text
+        }
+        title
+        link
+        text
+        iconColor
+      }
+      highlightColor
+      color
+    }
+    ... on PageBlocksBanner {
+      title
+      header
+      description
+      highlightColor
+      color
+    }
+    ... on PageBlocksFaq {
+      title
+      content
+      color
+    }
+    ... on PageBlocksQuote {
+      quoteContent
+      author
+      color
+    }
+    ... on PageBlocksTeamCardsGrid {
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        personName
+        personPhoto
+        personDesignation
+        personDescription
+      }
+      color
+    }
+    ... on PageBlocksPhotoCardsGrid2 {
+      items {
+        __typename
+        title
+        image
+        link
+        text
+      }
+      color
+    }
+    ... on PageBlocksPhotoCardSingle {
+      items {
+        __typename
+        title
+        image
+        link
+        text
+      }
+      color
+    }
+    ... on PageBlocksJobCardsGrid {
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        title
+        link
+        duration
+        jobType
+        description
+      }
       color
     }
   }

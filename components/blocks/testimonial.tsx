@@ -38,7 +38,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
               className={`block mx-auto h-0.5 w-1/6 ${
                 data.color === "primary"
                   ? `bg-blue-600`
-                  : `bg-orange-200 dark:bg-gray-700`
+                  : `bg-orange-300 dark:bg-gray-700`
               }`}
             ></span>
           </div>
@@ -62,7 +62,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
 
 export const testimonialBlockSchema: TinaTemplate = {
   name: "testimonial",
-  label: "Testimonial",
+  label: "Single Heading",
   ui: {
     previewSrc: "/blocks/testimonial.png",
     defaultItem: {

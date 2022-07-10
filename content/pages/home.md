@@ -1,62 +1,84 @@
 ---
 blocks:
   - tagline: ''
-    headline: AI4Bharat
+    headline: AI4Bharat Launch
     text: >
       ## Let us solve India's challenges with A.I.
 
 
-      AI4Bhārat is a non-profit, open-source community of engineers, domain
-      experts, policy makers, and academicians collaborating to build AI
-      solutions to solve India’s problems, today.
+      Nilekani Center at AI4Bharat is launching on 28th July 2022 at IIT Madras.
+      Co-located with the launch will be the First AI4Bharat Workshop on Indian
+      Language AI.
+    actions:
+      - label: Sign Up For Event
+        type: button
+        icon: true
+        link: /
+      - label: Learn More
+        type: link
+        icon: true
+        link: /
     image:
       src: /rural-children.jpeg
       alt: AI4Bharat
     color: default
     _template: hero
-  - body: >
-      # The Case for AI4Bharat
+  - quote: Our Mission
+    author: ''
+    color: tint
+    _template: testimonial
+  - body: |
+      ## **Bring parity with respect to English**
 
+      ## in AI technologies for Indian languages
 
-      ###### India is a civilisation of the ages, but with significant
-      socio-economic challenges currently. AI4Bharat is a community created to
-      build AI solutions to solve India’s problems, today.&#xD;&#xA;AI4Bharat is
-      built around four functions: **Discover, Educate, Build and Comment**. We
-      believe that the pace of innovation in AI for good can be significantly
-      increased by systematising the process of **problem discover**y and
-      **solution engineering**. In addition, there is need for **education** and
-      **robust commentary.**
+      ## with open-source **contributions in**
 
+      ## &#x20;datasets, models, **and** applications
 
-      Our group focuses on building NLP ecosystem for Indian languages and
-      seeking new models and techniques better suited for Indian languages. Our
-      project has volunteers from IIT Madras, One Fourth Labs, Microsoft Search
-      Technology Center India.
-    color: default
+      ## &#x20;**and by enabling an** innovation ecosystem
     _template: content
-  - items:
+  - quote: Our Impact Axes
+    author: ''
+    color: tint
+    _template: testimonial
+  - title: ''
+    items:
       - icon:
-          color: ''
-          style: float
+          color: white
           name: world
-        title: 'Prof. Mitesh Khapra, IIT Madras'
-        link: /home
-        text: ''
+        title: Ecosystem
+        text: |-
+          Enable researchers, startups, and govt.  
+          to innovate on  
+          Indian language AI tech 
+        iconColor: cyan
       - icon:
-          color: ''
-          style: float
+          color: white
+          name: chat
+        title: AI Models
+        text: |-
+          Build state-of-the-art, open, foundational  
+          AI models across  
+          tasks and languages 
+        iconColor: cyan
+      - icon:
+          color: white
           name: map
-        title: 'Prof. Pratyush Kumar, IIT Madras'
-        link: /home
-        text: ''
+        title: Data
+        text: >-
+          Curate and create the largest public datasets and benchmarks across
+          tasks and languages 
+        iconColor: cyan
       - icon:
-          color: ''
-          style: float
-          name: settings
-        title: 'Anoop Kunchukuttan, Microsoft Research'
-        link: /home
-        text: ''
-    _template: features
+          color: white
+          name: cloud
+        title: Applications
+        text: >-
+          Design and deploy with partners reference apps to demonstrate
+          potential of open AI models 
+        iconColor: cyan
+    _template: flatCardsGrid
   - quote: Areas
     color: tint
     _template: testimonial
@@ -68,9 +90,10 @@ blocks:
         title: Translation
         link: 'https://indicnlp.ai4bharat.org/indic-trans/'
         comingSoon: false
+        updated: false
         text: >-
-          Creating open source machine translation models and parallel corpora
-          (Samānantar) for Indian languages.
+          Open-source datasets (Samanantar) and models (IndicTrans) for neural
+          machine translation between English and 12 Indic languages.
       - icon:
           color: ''
           style: float
@@ -78,7 +101,11 @@ blocks:
         title: Transliteration
         link: /area/transliteration
         comingSoon: false
-        text: ''
+        updated: false
+        text: >-
+          Open-source datasets and benchmarks (Aksharantar), models (IndicXlit),
+          and applications for transliteration between Roman and scripts for 20+
+          Indic languages.
       - icon:
           color: ''
           style: float
@@ -86,15 +113,10 @@ blocks:
         title: Speech Recognition
         link: /area/speech-recognition
         comingSoon: false
-        text: ''
-      - icon:
-          color: ''
-          style: float
-          name: settings
-        title: Speech Synthesis
-        link: /area/speech-synthesis
-        comingSoon: true
-        text: ''
+        updated: false
+        text: >-
+          Open-source models (IndicWav2Vec) for speech recognition in 9 Indian
+          languages.
       - icon:
           color: ''
           style: float
@@ -102,7 +124,10 @@ blocks:
         title: Language Understanding
         link: /area/language-understanding
         comingSoon: false
-        text: ''
+        updated: false
+        text: >-
+          Open-source language models (IndicBERT), benchmarks (IndicGLUE), and
+          entity recognizers (IndicNER) for 10 Indian languages.
       - icon:
           color: ''
           style: float
@@ -110,7 +135,10 @@ blocks:
         title: Language Generation
         link: /area/language-generation
         comingSoon: false
-        text: ''
+        updated: false
+        text: >-
+          Open-source language generation model (IndicBART) and benchmarks
+          (IndicNLG Suite) for 10 Indian languages.
       - icon:
           color: ''
           style: float
@@ -118,10 +146,10 @@ blocks:
         title: Sign Language
         link: 'https://sign-language.ai4bharat.org/#/'
         comingSoon: false
+        updated: false
         text: >-
-          Collecting data and developing tools for recognizing Indian Sign
-          Language, specifically in workplace contexts. Funded by Microsoft's AI
-          For Accessibility Grant, 2021.
+          Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for
+          sign recognition for various 10 sign languages from around the world.
       - icon:
           color: ''
           style: float
@@ -129,7 +157,21 @@ blocks:
         title: Shoonya
         link: /area/shoonya
         comingSoon: true
-        text: ''
+        updated: false
+        text: >-
+          Open-source workbench for AI-assisted language work on Indian
+          languages with initial focus on translation.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Chitralekha
+        link: /area/chitralekha
+        comingSoon: true
+        updated: false
+        text: >-
+          Open-source tool for AI-assisted video subtitling and translating with
+          a focus on educational and media content.
     _template: featuresAlt
   - quote: Resources
     color: tint
@@ -160,5 +202,110 @@ blocks:
         title: Publications
         link: /publications
     _template: featuresAlt2
+  - quote: Our Sponsors
+    author: ''
+    color: default
+    _template: testimonial
+  - items:
+      - title: Nandan Nilekani
+        image: /mountain.png
+        text: >-
+          Nandan Nilekani has generously contributed to the formation of the
+          AI4Bharat center with a focus on open-source tech as a public good.
+          The team at EkStep Foundation, including Vivek Raghavan and Pramod
+          Varma, also closely collaborate and mentor the center
+    _template: photoCardSingle
+  - items:
+      - title: 'MEITY, Govt of India'
+        image: /mountain.png
+        text: >-
+          AI4Bharat is the official Data Management Unit (DMU) of the Digital
+          India Bhasini project. As part of the DMU, AI4Bharat is collecting
+          datasets across India’s 22 scheduled languages.
+    _template: photoCardSingle
+  - items:
+      - title: Microsoft
+        image: /mountain.png
+        text: >-
+          Microsoft’s Research Lab and India Development Center (IDC) have
+          supported AI4Bharat with unrestricted research grants and time for
+          researchers to contribute towards open-source technologies.
+      - title: CDAC
+        image: /mountain.png
+        text: >-
+          CDAC has provided generous access to super-computing resources for
+          training large AI models and hosting large amounts of data
+    _template: photoCardsGrid2
+  - quote: Our Team
+    author: Phil Karlton
+    color: tint
+    _template: testimonial
+  - items:
+      - personName: Mitesh Khapra
+        personPhoto: 'https://avatars2.githubusercontent.com/u/4814357?s=460&v=4'
+        personDesignation: 'Associate Professor at CSE Department, IIT Madras'
+      - personName: Vivek Raghavan
+        personPhoto: 'https://static-exp2.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry'
+        personDesignation: Chief mentor and evangelist
+      - personName: Pratyush Kumar
+        personPhoto: 'https://avatars0.githubusercontent.com/u/49815493?s=460&v=4'
+        personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
+      - personName: Anoop Kunchukuttan
+        personPhoto: 'https://avatars0.githubusercontent.com/u/2256602?s=400&v=4'
+        personDesignation: Researcher at Microsoft
+    _template: teamCardsGrid
+  - quote: Positions
+    author: ''
+    color: tint
+    _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: AI4Bharat Residency
+        duration: 1 year
+        jobType: Remote
+        description: >-
+          1-year program for recent graduates to work on cutting-edge research
+          problems in NLP, Speech, and systems-engineering for AI.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: AI4Bharat Internship
+        duration: 1 semester
+        jobType: Remote
+        description: >-
+          1-semester program for current students to work on data and software
+          engineering for language AI technologies
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Language Contributor
+        duration: Long-term
+        jobType: Remote
+        description: >-
+          Long-term opportunities for experienced language translators and
+          transcribers across Indian languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Software Developer
+        duration: Long-term
+        jobType: In-person
+        description: >-
+          Long-term opportunities for front-end and back-end developers looking
+          to contribute to building open-source applications for language
+          technologies.
+    _template: jobCardsGrid
+  - quoteContent: >-
+      We must be second to none in the application of advanced technologies to
+      the real problems of man and society.
+    author: Vikram Sarabhai
+    color: default
+    _template: quote
 ---
 

@@ -7,6 +7,10 @@ module.exports = withSvgr({
         source: "/",
         destination: "/home",
       },
+      {
+        source: "/testing",
+        destination: "/areas",
+      }
     ];
   },
 });

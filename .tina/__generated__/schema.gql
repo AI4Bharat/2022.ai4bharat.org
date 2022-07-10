@@ -132,6 +132,7 @@ type GlobalHeaderAreas {
   icon: GlobalHeaderAreasIcon
   description: String
   comingSoon: Boolean
+  updated: Boolean
 }
 
 type GlobalHeaderResourcesIcon {
@@ -263,6 +264,7 @@ type PageBlocksFeaturesAltItems {
   title: String
   link: String
   comingSoon: Boolean
+  updated: Boolean
   text: String
 }
 
@@ -306,13 +308,136 @@ type PageBlocksContent {
   color: String
 }
 
+type PageBlocksVideoCarouselVideoDetails {
+  title: String
+  embedCode: String
+}
+
+type PageBlocksVideoCarousel {
+  videoDetails: [PageBlocksVideoCarouselVideoDetails]
+  color: String
+}
+
 type PageBlocksTestimonial {
   quote: String
   author: String
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksTestimonial
+type PageBlocksFlatCardsGridItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksFlatCardsGridItemsChip {
+  color: String
+  style: String
+  text: String
+}
+
+type PageBlocksFlatCardsGridItems {
+  icon: PageBlocksFlatCardsGridItemsIcon
+  chip: PageBlocksFlatCardsGridItemsChip
+  title: String
+  link: String
+  text: String
+  iconColor: String
+}
+
+type PageBlocksFlatCardsGrid {
+  title: String
+  header: String
+  description: String
+  items: [PageBlocksFlatCardsGridItems]
+  highlightColor: String
+  color: String
+}
+
+type PageBlocksBanner {
+  title: String
+  header: String
+  description: String
+  highlightColor: String
+  color: String
+}
+
+type PageBlocksFaq {
+  title: String
+  content: String
+  color: String
+}
+
+type PageBlocksQuote {
+  quoteContent: String
+  author: String
+  color: String
+}
+
+type PageBlocksTeamCardsGridItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksTeamCardsGridItems {
+  icon: PageBlocksTeamCardsGridItemsIcon
+  personName: String
+  personPhoto: String
+  personDesignation: String
+  personDescription: String
+}
+
+type PageBlocksTeamCardsGrid {
+  items: [PageBlocksTeamCardsGridItems]
+  color: String
+}
+
+type PageBlocksPhotoCardsGrid2Items {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+type PageBlocksPhotoCardsGrid2 {
+  items: [PageBlocksPhotoCardsGrid2Items]
+  color: String
+}
+
+type PageBlocksPhotoCardSingleItems {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+type PageBlocksPhotoCardSingle {
+  items: [PageBlocksPhotoCardSingleItems]
+  color: String
+}
+
+type PageBlocksJobCardsGridItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksJobCardsGridItems {
+  icon: PageBlocksJobCardsGridItemsIcon
+  title: String
+  link: String
+  duration: String
+  jobType: String
+  description: String
+}
+
+type PageBlocksJobCardsGrid {
+  items: [PageBlocksJobCardsGridItems]
+  color: String
+}
+
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -413,6 +538,7 @@ input GlobalHeaderAreasMutation {
   icon: GlobalHeaderAreasIconMutation
   description: String
   comingSoon: Boolean
+  updated: Boolean
 }
 
 input GlobalHeaderResourcesIconMutation {
@@ -516,6 +642,7 @@ input PageBlocksFeaturesAltItemsMutation {
   title: String
   link: String
   comingSoon: Boolean
+  updated: Boolean
   text: String
 }
 
@@ -559,9 +686,132 @@ input PageBlocksContentMutation {
   color: String
 }
 
+input PageBlocksVideoCarouselVideoDetailsMutation {
+  title: String
+  embedCode: String
+}
+
+input PageBlocksVideoCarouselMutation {
+  videoDetails: [PageBlocksVideoCarouselVideoDetailsMutation]
+  color: String
+}
+
 input PageBlocksTestimonialMutation {
   quote: String
   author: String
+  color: String
+}
+
+input PageBlocksFlatCardsGridItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksFlatCardsGridItemsChipMutation {
+  color: String
+  style: String
+  text: String
+}
+
+input PageBlocksFlatCardsGridItemsMutation {
+  icon: PageBlocksFlatCardsGridItemsIconMutation
+  chip: PageBlocksFlatCardsGridItemsChipMutation
+  title: String
+  link: String
+  text: String
+  iconColor: String
+}
+
+input PageBlocksFlatCardsGridMutation {
+  title: String
+  header: String
+  description: String
+  items: [PageBlocksFlatCardsGridItemsMutation]
+  highlightColor: String
+  color: String
+}
+
+input PageBlocksBannerMutation {
+  title: String
+  header: String
+  description: String
+  highlightColor: String
+  color: String
+}
+
+input PageBlocksFaqMutation {
+  title: String
+  content: String
+  color: String
+}
+
+input PageBlocksQuoteMutation {
+  quoteContent: String
+  author: String
+  color: String
+}
+
+input PageBlocksTeamCardsGridItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksTeamCardsGridItemsMutation {
+  icon: PageBlocksTeamCardsGridItemsIconMutation
+  personName: String
+  personPhoto: String
+  personDesignation: String
+  personDescription: String
+}
+
+input PageBlocksTeamCardsGridMutation {
+  items: [PageBlocksTeamCardsGridItemsMutation]
+  color: String
+}
+
+input PageBlocksPhotoCardsGrid2ItemsMutation {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+input PageBlocksPhotoCardsGrid2Mutation {
+  items: [PageBlocksPhotoCardsGrid2ItemsMutation]
+  color: String
+}
+
+input PageBlocksPhotoCardSingleItemsMutation {
+  title: String
+  image: String
+  link: String
+  text: String
+}
+
+input PageBlocksPhotoCardSingleMutation {
+  items: [PageBlocksPhotoCardSingleItemsMutation]
+  color: String
+}
+
+input PageBlocksJobCardsGridItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksJobCardsGridItemsMutation {
+  icon: PageBlocksJobCardsGridItemsIconMutation
+  title: String
+  link: String
+  duration: String
+  jobType: String
+  description: String
+}
+
+input PageBlocksJobCardsGridMutation {
+  items: [PageBlocksJobCardsGridItemsMutation]
   color: String
 }
 
@@ -572,7 +822,16 @@ input PageBlocksMutation {
   featuresAlt2: PageBlocksFeaturesAlt2Mutation
   cardGrid2: PageBlocksCardGrid2Mutation
   content: PageBlocksContentMutation
+  videoCarousel: PageBlocksVideoCarouselMutation
   testimonial: PageBlocksTestimonialMutation
+  flatCardsGrid: PageBlocksFlatCardsGridMutation
+  banner: PageBlocksBannerMutation
+  faq: PageBlocksFaqMutation
+  quote: PageBlocksQuoteMutation
+  teamCardsGrid: PageBlocksTeamCardsGridMutation
+  photoCardsGrid2: PageBlocksPhotoCardsGrid2Mutation
+  photoCardSingle: PageBlocksPhotoCardSingleMutation
+  jobCardsGrid: PageBlocksJobCardsGridMutation
 }
 
 input PageMutation {

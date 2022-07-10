@@ -9,7 +9,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicFT
-        link: /models/indic-ft
+        link: /indic-ft
         text: >-
           fastText is a well-suited model for Indian languages because of their
           rich morphological structure. We pre-train and benchmark fastText
@@ -21,7 +21,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicBERT
-        link: /models/indic-bert
+        link: /indic-bert
         text: >-
           To improve performance and coverage of Indian languages on a wide
           variety of tasks, we also develop and evaluate IndicBERT. IndicBERT is
@@ -34,7 +34,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicBART
-        link: /models/indic-bart
+        link: /indic-bart
         text: >-
           IndicBART is a multilingual, sequence-to-sequence pre-trained model
           focusing on Indic languages and English. It currently supports 12
@@ -44,7 +44,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicTrans
-        link: /models/indic-trans
+        link: /indic-trans
         text: >
           IndicTrans is a Transformer-XL model trained on samanantar dataset.
           Two models are available which can translate from Indic to English and
@@ -56,7 +56,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicXLit
-        link: /models/indic-x-lit
+        link: /indic-x-lit
         text: >
           IndicXlit is a Transformer-based multilingual transliteration model
           (with ~11M parameters) for romanised to Indic script conversion,
@@ -66,7 +66,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicWav2Vec
-        link: /models/indic-wav-2-vec
+        link: /indic-wav-2-vec
         text: >
           IndicWav2Vec is a multilingual speech model pretrained on 40 Indian
           langauges. This model represents the largest diversity of Indian

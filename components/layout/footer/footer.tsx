@@ -273,7 +273,7 @@ export const Footer = ({ data, icon, rawData }) => {
   </div>
   <div className="text-center p-6 bg-gray-200">
 
-    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
+    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/AI4Bharat-Website-New">Made with 🧡 and open-source by AI4Bhārat</a>
   </div>
 
     </footer>

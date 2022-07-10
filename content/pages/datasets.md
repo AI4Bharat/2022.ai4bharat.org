@@ -9,7 +9,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicCorp
-        link: /datasets/indic-corp
+        link: /indic-corp
         text: >-
           A lot of NLP models require a large amount of training data, which
           most of the Indian languages lack. In this project, we develop a
@@ -22,7 +22,7 @@ blocks:
           style: circle
           name: AI4B
         title: Samanantar
-        link: /datasets/samanantar
+        link: /samanantar
         text: >-
           Samanantar is the largest publicly available parallel corpora
           collection for Indic languages : Assamese, Bengali, Gujarati, Hindi,
@@ -33,7 +33,7 @@ blocks:
           style: circle
           name: AI4B
         title: Aksharantar
-        link: /datasets/aksharantar
+        link: /aksharantar
         text: >-
           Aksharantar is the largest publicly available transliteration dataset
           for 21 Indic languages. The corpus has 26M Indic language-English
@@ -43,7 +43,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicGLUE
-        link: /datasets/indic-glue
+        link: /indic-glue
         text: >-
           This is a benchmark containing various tasks to evaluate the natural
           language understanding capabilities of language models for Indian
@@ -53,7 +53,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicNLG Suite
-        link: /datasets/indic-nlg-suite
+        link: /indic-nlg-suite
         text: ' This is a benchmark containing various tasks to evaluate the natural language generation capabilities of language models for Indian languages.'
     _template: featuresAlt
 ---

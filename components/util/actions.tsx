@@ -20,7 +20,7 @@ export const Actions = ({
     purple:
       "text-white bg-purple-500 hover:bg-purple-600 bg-gradient-to-r from-purple-400 to-purple-600 hover:from-purple-400 hover:to-purple-500",
     orange:
-      "text-white bg-orange-500 hover:bg-orange-600 bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-400 hover:to-orange-500",
+      "text-white bg-orange-500 hover:bg-orange-600 hover:from-orange-400 hover:to-orange-500",
     yellow:
       "text-gray-800 bg-yellow-500 hover:bg-yellow-600 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500",
   };
@@ -50,7 +50,7 @@ export const Actions = ({
     purple:
       "text-purple-600 dark:text-purple-400 hover:text-purple-400 dark:hover:text-purple-200",
     orange:
-      "text-orange-600 dark:text-orange-400 hover:text-orange-400 dark:hover:text-orange-200",
+      "text-orange-600 dark:text-orange-400 hover:text-orange-400 dark:hover:text-orange-400",
     yellow:
       "text-yellow-600 dark:text-yellow-400 hover:text-yellow-400 dark:hover:text-yellow-200",
   };

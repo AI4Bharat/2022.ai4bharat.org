@@ -3,18 +3,40 @@ import { Container } from "../util/container";
 import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
+import YouTube, { YouTubeProps } from 'react-youtube';
+
+export const VideoPlayer = ({embedCode})=> {
+  const onPlayerReady: YouTubeProps['onReady'] = (event) => {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
+
+  const opts: YouTubeProps['opts'] = {
+    height: '470',
+    width: '800',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
+  return <YouTube videoId={embedCode} opts={opts} onReady={onPlayerReady}/>;
+}
 
 export const Content = ({ data, parentField = "" }) => {
   return (
     <Section color={data.color}>
       <Container
-        className={`max-w-4xl prose prose-sm ${
+        className={`prose prose-sm ${
           data.color === "primary" ? `prose-primary` : `dark:prose-dark`
         }`}
         data-tinafield={`${parentField}.body`}
         size="large"
       >
-        <TinaMarkdown content={data.body} />
+        <div>
+        <span><TinaMarkdown content={data.body}/></span> 
+        {/* <span className="inline-block"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span> */}
+        </div>
       </Container>
     </Section>
   );
