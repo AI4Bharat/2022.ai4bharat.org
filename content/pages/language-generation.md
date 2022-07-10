@@ -1,5 +1,9 @@
 ---
 blocks:
+  - quote: Models
+    author: Phil Karlton
+    color: primary
+    _template: testimonial
   - tagline: ''
     headline: Language Generation
     text: |
