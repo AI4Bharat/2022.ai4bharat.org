@@ -223,13 +223,13 @@ blocks:
     _template: photoCardSingle
   - items:
       - title: Microsoft
-        image: /mountain.png
+        image: ''
         text: >-
           Microsoft’s Research Lab and India Development Center (IDC) have
           supported AI4Bharat with unrestricted research grants and time for
           researchers to contribute towards open-source technologies.
       - title: CDAC
-        image: /mountain.png
+        image: ''
         text: >-
           CDAC has provided generous access to super-computing resources for
           training large AI models and hosting large amounts of data
