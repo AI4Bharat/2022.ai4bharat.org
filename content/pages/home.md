@@ -75,7 +75,7 @@ blocks:
         text: >-
           Design and deploy with partners reference apps to demonstrate
           potential of open AI models 
-        iconColor: cyan
+        iconColor: orange
     _template: flatCardsGrid
   - quote: Areas
     color: tint
