@@ -50,7 +50,7 @@ blocks:
           Enable researchers, startups, and govt.  
           to innovate on  
           Indian language AI tech 
-        iconColor: cyan
+        iconColor: orange
       - icon:
           color: white
           name: chat
