@@ -1,54 +1,47 @@
 import { Actions } from "../util/actions";
 import { Section } from "../util/section";
 import { Container } from "../util/container";
-import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
-import { iconSchema } from "../util/icon";
-import Link from "next/link";
-import Image from "next/image";
-//   style={{ flexBasis: "16rem" }}
-export const PhotoCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.image);
-  console.log(data.link)
-  return (
-    <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 overflow-hidden flex flex-col lg:flex-row max-w-xl" >
 
-    {data.image && ( 
-          <Image src={data.image} width={900} height={150} />
+export const PhotoCard = ({ featuresColor, data, tinaField }) => {
+  return (
+    <div data-tinafield={tinaField} className="w-full md:w-1/2 xl:w-1/3 px-4" >
+      <div className="bg-white rounded-lg overflow-hidden mb-10">
+        <img className="w-full" src={data.image} alt="" />
+
+        <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+          <h3 className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary"
+          data-tinafield={`${tinaField}.title`}
+          >
+            {data.title}
+          </h3>
+          <p className="text-base text-body-color leading-relaxed mb-7" data-tinafield={`${tinaField}.text`}>
+            {data.text}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    /*{ {data.image && ( 
+          <img className="rounded-t-lg" src={data.image} alt="" />
     )}
-    <div>
-          <div className="p-4 justify-between leading-normal w-full">
-          {data.title && (
-                <div data-tinafield={`${tinaField}.title`} className="font-bold text-xl mb-2 leading-tight"> {data.title}</div>
-           
-                )}
-          </div>
-    
+    <div className="p-5">
+          <h5 data-tinafield={`${tinaField}.title`}
+          className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+            {data.title}
+          </h5>
+
         {data.text && (
           <p 
-          className="text-gray-700 text-base mb-4 px-6"
+          className="mb-3 font-normal text-gray-700"
           data-tinafield={`${tinaField}.text`}
           >
             {data.text}
           </p> 
         )}
         </div>
-
          {data.actions && <Actions actions={data.actions} />}
-    
-    
-    
-    
-      </div>
-    
-      
-     
-         
-     
-    
-  
-    
+      </div> }*/
   );
 };
 
@@ -64,9 +57,6 @@ export const PhotoCardSingle = ({ data, parentField }) => {
           data.items.map(function (block, i) {
             return (
             <>
-        
-
-  
               <PhotoCard
                 tinaField={`${parentField}.items.${i}`}
                 featuresColor={data.color}
