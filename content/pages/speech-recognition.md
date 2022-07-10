@@ -8,6 +8,10 @@ blocks:
       AI4Bharat has a deep focus on supporting speech recognition in many Indian
       languages and ensuring the models are deployable on mobile devices.
     _template: hero
+  - quote: Our contributions
+    author: Phil Karlton
+    color: default
+    _template: testimonial
   - items:
       - icon:
           color: ''
@@ -55,6 +59,17 @@ blocks:
           A benchmark of speech recognition tasks including ASR, speaker
           verification and identification, and keyword detection for 10 Indian
           languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: On-Device ASR
+        link: /on-device-asr
+        comingSoon: true
+        updated: false
+        text: >-
+          Much smaller ASR models which can be quantized and executed on Android
+          devices to support privacy-preserving inference on personal devices.
     _template: featuresAlt
 ---
 
