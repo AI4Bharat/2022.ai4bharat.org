@@ -37,7 +37,7 @@ blocks:
         link: 'https://arxiv.org/abs/2109.02903'
         text: >-
           Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully,
-          Mitesh M. Khapra, Pratyush Kumar. 2022. 
+          Mitesh M. Khapra, Pratyush Kumar. ACL-Findings 2022. 
       - icon:
           color: white
           style: circle
