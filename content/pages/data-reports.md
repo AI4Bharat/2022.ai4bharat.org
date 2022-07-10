@@ -9,7 +9,8 @@ blocks:
           style: circle
           name: AI4B
         title: May 2022
-        link: /home
+        link: >-
+          https://indicnlp.ai4bharat.org/static/documents/DMU_Data_Report_May_2022.pdf
         text: |-
           A report on building an
           open data infrastructure for Indian languages.
