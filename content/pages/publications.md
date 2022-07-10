@@ -9,12 +9,14 @@ blocks:
           style: float
           name: AI4B
         title: >-
-          OpenHands: Making Sign Language Recognition Accessible with Pose-based
-          Pretrained Models across Languages.
-        link: 'https://aclanthology.org/2022.acl-long.150/'
+          Aksharantar: Towards building open transliteration tools for the next
+          billion users
+        link: 'https://arxiv.org/abs/2205.03018v1'
         comingSoon: false
         updated: false
-        text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra. ACL 2022.'
+        text: >-
+          Yash Madhani, Sushane Parthan, Priyanka Bedekar, Ruchi Khapra, Vivek
+          Seshadri, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
       - icon:
           color: white
           style: circle
@@ -27,6 +29,17 @@ blocks:
           Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish
           Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra,
           Pratyush Kumar. arXiv, 2022.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: >-
+          OpenHands: Making Sign Language Recognition Accessible with Pose-based
+          Pretrained Models across Languages.
+        link: 'https://aclanthology.org/2022.acl-long.150/'
+        comingSoon: false
+        updated: false
+        text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra. ACL 2022.'
       - icon:
           color: white
           style: circle
