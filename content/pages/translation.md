@@ -43,7 +43,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicTrans
         link: /indic-trans
         comingSoon: true
         updated: false
