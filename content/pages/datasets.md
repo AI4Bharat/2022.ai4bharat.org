@@ -16,8 +16,7 @@ blocks:
           corpora for 11 languages from two language families (Indo-Aryan branch
           and Dravidian) and Indian English with an average 9-fold increase in
           size over OSCAR. This corpora was created by crawling content from
-          news articles, magazines and blogposts which reflect contemporary use
-          of Indian languages and cover a wide range of topics. .
+          news articles, magazines and blogposts.
       - icon:
           color: white
           style: circle
