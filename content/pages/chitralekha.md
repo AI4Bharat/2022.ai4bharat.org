@@ -21,6 +21,9 @@ blocks:
           color: ''
           style: float
           name: ''
+        chip:
+          color: red
+          text: MODEL
         title: Transcription Support
         text: >-
           Chitralekha supports transcribing the input video with IndicASR for
