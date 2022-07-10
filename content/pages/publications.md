@@ -8,18 +8,6 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Towards Building ASR Systems for the Next Billion Users
-        link: 'https://www.aaai.org/AAAI22Papers/AAAI-12428.JavedT.pdf'
-        comingSoon: false
-        updated: false
-        text: >-
-          Tahir Javed, Sumanth Doddapaneni, Abhigyan Raman, Kaushal Santosh
-          Bhogale, Gowtham Ramesh, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M.
-          Khapra. AAAI 2022.
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
         title: >-
           Aksharantar: Towards building open transliteration tools for the next
           billion users
@@ -64,6 +52,18 @@ blocks:
         text: >-
           Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully,
           Mitesh M. Khapra, Pratyush Kumar. ACL-Findings 2022. 
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Towards Building ASR Systems for the Next Billion Users
+        link: 'https://www.aaai.org/AAAI22Papers/AAAI-12428.JavedT.pdf'
+        comingSoon: false
+        updated: false
+        text: >-
+          Tahir Javed, Sumanth Doddapaneni, Abhigyan Raman, Kaushal Santosh
+          Bhogale, Gowtham Ramesh, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M.
+          Khapra. AAAI 2022.
       - icon:
           color: white
           style: circle
