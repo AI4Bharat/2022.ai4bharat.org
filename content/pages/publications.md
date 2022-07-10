@@ -11,6 +11,7 @@ blocks:
         title: >-
           OpenHands: Making Sign Language Recognition Accessible with Pose-based
           Pretrained Models across Languages.
+        link: 'https://aclanthology.org/2022.acl-long.150/'
         comingSoon: false
         updated: false
         text: 'Prem Selvaraj, Gokul NC, Pratyush Kumar, Mitesh M. Khapra'
