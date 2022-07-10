@@ -11,6 +11,19 @@ blocks:
           color: ''
           style: float
           name: ''
+        title: Language Experts
+        link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
+        comingSoon: true
+        updated: false
+        text: >-
+          Looking for skilled translators who can translate between English and
+          their native language.The ideal candidate has experience in
+          linguistics, particularly syntax at the university level and enjoys
+          working from home, full time. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
         title: AI Residents
         link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
         comingSoon: true
@@ -35,19 +48,6 @@ blocks:
           for a 3-6 month long internship program, who would work alongside us
           in building a feature-rich, open-source AI platform targeted at Indian
           problems and diversity.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Language Experts
-        link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
-        comingSoon: true
-        updated: false
-        text: >-
-          Looking for skilled translators who can translate between English and
-          their native language.The ideal candidate has experience in
-          linguistics, particularly syntax at the university level and enjoys
-          working from home, full time. 
     _template: featuresAlt
 ---
 
