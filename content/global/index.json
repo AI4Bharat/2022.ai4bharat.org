@@ -30,7 +30,7 @@
     ],
     "areas": [
       {
-        "href": "https://indicnlp.ai4bharat.org/indic-trans/",
+        "href": "/translation",
         "label": "Translation",
         "icon": {
           "color": "orange",
@@ -41,7 +41,7 @@
         "comingSoon": false
       },
       {
-        "href": "/area/transliteration",
+        "href": "/transliteration",
         "label": "Transliteration",
         "icon": {
           "color": "orange",
@@ -52,7 +52,7 @@
         "comingSoon": false
       },
       {
-        "href": "/area/speech-recognition",
+        "href": "/speech-recognition",
         "label": "Speech Recognition",
         "icon": {
           "color": "orange",
@@ -63,7 +63,7 @@
         "comingSoon": false
       },
       {
-        "href": "/area/language-understanding",
+        "href": "/language-understanding",
         "label": "Language Understanding",
         "icon": {
           "color": "orange",
@@ -74,7 +74,7 @@
         "comingSoon": false
       },
       {
-        "href": "/area/language-generation",
+        "href": "/language-generation",
         "label": "Language Generation",
         "icon": {
           "color": "orange",
@@ -96,7 +96,7 @@
         "comingSoon": false
       },
       {
-        "href": "/area/shoonya",
+        "href": "/shoonya",
         "label": "Shoonya",
         "icon": {
           "color": "orange",
@@ -107,7 +107,7 @@
         "comingSoon": true
       },
       {
-        "href": "home",
+        "href": "/chitralekha",
         "label": "Chitralekha",
         "icon": {
           "name": "code"
