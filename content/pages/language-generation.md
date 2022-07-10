@@ -1,9 +1,5 @@
 ---
 blocks:
-  - quote: Models
-    author: Phil Karlton
-    color: primary
-    _template: testimonial
   - tagline: ''
     headline: Language Generation
     text: |
@@ -25,6 +21,10 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: featuresAlt
+  - quote: Models
+    author: Phil Karlton
+    color: primary
+    _template: testimonial
   - quote: Our Partners
     author: Phil Karlton
     color: default
