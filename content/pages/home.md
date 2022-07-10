@@ -59,7 +59,7 @@ blocks:
           Build state-of-the-art, open, foundational  
           AI models across  
           tasks and languages 
-        iconColor: cyan
+        iconColor: orange
       - icon:
           color: white
           name: map
