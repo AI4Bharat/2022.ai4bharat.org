@@ -33,9 +33,9 @@ blocks:
           Shoonya enables simplified input entry in Roman character with
           transliteration from IndicXlit models supporting 20+ languages.  
       - icon:
-          color: ''
+          color: orange
           style: float
-          name: ''
+          name: trophy
         title: Maker-Checker Flow
         text: >-
           Shoonya provides multiple ways to evaluate the quality of translated
@@ -43,7 +43,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: palette
         title: Context View
         text: >-
           Shoonya allows translators to see paragraph level context when
