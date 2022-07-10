@@ -60,8 +60,11 @@ blocks:
           text: Application
         title: Shoonya
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          IndicTrans powers the translation workflow in our open-source
+          annotation platform Shoonya by populating automatic translations from
+          currently supporting 12 Indic languages. These automatic translations
+          act as initial hints which can then be edited by humans, thereby
+          improving the efficiency of human translation. 
     _template: flatCardsGrid
 ---
 
