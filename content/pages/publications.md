@@ -62,7 +62,7 @@ blocks:
         link: 'https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf'
         text: >-
           Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik
-          Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar. 2020.
+          Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar. EMNLP-Findings 2020.
       - icon:
           color: white
           style: circle
