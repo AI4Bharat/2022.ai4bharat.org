@@ -122,14 +122,14 @@ blocks:
       On 28th July, we are conducting a workshop to demonstrate our datasets,
       models, and applications.&#x20;
     actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
       - label: Sign Up to Attend
         type: button
         icon: true
         link: 'https://forms.office.com/r/vddNi9fuqS'
+      - label: Learn more
+        type: link
+        icon: false
+        link: /
     color: default
     _template: hero
 ---
