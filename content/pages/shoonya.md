@@ -19,7 +19,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: code
         title: NMT support
         text: >-
           Shoonya enables populating automatic translations from IndicTrans
