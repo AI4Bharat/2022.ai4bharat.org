@@ -4,6 +4,7 @@ import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
+import { Table } from "./table"
 import Link from "next/link";
 import Image from "next/image";
 //   style={{ flexBasis: "16rem" }}
@@ -59,6 +60,7 @@ export const FeatureAlt2 = ({ featuresColor, data, tinaField }) => {
     </a>
           </Link> 
 }
+
   </div>
 
     
@@ -88,6 +90,7 @@ export const FeaturesAlt2 = ({ data, parentField }) => {
             );
           })}
       </Container>
+      <Table data={data}/>
     </Section>
   );
 };

@@ -74,7 +74,7 @@ const schema = defineSchema({
                 },
               ],
             },
-            
+
             {
               name: "BlockQuote",
               label: "Block Quote",
@@ -547,11 +547,7 @@ const schema = defineSchema({
 });
 
 const branch = "main";
-const apiURL =
-  process.env.NODE_ENV == "development"
-    ? "http://localhost:4001/graphql"
-    : `https://content.tinajs.io/content/${process.env.NEXT_PUBLIC_TINA_CLIENT_ID}/github/${branch}`;
-
+const apiURL =`https://content.tinajs.io/content/47ddfc79-d73f-4b17-a52d-c5a4893bd2d7/github/main`
 export const tinaConfig = defineConfig({
   apiURL,
   schema,
