@@ -11,7 +11,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: user
         title: Workplace Management
         text: >-
           Shoonya provides hierarchical way to manage language work into
@@ -19,7 +19,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: code
         title: NMT support
         text: >-
           Shoonya enables populating automatic translations from IndicTrans
@@ -27,7 +27,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: pin
         title: Transliteration Support
         text: >-
           Shoonya enables simplified input entry in Roman character with
@@ -57,5 +57,9 @@ blocks:
           For low-resource language, Shoonya supports showing annotators
           translations in other languages.
     _template: flatCardsGrid
+  - quote: Shoonya v1 Public Release is planned for 28th July
+    author: ''
+    color: primary
+    _template: testimonial
 ---
 
