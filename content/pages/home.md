@@ -44,12 +44,11 @@ blocks:
     items:
       - icon:
           color: white
-          name: world
-        title: Ecosystem
-        text: |-
-          Enable researchers, startups, and govt.  
-          to innovate on  
-          Indian language AI tech 
+          name: map
+        title: Data
+        text: >-
+          Curate and create the largest public datasets and benchmarks across
+          tasks and languages 
         iconColor: orange
       - icon:
           color: white
@@ -62,19 +61,20 @@ blocks:
         iconColor: orange
       - icon:
           color: white
-          name: map
-        title: Data
-        text: >-
-          Curate and create the largest public datasets and benchmarks across
-          tasks and languages 
-        iconColor: orange
-      - icon:
-          color: white
           name: cloud
         title: Applications
         text: >-
           Design and deploy with partners reference apps to demonstrate
           potential of open AI models 
+        iconColor: orange
+      - icon:
+          color: white
+          name: world
+        title: Ecosystem
+        text: |-
+          Enable researchers, startups, and govt.  
+          to innovate on  
+          Indian language AI tech 
         iconColor: orange
     _template: flatCardsGrid
   - quote: Areas
