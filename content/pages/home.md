@@ -1,5 +1,14 @@
 ---
 blocks:
+  - quoteContent: |-
+      Bring parity with respect to English
+      in AI technologies for Indian languages
+      with open-source contributions in
+      datasets, models, and applications
+      and by enabling an innovation ecosystem
+    author: ''
+    color: default
+    _template: quote
   - tagline: ''
     headline: AI4Bharat Launch
     text: >
