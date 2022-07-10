@@ -28,10 +28,10 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Transliteration Support
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Shoonya enables simplified input entry in Roman character with
+          transliteration from IndicXlit models supporting 20+ languages.  
     _template: flatCardsGrid
 ---
 
