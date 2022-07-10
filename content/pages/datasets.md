@@ -11,12 +11,13 @@ blocks:
         title: IndicCorp
         link: /indic-corp
         text: >-
-          A lot of NLP models require a large amount of training data, which
-          most of the Indian languages lack. In this project, we develop a
-          large-scale Indic corpora by intensively crawling the web. The corpora
-          that we build has a total of 8.9 billion tokens and covers 12 major
-          Indian languages - making it the largest public corpus for most of the
-          Indian languages.
+          Large sentence-level monolingual
+
+          corpora for 11 languages from two language families (Indo-Aryan branch
+          and Dravidian) and Indian English with an average 9-fold increase in
+          size over OSCAR. This corpora was created by crawling content from
+          news articles, magazines and blogposts which reflect contemporary use
+          of Indian languages and cover a wide range of topics. 
       - icon:
           color: white
           style: circle
