@@ -6,7 +6,7 @@ blocks:
   - items:
       - icon:
           color: white
-          style: circle
+          style: float
           name: AI4B
         title: IndicCorp
         link: /indic-corp
