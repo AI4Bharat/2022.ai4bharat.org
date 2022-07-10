@@ -20,7 +20,7 @@ blocks:
         title: Dhwani Dataset
         link: /dhwani
         comingSoon: false
-        updated: true
+        updated: false
         text: >-
           17,000 hours of raw speech data for 40 Indian languages from a wide
           variety of domains including education, news, technology, and finance
