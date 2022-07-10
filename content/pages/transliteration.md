@@ -73,22 +73,21 @@ blocks:
           We have partnered with Pratham Books to enable romanized keyboards in
           their translation interface for low resource languages such as Bodo,
           Kashmiri, Konkani, Maithili, Nepali and Urdu.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
     _template: flatCardsGrid
+  - tagline: ''
+    headline: IndicXlit Workshop
+    text: >
+      On 28th July, we are conducting a workshop to demonstrate our datasets,
+      models, and applications.
+    actions:
+      - label: Sign Up to Attend
+        type: button
+        icon: true
+        link: 'https://forms.office.com/r/vddNi9fuqS'
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
+    _template: hero
 ---
 
