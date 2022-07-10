@@ -11,6 +11,14 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: ''
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
           name: cloud
         title: Import from YouTube
         text: >-
@@ -20,12 +28,11 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Transcription Support
+          name: chat
+        title: Translation Support
         text: >-
-          Chitralekha supports transcribing the input video with IndicASR for
-          English and 9 Indian languages. This automatically creates timestamped
-          transcription cards which can be edited. 
+          Chitralekha supports translating the transcription into English and 12
+          Indian languages supported by IndicTrans.  
     _template: flatCardsGrid
 ---
 
