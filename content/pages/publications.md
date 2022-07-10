@@ -16,7 +16,8 @@ blocks:
         updated: false
         text: >-
           Yash Madhani, Sushane Parthan, Priyanka Bedekar, Ruchi Khapra, Vivek
-          Seshadri, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
+          Seshadri, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra. arXiv,
+          2022.
       - icon:
           color: white
           style: circle
