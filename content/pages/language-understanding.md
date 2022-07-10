@@ -1,5 +1,14 @@
 ---
 blocks:
+  - tagline: ''
+    headline: Language Understanding
+    text: ''
+    actions:
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
+    _template: hero
   - quote: Language Understanding
     author: Anoop K
     color: default
@@ -44,31 +53,5 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: featuresAlt
-  - items:
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-    _template: featuresAlt2
 ---
 
