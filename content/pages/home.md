@@ -242,15 +242,15 @@ blocks:
       - personName: Mitesh Khapra
         personPhoto: 'https://avatars2.githubusercontent.com/u/4814357?s=460&v=4'
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
-      - personName: Vivek Raghavan
-        personPhoto: 'https://static-exp2.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry'
-        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
       - personName: Pratyush Kumar
         personPhoto: 'https://avatars0.githubusercontent.com/u/49815493?s=460&v=4'
         personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
       - personName: Anoop Kunchukuttan
         personPhoto: 'https://avatars0.githubusercontent.com/u/2256602?s=400&v=4'
         personDesignation: Researcher at Microsoft
+      - personName: Vivek Raghavan
+        personPhoto: 'https://static-exp2.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry'
+        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
     color: tint
     _template: teamCardsGrid
   - quote: Positions
@@ -304,7 +304,7 @@ blocks:
       We must be second to none in the application of advanced technologies to
       the real problems of man and society.
     author: Vikram Sarabhai
-    color: primary
+    color: default
     _template: quote
 ---
 
