@@ -1,7 +1,7 @@
 ---
 blocks:
   - tagline: ''
-    headline: AI4Bharat Launch
+    headline: AI4Bharat launch
     text: >
       ##
 
