@@ -102,12 +102,16 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        comingSoon: false
+        title: Shoonya
+        link: /shoonya
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          IndicTrans powers the translation workflow in our open-source
+          annotation platform Shoonya by populating automatic translations which
+          can then be edited by humans. These automatic translations act as
+          initial hints and reduce the cognitive load on humans, thereby
+          improving the efficiency of human translation.
     _template: featuresAlt
 ---
 
