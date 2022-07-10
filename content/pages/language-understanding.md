@@ -2,8 +2,12 @@
 blocks:
   - tagline: ''
     headline: Language Understanding
-    text: |
-      Datasets and Models for Indian language understanding
+    text: >
+      Datasets and Models for Indian language understanding.
+
+
+      Below we will have cards for IndicCorp, IndicGLUE, IndicBERT, IndicNER,
+      NERCorpus?
     _template: hero
   - quote: Our Contributions
     author: Anoop K
