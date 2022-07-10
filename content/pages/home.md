@@ -67,7 +67,7 @@ blocks:
         text: >-
           Curate and create the largest public datasets and benchmarks across
           tasks and languages 
-        iconColor: cyan
+        iconColor: orange
       - icon:
           color: white
           name: cloud
