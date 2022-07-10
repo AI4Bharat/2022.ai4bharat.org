@@ -11,20 +11,21 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
           name: cloud
         title: Import from YouTube
         text: >-
           Chitralekha supports importing videos and optional subtitles from
           YouTube. It also enables export of the subtitles in standard formats
           which can be used to update videos on YouTube. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Transcription Support
+        text: >-
+          Chitralekha supports transcribing the input video with IndicASR for
+          English and 9 Indian languages. This automatically creates timestamped
+          transcription cards which can be edited. 
     _template: flatCardsGrid
 ---
 
