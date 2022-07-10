@@ -2,12 +2,8 @@
 blocks:
   - tagline: ''
     headline: Language Understanding
-    text: ''
-    actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
+    text: |
+      Datasets and Models for Indian language understanding
     _template: hero
   - quote: Language Understanding
     author: Anoop K
