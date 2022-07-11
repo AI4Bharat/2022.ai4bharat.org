@@ -216,7 +216,7 @@ blocks:
     _template: photoCardSingle
   - items:
       - title: 'MeitY, Govt of India'
-        image: /mountain.png
+        image: /MeitY_xkepbs.jpg
         text: >-
           AI4Bharat is the official Data Management Unit (DMU) of the Digital
           India Bhasini project. As part of the DMU, AI4Bharat is collecting
