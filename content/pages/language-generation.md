@@ -68,7 +68,8 @@ blocks:
         updated: false
         text: >-
           Language generation models for various tasks like headline generation,
-          sentence summarization, etc.
+          sentence summarization, etc. The models have be trained by finetuning
+          IndicBART on datasets in the IndicNLGSuite
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
