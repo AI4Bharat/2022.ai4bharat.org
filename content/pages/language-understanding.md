@@ -3,11 +3,14 @@ blocks:
   - tagline: ''
     headline: Language Understanding
     text: >
-      Datasets and Models for Indian language understanding.
-
-
-      Below we will have cards for IndicCorp, IndicGLUE, IndicBERT, IndicNER,
-      NERCorpus?
+      Understanding language is central to building intelligent applications
+      that can interface with users, help make sense of large amount of text
+      data and provide insights. This requires basic building blocks like named
+      entity recognizers, questions answering systems, sentiment analyzers,
+      intent-analysis modules, etc. To enable these tasks, foundational language
+      models which can understand language are required. At AI4Bharat, our goal
+      is to build these foundational language models as we as high-quality
+      datasets and models for central NLU tasks.&#x20;
     _template: hero
   - quote: Datasets
     author: Anoop K
