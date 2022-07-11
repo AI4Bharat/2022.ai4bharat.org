@@ -52,12 +52,13 @@ blocks:
           style: float
           name: ''
         title: IndicBART
-        link: indic-bart
+        link: /indic-bart
         comingSoon: false
         updated: false
         text: >-
           Multilingual, sequence-to-sequence language model trained on IndicCorp
-          covering 11 major Indian and English.
+          covering 11 major Indian and English. A single script model that
+          enables better cross-lingual transfer. 
       - icon:
           color: ''
           style: float
