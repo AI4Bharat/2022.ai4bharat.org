@@ -165,7 +165,7 @@ blocks:
           style: float
           name: ''
         title: Chitralekha
-        link: /area/chitralekha
+        link: /chitralekha
         comingSoon: true
         updated: false
         text: >-
