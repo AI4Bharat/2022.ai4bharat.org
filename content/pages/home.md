@@ -121,7 +121,7 @@ blocks:
           style: float
           name: cloud
         title: Language Understanding
-        link: /area/language-understanding
+        link: /language-understanding
         comingSoon: false
         updated: false
         text: >-
