@@ -42,7 +42,7 @@ blocks:
           benchmark for evaluating transliteration models.
       - icon:
           color: white
-          style: circle
+          style: float
           name: AI4B
         title: IndicGLUE
         link: /indic-glue
