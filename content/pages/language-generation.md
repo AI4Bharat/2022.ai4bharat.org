@@ -21,12 +21,22 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicNLG Suite
+        title: Here's Another Feature
         comingSoon: false
         updated: false
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicNLG Suite
+        comingSoon: false
+        updated: false
+        text: >-
+          Multilingual, compact ALBERT language model trained on IndicCorp
+          covering 11 major Indian and English
     _template: featuresAlt
   - quote: Models
     author: Phil Karlton
@@ -41,8 +51,8 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Multilingual, sequence-to-sequence language model trained on IndicCorp
+          covering 11 major Indian and English.
       - icon:
           color: ''
           style: float
