@@ -79,7 +79,9 @@ blocks:
         updated: false
         text: >-
           Multilingual, compact ALBERT language model trained on IndicCorp
-          covering 11 major Indian and English. 
+          covering 11 major Indian and English. Small model (18 million
+          parameters) that is competitive with large LMs for Indian language
+          tasks.
       - icon:
           color: ''
           style: float
