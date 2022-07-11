@@ -44,8 +44,8 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          Benchmark for evaluating language models performance on 6 NLU tasks
-          for 11 Indian languages.
+          Benchmark for 6 NLU tasks spanning 11 Indian languages containing
+          standard training and evaluation sets.
       - icon:
           color: ''
           style: float
