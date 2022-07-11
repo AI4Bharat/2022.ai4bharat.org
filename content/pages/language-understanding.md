@@ -83,7 +83,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicFT
         link: indic-ft
         comingSoon: false
