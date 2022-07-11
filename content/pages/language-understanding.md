@@ -34,7 +34,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicGLUE
         link: indic-glue
         comingSoon: false
