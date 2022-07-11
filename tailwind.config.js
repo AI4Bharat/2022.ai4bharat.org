@@ -100,7 +100,7 @@ module.exports = {
         "-1": "-1",
       },
       fontFamily: {
-        nunito: ["Proza Libre", ...defaultTheme.fontFamily.sans],
+        nunito: ["Open Sans", ...defaultTheme.fontFamily.sans],
         lato: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
