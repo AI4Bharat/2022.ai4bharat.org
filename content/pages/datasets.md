@@ -61,7 +61,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicXTREME
         comingSoon: true
         updated: false
