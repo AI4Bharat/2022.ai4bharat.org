@@ -92,7 +92,7 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Pratilipi Dataset
+        title: Pratilipi
         comingSoon: true
         updated: false
         text: >-
