@@ -69,7 +69,7 @@ blocks:
     _template: featuresAlt
   - quote: Models
     author: Anoop K
-    color: default
+    color: tint
     _template: testimonial
   - items:
       - icon:
