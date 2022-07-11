@@ -53,7 +53,9 @@ blocks:
         title: IndicXtreme
         comingSoon: true
         updated: false
-        text: 'Benchmark for zero-shot and cross-lingual evaluation of '
+        text: >-
+          Benchmark for zero-shot and cross-lingual evaluation of various NLU
+          tasks in multiple Indian languages.
       - icon:
           color: ''
           style: float
