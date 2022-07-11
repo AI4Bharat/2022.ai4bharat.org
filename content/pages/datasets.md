@@ -72,7 +72,7 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: IndicNER corpus
+        title: Naamapadam
         comingSoon: true
         updated: false
         text: >-
