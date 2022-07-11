@@ -75,7 +75,7 @@ blocks:
         text: |-
           Enable researchers, startups, and govt.  
           to innovate on  
-          Indian language AI tech 
+          Indian language AI tech with educational material and workshops.
         iconColor: orange
     _template: flatCardsGrid
   - quote: Areas
