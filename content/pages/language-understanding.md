@@ -32,10 +32,9 @@ blocks:
         text: >-
           Large sentence-level monolingual
 
-          corpora for 11 languages from two language families (Indo-Aryan branch
-          and Dravidian) and Indian English with an average 9-fold increase in
-          size over OSCAR. This corpora was created by crawling content from
-          news articles, magazines and blogposts.
+          corpora for 11 Indian languages and Indian English containing 8.5
+          billions words (240 million sentences) from multiple news domain
+          sources. 
       - icon:
           color: ''
           style: float
