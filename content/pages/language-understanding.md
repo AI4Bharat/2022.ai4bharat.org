@@ -113,7 +113,7 @@ blocks:
           style: float
           name: ''
         title: Koo
-        text: Write about IndicNER for organising Koos based on NEs
+        text: Koo is exploring the use of IndicNER to organize tweets.
     _template: flatCardsGrid
   - tagline: ''
     headline: IndicNLU Workshop
