@@ -17,7 +17,7 @@ export const Banner = ({ data, parentField = "" }) => {
     {show &&
     <Section color={data.color}>
  
-          <div className="bg-cyan-600">
+          <div className="bg-orange-200">
       <div className="max-w-7xl mx-auto py-1 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
@@ -30,7 +30,8 @@ export const Banner = ({ data, parentField = "" }) => {
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-            <a href="#" className="flex items-center justify-center px-4 py-2 text-white mr-16 font-semibold underline">Sign Up</a>
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=EVItqWu0oEeU5xp07iXraoH1V3zYl2lDpFnIHytO5IJUNTY1U05YQjlHQjM1QkZUVkNCUkZQWVFWWC4u"
+             className="flex items-center justify-center px-4 py-2 text-white mr-16 font-semibold underline">Sign Up</a>
           </div>
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
             <button

@@ -17,8 +17,7 @@ blocks:
       - label: Learn More
         type: link
         icon: true
-        link: >-
-          https://ai4b-my.sharepoint.com/:b:/g/personal/pratyush_ai4bharat_org/EQBKpHqWBfxBifUi1-cVn2YBaf9M3pDFRC9ehAAuPBJxbw?e=2TzYpZ
+        link: /launch
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657467743/AI4BharatLaunch_gsqlw3.png
