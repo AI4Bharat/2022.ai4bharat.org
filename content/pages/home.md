@@ -87,7 +87,7 @@ blocks:
           style: float
           name: world
         title: Translation
-        link: /translation
+        link: 'https://indicnlp.ai4bharat.org/indic-trans/'
         comingSoon: false
         updated: false
         text: >-
@@ -98,7 +98,7 @@ blocks:
           style: float
           name: chart
         title: Transliteration
-        link: /transliteration
+        link: /area/transliteration
         comingSoon: false
         updated: false
         text: >-
@@ -110,7 +110,7 @@ blocks:
           style: float
           name: chat
         title: Speech Recognition
-        link: /speech-recognition
+        link: /area/speech-recognition
         comingSoon: false
         updated: false
         text: >-
@@ -121,7 +121,7 @@ blocks:
           style: float
           name: cloud
         title: Language Understanding
-        link: /language-understanding
+        link: /area/language-understanding
         comingSoon: false
         updated: false
         text: >-
@@ -132,7 +132,7 @@ blocks:
           style: float
           name: shield
         title: Language Generation
-        link: /language-generation
+        link: /area/language-generation
         comingSoon: false
         updated: false
         text: >-
@@ -154,7 +154,7 @@ blocks:
           style: float
           name: map
         title: Shoonya
-        link: /shoonya
+        link: /area/shoonya
         comingSoon: true
         updated: false
         text: >-
@@ -165,7 +165,7 @@ blocks:
           style: float
           name: ''
         title: Chitralekha
-        link: /chitralekha
+        link: /area/chitralekha
         comingSoon: true
         updated: false
         text: >-
@@ -207,18 +207,16 @@ blocks:
     _template: testimonial
   - items:
       - title: Nandan Nilekani
-        image: >-
-          https://res.cloudinary.com/dechqhn3b/image/upload/v1657510169/Nandan_vhtjv4.jpg
+        image: /Nandan_vhtjv4.jpeg
         text: >-
-          As our lead sponsor, Nandan Nilekani has generously contributed to the
-          formation of the AI4Bharat center with a focus on open-source tech as
-          a public good. The team at EkStep Foundation also closely collaborates
-          and mentors the center. 
+          Nandan Nilekani has generously contributed to the formation of the
+          AI4Bharat center with a focus on open-source tech as a public good.
+          The team at EkStep Foundation also closely collaborate and mentor the
+          center. 
     _template: photoCardSingle
   - items:
       - title: 'MeitY, Govt of India'
-        image: >-
-          https://res.cloudinary.com/dechqhn3b/image/upload/v1657510165/MeitY_xkepbs.jpg
+        image: /mountain.png
         text: >-
           AI4Bharat is the official Data Management Unit (DMU) of the Digital
           India Bhasini project. As part of the DMU, AI4Bharat is collecting
@@ -252,7 +250,8 @@ blocks:
         personPhoto: 'https://avatars0.githubusercontent.com/u/2256602?s=400&v=4'
         personDesignation: Researcher at Microsoft
       - personName: Vivek Raghavan
-        personPhoto: 'https://static-exp2.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry'
+        personPhoto: >-
+          https://media-exp1.licdn.com/dms/image/C5603AQHMT2LvU84tPg/profile-displayphoto-shrink_800_800/0/1614665040800?e=1663200000&v=beta&t=8KADizXyCaa0-vA-PxqC_GUw9ehUFgJ3BYn1Y1QfuFM
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
     color: tint
     _template: teamCardsGrid
