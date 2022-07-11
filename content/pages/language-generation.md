@@ -12,6 +12,10 @@ blocks:
       applications.
     color: default
     _template: hero
+  - quote: Our Contributions
+    author: Phil Karlton
+    color: default
+    _template: testimonial
   - quote: Datasets
     author: Phil Karlton
     color: default
