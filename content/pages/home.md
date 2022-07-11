@@ -87,7 +87,7 @@ blocks:
           style: float
           name: world
         title: Translation
-        link: 'https://indicnlp.ai4bharat.org/indic-trans/'
+        link: /translation
         comingSoon: false
         updated: false
         text: >-
