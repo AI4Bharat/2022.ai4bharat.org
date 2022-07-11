@@ -78,6 +78,16 @@ blocks:
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Dhwani
+        comingSoon: true
+        updated: false
+        text: >-
+          17,000 hours of raw speech data for 40 Indian languages from a wide
+          variety of domains including education, news, technology, and finance.
     _template: featuresAlt
 ---
 
