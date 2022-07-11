@@ -57,7 +57,7 @@ blocks:
         updated: false
         text: >-
           Multilingual, sequence-to-sequence language model trained on IndicCorp
-          covering 11 major Indian and English. A single script model that
+          covering 11 major Indian and English. It is a single script model that
           enables better cross-lingual transfer. 
       - icon:
           color: ''
