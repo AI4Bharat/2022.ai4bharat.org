@@ -207,7 +207,8 @@ blocks:
     _template: testimonial
   - items:
       - title: Nandan Nilekani
-        image: /Nandan_vhtjv4.jpg
+        image: >-
+          https://res.cloudinary.com/dechqhn3b/image/upload/v1657467743/Nandan_vhtjv4.jpg
         text: >-
           As our lead sponsor, Nandan Nilekani has generously contributed to the
           formation of the AI4Bharat center with a focus on open-source tech as
