@@ -34,11 +34,13 @@ blocks:
           style: float
           name: ''
         title: IndicNLG Suite
+        link: indic-nlg-suite
         comingSoon: false
         updated: false
         text: >-
-          Multilingual, compact ALBERT language model trained on IndicCorp
-          covering 11 major Indian and English
+          Training and Evaluation datasets for 5 diverse language generation
+          tasks spanning 11 Indic languages. One of the largest multilingual
+          generation dataset collections across languages. 
     _template: featuresAlt
   - quote: Models
     author: Phil Karlton
