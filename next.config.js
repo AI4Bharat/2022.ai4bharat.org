@@ -10,7 +10,10 @@ module.exports = withSvgr({
       {
         source: "/testing",
         destination: "/areas",
-      }
+      },
     ];
+  },  
+  images: {
+    domains: ['res.cloudinary.com'],
   },
 });
