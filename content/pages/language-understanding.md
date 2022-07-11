@@ -41,6 +41,7 @@ blocks:
           style: float
           name: ''
         title: IndicGLUE
+        link: indic-glue
         comingSoon: false
         updated: false
         text: >-
