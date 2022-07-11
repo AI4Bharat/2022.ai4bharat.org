@@ -64,8 +64,8 @@ blocks:
         comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Training and evaluation datasets for named entity recognition in
+          multiple Indian language.
     color: default
     _template: featuresAlt
   - quote: Models
