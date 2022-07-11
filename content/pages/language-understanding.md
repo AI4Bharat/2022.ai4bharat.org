@@ -45,8 +45,8 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Benchmark for evaluating language models performance on 6 NLU tasks
+          for 11 Indian languages.
       - icon:
           color: ''
           style: float
