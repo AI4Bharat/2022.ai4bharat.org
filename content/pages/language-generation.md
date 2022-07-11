@@ -48,6 +48,7 @@ blocks:
           style: float
           name: ''
         title: IndicBART
+        link: indic-bart
         comingSoon: false
         updated: false
         text: >-
