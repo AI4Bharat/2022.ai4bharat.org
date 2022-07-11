@@ -84,6 +84,18 @@ blocks:
           color: ''
           style: float
           name: ''
+        title: IndicFT
+        link: indic-ft
+        comingSoon: false
+        updated: false
+        text: >-
+          Word embeddings for 11 Indian languages trained on IndicCorp. The
+          embeddings are based on the fastText model and are well suited for the
+          morphologically rich nature of Indic languages. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
         title: IndicNER
         comingSoon: true
         updated: false
