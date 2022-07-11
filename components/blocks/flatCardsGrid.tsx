@@ -6,10 +6,11 @@ import type { TinaTemplate } from "tinacms";
 import { iconSchema } from "../util/icon";
 import { Chip } from "../util/chip";
 import { chipSchema } from "../util/chip";
+import Link from "next/link";
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 //   style={{ flexBasis: "16rem" }}
 export const FlatCard = ({ featuresColor, data, tinaField }) => {
-   console.log(data)
+   console.log('flat card icon'+data.iconShown)
   // console.log(data.link)
   // console.log(typeof(data.comingSoon))
   return (
@@ -33,7 +34,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
     }        
        
                 <dt>
-                {data.icon &&
+                {data.iconShown && data.icon &&
                   <div className={`absolute flex items-center justify-center h-12 w-12 rounded-md text-white ${
         data.iconColor === "cyan"
           ? `bg-cyan-500`
@@ -54,7 +55,14 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
                         />
                   </div>
                 }   
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
+                {data.link 
+                ?<Link href={data.link} passHref>
+                    <a key={data.id}>
+                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
+                    </a>        
+                  </Link>
+                : <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
+                }
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">{data.text}</dd>
               </div>
@@ -85,11 +93,13 @@ export const FlatCardsGrid = ({ data, parentField }) => {
                     : `text-black`
       }`}>{data.header}</h2>
     }
+
     {data.title &&
     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       {data.title}
     </p>
     }
+
     {data.description &&
     <p className="mt-4 max-w-2xl text-xl text-gray-500 md:mx-auto">
     {data.description}
@@ -135,6 +145,8 @@ const defaultFlatCard = {
     style: "float",
     name: "",
   },
+  iconShown: "true",
+  link: ""
 };
 
 export const flatCardsGridBlockSchema: TinaTemplate = {
@@ -195,6 +207,11 @@ export const flatCardsGridBlockSchema: TinaTemplate = {
           ui: {
             component: "textarea",
           },
+        },
+        {
+          type: "boolean",
+          label: "Show Icon ?",
+          name: "iconShown",
         },
         {
             type: "string",

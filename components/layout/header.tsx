@@ -105,7 +105,7 @@ export const Header = ({ data }) => {
                     style: data.icon.style,
                   }}
                   className="inline-block h-auto w-10 mr-1"
-                />{" "}
+                />{<div className="font-semibold text-md text-orange-300">AI4BHARAT</div>}
               
               </a>
             </Link>

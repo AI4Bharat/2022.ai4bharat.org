@@ -15,6 +15,7 @@ import { PhotoCardsGrid2 } from "./blocks/photoCards2";
 import { PhotoCardSingle } from "./blocks/photoCardSingle";
 import { TeamCardsGrid } from "./blocks/teamCardsGrid";
 import { JobCardsGrid } from "./blocks/jobCards";
+import { PDFEmbed } from "./blocks/pdfEmbed";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
   return (
@@ -76,6 +77,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                       <VideoCarousel data={block} parentField={`blocks.${i}`} />
                     </div>
                   );
+                  case "PageBlocksPdfEmbed":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <PDFEmbed data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
               case "PageBlocksBanner":
                 return (
                   <div

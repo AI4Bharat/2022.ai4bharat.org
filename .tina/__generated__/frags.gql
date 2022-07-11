@@ -193,6 +193,7 @@ fragment PageParts on Page {
         title
         link
         text
+        iconShown
         iconColor
       }
       highlightColor
@@ -266,6 +267,13 @@ fragment PageParts on Page {
         jobType
         description
       }
+      color
+    }
+    ... on PageBlocksPdfEmbed {
+      title
+      header
+      description
+      url
       color
     }
   }

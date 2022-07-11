@@ -55,6 +55,7 @@ import { useTheme } from "../layout";
 import { FaBeer, FaCoffee } from "react-icons/fa";
 import TinaIconSvg from "../../public/tina.svg";
 import AI4BharatIcon from "../../public/logo 1.svg";
+import AI4BharatIconAlt from "../../public/logo_alt.svg"
 import type { TinaField } from "tinacms";
 
 const iconOptions = {
@@ -79,7 +80,8 @@ const iconOptions = {
   aperture: { bi: FiAperture, hi: FiAperture },
   bookmark: { bi: BookmarkAltIcon, hi: BookmarkAltIcon },
   tina: { bi: TinaIconSvg, hi: TinaIconSvg },
-  AI4B : { bi: AI4BharatIcon, hi: AI4BharatIcon }
+  AI4B : { bi: AI4BharatIcon, hi: AI4BharatIcon },
+  AI4BAlt : { bi: AI4BharatIconAlt, hi: AI4BharatIconAlt },
 };
 
 const iconColorClass: { [name: string]: { regular: string; circle: string } } =

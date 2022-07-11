@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { FaFacebookF, FaGithub, FaTwitter, FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 import AI4BharatIcon from "../../../public/logo 1.svg"
+
 import { AiFillInstagram } from "react-icons/ai";
 import { Container } from "../../util/container";
 import { RawRenderer } from "./rawRenderer";

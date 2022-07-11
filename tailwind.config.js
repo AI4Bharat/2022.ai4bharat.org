@@ -101,7 +101,7 @@ module.exports = {
       },
       fontFamily: {
         nunito: ["Proza Libre", ...defaultTheme.fontFamily.sans],
-        lato: ["Cormorant Garamond", ...defaultTheme.fontFamily.sans],
+        lato: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
