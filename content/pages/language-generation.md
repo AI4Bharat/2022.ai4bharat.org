@@ -48,7 +48,7 @@ blocks:
     _template: featuresAlt
   - quote: Models
     author: Phil Karlton
-    color: default
+    color: tint
     _template: testimonial
   - items:
       - icon:
