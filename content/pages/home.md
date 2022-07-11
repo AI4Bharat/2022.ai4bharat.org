@@ -240,6 +240,10 @@ blocks:
     color: tint
     _template: testimonial
   - items:
+      - personName: Vivek Raghavan
+        personPhoto: >-
+          https://media-exp1.licdn.com/dms/image/C5603AQHMT2LvU84tPg/profile-displayphoto-shrink_800_800/0/1614665040800?e=1663200000&v=beta&t=8KADizXyCaa0-vA-PxqC_GUw9ehUFgJ3BYn1Y1QfuFM
+        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
       - personName: Mitesh Khapra
         personPhoto: 'https://avatars2.githubusercontent.com/u/4814357?s=460&v=4'
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
@@ -249,10 +253,6 @@ blocks:
       - personName: Anoop Kunchukuttan
         personPhoto: 'https://avatars0.githubusercontent.com/u/2256602?s=400&v=4'
         personDesignation: Researcher at Microsoft
-      - personName: Vivek Raghavan
-        personPhoto: >-
-          https://media-exp1.licdn.com/dms/image/C5603AQHMT2LvU84tPg/profile-displayphoto-shrink_800_800/0/1614665040800?e=1663200000&v=beta&t=8KADizXyCaa0-vA-PxqC_GUw9ehUFgJ3BYn1Y1QfuFM
-        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
     color: tint
     _template: teamCardsGrid
   - quote: Positions
