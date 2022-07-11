@@ -47,9 +47,10 @@ blocks:
         title: IndicGLUE
         link: /indic-glue
         text: >-
-          This is a benchmark containing various tasks to evaluate the natural
-          language understanding capabilities of language models for Indian
-          languages.
+          This is a benchmark for 6 NLU tasks spanning 11 Indian languages
+          containing standard training and evaluation sets to evaluate the
+          natural language understanding capabilities of language models for
+          Indian languages.  
       - icon:
           color: white
           style: float
