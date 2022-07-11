@@ -58,7 +58,7 @@ blocks:
         text: |-
           Build state-of-the-art, open, foundational  
           AI models across  
-          tasks and languages 
+          tasks and 22 Indian languages 
         iconColor: orange
       - icon:
           color: white
