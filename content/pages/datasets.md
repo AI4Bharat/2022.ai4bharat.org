@@ -103,8 +103,8 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        link: IndicSUPERB
+        title: IndicSUPERB
+        link: ''
         comingSoon: true
         updated: false
         text: >-
