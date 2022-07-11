@@ -79,7 +79,7 @@ blocks:
         updated: false
         text: >-
           Multilingual, compact ALBERT language model trained on IndicCorp
-          covering 11 major Indian and English
+          covering 11 major Indian and English. 
       - icon:
           color: ''
           style: float
