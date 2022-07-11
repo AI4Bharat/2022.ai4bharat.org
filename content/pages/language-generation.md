@@ -24,7 +24,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicCorp
         link: /indic-corp
         comingSoon: false
