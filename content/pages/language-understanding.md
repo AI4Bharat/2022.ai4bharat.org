@@ -55,7 +55,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicNER Corpus
         comingSoon: true
         updated: false
