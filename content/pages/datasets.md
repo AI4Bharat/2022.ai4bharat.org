@@ -19,7 +19,7 @@ blocks:
           news articles, magazines and blogposts.
       - icon:
           color: white
-          style: circle
+          style: float
           name: AI4B
         title: Samanantar
         link: /samanantar
