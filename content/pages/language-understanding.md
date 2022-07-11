@@ -72,7 +72,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicBERT
         link: /indic-bert
         comingSoon: false
