@@ -131,7 +131,7 @@ export const Footer = ({ data, icon, rawData }) => {
           AI4Bharat
         </h6>
         <p className="">
-       Building AI solutions to solve India's problems, today.
+       A center focusing on building open-source language AI for Indian languages. 
         </p>
       </div>
       <div className="">
@@ -159,13 +159,7 @@ export const Footer = ({ data, icon, rawData }) => {
           <a href="/home" className="text-gray-600">Home</a>
         </p>
         <p className="mb-4">
-          <a href="/positions" className="text-gray-600">Positions</a>
-        </p>
-        <p className="mb-4">
-          <a href="/home" className="text-gray-600">More</a>
-        </p>
-        <p>
-          <a href="/home" className="text-gray-600">Help</a>
+          <a href="/positions" className="text-gray-600">Open Positions</a>
         </p>
       </div>
       <div className="">
@@ -188,26 +182,7 @@ export const Footer = ({ data, icon, rawData }) => {
                 />
               </a>
         )}
-          Address: IIT-Madras Research Park, Taramani, Chennai-600113
-        </div>
-        <div className="flex items-center justify-center md:justify-start mb-4">
-        {data.social && data.social.facebook && (
-              <a
-                className="flex items-center justify-center md:justify-start mb-4 mr-4"
-                href={data.social.facebook}
-                target="_blank"
-              >
-                <FaFacebookF
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-                <p className="ml-4">facebook.com/onefourthlabs</p>
-              </a>
-            )}
-        
+          Address: Department of Computer Science and Engineering, IIT Madras, Chennai - 600036
         </div>
         <div className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.github && (
