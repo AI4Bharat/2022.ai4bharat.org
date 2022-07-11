@@ -47,6 +47,7 @@ blocks:
           color: white
           name: map
         title: Data
+        link: ''
         text: >-
           Curate and create the largest public datasets and benchmarks across
           various tasks and 22 Indian languages.
