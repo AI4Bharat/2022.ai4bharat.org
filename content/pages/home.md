@@ -172,35 +172,6 @@ blocks:
           Open-source tool for AI-assisted video subtitling and translating with
           a focus on educational and media content.
     _template: featuresAlt
-  - quote: Resources
-    color: tint
-    _template: testimonial
-  - items:
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Datasets
-        link: /datasets
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Models
-        link: /models
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Data Reports
-        link: /data-reports
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Publications
-        link: /publications
-    _template: featuresAlt2
   - quote: Our Sponsors
     author: ''
     color: default
