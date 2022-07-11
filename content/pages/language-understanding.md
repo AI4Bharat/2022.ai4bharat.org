@@ -12,6 +12,12 @@ blocks:
       is to build these foundational language models as we as high-quality
       datasets and models for central NLU tasks.&#x20;
     _template: hero
+  - quote: >-
+      There are only two hard things in Computer Science: cache invalidation and
+      naming things.
+    author: Phil Karlton
+    color: primary
+    _template: testimonial
   - quote: Datasets
     author: Anoop K
     color: default
