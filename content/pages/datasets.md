@@ -99,6 +99,18 @@ blocks:
           6,000 hours of speech and text for 10 Indian languages mined and
           aligned from audio broadcasts and PDF transcripts. from All India
           Radio.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        link: IndicSUPERB
+        comingSoon: true
+        updated: false
+        text: >-
+          A benchmark of speech recognition tasks including ASR, speaker
+          verification and identification, and keyword detection for 10 Indian
+          languages.
     _template: featuresAlt
 ---
 
