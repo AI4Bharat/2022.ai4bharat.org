@@ -12,10 +12,6 @@ blocks:
       is to build these foundational language models as we as high-quality
       datasets and models for central NLU tasks.&#x20;
     _template: hero
-  - quote: Our Contributions
-    author: Anoop K
-    color: default
-    _template: testimonial
   - quote: Datasets
     author: Anoop K
     color: tint
