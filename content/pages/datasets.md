@@ -58,6 +58,16 @@ blocks:
         title: IndicNLG Suite
         link: /indic-nlg-suite
         text: ' This is a benchmark containing various tasks to evaluate the natural language generation capabilities of language models for Indian languages.'
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicXTREME
+        comingSoon: true
+        updated: false
+        text: >-
+          Benchmark for zero-shot and cross-lingual evaluation of various NLU
+          tasks in multiple Indian languages.
     _template: featuresAlt
 ---
 
