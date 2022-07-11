@@ -49,7 +49,7 @@ blocks:
         title: Data
         text: >-
           Curate and create the largest public datasets and benchmarks across
-          tasks and languages 
+          various tasks and 22 Indian languages.
         iconColor: orange
       - icon:
           color: white
