@@ -52,7 +52,7 @@ blocks:
           languages.
       - icon:
           color: white
-          style: circle
+          style: float
           name: AI4B
         title: IndicNLG Suite
         link: /indic-nlg-suite
