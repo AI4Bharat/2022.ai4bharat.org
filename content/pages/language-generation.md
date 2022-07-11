@@ -2,8 +2,15 @@
 blocks:
   - tagline: ''
     headline: Language Generation
-    text: |
-      The context: what is it and what is our goal
+    text: >
+      AI systems that can generate natural language text can aid users in a
+      variety of writing tasks like summarization, headline/caption generation, 
+      paraphrasing, grammar correction, question generation as well as support
+      tasks like dialog and machine translation. To support these usecases for
+      Indian languages, we are working on building foundational language models,
+      datasets and task-specific models for power language generation
+      applications.
+    color: default
     _template: hero
   - quote: Datasets
     author: Phil Karlton
