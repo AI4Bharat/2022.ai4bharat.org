@@ -33,7 +33,7 @@ blocks:
           Large sentence-level monolingual
 
           corpora for 11 Indian languages and Indian English containing 8.5
-          billions words (240 million sentences) from multiple news domain
+          billions words (250 million sentences) from multiple news domain
           sources. 
       - icon:
           color: ''
