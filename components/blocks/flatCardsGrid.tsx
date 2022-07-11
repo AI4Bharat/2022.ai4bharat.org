@@ -58,10 +58,10 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
                 {data.link 
                 ?<Link href={data.link} passHref>
                     <a key={data.id}>
-                        <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
+                        <p className="ml-16 text-lg leading-6 font-semibold font-medium text-gray-900">{data.title}</p>
                     </a>        
                   </Link>
-                : <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
+                : <p className="ml-16 text-lg leading-6 font-semibold font-medium text-gray-900">{data.title}</p>
                 }
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500 font-nunito">{data.text}</dd>
