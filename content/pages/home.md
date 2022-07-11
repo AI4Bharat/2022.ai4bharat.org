@@ -183,8 +183,7 @@ blocks:
     _template: testimonial
   - items:
       - title: Nandan Nilekani
-        image: >-
-          https://res.cloudinary.com/dechqhn3b/image/upload/v1657510169/Nandan_vhtjv4.jpg
+        image: 'https://static.toiimg.com/photo/60204902.cms'
         text: >-
           As the primary sponsor, Nandan Nilekani has generously contributed to
           the formation of the AI4Bharat center with a focus on open-source
@@ -193,8 +192,7 @@ blocks:
     _template: photoCardSingle
   - items:
       - title: 'MeitY, Govt of India'
-        image: >-
-          https://res.cloudinary.com/dechqhn3b/image/upload/v1657510165/MeitY_xkepbs.jpg
+        image: /meity.jpg
         text: >-
           AI4Bharat is the official Data Management Unit (DMU) of the Digital
           India Bhasini project. As part of the DMU, AI4Bharat is collecting

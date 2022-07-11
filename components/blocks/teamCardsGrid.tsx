@@ -123,7 +123,7 @@ export const TeamCardsGrid = ({ data, parentField }) => {
   
 </div> */}
 <div className="flex justify-center items-center">
-<a href="/home" className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+<a href="/team" className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
 </div> 
       </Container>
     </Section>

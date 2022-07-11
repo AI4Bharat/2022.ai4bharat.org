@@ -12,10 +12,10 @@ export const PhotoCard = ({ featuresColor, data, tinaField }) => {
   console.log(data.image);
   console.log(data.link)
   return (
-    <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 overflow-hidden flex flex-col lg:flex-row max-w-xl" >
+    <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 overflow-hidden flex flex-col lg:flex-row max-w-2xl" >
 
     {data.image && ( 
-          <img src={data.image} />
+          <img src={data.image} className="w-max min-w-lg" />
     )}
     <div>
           <div className="p-4 justify-between leading-normal w-full">
@@ -34,7 +34,14 @@ export const PhotoCard = ({ featuresColor, data, tinaField }) => {
           </p> 
         )}
         </div>
-
+        {data.additionalText && (
+          <p 
+          className="text-gray-700 text-base mb-4 px-6"
+          data-tinafield={`${tinaField}.text`}
+          >
+            {data.additionalText}
+          </p> 
+        )}
          {data.actions && <Actions actions={data.actions} />}
     
     
