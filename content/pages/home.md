@@ -154,7 +154,7 @@ blocks:
           style: float
           name: map
         title: Shoonya
-        link: /area/shoonya
+        link: /shoonya
         comingSoon: true
         updated: false
         text: >-
