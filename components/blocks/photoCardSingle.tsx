@@ -34,23 +34,18 @@ export const PhotoCard = ({ featuresColor, data, tinaField }) => {
           </p> 
         )}
         </div>
-        {data.additionalText && (
-          <p 
-          className="text-gray-700 text-base mb-4 px-6"
-          data-tinafield={`${tinaField}.text`}
-          >
-            {data.additionalText}
-          </p> 
-        )}
          {data.actions && <Actions actions={data.actions} />}
     
     
-    
+         <style jsx>
+      {`font-family: 'Raleway', sans-serif;
+        `}
+     </style>
     
       </div>
     
       
-     
+    
          
      
     
