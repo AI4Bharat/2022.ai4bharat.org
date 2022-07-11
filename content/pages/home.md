@@ -98,7 +98,7 @@ blocks:
           style: float
           name: chart
         title: Transliteration
-        link: /area/transliteration
+        link: /transliteration
         comingSoon: false
         updated: false
         text: >-
