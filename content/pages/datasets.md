@@ -31,7 +31,7 @@ blocks:
           as a part of this work.
       - icon:
           color: white
-          style: circle
+          style: float
           name: AI4B
         title: Aksharantar
         link: /aksharantar
