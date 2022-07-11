@@ -91,9 +91,7 @@ blocks:
         title: IndicNER
         comingSoon: true
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: Named Entity Recognizer models for multiple Indian languages.
     _template: featuresAlt
   - quote: Our Partners
     author: Anoop K
