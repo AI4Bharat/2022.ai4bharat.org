@@ -65,8 +65,8 @@ blocks:
           name: cloud
         title: Applications
         text: >-
-          Design and deploy with partners reference apps to demonstrate
-          potential of open AI models 
+          Design and deploy with partners reference applications to demonstrate
+          potential of open AI models.
         iconColor: orange
       - icon:
           color: white
