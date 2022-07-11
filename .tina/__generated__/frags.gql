@@ -193,6 +193,7 @@ fragment PageParts on Page {
         title
         link
         text
+        iconShown
         iconColor
       }
       highlightColor

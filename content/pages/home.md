@@ -50,6 +50,7 @@ blocks:
         text: >-
           Curate and create the largest public datasets and benchmarks across
           various tasks and 22 Indian languages.
+        iconShown: true
         iconColor: orange
       - icon:
           color: white
@@ -59,6 +60,7 @@ blocks:
           Build state-of-the-art, open, foundational  
           AI models across  
           tasks and 22 Indian languages.
+        iconShown: true
         iconColor: orange
       - icon:
           color: white
@@ -67,6 +69,7 @@ blocks:
         text: >-
           Design and deploy with partners reference applications to demonstrate
           potential of open AI models.
+        iconShown: true
         iconColor: orange
       - icon:
           color: white
@@ -76,6 +79,7 @@ blocks:
           Enable researchers, startups, and govt.  
           to innovate on  
           Indian language AI tech with educational material and workshops.
+        iconShown: true
         iconColor: orange
     _template: flatCardsGrid
   - quote: Areas
@@ -87,7 +91,7 @@ blocks:
           style: float
           name: world
         title: Translation
-        link: 'https://indicnlp.ai4bharat.org/indic-trans/'
+        link: /translation
         comingSoon: false
         updated: false
         text: >-
@@ -98,7 +102,7 @@ blocks:
           style: float
           name: chart
         title: Transliteration
-        link: /area/transliteration
+        link: /transliteration
         comingSoon: false
         updated: false
         text: >-
@@ -110,7 +114,7 @@ blocks:
           style: float
           name: chat
         title: Speech Recognition
-        link: /area/speech-recognition
+        link: /speech-recognition
         comingSoon: false
         updated: false
         text: >-
@@ -121,7 +125,7 @@ blocks:
           style: float
           name: cloud
         title: Language Understanding
-        link: /area/language-understanding
+        link: /language-understanding
         comingSoon: false
         updated: false
         text: >-
@@ -132,7 +136,7 @@ blocks:
           style: float
           name: shield
         title: Language Generation
-        link: /area/language-generation
+        link: /language-generation
         comingSoon: false
         updated: false
         text: >-
@@ -154,7 +158,7 @@ blocks:
           style: float
           name: map
         title: Shoonya
-        link: /area/shoonya
+        link: /shoonya
         comingSoon: true
         updated: false
         text: >-
@@ -165,7 +169,7 @@ blocks:
           style: float
           name: ''
         title: Chitralekha
-        link: /area/chitralekha
+        link: /chitralekha
         comingSoon: true
         updated: false
         text: >-

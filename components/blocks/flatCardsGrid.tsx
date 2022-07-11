@@ -9,7 +9,7 @@ import { chipSchema } from "../util/chip";
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 //   style={{ flexBasis: "16rem" }}
 export const FlatCard = ({ featuresColor, data, tinaField }) => {
-   console.log(data)
+   console.log('flat card icon'+data.iconShown)
   // console.log(data.link)
   // console.log(typeof(data.comingSoon))
   return (
@@ -33,7 +33,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
     }        
        
                 <dt>
-                {data.icon &&
+                {data.iconShown && data.icon &&
                   <div className={`absolute flex items-center justify-center h-12 w-12 rounded-md text-white ${
         data.iconColor === "cyan"
           ? `bg-cyan-500`
@@ -135,6 +135,7 @@ const defaultFlatCard = {
     style: "float",
     name: "",
   },
+  iconShown: "true"
 };
 
 export const flatCardsGridBlockSchema: TinaTemplate = {
@@ -195,6 +196,11 @@ export const flatCardsGridBlockSchema: TinaTemplate = {
           ui: {
             component: "textarea",
           },
+        },
+        {
+          type: "boolean",
+          label: "Show Icon ?",
+          name: "iconShown",
         },
         {
             type: "string",

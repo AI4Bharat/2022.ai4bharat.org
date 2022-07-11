@@ -342,6 +342,7 @@ type PageBlocksFlatCardsGridItems {
   title: String
   link: String
   text: String
+  iconShown: Boolean
   iconColor: String
 }
 
@@ -728,6 +729,7 @@ input PageBlocksFlatCardsGridItemsMutation {
   title: String
   link: String
   text: String
+  iconShown: Boolean
   iconColor: String
 }
 
