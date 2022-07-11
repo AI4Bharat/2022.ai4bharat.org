@@ -110,7 +110,7 @@ blocks:
           style: float
           name: chat
         title: Speech Recognition
-        link: /area/speech-recognition
+        link: /speech-recognition
         comingSoon: false
         updated: false
         text: >-
