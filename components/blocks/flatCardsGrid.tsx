@@ -64,7 +64,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
                 : <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{data.title}</p>
                 }
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{data.text}</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500 font-nunito">{data.text}</dd>
               </div>
          
               </>
