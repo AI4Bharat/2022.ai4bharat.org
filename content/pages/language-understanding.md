@@ -78,11 +78,12 @@ blocks:
           style: float
           name: ''
         title: IndicBERT
+        link: /indic-bert
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Multilingual, compact ALBERT language model trained on IndicCorp
+          covering 11 major Indian and English
       - icon:
           color: ''
           style: float
