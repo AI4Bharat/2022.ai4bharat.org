@@ -34,7 +34,7 @@ blocks:
           style: float
           name: ''
         title: IndicNLG Suite
-        link: indic-nlg-suite
+        link: /indic-nlg-suite
         comingSoon: false
         updated: false
         text: >-
