@@ -26,6 +26,7 @@ blocks:
           style: float
           name: ''
         title: IndicCorp
+        link: /indic-corp
         comingSoon: false
         updated: false
         text: >-
