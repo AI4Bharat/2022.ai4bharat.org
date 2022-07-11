@@ -132,7 +132,7 @@ blocks:
           style: float
           name: shield
         title: Language Generation
-        link: /area/language-generation
+        link: /language-generation
         comingSoon: false
         updated: false
         text: >-
