@@ -207,7 +207,7 @@ blocks:
     _template: testimonial
   - items:
       - title: Nandan Nilekani
-        image: /Nandan_vhtjv4.jpg
+        image: /Nandan_vhtjv4.jpeg
         text: >-
           Nandan Nilekani has generously contributed to the formation of the
           AI4Bharat center with a focus on open-source tech as a public good.
