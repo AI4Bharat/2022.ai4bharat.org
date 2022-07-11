@@ -53,9 +53,7 @@ blocks:
         title: IndicXtreme
         comingSoon: true
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: 'Benchmark for zero-shot and cross-lingual evaluation of '
       - icon:
           color: ''
           style: float
