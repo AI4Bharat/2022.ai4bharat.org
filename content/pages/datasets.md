@@ -88,6 +88,17 @@ blocks:
         text: >-
           17,000 hours of raw speech data for 40 Indian languages from a wide
           variety of domains including education, news, technology, and finance.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Pratilipi Dataset
+        comingSoon: true
+        updated: false
+        text: >-
+          6,000 hours of speech and text for 10 Indian languages mined and
+          aligned from audio broadcasts and PDF transcripts. from All India
+          Radio.
     _template: featuresAlt
 ---
 
