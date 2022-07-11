@@ -21,12 +21,14 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: IndicCorp
+        link: /indic-corp
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Large sentence-level monolingual corpora for 11 Indian languages and
+          Indian English containing 8.5 billions words (250 million sentences)
+          from multiple news domain sources.
       - icon:
           color: ''
           style: float
