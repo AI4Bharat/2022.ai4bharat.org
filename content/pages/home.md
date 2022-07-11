@@ -17,7 +17,7 @@ blocks:
       - label: Learn More
         type: link
         icon: true
-        link: ''
+        link: /launch
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657467743/AI4BharatLaunch_gsqlw3.png
