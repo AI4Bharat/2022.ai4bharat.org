@@ -36,7 +36,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicNLG Suite
         link: /indic-nlg-suite
         comingSoon: false
