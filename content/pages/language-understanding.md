@@ -36,7 +36,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicGLUE
-        link: indic-glue
+        link: /indic-glue
         comingSoon: false
         updated: false
         text: >-
