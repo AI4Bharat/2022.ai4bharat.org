@@ -18,7 +18,7 @@ blocks:
     _template: testimonial
   - quote: Datasets
     author: Anoop K
-    color: default
+    color: tint
     _template: testimonial
   - items:
       - icon:
