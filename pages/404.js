@@ -5,7 +5,7 @@ export default function FourOhFour() {
     <Hero
       data={{
         color: "default",
-        headline: "404 – Page Not Found",
+        headline: "404 – Page Not Found !",
         text: "Oops! It seems there's nothing here, how embarrassing.",
         actions: [
           {
