@@ -226,8 +226,12 @@ fragment PageParts on Page {
           name
         }
         personName
-        personPhoto
         personDesignation
+        personImage {
+          __typename
+          src
+          alt
+        }
         personDescription
       }
       color

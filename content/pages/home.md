@@ -189,6 +189,7 @@ blocks:
           the formation of the AI4Bharat center with a focus on open-source
           language tech as a public good. The team at EkStep Foundation also
           closely collaborates and mentors the center. 
+    color: default
     _template: photoCardSingle
   - items:
       - title: 'MeitY, Govt of India'
@@ -217,19 +218,30 @@ blocks:
     _template: testimonial
   - items:
       - personName: Vivek Raghavan
-        personPhoto: >-
-          https://media-exp1.licdn.com/dms/image/C5603AQHMT2LvU84tPg/profile-displayphoto-shrink_800_800/0/1614665040800?e=1663200000&v=beta&t=8KADizXyCaa0-vA-PxqC_GUw9ehUFgJ3BYn1Y1QfuFM
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
+          alt: Vivek Raghavan
       - personName: Mitesh Khapra
-        personPhoto: 'https://avatars2.githubusercontent.com/u/4814357?s=460&v=4'
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+          alt: Mitesh Khapra
       - personName: Pratyush Kumar
-        personPhoto: 'https://avatars0.githubusercontent.com/u/49815493?s=460&v=4'
         personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
+          alt: Pratyush Kumar
       - personName: Anoop Kunchukuttan
-        personPhoto: 'https://avatars0.githubusercontent.com/u/2256602?s=400&v=4'
         personDesignation: Researcher at Microsoft
-    color: tint
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
+          alt: Anoop Kunchukuttan
+    color: default
     _template: teamCardsGrid
   - quote: Positions
     author: ''

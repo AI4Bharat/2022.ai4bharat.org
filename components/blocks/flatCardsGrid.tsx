@@ -23,7 +23,7 @@ const markdown = `| Subset | [as-en <sub>(4.72 MB)</sub>](https://huggingface.co
 `
 
 export const FlatCard = ({ featuresColor, data, tinaField }) => {
-   console.log('flat card icon'+data.iconShown)
+  //  console.log('flat card icon'+data.iconShown)
   // console.log(data.link)
   // console.log(typeof(data.comingSoon))
   return (
@@ -34,7 +34,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
 
        <div key={data.title} className="relative">
 
-       {console.log(data.chip)}
+       {/* {console.log(data.chip)} */}
     {data.chip &&
       <Chip 
         data={{
@@ -87,7 +87,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
 };
 
 export const FlatCardsGrid = ({ data, parentField }) => {
-    {console.log('data.highlightColor '+data)}
+    // {console.log('data.highlightColor '+data)}
   return (
     <Section color={data.color} className="pb-12  bg-white">
     {  /* remarkPlugins={[remarkGfm]} */ }

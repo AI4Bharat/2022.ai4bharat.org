@@ -7,8 +7,8 @@ import { iconSchema } from "../util/icon";
 import Link from "next/link";
 
 export const Feature = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.link)
+  // console.log(data)
+  // console.log(data.link)
   return (
     
     <div

@@ -381,11 +381,16 @@ type PageBlocksTeamCardsGridItemsIcon {
   name: String
 }
 
+type PageBlocksTeamCardsGridItemsPersonImage {
+  src: String
+  alt: String
+}
+
 type PageBlocksTeamCardsGridItems {
   icon: PageBlocksTeamCardsGridItemsIcon
   personName: String
-  personPhoto: String
   personDesignation: String
+  personImage: PageBlocksTeamCardsGridItemsPersonImage
   personDescription: String
 }
 
@@ -773,11 +778,16 @@ input PageBlocksTeamCardsGridItemsIconMutation {
   name: String
 }
 
+input PageBlocksTeamCardsGridItemsPersonImageMutation {
+  src: String
+  alt: String
+}
+
 input PageBlocksTeamCardsGridItemsMutation {
   icon: PageBlocksTeamCardsGridItemsIconMutation
   personName: String
-  personPhoto: String
   personDesignation: String
+  personImage: PageBlocksTeamCardsGridItemsPersonImageMutation
   personDescription: String
 }
 

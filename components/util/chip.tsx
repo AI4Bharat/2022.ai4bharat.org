@@ -114,7 +114,7 @@ export const Chip = ({
   const theme = useTheme();
 
    const chipName = data.name || Object.keys(chipOptions)[0];
-   console.log('chipName '+ chipName);
+  //  console.log('chipName '+ chipName);
   // const ChipSVG = chipOptions[chipName][theme.icon === "boxicon" ? "bi" : "hi"];
 
   const chipSizeClasses = data.size && chipSizeClass[data.size];
@@ -128,8 +128,8 @@ export const Chip = ({
       : data.color
     : theme.color;
 
-    console.log('data.color '+data.color)
-    console.log(chipColorClass)
+    // console.log('data.color '+data.color)
+    // console.log(chipColorClass)
 
   if (data.style == "outline") {
     return (
