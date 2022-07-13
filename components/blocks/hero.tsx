@@ -54,7 +54,7 @@ export const Hero = ({ data, parentField }) => {
           {data.text && (
             <div
               data-tinafield={`${parentField}.text`}
-              className={`prose prose-lg mx-auto lg:mx-0 mb-10 font-nunito ${
+              className={`prose prose-lg mx-auto lg:mx-0 mb-10 ${
                 data.color === "primary" ? `prose-primary` : `dark:prose-dark`
               }`}
             >

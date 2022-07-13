@@ -27,7 +27,7 @@ export const PhotoCard = ({ featuresColor, data, tinaField }) => {
     
         {data.text && (
           <p 
-          className="text-gray-700 text-base mb-4 px-6 font-nunito"
+          className="text-gray-700 text-base mb-4 px-6"
           data-tinafield={`${tinaField}.text`}
           >
             {data.text}
