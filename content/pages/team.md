@@ -8,12 +8,17 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - personName: ''
-        personDesignation: ''
+      - icon:
+          color: orange
+          style: float
+          name: bookmark
+        personName: Pratyush Kumar (ପ୍ରତ୍ୟୁଷ କୁମାର)
+        personDesignation: 'Researcher, Microsoft Research / IIT Madras'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
           alt: Pratyush
+        personDescription: ''
       - personName: ''
         personDesignation: ''
       - personName: ''
