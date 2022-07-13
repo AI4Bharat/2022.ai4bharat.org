@@ -41,7 +41,7 @@ blocks:
           name: ''
         title: IndicTrans
         link: /indic-trans
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           A multilingual single-script transformer based model for translating
