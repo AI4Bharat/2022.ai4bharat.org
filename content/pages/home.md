@@ -176,6 +176,17 @@ blocks:
         text: >-
           Open-source tool for AI-assisted video subtitling and translating with
           a focus on educational and media content.
+      - icon:
+          color: ''
+          style: float
+          name: bookmark
+        title: Anuvaaad
+        link: /anuvaad
+        comingSoon: false
+        updated: false
+        text: >-
+          Open-sourced tool for document-level translation with NMT and
+          transliteration support. 
     _template: featuresAlt
   - quote: Our Sponsors
     author: ''
