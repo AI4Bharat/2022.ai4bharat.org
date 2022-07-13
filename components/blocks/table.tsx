@@ -15,22 +15,16 @@ const markdown = `| Subset | [as-en <sub>(4.72 MB)</sub>](https://huggingface.co
 `
 
 export const Table = ({ data, parentField = "" }) => {
-  const [show, setShow] = useState(true);
 
-  const handleShow = () =>
-  {
-    setShow(false);
-    sessionStorage.setItem('isShown', 'false');
-  }
    return (
     <>
-    {show &&
+   
     <Section color={data.color}>
- <div className="text-center overflow-auto py-4 px-2 mx-auto">
+ <div className="text-center overflow-auto px-2 mx-auto">
  <ReactMarkdown remarkPlugins={[gfm]} children={data.markdownTable} />
  </div>
     </Section>
-    }
+
     </>
   )
 
@@ -42,27 +36,11 @@ export const tableBlockSchema: TinaTemplate = {
   ui: {
     previewSrc: "/blocks/testimonial.png",
     defaultItem: {
-      header: "Impact",
-      title: "Data",
-      description: "Curate and create the largest public datasets across tasks and languages",
       color: "default",
-      highlightColor: "cyan",
     },
   },
   fields: [
-    {
-      type: "string",
-      ui: {
-        component: "textarea",
-      },
-      label: "Title",
-      name: "title",
-    },
-    {
-      type: "string",
-      label: "Header",
-      name: "header",
-    },
+
     {
         type: "string",
         label: "Markdown Table",
@@ -70,17 +48,6 @@ export const tableBlockSchema: TinaTemplate = {
         ui: {
             component: "textarea",
         },
-    },
-    {
-        type: "string",
-        label: "Highlight Color",
-        name: "highlightColor",
-        options: [
-          { label: "Cyan", value: "cyan" },
-          { label: "Black", value: "black" },
-          { label: "Yellow", value: "yellow" },
-          { label: "Orange", value: "orange" },
-        ],
     },
     {
       type: "string",

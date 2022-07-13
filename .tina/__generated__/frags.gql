@@ -277,10 +277,7 @@ fragment PageParts on Page {
       color
     }
     ... on PageBlocksTable {
-      title
-      header
       markdownTable
-      highlightColor
       color
     }
   }
