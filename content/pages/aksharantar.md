@@ -4,47 +4,47 @@ blocks:
     color: default
     _template: content
   - markdownTable: >-
-      | Subset | [as-en <sub>(4.72
-      MB)</sub>](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/asm.zip)
-      |
+      | Subset |
+      [as-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/asm.zip)
+      (4.72 MB)|
       [bn-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ben.zip)
-      <sub>(31.5 MB)</sub> |
+      (31.5 MB) |
       [brx-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/brx.zip)
-      <sub>(0.933 MB)</sub> |
+      (0.933 MB) |
       [gu-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/guj.zip)
-      <sub>(29.5 MB)</sub> |
+      (29.5 MB)|
       [hi-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/hin.zip)
-      <sub>(31.4 MB)</sub> |
+      (31.4 MB) |
       [kn-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kan.zip)
-      <sub>(83.7 MB)</sub> |
+      (83.7 MB) |
       [ks-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kas.zip)
-      <sub>(1.1 MB)</sub> |
+      (1.1 MB) |
       [kok-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/kok.zip)
-      <sub>(16.6 MB)</sub> |
+      (16.6 MB) |
       [mai-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mai.zip)
-      <sub>(6.74 MB)</sub> |
+      (6.74 MB) |
       [ml-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mal.zip)
-      <sub>(125 MB)</sub> |
+      (125 MB) |
       [mni-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mni.zip)
-      <sub>(0.313 MB)</sub> |
+      (0.313 MB) |
       [mr-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/mar.zip)
-      <sub>(39.9 MB)</sub> |
+      (39.9 MB) |
       [ne-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/nep.zip)
-      <sub>(67 MB)</sub> |
+      (67 MB) |
       [or-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/ori.zip)
-      <sub>(9.09 MB)</sub> |
+      (9.09 MB) |
       [pa-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/pan.zip)
-      <sub>(12.1 MB)</sub> |
+      (12.1 MB) |
       [sa-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/san.zip)
-      <sub>(56 MB)</sub> |
+      (56 MB) |
       [sd-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/sid.zip)
-      <sub>(1.37 MB)</sub> |
+      (1.37 MB) |
       [ta-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tam.zip)
-      <sub>(92.7 MB)</sub> |
+      (92.7 MB) |
       [te-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/tel.zip)
-      <sub>(69.1 MB)</sub> |
+      (69.1 MB) |
       [ur-en](https://huggingface.co/datasets/ai4bharat/Aksharantar/blob/main/urd.zip)
-      <sub>(17 MB)</sub> |
+      (17 MB) |
 
       |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 
