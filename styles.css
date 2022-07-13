@@ -5,3 +5,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+table {
+    border-collapse: collapse;
+    border: 0.5px solid black;
+  }
+
+th, td {
+    
+    border: 0.5px solid black;
+    padding: 6px 0;
+  }
+
+  thead {
+    background-color: #333;
+    color: white;
+  }
+
+  a{
+    color: rgb(32, 94, 202);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+
+
+  tbody td:first-child{
+    font-weight: bold;
+    padding: 6px;
+  }
