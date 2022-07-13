@@ -200,6 +200,7 @@ blocks:
           the formation of the AI4Bharat center with a focus on open-source
           language tech as a public good. The team at EkStep Foundation also
           closely collaborates and mentors the center. 
+    color: default
     _template: photoCardSingle
   - items:
       - title: 'MeitY, Govt of India'
