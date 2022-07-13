@@ -1,5 +1,64 @@
 ---
 blocks:
+  - markupTable: >-
+      <table class="tg"> <thead> <tr> <th class="tg-9wq8"></th> <th
+      class="tg-9wq8" colspan="10">WAT2021</th> <th class="tg-9wq8"
+      colspan="7">WAT2020</th> <th class="tg-9wq8" colspan="3">WMT</th> <th
+      class="tg-9wq8">UFAL</th> <th class="tg-9wq8">PMI</th> <th class="tg-9wq8"
+      colspan="11">FLORES-101</th> </tr> </thead> <tbody> <tr> <td
+      class="tg-9wq8"></td> <td class="tg-9wq8">bn</td> <td
+      class="tg-9wq8">gu</td> <td class="tg-9wq8">hi</td> <td
+      class="tg-9wq8">kn</td> <td class="tg-9wq8">ml</td> <td
+      class="tg-9wq8">mr</td> <td class="tg-9wq8">or</td> <td
+      class="tg-9wq8">pa</td> <td class="tg-9wq8">ta</td> <td
+      class="tg-9wq8">te</td> <td class="tg-9wq8">bn</td> <td
+      class="tg-9wq8">gu</td> <td class="tg-9wq8">hi</td> <td
+      class="tg-9wq8">ml</td> <td class="tg-9wq8">mr</td> <td
+      class="tg-9wq8">ta</td> <td class="tg-9wq8">te</td> <td
+      class="tg-9wq8">hi</td> <td class="tg-9wq8">gu</td> <td
+      class="tg-9wq8">ta</td> <td class="tg-9wq8">ta</td> <td
+      class="tg-9wq8">as</td> <td class="tg-9wq8">as</td> <td
+      class="tg-9wq8">bn</td> <td class="tg-9wq8">gu</td> <td
+      class="tg-9wq8">hi</td> <td class="tg-9wq8">kn</td> <td
+      class="tg-9wq8">ml</td> <td class="tg-9wq8">mr</td> <td
+      class="tg-9wq8">or</td> <td class="tg-9wq8">pa</td> <td
+      class="tg-9wq8">ta</td> <td class="tg-9wq8">te</td> </tr> <tr> <td
+      class="tg-9wq8">IN-EN</td> <td class="tg-9wq8">29.6</td> <td
+      class="tg-9wq8">40.3</td> <td class="tg-9wq8">43.9</td> <td
+      class="tg-9wq8">36.4</td> <td class="tg-9wq8">34.6</td> <td
+      class="tg-9wq8">33.5</td> <td class="tg-9wq8">34.4</td> <td
+      class="tg-9wq8">43.2</td> <td class="tg-9wq8">33.2</td> <td
+      class="tg-9wq8">36.2</td> <td class="tg-9wq8">20.0</td> <td
+      class="tg-9wq8">24.1</td> <td class="tg-9wq8">23.6</td> <td
+      class="tg-9wq8">20.4</td> <td class="tg-9wq8">20.4</td> <td
+      class="tg-9wq8">18.3</td> <td class="tg-9wq8">18.5</td> <td
+      class="tg-9wq8">29.7</td> <td class="tg-9wq8">25.1</td> <td
+      class="tg-9wq8">24.1</td> <td class="tg-9wq8">30.2</td> <td
+      class="tg-9wq8">29.9</td> <td class="tg-9wq8">23.3</td> <td
+      class="tg-9wq8">32.2</td> <td class="tg-9wq8">34.3</td> <td
+      class="tg-9wq8">37.9</td> <td class="tg-9wq8">28.8</td> <td
+      class="tg-9wq8">31.7</td> <td class="tg-9wq8">30.8</td> <td
+      class="tg-9wq8">30.1</td> <td class="tg-9wq8">35.8</td> <td
+      class="tg-9wq8">28.6</td> <td class="tg-9wq8">33.5</td> </tr> <tr> <td
+      class="tg-9wq8">EN-IN</td> <td class="tg-9wq8">15.3</td> <td
+      class="tg-9wq8">25.6</td> <td class="tg-9wq8">38.6</td> <td
+      class="tg-9wq8">19.1</td> <td class="tg-9wq8">14.7</td> <td
+      class="tg-9wq8">20.1</td> <td class="tg-9wq8">18.9</td> <td
+      class="tg-9wq8">33.1</td> <td class="tg-9wq8">13.5</td> <td
+      class="tg-9wq8">14.1</td> <td class="tg-9wq8">11.4</td> <td
+      class="tg-9wq8">15.3</td> <td class="tg-9wq8">20.0</td> <td
+      class="tg-9wq8">7.2</td> <td class="tg-9wq8">12.7</td> <td
+      class="tg-9wq8">6.2</td> <td class="tg-9wq8">7.6</td> <td
+      class="tg-9wq8">25.5</td> <td class="tg-9wq8">17.2</td> <td
+      class="tg-9wq8">9.9</td> <td class="tg-9wq8">10.9</td> <td
+      class="tg-9wq8">11.6</td> <td class="tg-9wq8">6.9</td> <td
+      class="tg-9wq8">20.3</td> <td class="tg-9wq8">22.6</td> <td
+      class="tg-9wq8">34.5</td> <td class="tg-9wq8">18.9</td> <td
+      class="tg-9wq8">16.3</td> <td class="tg-9wq8">16.1</td> <td
+      class="tg-9wq8">13.9</td> <td class="tg-9wq8">26.9</td> <td
+      class="tg-9wq8">16.3</td> <td class="tg-9wq8">22.0</td> </tr> </tbody>
+      </table>
+    _template: table
   - body: "# ***IndicTrans***\n\n[Website](http://indicnlp.ai4bharat.org/samanantar)\_|\_[Paper](https://arxiv.org/abs/2104.05596)\_|\_[Video](https://youtu.be/QwYPOd1eBtQ?t=383)\n\n\n\n**IndicTrans**\_is a Transformer-4x ( ~434M ) multilingual NMT model trained on\_[Samanantar](https://indicnlp.ai4bharat.org/samanantar)\_dataset which is the largest publicly available parallel corpora collection for Indic languages at the time of writing ( 14 April 2021 ). It is a single script model i.e we convert all the Indic data to the Devanagari script which allows for\_***better lexical sharing between languages for transfer learning, prevents fragmentation of the subword vocabulary between Indic languages and allows using a smaller subword vocabulary***. We currently release two models - Indic to English and English to Indic and support the following 11 indic languages:\n\n\n\n"
     _template: content
   - markdownTable: |
