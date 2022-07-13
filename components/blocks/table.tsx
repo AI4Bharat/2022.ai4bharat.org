@@ -27,7 +27,7 @@ export const Table = ({ data, parentField = "" }) => {
     {show &&
     <Section color={data.color}>
  
- <ReactMarkdown remarkPlugins={[gfm]} children={markdown} />
+ <ReactMarkdown remarkPlugins={[gfm]} children={data.markdownTable} />
 
     </Section>
     }
@@ -65,8 +65,11 @@ export const tableBlockSchema: TinaTemplate = {
     },
     {
         type: "string",
-        label: "Description",
-        name: "description",
+        label: "Markdown Table",
+        name: "markdownTable",
+        ui: {
+            component: "textarea",
+        },
     },
     {
         type: "string",

@@ -449,7 +449,7 @@ type PageBlocksPdfEmbed {
 type PageBlocksTable {
   title: String
   header: String
-  description: String
+  markdownTable: String
   highlightColor: String
   color: String
 }
@@ -844,7 +844,7 @@ input PageBlocksPdfEmbedMutation {
 input PageBlocksTableMutation {
   title: String
   header: String
-  description: String
+  markdownTable: String
   highlightColor: String
   color: String
 }

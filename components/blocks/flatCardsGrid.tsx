@@ -91,7 +91,7 @@ export const FlatCardsGrid = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12  bg-white">
     {  /* remarkPlugins={[remarkGfm]} */ }
-    <ReactMarkdown remarkPlugins={[gfm]} children={markdown} />
+    {/* <ReactMarkdown remarkPlugins={[gfm]} children={markdown} /> */}
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
          
