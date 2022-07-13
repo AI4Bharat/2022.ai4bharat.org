@@ -7,5 +7,9 @@ blocks:
       and software developers. We share a passion for building open-source
       content and tools for Indian languages.
     _template: hero
+  - quote: Researchers
+    author: ''
+    color: tint
+    _template: testimonial
 ---
 
