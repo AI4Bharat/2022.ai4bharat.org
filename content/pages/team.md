@@ -8,6 +8,11 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - personName: SRILEKHA P NAMBIAR ( ശ്രീലേഖ പി നമ്പ്യാർ )
+        personDesignation: 'Language Expert, Malayalam'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657720721/IMG_20220617_204943_SrilekhaPadmakumarNa_kbv7xm.jpg
       - personName: Pratyush Kumar (ପ୍ରତ୍ୟୁଷ କୁମାର)
         personDesignation: 'Researcher, MSR/IITM'
         personImage:
