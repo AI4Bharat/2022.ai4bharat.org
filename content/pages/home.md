@@ -157,7 +157,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: map
+          name: user
         title: Shoonya
         link: /shoonya
         comingSoon: true
