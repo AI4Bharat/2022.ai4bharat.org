@@ -276,6 +276,13 @@ fragment PageParts on Page {
       url
       color
     }
+    ... on PageBlocksTable {
+      title
+      header
+      description
+      highlightColor
+      color
+    }
   }
 }
 
