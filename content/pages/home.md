@@ -168,7 +168,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: chat
         title: Chitralekha
         link: /chitralekha
         comingSoon: true
