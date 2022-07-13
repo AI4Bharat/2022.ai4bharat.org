@@ -26,9 +26,9 @@ export const Table = ({ data, parentField = "" }) => {
     <>
     {show &&
     <Section color={data.color}>
- 
+ <div className="text-center overflow-auto py-4 px-2 mx-auto">
  <ReactMarkdown remarkPlugins={[gfm]} children={data.markdownTable} />
-
+ </div>
     </Section>
     }
     </>
