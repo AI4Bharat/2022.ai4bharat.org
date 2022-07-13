@@ -1,6 +1,6 @@
 ---
 blocks:
-  - tagline: Applicatoin
+  - tagline: Application
     headline: Anuvaad
     text: |
       Anuvaad is a document translation tool.
