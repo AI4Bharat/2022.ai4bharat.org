@@ -8,7 +8,7 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - personName: SRILEKHA P NAMBIAR ( ശ്രീലേഖ പി നമ്പ്യാർ )
+      - personName: SRILEKHA P NAMBIAR (ശ്രീലേഖ പി നമ്പ്യാർ)
         personDesignation: 'Language Expert, Malayalam'
         personImage:
           src: >-
