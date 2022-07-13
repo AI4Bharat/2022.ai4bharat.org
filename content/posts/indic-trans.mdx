@@ -7,8 +7,6 @@ excerpt: ''
 
 [Website](http://indicnlp.ai4bharat.org/samanantar) | [Paper](https://arxiv.org/abs/2104.05596) | [Video](https://youtu.be/QwYPOd1eBtQ?t=383)
 
-
-
 **IndicTrans** is a Transformer-4x ( ~434M ) multilingual NMT model trained on [Samanantar](https://indicnlp.ai4bharat.org/samanantar) dataset which is the largest publicly available parallel corpora collection for Indic languages at the time of writing ( 14 April 2021 ). It is a single script model i.e we convert all the Indic data to the Devanagari script which allows for ***better lexical sharing between languages for transfer learning, prevents fragmentation of the subword vocabulary between Indic languages and allows using a smaller subword vocabulary***. We currently release two models - Indic to English and English to Indic and support the following 11 indic languages:
 
 Assamese (as)Hindi (hi)Marathi (mr)Tamil (ta)Bengali (bn)Kannada (kn)Odia (or)Telugu (te)Gujarati (gu)Malayalam (ml)Punjabi (pa)
@@ -19,13 +17,8 @@ We evaluate IndicTrans model on a [WAT2021](http://lotus.kuee.kyoto-u.ac.jp/WAT
 
 **WAT2021WAT2020WMTUFALPMIFLORES-101**bnguhiknmlmrorpatatebnguhimlmrtatehigutataasasbnguhiknmlmrorpatateIN-EN29.640.343.936.434.633.534.443.233.236.220.024.123.620.420.418.318.529.725.124.130.229.923.332.234.337.928.831.730.830.135.828.633.5EN-IN15.325.638.619.114.720.118.933.113.514.111.415.320.07.212.76.27.625.517.29.910.911.66.920.322.634.518.916.316.113.926.916.322.0
 
-## Updates
-
-Click to expand
-
 ## Table of contents
 
-*   [Updates](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#updates)
 *   [Table of contents](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#table-of-contents)
 *   [Resources](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#resources)
     *   [Try out model online (Huggingface spaces)](https://github.com/AI4Bharat/indicTrans/blob/main/README.md#try-out-model-online-huggingface-spaces)
@@ -68,10 +61,41 @@ Indic to Indic: [v0.3](https://storage.googleapis.com/samanantar-public/V0.3/mo
 
 ### Using hosted APIs
 
-Click to expand
+Please visit [API documentation](http://216.48.181.177:5050/docs#) to read more about the available API endpoints/methods you can use.
+
+#### Sample screenshot of translate\_sentence POST request
+
+Go to [API documentation](http://216.48.181.177:5050/docs#), scroll to translate\_sentence POST request endpoint and click "Try it out" button.
+
+
+
+
+
+
+
+To try english to tamil translation, set the source language to "en" and target language to "ta" and enter your sentence in the "text" field:
+
+
+
+
+
+
+
+Check the translation result in response:
+
+
+
+
+Visit the [API documentation](http://216.48.181.177:5050/docs#)to check other supported methods:
+
+
 
 
 Refer to this colab notebook on how to use python to hit the API endpoints--> 
+
+
+
+
 
 ### Accessing on ULCA
 
@@ -136,7 +160,19 @@ The python interface is useful in case you want to reuse the model for multiple 
 
 ### Setting up your environment
 
-Click to expand
+```bash
+cd indicTrans
+git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
+git clone https://github.com/rsennrich/subword-nmt.git
+# install required libraries
+pip install sacremoses pandas mock sacrebleu tensorboardX pyarrow indic-nlp-library
+
+# Install fairseq from source
+git clone https://github.com/pytorch/fairseq.git
+cd fairseq
+pip install --editable ./
+```
 
 ### Details of models and hyperparameters
 
@@ -570,6 +606,3 @@ The IndicTrans code (and models) are released under the MIT License.
 ## Acknowledgements
 
 We would like to thank EkStep Foundation for their generous grant which helped in setting up the Centre for AI4Bharat at IIT Madras to support our students, research staff, data and computational requirements. We would like to thank The Ministry of Electronics and Information Technology (NLTM) for its grant to support the creation of datasets and models for Indian languages under its ambitions Bhashini project. We would also like to thank the Centre for Development of Advanced Computing, India (C-DAC) for providing access to the Param Siddhi supercomputer for training our models. Lastly, we would like to thank Microsoft for its grant to create datasets, tools and resources for Indian languages.
-
-
-
