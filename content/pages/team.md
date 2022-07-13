@@ -9,16 +9,16 @@ blocks:
     _template: hero
   - items:
       - personName: ''
-        personPhoto: ''
+        personDesignation: ''
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
+          alt: Pratyush
+      - personName: ''
         personDesignation: ''
       - personName: ''
-        personPhoto: ''
         personDesignation: ''
       - personName: ''
-        personPhoto: ''
-        personDesignation: ''
-      - personName: ''
-        personPhoto: ''
         personDesignation: ''
     _template: teamCardsGrid
 ---
