@@ -18,6 +18,7 @@ import { quoteBlockSchema } from "../components/blocks/quote";
 import { teamCardsGridBlockSchema } from "../components/blocks/teamCardsGrid";
 import { jobCardsGridBlockSchema } from "../components/blocks/jobCards";
 import { pdfEmbedBlockSchema } from "../components/blocks/pdfEmbed";
+import { tableBlockSchema } from "../components/blocks/table"
 
 const schema = defineSchema({
   collections: [
@@ -434,6 +435,7 @@ const schema = defineSchema({
             photoCardSingleBlockSchema,
             jobCardsGridBlockSchema,
             pdfEmbedBlockSchema,
+            tableBlockSchema,
           ],
         },
       ],
@@ -588,6 +590,10 @@ export const tinaConfig = defineConfig({
       });
       cms.plugins.add(RouteMapping);
     });
+
+    import('react-tinacms-editor').then((field)=> {
+       cms.plugins.add(field.MarkdownFieldPlugin)
+     })
 
     return cms;
   },

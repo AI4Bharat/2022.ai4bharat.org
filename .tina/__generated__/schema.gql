@@ -381,11 +381,16 @@ type PageBlocksTeamCardsGridItemsIcon {
   name: String
 }
 
+type PageBlocksTeamCardsGridItemsPersonImage {
+  src: String
+  alt: String
+}
+
 type PageBlocksTeamCardsGridItems {
   icon: PageBlocksTeamCardsGridItemsIcon
   personName: String
-  personPhoto: String
   personDesignation: String
+  personImage: PageBlocksTeamCardsGridItemsPersonImage
   personDescription: String
 }
 
@@ -446,7 +451,12 @@ type PageBlocksPdfEmbed {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed
+type PageBlocksTable {
+  markdownTable: String
+  color: String
+}
+
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -768,11 +778,16 @@ input PageBlocksTeamCardsGridItemsIconMutation {
   name: String
 }
 
+input PageBlocksTeamCardsGridItemsPersonImageMutation {
+  src: String
+  alt: String
+}
+
 input PageBlocksTeamCardsGridItemsMutation {
   icon: PageBlocksTeamCardsGridItemsIconMutation
   personName: String
-  personPhoto: String
   personDesignation: String
+  personImage: PageBlocksTeamCardsGridItemsPersonImageMutation
   personDescription: String
 }
 
@@ -833,6 +848,11 @@ input PageBlocksPdfEmbedMutation {
   color: String
 }
 
+input PageBlocksTableMutation {
+  markdownTable: String
+  color: String
+}
+
 input PageBlocksMutation {
   hero: PageBlocksHeroMutation
   features: PageBlocksFeaturesMutation
@@ -851,6 +871,7 @@ input PageBlocksMutation {
   photoCardSingle: PageBlocksPhotoCardSingleMutation
   jobCardsGrid: PageBlocksJobCardsGridMutation
   pdfEmbed: PageBlocksPdfEmbedMutation
+  table: PageBlocksTableMutation
 }
 
 input PageMutation {

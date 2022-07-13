@@ -12,19 +12,20 @@ import { FaArrowRight } from "react-icons/fa";
 //   style={{ flexBasis: "16rem" }}
 
 export const TeamCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.image);
-  console.log(data.link)
+  // console.log(data)
+  // if(data.personImage){
+  // console.log("personImage "+data.personImage.src)
+  // }
   return (
 <div>
                      
                         <div className="relative mt-16 sm:mb-12">
                             <div className="overflow-hidden shadow-md bg-white pb-5 rounded-lg">
-                              {data.personPhoto &&
+                              {data.personImage &&
                                 <div className="absolute -mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32">
-                                        <img src={data.personPhoto} className="rounded-full object-cover h-full w-full shadow-md" />
-                                    </div>
+                                        <img src={data.personImage.src} alt={data.personImage.alt} className="rounded-full object-cover h-full w-full shadow-md" />              
+                                        </div>
                                 </div>
                               }
                               {data.icon && (
@@ -133,7 +134,6 @@ export const TeamCardsGrid = ({ data, parentField }) => {
 const defaultTeamCard = {
   personName:"",
   personDesignation:"",
-  personPhoto:"",
   
 };
 
@@ -166,13 +166,25 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
         },
         {
           type: "string",
-          label: "Image",
-          name: "personPhoto",
-        },
-        {
-          type: "string",
           label: "Person Designation",
           name: "personDesignation",
+        },
+        {
+          type: "object",
+          label: "Image",
+          name: "personImage",
+          fields: [
+            {
+              name: "src",
+              label: "Image Source",
+              type: "image",
+            },
+            {
+              name: "alt",
+              label: "Alt Text",
+              type: "string",
+            },
+          ],
         },
         {
           type: "string",

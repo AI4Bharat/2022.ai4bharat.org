@@ -8,9 +8,9 @@ import Link from "next/link";
 import Image from "next/image";
 //   style={{ flexBasis: "16rem" }}
 export const PhotoCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.image);
-  console.log(data.link)
+  // console.log(data)
+  // console.log(data.image);
+  // console.log(data.link)
   return (
     <div data-tinafield={tinaField} className="rounded text-center overflow-hidden shadow-lg hover:bg-gray-100 overflow-hidden flex flex-col lg:flex-row max-w-2xl" >
 
@@ -27,7 +27,7 @@ export const PhotoCard = ({ featuresColor, data, tinaField }) => {
     
         {data.text && (
           <p 
-          className="text-gray-700 text-base mb-4 px-6 font-nunito"
+          className="text-gray-700 text-base mb-4 px-6"
           data-tinafield={`${tinaField}.text`}
           >
             {data.text}

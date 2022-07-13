@@ -137,32 +137,51 @@ export const Footer = ({ data, icon, rawData }) => {
       </div>
       <div className="">
         <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
-          Resources
+          Areas
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Datasets</a>
+          <a href="/translation" className="text-gray-600">Translation</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Models</a>
+          <a href="/transliteration" className="text-gray-600">Transliteration</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Data Reports</a>
+          <a href="/speech-recognition" className="text-gray-600">Speech Recognition</a>
         </p>
-        <p>
-          <a href="#!" className="text-gray-600">Publications</a>
+        <p className="mb-4">
+          <a href="/language-understanding" className="text-gray-600">Language Understanding</a>
+        </p>
+        <p className="mb-4">
+          <a href="/language-generation" className="text-gray-600">Language Generation</a>
+        </p>
+        <p className="mb-4">
+          <a href="https://sign-language.ai4bharat.org/#/" className="text-gray-600">Sign Language</a>
+        </p>
+        <p className="mb-4">
+          <a href="/shoonya" className="text-gray-600">Shoonya</a>
+        </p>
+        <p className="mb-4">
+          <a href="/chitralekha" className="text-gray-600">Chitralekha</a>
         </p>
       </div>
       <div className="">
         <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
-          Useful links
+          Resources
         </h6>
         <p className="mb-4">
-          <a href="/home" className="text-gray-600">Home</a>
+          <a href="/datasets" className="text-gray-600">Datasets</a>
         </p>
         <p className="mb-4">
-          <a href="/positions" className="text-gray-600">Open Positions</a>
+          <a href="/models" className="text-gray-600">Models</a>
+        </p>
+        <p className="mb-4">
+          <a href="/data-reports" className="text-gray-600">Data Reports</a>
+        </p>
+        <p>
+          <a href="/publications" className="text-gray-600">Publications</a>
         </p>
       </div>
+ 
       <div className="">
         <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
           Contact
@@ -249,7 +268,7 @@ export const Footer = ({ data, icon, rawData }) => {
   </div>
   <div className="text-center p-6 bg-gray-200">
 
-    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/AI4Bharat-Website-New">Made with 🧡 and open-source by AI4Bhārat</a>
+    <a className="text-gray-600 font-bold" href="https://github.com/AI4Bharat/ai4bharat.org">Made with 🧡 and open-source by AI4Bhārat</a>
   </div>
 
     </footer>

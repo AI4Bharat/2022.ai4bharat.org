@@ -24,8 +24,8 @@ function classNames(...classes) {
 }
 //   style={{ flexBasis: "16rem" }}
 export const JobCard = ({ featuresColor, data, tinaField }) => {
-  console.log(data)
-  console.log(data.link)
+  // console.log(data)
+  // console.log(data.link)
   return (
 
     <div className="lg:items-center border border-gray-200 bg-white rounded-lg p-6 shadow-lg">

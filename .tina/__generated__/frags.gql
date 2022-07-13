@@ -226,8 +226,12 @@ fragment PageParts on Page {
           name
         }
         personName
-        personPhoto
         personDesignation
+        personImage {
+          __typename
+          src
+          alt
+        }
         personDescription
       }
       color
@@ -274,6 +278,10 @@ fragment PageParts on Page {
       header
       description
       url
+      color
+    }
+    ... on PageBlocksTable {
+      markdownTable
       color
     }
   }

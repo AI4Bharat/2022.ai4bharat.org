@@ -34,7 +34,7 @@ export const Content = ({ data, parentField = "" }) => {
         size="large"
       >
         <div>
-        <span><TinaMarkdown content={data.body}/></span> 
+        <div className="text-lg max-w-3xl mx-auto"><TinaMarkdown content={data.body} /></div> 
         {/* <span className="inline-block"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span> */}
         </div>
       </Container>
