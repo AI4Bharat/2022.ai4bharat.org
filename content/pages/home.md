@@ -124,7 +124,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: cloud
+          name: settings
         title: Language Understanding
         link: /language-understanding
         comingSoon: false
