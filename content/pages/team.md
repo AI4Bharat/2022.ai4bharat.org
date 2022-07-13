@@ -8,17 +8,14 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - personName: Pratyush Kumar (ପ୍ରତ୍ୟୁଷ କୁମାର)
+        personDesignation: 'Researcher, MSR/IITM'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
       - personName: ''
-        personPhoto: ''
         personDesignation: ''
       - personName: ''
-        personPhoto: ''
-        personDesignation: ''
-      - personName: ''
-        personPhoto: ''
-        personDesignation: ''
-      - personName: ''
-        personPhoto: ''
         personDesignation: ''
     _template: teamCardsGrid
 ---
