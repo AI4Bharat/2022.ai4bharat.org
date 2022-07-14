@@ -63,6 +63,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicXTREME
+        link: /indic-xtreme
         comingSoon: true
         updated: false
         text: >-
@@ -73,6 +74,7 @@ blocks:
           style: float
           name: AI4B
         title: Naamapadam
+        link: /naamapadam
         comingSoon: true
         updated: false
         text: >-
@@ -83,6 +85,7 @@ blocks:
           style: float
           name: AI4B
         title: Dhwani
+        link: /dhwani
         comingSoon: true
         updated: false
         text: >-
@@ -93,6 +96,7 @@ blocks:
           style: float
           name: AI4B
         title: Pratilipi
+        link: /pratilipi
         comingSoon: true
         updated: false
         text: >-
@@ -104,7 +108,7 @@ blocks:
           style: float
           name: ''
         title: IndicSUPERB
-        link: ''
+        link: /indic-superb
         comingSoon: true
         updated: false
         text: >-
