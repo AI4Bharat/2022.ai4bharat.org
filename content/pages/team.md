@@ -120,7 +120,8 @@ blocks:
         personName: Keyur Raval કેયુર રાવળ
         personDesignation: 'M.Tech, AI4Bharat, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Keyur_Raval_pxt3i9.jpg
       - teamGroup: tech
         personName: Mohammed Safi Ur Rahman Khan  محمد صفی الرحمٰن خان
         personDesignation: 'M.Tech, IIT Madras '
