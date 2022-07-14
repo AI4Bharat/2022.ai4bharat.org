@@ -42,7 +42,8 @@ blocks:
         personName: Anindita H.K  ಅನಿಂದಿತಾ ಎಚ್.ಕೆ
         personDesignation: 'Intern, AI4Bharat'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Anindita_HK_nnuha4.jpg
       - teamGroup: tech
         personName: Aravinth Bheemaraj அரவிந்த் பீமராஜ்
         personDesignation: 'Product Manager, Tarento Technologies'
