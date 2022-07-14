@@ -144,7 +144,8 @@ blocks:
         personName: Prakhar Rathi  प्रखर  राठी
         personDesignation: 'Intern, Alumni, Shiv Nadar University '
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Prakhar_zzlmor.jpg
       - teamGroup: tech
         personName: Pranav Agarwal प्रणव अग्रवाल
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
