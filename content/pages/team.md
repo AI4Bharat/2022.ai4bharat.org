@@ -60,7 +60,8 @@ blocks:
         personName: Atharva Naphade Atharva Naphade
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Atharva_Naphade_rmcot4.jpg
       - teamGroup: tech
         personName: Debraj Bhal ଦେବରାଜ ଭଳ
         personDesignation: 'Intern, Student at IIIT Bhubaneswar'
