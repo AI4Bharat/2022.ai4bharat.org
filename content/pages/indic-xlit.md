@@ -21,7 +21,7 @@ blocks:
       |  Tamil (tam)   |  Telugu (tel)  |   Urdu (urd)   | 
     color: default
     _template: table
-  - body: "### Evaluation Results\n\nIndicXlit is evaluated on\_[Dakshina benchmark](https://github.com/google-research-datasets/dakshina)\_and\_[Aksharantar benchmark](https://ai4bharat.org/aksharantar/). IndicXlit achieves state-of-theart results on the Dakshina testset and also provide baseline results on the new Aksharantar testset. The Top-1 results are summarized below. For more details, refer\_our [paper](https://arxiv.org/abs/2205.03018)\n"
+  - body: "### Evaluation Results\n\nIndicXlit is evaluated on\_[Dakshina benchmark](https://github.com/google-research-datasets/dakshina)\_and\_[Aksharantar benchmark](https://ai4bharat.org/aksharantar/). IndicXlit achieves state-of-the-art results on the Dakshina testset and also provides baseline results on the new Aksharantar testset. The Top-1 results are summarized below. For more details, refer\_our [paper](https://arxiv.org/abs/2205.03018)\n"
     _template: content
   - markdownTable: >
       | Languages | asm | ben | brx | guj | hin | kan | kas | kok | mai | mal |
