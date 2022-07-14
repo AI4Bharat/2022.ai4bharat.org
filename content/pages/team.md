@@ -168,7 +168,8 @@ blocks:
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/rugved_hgterg.jpg
       - teamGroup: tech
         personName: Siddesh Ramesh Hegde ಸಿದ್ದೇಶ್ ರಮೇಶ್ ಹೆಗ್ಗಡೆ
         personDesignation: 'M.Tech, IIT Madras'
