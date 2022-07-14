@@ -90,7 +90,8 @@ blocks:
         personName: Gowtham கெளதம் ரமேஷ்
         personDesignation: 'Ai Resident, AI4Bharat'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Gowtham_s4bar6.jpg
       - teamGroup: tech
         personName: Hanumantappa Budihal ಹನುಮಂತಪ್ಪ ಬೂದಿಹಾಳ್
         personDesignation: 'M.Tech, IIT Madras'
