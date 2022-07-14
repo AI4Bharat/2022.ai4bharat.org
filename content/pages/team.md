@@ -9,7 +9,7 @@ blocks:
     _template: hero
   - items:
       - personName: A Aparna அ அபர்ணா 
-        personDesignation: 'Project Associate, IIT Madras '
+        personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
         personImage:
           src: >-
             -
@@ -19,7 +19,7 @@ blocks:
           src: >-
             -
       - personName: Akshat Sharma अक्षत शर्मा
-        personDesignation: 'Intern, IIT Madras'
+        personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
           src: >-
             -
@@ -39,17 +39,17 @@ blocks:
           src: >-
             -
       - personName: Atharva Naphade Atharva Naphade
-        personDesignation: 'Intern, Pune Institute of Computer Technology, Pune'
+        personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
           src: >-
             -
       - personName: Debraj Bhal ଦେବରାଜ ଭଳ 
-        personDesignation: 'Intern, IIT Madras'
+        personDesignation: 'Intern, Student at IIIT Bhubaneswar'
         personImage:
           src: >-
             -
       - personName: Ganavi K Ganavi K
-        personDesignation: 'Software Engineer, VTU'
+        personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
           src: >-
             -
@@ -69,7 +69,7 @@ blocks:
           src: >-
             -
       - personName: Jagadeesh L జగదీష్  ఎల్
-        personDesignation: 'Software Engineer, Tarento Technologies Pvt Lmt'
+        personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
           src: >-
             -
@@ -79,7 +79,7 @@ blocks:
           src: >-
             -
       - personName: Keyur Raval કેયુર રાવળ
-        personDesignation: 'M.Tech, IIT Madras'
+        personDesignation: 'M.Tech, AI4Bharat, IIT Madras'
         personImage:
           src: >-
             -
@@ -94,32 +94,32 @@ blocks:
           src: >-
             -
       - personName: Nishant Nayak निशान्त नायक्
-        personDesignation: 'Intern, NITK, Surathkal'
+        personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
           src: >-
             -
       - personName: Prakhar Rathi  प्रखर  राठी
-        personDesignation: 'Intern, Shiv Nadar University '
+        personDesignation: 'Intern, Alumni, Shiv Nadar University '
         personImage:
           src: >-
             -
       - personName: Pranav Agarwal प्रणव अग्रवाल
-        personDesignation: 'Intern, NIT Karnataka, Surathkal'
+        personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
           src: >-
             -
       - personName: Pranjal Agadh Chitale प्रांजल अगाध चितळे
-        personDesignation: 'M.S., Indian Institute of Technology Madras'
+        personDesignation: 'M.S., IIT Madras'
         personImage:
           src: >-
             -
       - personName: Praveen S V பிரவீண் சீ. வ.
-        personDesignation: 'M.S., Indian Institute of Technology Madras'
+        personDesignation: 'M.S., IIT Madras'
         personImage:
           src: >-
             -
       - personName: Rugved Somwanshi ऋग्वेद सोमवंशी 
-        personDesignation: 'Intern, Student at PICT'
+        personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
           src: >-
             -
@@ -129,7 +129,7 @@ blocks:
           src: >-
             -
       - personName: Sumanth Doddapaneni సుమంత్
-        personDesignation: 'Ph.D., IIT Madras, AI4Bharat'
+        personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
         personImage:
           src: >-
             -
@@ -152,7 +152,7 @@ blocks:
         personDesignation: 'M.S., IIT Madras'
         personImage:
           src: >-
-            -      
+            -
       - personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
         personImage:
