@@ -180,7 +180,8 @@ blocks:
         personName: Sumanth Doddapaneni సుమంత్
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/Sumanth_w2bf2a.jpg
       - teamGroup: tech
         personName: Sushane Parthan सुशेन पार्थन
         personDesignation: 'Part-Time Ph.D., IIT Madras/ Indian Navy'
