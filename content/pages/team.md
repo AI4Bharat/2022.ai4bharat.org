@@ -57,7 +57,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Aswanth_Kumar_M_i30tio.png
       - teamGroup: tech
-        personName: Atharva Naphade Atharva Naphade
+        personName: Atharva Naphade
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
           src: >-
