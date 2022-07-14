@@ -96,7 +96,8 @@ blocks:
         personName: Hanumantappa Budihal ಹನುಮಂತಪ್ಪ ಬೂದಿಹಾಳ್
         personDesignation: 'M.Tech, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Hanumantappa_Budihal_w3pzxl.jpg
       - teamGroup: tech
         personName: Ishvinder Sethi ईशविंदर सेठी
         personDesignation: 'Project Associate, IIT Madras'
