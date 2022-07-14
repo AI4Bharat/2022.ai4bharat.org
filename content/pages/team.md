@@ -210,7 +210,8 @@ blocks:
         personName: Yogesh Bhatt योगेश भट्ट
         personDesignation: 'Intern, Student at Graphic Era University'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
       - teamGroup: language
         personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
