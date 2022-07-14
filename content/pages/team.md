@@ -174,7 +174,8 @@ blocks:
         personName: Siddesh Ramesh Hegde ಸಿದ್ದೇಶ್ ರಮೇಶ್ ಹೆಗ್ಗಡೆ
         personDesignation: 'M.Tech, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/Siddesh_Ramesh_Hegde_yw0cbc.jpg
       - teamGroup: tech
         personName: Sumanth Doddapaneni సుమంత్
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
