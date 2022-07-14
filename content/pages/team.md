@@ -198,7 +198,8 @@ blocks:
         personName: Vignesh Nagarajan விக்னேஷ் நாகராஜன்
         personDesignation: 'Project Associate, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/vignesh_rvmboh.jpg
       - teamGroup: tech
         personName: Yash Madhani યશ માધાણી
         personDesignation: 'M.S., IIT Madras'
