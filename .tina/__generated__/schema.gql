@@ -375,19 +375,13 @@ type PageBlocksQuote {
   color: String
 }
 
-type PageBlocksTeamCardsGridItemsIcon {
-  color: String
-  style: String
-  name: String
-}
-
 type PageBlocksTeamCardsGridItemsPersonImage {
   src: String
   alt: String
 }
 
 type PageBlocksTeamCardsGridItems {
-  icon: PageBlocksTeamCardsGridItemsIcon
+  teamGroup: String
   personName: String
   personDesignation: String
   personImage: PageBlocksTeamCardsGridItemsPersonImage
@@ -397,6 +391,8 @@ type PageBlocksTeamCardsGridItems {
 type PageBlocksTeamCardsGrid {
   items: [PageBlocksTeamCardsGridItems]
   color: String
+  link: String
+  tabsEnabled: Boolean
 }
 
 type PageBlocksPhotoCardsGrid2Items {
@@ -773,19 +769,13 @@ input PageBlocksQuoteMutation {
   color: String
 }
 
-input PageBlocksTeamCardsGridItemsIconMutation {
-  color: String
-  style: String
-  name: String
-}
-
 input PageBlocksTeamCardsGridItemsPersonImageMutation {
   src: String
   alt: String
 }
 
 input PageBlocksTeamCardsGridItemsMutation {
-  icon: PageBlocksTeamCardsGridItemsIconMutation
+  teamGroup: String
   personName: String
   personDesignation: String
   personImage: PageBlocksTeamCardsGridItemsPersonImageMutation
@@ -795,6 +785,8 @@ input PageBlocksTeamCardsGridItemsMutation {
 input PageBlocksTeamCardsGridMutation {
   items: [PageBlocksTeamCardsGridItemsMutation]
   color: String
+  link: String
+  tabsEnabled: Boolean
 }
 
 input PageBlocksPhotoCardsGrid2ItemsMutation {

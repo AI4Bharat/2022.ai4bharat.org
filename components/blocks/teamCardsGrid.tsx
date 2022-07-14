@@ -8,6 +8,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { RightArrowIcon } from "tinacms";
 import { FaArrowRight } from "react-icons/fa";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+
 
 //   style={{ flexBasis: "16rem" }}
 
@@ -16,6 +18,7 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
   // if(data.personImage){
   // console.log("personImage "+data.personImage.src)
   // }
+  // console.log('data.teamGroup '+data.teamGroup)
   return (
 <div>
                      
@@ -28,14 +31,7 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
                                         </div>
                                 </div>
                               }
-                              {data.icon && (
-        <Icon
-          tinaField={`${tinaField}.icon`}
-          parentColor={featuresColor}
-          data={{ size: "small", ...data.icon }}
-          className="mb-4"
-        />
-      )}
+    
                                 <div className="px-6 mt-16">
                                   {data.personName &&
                                     <div className="font-bold text-xl text-center p-1">{data.personName}</div>
@@ -85,48 +81,164 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
 export const TeamCardsGrid = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12">
+      {/* {console.log('data.tabsEnabled '+data.tabsEnabled)} */}
+      {data.tabsEnabled 
+      ?
+      <Tabs>
+          <TabList className="flex flex-row p-6 w-min mx-auto">
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Founders</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Operations</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Tech</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Language</Tab>
+          </TabList>
 
-      <Container
+          <TabPanel> 
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
+                  <>
+                  {console.log(block.teamGroup)} 
+                  {(block.teamGroup == "founders") && 
+                    <TeamCard
+                      tinaField={`${parentField}.items.${i}`}
+                      featuresColor={data.color}
+                      key={i}
+                      data={block}
+                    />
+                  }
+                  </>
+                  );
+                })}
+              {data.link &&            
+              <div className="flex justify-center items-center">
+              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+              </div>
+              }
+              </Container>
+            </TabPanel>
+
+
+            <TabPanel> 
+              <Container
+                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+                size="small"
+              >
+                {data.items &&
+                  data.items.map(function (block, i) {
+                    return (
+                    <>
+                      {(block.teamGroup == "operations") && 
+                      <TeamCard
+                        tinaField={`${parentField}.items.${i}`}
+                        featuresColor={data.color}
+                        key={i}
+                        data={block}
+                      />
+                  }
+                    </>
+                    );
+                  })}
+                      
+              {data.link &&            
+              <div className="flex justify-center items-center">
+              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+              </div>
+              }
+            </Container>
+            </TabPanel>
+
+            <TabPanel> 
+              <Container
+                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+                size="small"
+              >
+                {data.items &&
+                  data.items.map(function (block, i) {
+                    return (
+                    <>
+                      {(block.teamGroup == "tech") && 
+                      <TeamCard
+                        tinaField={`${parentField}.items.${i}`}
+                        featuresColor={data.color}
+                        key={i}
+                        data={block}
+                      />
+                  }
+                    </>
+                    );
+                  })}
+                      
+              {data.link &&            
+              <div className="flex justify-center items-center">
+              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+              </div>
+              } 
+            </Container>
+            </TabPanel>
+
+            <TabPanel> 
+              <Container
+                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+                size="small"
+              >
+                {data.items &&
+                  data.items.map(function (block, i) {
+                    return (
+                    <>
+                      {(block.teamGroup == "language") && 
+                      <TeamCard
+                        tinaField={`${parentField}.items.${i}`}
+                        featuresColor={data.color}
+                        key={i}
+                        data={block}
+                      />
+                  }
+                    </>
+                    );
+                  })}
+                      
+              {data.link &&            
+              <div className="flex justify-center items-center">
+              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+              </div>
+              }
+            </Container>
+            </TabPanel>
+
+
+      </Tabs>
+   
+   : <Container
         className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
         size="small"
       >
-   {/*     <div>
- <div className="container flex justify-center mx-auto pt-16">
-                <div>
-                    <p className="text-gray-500 text-lg text-center font-normal pb-3">BUILDING TEAM</p>
-                    <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">The Talented People Behind the Scenes of the Organization</h1>
-                </div>
-            </div>
-            <div className="w-full bg-gray-100 px-10 pt-10">
-                <div className="container mx-auto">
-                    <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around"> */}
-
         {data.items &&
           data.items.map(function (block, i) {
             return (
             <>
-           
               <TeamCard
                 tinaField={`${parentField}.items.${i}`}
                 featuresColor={data.color}
                 key={i}
                 data={block}
               />
-              
+        
             </>
             );
           })}
-                              {/* </div>
-                </div>
-            </div>
-
-     
-  
-</div> */}
-<div className="flex justify-center items-center">
-<a href="/team" className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-</div> 
+              
+      {data.link &&            
+      <div className="flex justify-center items-center">
+      <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+      </div>
+      }
       </Container>
+
+}
     </Section>
   );
 };
@@ -158,7 +270,17 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
         },
       },
       fields: [
-        iconSchema,
+        {
+          type: "string",
+          label: "Team",
+          name: "teamGroup",
+          options: [
+            { label: "Founders", value: "founders" },
+            { label: "Operations", value: "operations" },
+            { label: "Tech", value: "tech" },
+            { label: "Language", value: "language" },
+          ],
+        },
         {
           type: "string",
           label: "Person Name",
@@ -193,7 +315,9 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
           ui: {
             component: "textarea",
           },
-        },
+        }, 
+        
+    
       ],
     },
     {
@@ -206,5 +330,15 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
         { label: "Primary", value: "primary" },
       ],
     },
+    {
+      type:"string",
+      label: "Link",
+      name: "link",
+    },
+    {
+      type:"boolean",
+      label: "Tabs Enabled?",
+      name: "tabsEnabled",
+    }
   ],
 };

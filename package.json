@@ -42,6 +42,7 @@
     "react-markdown": "6.0.0",
     "react-multilevel-dropdown": "^3.0.3",
     "react-responsive-carousel": "^3.2.23",
+    "react-tabs": "4.0.0",
     "react-tinacms-editor": "^0.53.26",
     "react-youtube": "^9.0.3",
     "rehype-raw": "^5.1.0",
