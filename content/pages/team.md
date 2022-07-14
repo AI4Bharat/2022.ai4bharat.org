@@ -162,7 +162,8 @@ blocks:
         personName: Praveen S V பிரவீண் சீ. வ.
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/praveen_vxc29j.jpg
       - teamGroup: tech
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
