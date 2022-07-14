@@ -66,7 +66,8 @@ blocks:
         personName: Debraj Bhal ଦେବରାଜ ଭଳ
         personDesignation: 'Intern, Student at IIIT Bhubaneswar'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Debraj_zsnvj5.jpg
       - teamGroup: tech
         personName: Dheeraj Gujral ਧੀਰਜ ਗੁਜਰਾਲ
         personDesignation: 'Software Engineer, Tarento Technologies '
