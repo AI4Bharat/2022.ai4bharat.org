@@ -8,722 +8,583 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - personName: A Aparna அ அபர்ணா 
+      - teamGroup: tech
+        personName: A Aparna அ அபர்ணா
         personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
         personImage:
-          src: >-
-            -
-      - personName: Abhigyan Raman अभिज्ञान रमन
+          src: '-'
+      - teamGroup: tech
+        personName: Abhigyan Raman अभिज्ञान रमन
         personDesignation: 'Ai Resident, AI4Bharat, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Akshat Sharma अक्षत शर्मा
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Aravinth Bheemaraj அரவிந்த் பீமராஜ்
         personDesignation: 'Product Manager, Tarento Technologies'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Aswanth Kumar M అశ్వంత్ కుమార్ ఎం
         personDesignation: 'M.Tech, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Atharva Naphade Atharva Naphade
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: >-
-            -
-      - personName: Debraj Bhal ଦେବରାଜ ଭଳ 
+          src: '-'
+      - personName: Debraj Bhal ଦେବରାଜ ଭଳ
         personDesignation: 'Intern, Student at IIIT Bhubaneswar'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Ganavi K Ganavi K
         personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Gokul Nc கோகுல் ந.ச.
         personDesignation: 'Project Officer, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Hanumantappa Budihal ಹನುಮಂತಪ್ಪ ಬೂದಿಹಾಳ್
         personDesignation: 'M.Tech, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Ishvinder Sethi ईशविंदर सेठी
         personDesignation: 'Project Associate, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Jagadeesh L జగదీష్  ఎల్
         personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
-          src: >-
-            -
-      - personName: Kaushal Bhogale कौशल भोगले
+          src: '-'
+      - teamGroup: tech
+        personName: Kaushal Bhogale कौशल भोगले
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Keyur Raval કેયુર રાવળ
         personDesignation: 'M.Tech, AI4Bharat, IIT Madras'
         personImage:
-          src: >-
-            -
-      - personName: Mohammed Safi Ur Rahman Khan  محمد صفی الرحمٰن خان 
+          src: '-'
+      - personName: Mohammed Safi Ur Rahman Khan  محمد صفی الرحمٰن خان
         personDesignation: 'M.Tech, IIT Madras '
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Nandini Mundra नंदिनी मुंदड़ा
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Nishant Nayak निशान्त नायक्
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Prakhar Rathi  प्रखर  राठी
         personDesignation: 'Intern, Alumni, Shiv Nadar University '
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pranav Agarwal प्रणव अग्रवाल
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pranjal Agadh Chitale प्रांजल अगाध चितळे
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Praveen S V பிரவீண் சீ. வ.
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: >-
-            -
-      - personName: Rugved Somwanshi ऋग्वेद सोमवंशी 
+          src: '-'
+      - personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Siddesh Ramesh Hegde ಸಿದ್ದೇಶ್ ರಮೇಶ್ ಹೆಗ್ಗಡೆ
         personDesignation: 'M.Tech, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sumanth Doddapaneni సుమంత్
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sushane Parthan सुशेन पार्थन
         personDesignation: 'Part-Time Ph.D., IIT Madras/ Indian Navy'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Tahir Javed طاہر جاوید
         personDesignation: 'Ph.D., IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Vignesh Nagarajan விக்னேஷ் நாகராஜன்
         personDesignation: 'Project Associate, IIT Madras'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Yash Madhani યશ માધાણી
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: >-
-            -
-      - personName: Aakanksha Dubey आकांक्षा दुबे
+          src: '-'
+      - teamGroup: language
+        personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Abhigna Joshi ಅಭಿಜ್ಞಾ ಜೋಶಿ
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: >-
-            -
-      - personName: Abhishek Parija  ଅଭିଷେକ ପରିଜା 
+          src: '-'
+      - personName: Abhishek Parija  ଅଭିଷେକ ପରିଜା
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Adithi.R ಅದಿತಿ.ಆರ್.
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Alfina ꯑꯜꯐꯤꯅꯥ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Anagha H. N. ಅನಘಾ ಹೆಚ್. ಎನ್.
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Ann Mary Thomas  ആൻ മേരി തോമസ്
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Anwesha Singbal अन्वेषा सिंगबाळ
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Aruna Kumar K R ಅರುಣ ಕುಮಾರ ಕೆ.ಆರ್
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Atrayee Dutta আত্রেয়ী দত্ত
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
-      - personName: Ayesha Pereira आइशा परेरा 
+          src: '-'
+      - personName: Ayesha Pereira आइशा परेरा
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Baburam Murmu Santali
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Baburam Murmu বাবুরাম মুরমু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Baren Kisku ᱵᱚᱨᱮᱱ ᱠᱤᱥᱠᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Bashiram Basumatary  बासिराम बसुमतारी
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Bhimasena Bhol  ଭୀମସେନ ଭୋଳ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
-      - personName: Bhushan Oke भूषण ओक 
+          src: '-'
+      - personName: Bhushan Oke भूषण ओक
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Bikash Chetia বিকাশ চেতিয়া
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Binita Basumatary बिनिता बोसुमोतारि
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Bishnu Prasad Barman বিষ্ণু প্রসাদ বর্মণ
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
-      - personName: Bisma Ashraf بسما   اشرف 
+          src: '-'
+      - personName: Bisma Ashraf بسما   اشرف
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Bonya Baruah বন্যা বৰুৱা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Chingtham Diana Devi ꯆꯤꯡꯊꯥꯝ ꯗꯥꯢꯑꯦꯅꯥ ꯗꯦꯕꯤ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Churki Hansda ᱪᱩᱲᱠᱤ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Cialini Judith Fernandes  सियालिनी फेर्नांडीस
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: >-
-            -
-      - personName: Dattatraya (Pradeep) Padgaonkar  दत्तात्रय (प्रदीप) पाडगावकर 
+          src: '-'
+      - personName: Dattatraya (Pradeep) Padgaonkar  दत्तात्रय (प्रदीप) पाडगावकर
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Debanga Pallav Saikia Debanga Pallav Saikia (দেৱাংগ পল্লৱ শইকীয়া)
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Deepika Agrawal दीपिका अग्रवाल
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Deobrata Ghimiray देवब्रत घिमिरे
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Dhaka Ram Kafle ढाकाराम काफ्ले
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Diana Thingujam ꯗꯥꯏꯅꯥ ꯊꯤꯉꯨꯖꯝ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Dimpi Sarma ডিম্পী শৰ্মা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Dr. Bihung Brahma ड. बिहुं ब्रह्म
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Dwithun Wary दैथुन उवारी
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Habeebunnisa حبیب النساء
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: >-
-            -
-      - personName: Hafsah Faquih  حفصہ فقیہ 
+          src: '-'
+      - personName: Hafsah Faquih  حفصہ فقیہ
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Harisha H M ಹರೀಶ ಹೆಚ್. ಎಂ.
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Hirendra Kumar Jha हीरेन्द्र कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Jaya Saraswati जया सरस्वती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
-      - personName: Jebi Mariam Kurian  ജെബി മറിയം കുര്യൻ 
+          src: '-'
+      - personName: Jebi Mariam Kurian  ജെബി മറിയം കുര്യൻ
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Jihadh M ജിഹാദ് എം
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Jiza Mary Thomas ജിസാ മേരി തോമസ്
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
-      - personName: Kangkana Deka কংকনা ডেকা 
+          src: '-'
+      - personName: Kangkana Deka কংকনা ডেকা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
-      - personName: Kathakali Das Bhaumik কথাকলি দাস ভৌমিক 
+          src: '-'
+      - personName: Kathakali Das Bhaumik কথাকলি দাস ভৌমিক
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Kunal Sharad Gandhi कुणाल शरद गांधी
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Leema Rajavarman  லீமா ராஜவர்மன்
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Lekhnath Chhetri लेखनाथ छेत्री
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Lelina Barman লেলিনা বৰ্মন
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Md. Jahir Husain ꯑꯦꯝ.ꯗꯤ. ꯖꯥꯍꯤꯔ ꯍꯨꯁꯦꯏꯟ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Mohd Wajhiuddin محمد وجیہ الدین
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Muhammad Anzar Ziaulhaq Sareshwala محمد انذر ضیاء الحق سریش والا
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Nazima Nazima
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Neelam Sankhla नीलम सांखला
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
-      - personName: Neha Satish Bandekar नेहा सतीश बांदेकर 
+          src: '-'
+      - personName: Neha Satish Bandekar नेहा सतीश बांदेकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
-      - personName: Neha Singh Bhakal नेहा सिंह भाकल 
+          src: '-'
+      - personName: Neha Singh Bhakal नेहा सिंह भाकल
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
-      - personName: Nilanjana Chowdhury নীলাঞ্জনা চৌধুরী 
+          src: '-'
+      - personName: Nilanjana Chowdhury নীলাঞ্জনা চৌধুরী
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pankaj Kumar पंकज कुमार
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
-      - personName: Paresh Prabhu परेश प्रभू 
+          src: '-'
+      - personName: Paresh Prabhu परेश प्रभू
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Prabu Srinivas Ks பிரபு ‌‌‌‌‌‌ஸ்ரீனிவாஸ் கொ.சோ.
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pradnya Bhagat प्रज्ञा भगत
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Prafulla Basumatary प्रफुल्ल बसुमतारि
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pramodini Pradhan ପ୍ରମୋଦିନୀ ପ୍ରଧାନ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Prasad Gopal Jog प्रसाद गोपाळ जोग
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Prasanta Kumar Hansda ᱯᱨᱚᱥᱟᱱᱛᱚ ᱠᱩᱢᱟᱨ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Priyeshi Kumari प्रियेशी कुमारी
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Promila Hansda ᱯᱨᱚᱢᱤᱞᱟ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Pukhrambam Sanju Singh ꯄꯨꯈ꯭ꯔꯝꯕꯝ ꯁꯟꯖꯨ ꯁꯤꯡꯍ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
-      - personName: Radhika Deshpande राधिका देशपांडे 
+          src: '-'
+      - personName: Radhika Deshpande राधिका देशपांडे
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Rahul Kumar Jha राहुल कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Raju Mardi ᱨᱟᱡᱩ ᱢᱟᱨᱰᱤ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
-      - personName: Rakshit Ghai रक्षित घई 
+          src: '-'
+      - personName: Rakshit Ghai रक्षित घई
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
-      - personName: Ranjana Pathak रंजना पाठक 
+          src: '-'
+      - personName: Ranjana Pathak रंजना पाठक
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Reena Ashem ꯔꯤꯅꯥ ꯑꯁꯦꯝ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Reena Ashem Meiteilon
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: >-
-            -
-      - personName: Saee Kodolikar सई कोडोलीकर 
-        personDesignation: 'Language Expert, Marathi'
-        personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
+      - personName: Saee Kodolikar सई कोडोलीकर
+        personDesignation: 'Language Expert, Marathi'
+        personImage:
+          src: '-'
       - personName: Sai Sudeep Das ସାଇ ସୁଦୀପ ଦାସ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Saket Kumar साकेत कुमार
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sandeep Kumar Jha संदीप कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sanjay Kumar Jha संजय कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sansuma Brahma सानसुमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Shakir Azeem C B ஷாகிர் அஜீம் சி.பி.
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Shivapriya Murali சிவப்பிரியா முரளி
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Shreerupa Chattopadhyay শ্রীরূপা চট্টোপাধ্যায়
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Shweta Anand Deshmukh श्वेता आनंद देशमुख
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sidwma Brahma सिदोमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sonal Padhiyar સોનલ પઢિયાર
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sounak Dutta শৌণক দত্ত
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Srijana Sharma सृजना शर्मा
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
-      - personName: Srilakshmi B  శ్రీలక్ష్మి .బి 
+          src: '-'
+      - personName: Srilakshmi B  శ్రీలక్ష్మి .బి
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: >-
-            -
-      - personName: Srilekha P Nambiar  ശ്രീലേഖ പി നമ്പ്യാർ 
+          src: '-'
+      - personName: Srilekha P Nambiar  ശ്രീലേഖ പി നമ്പ്യാർ
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
-      - personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ జె 
+          src: '-'
+      - personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ జె
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: >-
-            -
-      - personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ  జె 
+          src: '-'
+      - personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ  జె
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Suchishraba Sarangi ଶୁଚିଶ୍ରବା ଷଡ଼ଙ୍ଗୀ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: >-
-            -
-      - personName: Sufiya Pathan सूफ़िया पठान 
+          src: '-'
+      - personName: Sufiya Pathan सूफ़िया पठान
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Sunita Dahal सुनिता दहाल
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Suresha R सुरेशः आर्
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Suruthi Shree A சுருதி ஸ்ரீ அ
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Syed Samreena Sajad  سید ثمرینہ سجاد
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            -
-      - personName: Tika Ram Rai टीका राम राई 
+          src: '-'
+      - personName: Tika Ram Rai टीका राम राई
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Urmila Murmu ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            -
-      - personName: Veda Bharti  वेदा भारती 
+          src: '-'
+      - personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            -
+          src: '-'
       - personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: >-
-            -
+          src: '-'
+    tabsEnabled: true
     _template: teamCardsGrid
 ---
-
 

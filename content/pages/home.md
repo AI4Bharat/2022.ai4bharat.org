@@ -257,6 +257,8 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
           alt: Anoop Kunchukuttan
     color: default
+    link: /team
+    tabsEnabled: false
     _template: teamCardsGrid
   - quote: Positions
     author: ''

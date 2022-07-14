@@ -219,12 +219,7 @@ fragment PageParts on Page {
     ... on PageBlocksTeamCardsGrid {
       items {
         __typename
-        icon {
-          __typename
-          color
-          style
-          name
-        }
+        teamGroup
         personName
         personDesignation
         personImage {
@@ -235,6 +230,8 @@ fragment PageParts on Page {
         personDescription
       }
       color
+      link
+      tabsEnabled
     }
     ... on PageBlocksPhotoCardsGrid2 {
       items {
