@@ -132,7 +132,8 @@ blocks:
         personName: Nandini Mundra नंदिनी मुंदड़ा
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Nandini_Mundra_hk8j3k.jpg
       - teamGroup: tech
         personName: Nishant Nayak निशान्त नायक्
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
