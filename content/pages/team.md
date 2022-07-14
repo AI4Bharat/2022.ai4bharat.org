@@ -193,7 +193,7 @@ blocks:
         personDesignation: 'Ph.D., IIT Madras'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657797077/Team%20pictures/Tech/tahir_lwne4s.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/tahir_txp1qo.jpg
       - teamGroup: tech
         personName: Vignesh Nagarajan விக்னேஷ் நாகராஜன்
         personDesignation: 'Project Associate, IIT Madras'
