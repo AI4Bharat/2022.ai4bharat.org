@@ -6,12 +6,9 @@ blocks:
       ##
 
 
-      An IIT Madras center supported by Nandan Nilekani and Digital India
-      Bhashini Project (MeitY) to innovate on open AI technologies for Indian
-      languages. \
-
-      The center is  launching on 28th July 2022 at IIT Madras. Co-located with
-      the launch will be the first AI4Bharat Workshop on Indian Language AI.
+      The Nilekani Center at AI4Bharat is  launching on 28th July 2022 at IIT
+      Madras. Co-located with the launch will be the first AI4Bharat Workshop on
+      Indian Language AI.
     actions:
       - label: Sign Up For Event
         type: button
