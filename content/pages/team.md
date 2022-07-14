@@ -8,6 +8,151 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - personName: A Aparna அ அபர்ணா 
+        personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Abhigyan Raman अभिज्ञान रमन
+        personDesignation: 'Ai Resident, AI4Bharat, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Akshat Sharma अक्षत शर्मा
+        personDesignation: 'Intern, Student at PICT, Pune'
+        personImage:
+          src: >-
+            -
+      - personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
+        personDesignation: 'Ph.D., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Aravinth Bheemaraj அரவிந்த் பீமராஜ்
+        personDesignation: 'Product Manager, Tarento Technologies'
+        personImage:
+          src: >-
+            -
+      - personName: Aswanth Kumar M అశ్వంత్ కుమార్ ఎం
+        personDesignation: 'M.Tech, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Atharva Naphade Atharva Naphade
+        personDesignation: 'Intern, Student at PICT, Pune'
+        personImage:
+          src: >-
+            -
+      - personName: Debraj Bhal ଦେବରାଜ ଭଳ 
+        personDesignation: 'Intern, Student at IIIT Bhubaneswar'
+        personImage:
+          src: >-
+            -
+      - personName: Ganavi K Ganavi K
+        personDesignation: 'Software Engineer, Tarento Technologies'
+        personImage:
+          src: >-
+            -
+      - personName: Gokul Nc கோகுல் ந.ச.
+        personDesignation: 'Project Officer, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Hanumantappa Budihal ಹನುಮಂತಪ್ಪ ಬೂದಿಹಾಳ್
+        personDesignation: 'M.Tech, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Ishvinder Sethi ईशविंदर सेठी
+        personDesignation: 'Project Associate, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Jagadeesh L జగదీష్  ఎల్
+        personDesignation: 'Software Engineer, Tarento Technologies'
+        personImage:
+          src: >-
+            -
+      - personName: Kaushal Bhogale कौशल भोगले
+        personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Keyur Raval કેયુર રાવળ
+        personDesignation: 'M.Tech, AI4Bharat, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Mohammed Safi Ur Rahman Khan  محمد صفی الرحمٰن خان 
+        personDesignation: 'M.Tech, IIT Madras '
+        personImage:
+          src: >-
+            -
+      - personName: Nandini Mundra नंदिनी मुंदड़ा
+        personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Nishant Nayak निशान्त नायक्
+        personDesignation: 'Intern, Student at NIT-K, Surathkal'
+        personImage:
+          src: >-
+            -
+      - personName: Prakhar Rathi  प्रखर  राठी
+        personDesignation: 'Intern, Alumni, Shiv Nadar University '
+        personImage:
+          src: >-
+            -
+      - personName: Pranav Agarwal प्रणव अग्रवाल
+        personDesignation: 'Intern, Student at NIT-K, Surathkal'
+        personImage:
+          src: >-
+            -
+      - personName: Pranjal Agadh Chitale प्रांजल अगाध चितळे
+        personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Praveen S V பிரவீண் சீ. வ.
+        personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Rugved Somwanshi ऋग्वेद सोमवंशी 
+        personDesignation: 'Intern, Student at PICT, Pune'
+        personImage:
+          src: >-
+            -
+      - personName: Siddesh Ramesh Hegde ಸಿದ್ದೇಶ್ ರಮೇಶ್ ಹೆಗ್ಗಡೆ
+        personDesignation: 'M.Tech, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Sumanth Doddapaneni సుమంత్
+        personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Sushane Parthan सुशेन पार्थन
+        personDesignation: 'Part-Time Ph.D., IIT Madras/ Indian Navy'
+        personImage:
+          src: >-
+            -
+      - personName: Tahir Javed طاہر جاوید
+        personDesignation: 'Ph.D., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Vignesh Nagarajan விக்னேஷ் நாகராஜன்
+        personDesignation: 'Project Associate, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - personName: Yash Madhani યશ માધાણી
+        personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            -
       - personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
         personImage:
