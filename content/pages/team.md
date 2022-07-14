@@ -192,7 +192,8 @@ blocks:
         personName: Tahir Javed طاہر جاوید
         personDesignation: 'Ph.D., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657797077/Team%20pictures/Tech/tahir_lwne4s.jpg
       - teamGroup: tech
         personName: Vignesh Nagarajan விக்னேஷ் நாகராஜன்
         personDesignation: 'Project Associate, IIT Madras'
