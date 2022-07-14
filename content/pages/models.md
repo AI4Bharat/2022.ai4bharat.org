@@ -55,7 +55,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicXLit
-        link: /indic-x-lit
+        link: /indic-xlit
         text: >-
           A multilingual transformer based model for transliteration from
           romanized input to native language scripts supporting 21 languages.
