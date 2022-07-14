@@ -108,7 +108,8 @@ blocks:
         personName: Jagadeesh L జగదీష్  ఎల్
         personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Jagadeesh_jkxtus.jpg
       - teamGroup: tech
         personName: Kaushal Bhogale कौशल भोगले
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
