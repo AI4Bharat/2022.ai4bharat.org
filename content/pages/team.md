@@ -36,7 +36,8 @@ blocks:
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Ananya_pz8hxp.jpg
       - teamGroup: tech
         personName: Anindita H.K  ಅನಿಂದಿತಾ ಎಚ್.ಕೆ
         personDesignation: 'Intern, AI4Bharat'
