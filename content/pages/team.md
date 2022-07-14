@@ -101,7 +101,8 @@ blocks:
         personName: Ishvinder Sethi ईशविंदर सेठी
         personDesignation: 'Project Associate, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Ishvinder_Sethi_i6clv5.jpg
       - teamGroup: tech
         personName: Jagadeesh L జగదీష్  ఎల్
         personDesignation: 'Software Engineer, Tarento Technologies'
