@@ -21,6 +21,12 @@ blocks:
           src: >-
             -
       - teamGroup: tech
+        personName: Aditya Mitra আদিতো মিত্রো
+        personDesignation: 'Intern, Student, KIIT'
+        personImage:
+          src: >-
+            -
+      - teamGroup: tech
         personName: Akshat Sharma अक्षत शर्मा
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
@@ -29,6 +35,12 @@ blocks:
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - teamGroup: tech
+        personName: Anindita H.K  ಅನಿಂದಿತಾ ಎಚ್.ಕೆ
+        personDesignation: 'Intern, AI4Bharat'
         personImage:
           src: >-
             -
@@ -57,6 +69,12 @@ blocks:
           src: >-
             -
       - teamGroup: tech
+        personName: Dheeraj Gujral ਧੀਰਜ ਗੁਜਰਾਲ
+        personDesignation: 'Software Engineer, Tarento Technologies '
+        personImage:
+          src: >-
+            -
+      - teamGroup: tech
         personName: Ganavi K Ganavi K
         personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
@@ -65,6 +83,12 @@ blocks:
       - teamGroup: tech
         personName: Gokul Nc கோகுல் ந.ச.
         personDesignation: 'Project Officer, IIT Madras'
+        personImage:
+          src: >-
+            -
+      - teamGroup: tech
+        personName: Gowtham கெளதம் ரமேஷ்
+        personDesignation: 'Ai Resident, AI4Bharat'
         personImage:
           src: >-
             -
@@ -179,6 +203,12 @@ blocks:
       - teamGroup: tech
         personName: Yash Madhani યશ માધાણી
         personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            -
+      - teamGroup: tech
+        personName: Yogesh Bhatt योगेश भट्ट
+        personDesignation: 'Intern, Student at Graphic Era University'
         personImage:
           src: >-
             -
