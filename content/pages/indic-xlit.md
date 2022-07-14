@@ -2,7 +2,23 @@
 blocks:
   - body: "# ***IndicXlit***\n\n[Github](https://github.com/AI4Bharat/IndicXlit/)\_|\_[Downloads](https://github.com/AI4Bharat/IndicXlit#download-indicxlit-model)\_|\_[Paper](https://arxiv.org/abs/2205.03018)\_|\_[Demo](https://xlit.ai4bharat.org/)\_|\_[Python Library](https://pypi.org/project/ai4bharat-transliteration)\n\n[***IndicXlit***](https://ai4bharat.org/indic-xlit)\_is a transformer-based multilingual transliteration model (~11M) for Roman to native script conversion that\_***supports 21 Indic languages***. It is trained on\_[***Aksharantar***](https://indicnlp.ai4bharat.org/aksharantar/)\_dataset which is the\_***largest publicly available parallel corpus containing 26 million word pairs spanning 20 Indic languages***\_at the time of writing (5 May 2022). It supports the following 21 Indic languages:\n"
     _template: content
-  - markdownTable: "\n| <!-- -->  \t | <!-- --> \t  | <!-- --> \t   | <!-- -->\t     | <!-- -->       | <!-- -->      |\n| -------------- | -------------- | -------------- | --------------- | -------------- | ------------- |\n| Assamese (asm) | Bengali (ben)  |  Bodo (brx)    | Gujarati (guj)  | Hindi (hin)    | Kannada (kan) |\n| Kashmiri (kas) | Konkani (gom)  | Maithili (mai) | Malayalam (mal) | Manipuri (mni) | Marathi (mar) | \n| Nepali (nep)   | Oriya (ori)    | Punjabi (pan)  |  Sanskrit (san) | Sindhi (snd)   | Sinhala (sin) |\n|  Tamil (tam)   |  Telugu (tel)  |   Urdu (urd)   | "
+  - markdownTable: >-
+
+      | | | | | | |
+
+      | -------------- | -------------- | -------------- | --------------- |
+      -------------- | ------------- |
+
+      | Assamese (asm) | Bengali (ben)  |  Bodo (brx)    | Gujarati (guj)  |
+      Hindi (hin)    | Kannada (kan) |
+
+      | Kashmiri (kas) | Konkani (gom)  | Maithili (mai) | Malayalam (mal) |
+      Manipuri (mni) | Marathi (mar) | 
+
+      | Nepali (nep)   | Oriya (ori)    | Punjabi (pan)  |  Sanskrit (san) |
+      Sindhi (snd)   | Sinhala (sin) |
+
+      |  Tamil (tam)   |  Telugu (tel)  |   Urdu (urd)   | 
     color: default
     _template: table
   - body: "### Evaluation Results\n\nIndicXlit is evaluated on\_[Dakshina benchmark](https://github.com/google-research-datasets/dakshina)\_and\_[Aksharantar benchmark](https://ai4bharat.org/aksharantar/). IndicXlit achieves state-of-theart results on the Dakshina testset and also provide baseline results on the new Aksharantar testset. The Top-1 results are summarized below. For more details, refer\_our [paper](https://arxiv.org/abs/2205.03018)\n"
