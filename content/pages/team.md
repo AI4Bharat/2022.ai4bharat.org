@@ -84,7 +84,8 @@ blocks:
         personName: Gokul Nc கோகுல் ந.ச.
         personDesignation: 'Project Officer, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/GokulNC_pzsdle.jpg
       - teamGroup: tech
         personName: Gowtham கெளதம் ரமேஷ்
         personDesignation: 'Ai Resident, AI4Bharat'
