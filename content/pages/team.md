@@ -138,7 +138,8 @@ blocks:
         personName: Nishant Nayak निशान्त नायक्
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Nishant_Nayak_mvb5ac.jpg
       - teamGroup: tech
         personName: Prakhar Rathi  प्रखर  राठी
         personDesignation: 'Intern, Alumni, Shiv Nadar University '
