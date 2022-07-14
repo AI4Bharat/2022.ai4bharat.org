@@ -114,7 +114,8 @@ blocks:
         personName: Kaushal Bhogale कौशल भोगले
         personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Kaushal_j5zcly.jpg
       - teamGroup: tech
         personName: Keyur Raval કેયુર રાવળ
         personDesignation: 'M.Tech, AI4Bharat, IIT Madras'
