@@ -18,7 +18,8 @@ blocks:
         personName: Abhigyan Raman अभिज्ञान रमन
         personDesignation: 'Ai Resident, AI4Bharat, IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Abhigyan_ftxlbr.jpg
       - teamGroup: tech
         personName: Aditya Mitra আদিতো মিত্রো
         personDesignation: 'Intern, Student, KIIT'
