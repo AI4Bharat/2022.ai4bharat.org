@@ -156,7 +156,8 @@ blocks:
         personName: Pranjal Agadh Chitale प्रांजल अगाध चितळे
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Pranjal_Agadh_Chitale_zcrnwe.jpg
       - teamGroup: tech
         personName: Praveen S V பிரவீண் சீ. வ.
         personDesignation: 'M.S., IIT Madras'
