@@ -204,7 +204,8 @@ blocks:
         personName: Yash Madhani યશ માધાણી
         personDesignation: 'M.S., IIT Madras'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/yash_mpcpdi.jpg
       - teamGroup: tech
         personName: Yogesh Bhatt योगेश भट्ट
         personDesignation: 'Intern, Student at Graphic Era University'
