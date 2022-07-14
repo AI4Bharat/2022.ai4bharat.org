@@ -150,7 +150,8 @@ blocks:
         personName: Pranav Agarwal प्रणव अग्रवाल
         personDesignation: 'Intern, Student at NIT-K, Surathkal'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Pranav_Agarwal_a5voil.jpg
       - teamGroup: tech
         personName: Pranjal Agadh Chitale प्रांजल अगाध चितळे
         personDesignation: 'M.S., IIT Madras'
