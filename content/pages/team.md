@@ -24,7 +24,8 @@ blocks:
         personName: Aditya Mitra আদিতো মিত্রো
         personDesignation: 'Intern, Student, KIIT'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/aditya_eha417.jpg
       - teamGroup: tech
         personName: Akshat Sharma अक्षत शर्मा
         personDesignation: 'Intern, Student at PICT, Pune'
