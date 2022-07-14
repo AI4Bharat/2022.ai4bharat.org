@@ -186,7 +186,8 @@ blocks:
         personName: Sushane Parthan सुशेन पार्थन
         personDesignation: 'Part-Time Ph.D., IIT Madras/ Indian Navy'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/Sushane_Parthan_gdlg6k.jpg
       - teamGroup: tech
         personName: Tahir Javed طاہر جاوید
         personDesignation: 'Ph.D., IIT Madras'
