@@ -48,7 +48,8 @@ blocks:
         personName: Aravinth Bheemaraj அரவிந்த் பீமராஜ்
         personDesignation: 'Product Manager, Tarento Technologies'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/aravinth_dgz9j9.jpg
       - teamGroup: tech
         personName: Aswanth Kumar M అశ్వంత్ కుమార్ ఎం
         personDesignation: 'M.Tech, IIT Madras'
