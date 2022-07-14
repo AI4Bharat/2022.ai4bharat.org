@@ -126,7 +126,8 @@ blocks:
         personName: Mohammed Safi Ur Rahman Khan  محمد صفی الرحمٰن خان
         personDesignation: 'M.Tech, IIT Madras '
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Mohammed_Safi_Ur_Rahman_Khan_wwqmjn.jpg
       - teamGroup: tech
         personName: Nandini Mundra नंदिनी मुंदड़ा
         personDesignation: 'M.S., IIT Madras'
