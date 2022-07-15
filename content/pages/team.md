@@ -408,7 +408,8 @@ blocks:
         personName: Dimpi Sarma ডিম্পী শৰ্মা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890527/Team%20pictures/Language/1_DimpiSarma_ai4bharat_u5wp92.jpg
       - teamGroup: language
         personName: Dr. Bihung Brahma ड. बिहुं ब्रह्म
         personDesignation: 'Language Expert, Bodo'
