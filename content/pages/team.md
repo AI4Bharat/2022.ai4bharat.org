@@ -9,6 +9,9 @@ blocks:
     _template: hero
   - items:
       - teamGroup: operations
+        personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
+        personDesignation: Chief of Operations
+      - teamGroup: operations
         personName: "Anupama Sujatha\tഅനുപമ"
         personDesignation: 'Data Lead, AI4Bharat'
       - teamGroup: operations
