@@ -319,7 +319,8 @@ blocks:
         personName: Binita Basumatary बिनिता बोसुमोतारि
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/photo_BinitaBasumatary_ai4_yeynlu.jpg
       - teamGroup: language
         personName: Bishnu Prasad Barman বিষ্ণু প্রসাদ বর্মণ
         personDesignation: 'Language Expert, Assamese'
@@ -789,8 +790,7 @@ blocks:
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/image_-_Vikas_Vineet_Jha_jnmdhr.jpg
+          src: '-'
       - teamGroup: language
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
