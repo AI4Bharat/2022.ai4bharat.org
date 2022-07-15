@@ -384,7 +384,8 @@ blocks:
         personName: Deepika Agrawal दीपिका अग्रवाल
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/Photograph_DeepikaAgrawal_ai4bh_uexctt.jpg
       - teamGroup: language
         personName: Deobrata Ghimiray देवब्रत घिमिरे
         personDesignation: 'Language Expert, Nepali'
