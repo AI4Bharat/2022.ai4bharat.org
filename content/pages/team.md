@@ -485,7 +485,8 @@ blocks:
         personName: Kathakali Das Bhaumik কথাকলি দাস ভৌমিক
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/Photograph_KathakaliDasBhaumik_i5f4na.jpg
       - teamGroup: language
         personName: Kunal Sharad Gandhi कुणाल शरद गांधी
         personDesignation: 'Language Expert, Marathi'
