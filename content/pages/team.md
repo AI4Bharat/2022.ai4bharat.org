@@ -348,7 +348,8 @@ blocks:
         personName: Bonya Baruah বন্যা বৰুৱা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889804/Team%20pictures/Language/Bonya_Photo_BonyaBaruah_ai4bhara_uwc6hh.jpg
       - teamGroup: language
         personName: Chingtham Diana Devi ꯆꯤꯡꯊꯥꯝ ꯗꯥꯢꯑꯦꯅꯥ ꯗꯦꯕꯤ
         personDesignation: 'Language Expert, Manipuri'
