@@ -14,8 +14,9 @@ blocks:
       - teamGroup: operations
         personName: "Janki Nawale\tजानकी"
         personDesignation: 'Data Lead, AI4Bharat'
-      - personName: ''
-        personDesignation: ''
+      - teamGroup: operations
+        personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
+        personDesignation: 'Data Lead, AI4Bharat'
       - teamGroup: tech
         personName: A Aparna அ அபர்ணா
         personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
