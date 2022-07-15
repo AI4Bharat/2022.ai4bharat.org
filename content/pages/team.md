@@ -759,7 +759,8 @@ blocks:
         personName: Suruthi Shree A சுருதி ஸ்ரீ அ
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890329/Team%20pictures/Language/Sruthi_1_SuruthiShree_ai4bhar_fjorel.jpg
       - teamGroup: language
         personName: Syed Samreena Sajad  سید ثمرینہ سجاد
         personDesignation: 'Language Expert, Kashmiri'
