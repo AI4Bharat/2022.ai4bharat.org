@@ -238,7 +238,8 @@ blocks:
         personName: Abhishek Parija  ଅଭିଷେକ ପରିଜା
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220629_234054_228_AbhishekParija_ai4bh_u3ybee.jpg
       - teamGroup: language
         personName: Adithi.R ಅದಿತಿ.ಆರ್.
         personDesignation: 'Language Expert, Kannada'
@@ -309,7 +310,8 @@ blocks:
         personName: Bhushan Oke भूषण ओक
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/bhushan_oke1_BhushanOke_ai4bharat_wz1fbl.jpg
       - teamGroup: language
         personName: Bikash Chetia বিকাশ চেতিয়া
         personDesignation: 'Language Expert, Assamese'
@@ -319,7 +321,8 @@ blocks:
         personName: Binita Basumatary बिनिता बोसुमोतारि
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/photo_BinitaBasumatary_ai4_yeynlu.jpg
       - teamGroup: language
         personName: Bishnu Prasad Barman বিষ্ণু প্রসাদ বর্মণ
         personDesignation: 'Language Expert, Assamese'
@@ -749,32 +752,27 @@ blocks:
         personName: Sunita Dahal सुनिता दहाल
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890585/Team%20pictures/Language/002936_SunitaDahal_ai4bhara_tzoxsf.jpg
+          src: '-'
       - teamGroup: language
         personName: Suresha R सुरेशः आर्
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890613/Team%20pictures/Language/202108_Photo_2_SureshaR_ai4bharat.o_srgi1p.jpg
+          src: '-'
       - teamGroup: language
         personName: Suruthi Shree A சுருதி ஸ்ரீ அ
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890329/Team%20pictures/Language/Sruthi_1_SuruthiShree_ai4bhar_fjorel.jpg
+          src: '-'
       - teamGroup: language
         personName: Syed Samreena Sajad  سید ثمرینہ سجاد
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/IMG-20220707-WA0355_SyedSamreenaSajad_ai_xyccaw.jpg
+          src: '-'
       - teamGroup: language
         personName: Tika Ram Rai टीका राम राई
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/pass_photo_TikaRamRai_ai4bharat_gjwwwu.jpg
+          src: '-'
       - teamGroup: language
         personName: Urmila Murmu ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
@@ -784,20 +782,17 @@ blocks:
         personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890382/Team%20pictures/Language/veda1_VedaBharti_ai4bharat_omsjev.jpg
+          src: '-'
       - teamGroup: language
         personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890597/Team%20pictures/Language/3260_VijayWali_ai4bharat._e8bmxa.jpg
+          src: '-'
       - teamGroup: language
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/image_-_Vikas_Vineet_Jha_jnmdhr.jpg
+          src: '-'
       - teamGroup: language
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
