@@ -342,7 +342,8 @@ blocks:
         personName: Bisma Ashraf بسما   اشرف
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890222/Team%20pictures/Language/Screenshot_2022-07-12-11-35-27-54_92460851df6_BismaAshraf_ai4bhara_qob3sd.jpg
       - teamGroup: language
         personName: Bonya Baruah বন্যা বৰুৱা
         personDesignation: 'Language Expert, Assamese'
