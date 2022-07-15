@@ -694,7 +694,8 @@ blocks:
         personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890275/Team%20pictures/Language/Sova-Pic_-_Sova_tudu_sedwaf.jpg
       - teamGroup: language
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
@@ -779,20 +780,17 @@ blocks:
         personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890382/Team%20pictures/Language/veda1_VedaBharti_ai4bharat_omsjev.jpg
+          src: '-'
       - teamGroup: language
         personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890597/Team%20pictures/Language/3260_VijayWali_ai4bharat._e8bmxa.jpg
+          src: '-'
       - teamGroup: language
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/image_-_Vikas_Vineet_Jha_jnmdhr.jpg
+          src: '-'
       - teamGroup: language
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
