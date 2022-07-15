@@ -9,6 +9,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: founders
+        personName: 'Anoop Kunchukuttan '
+        personDesignation: Researcher at Microsoft
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
+      - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: ' Chief Mentor and Evangelist, EkStep Foundation'
         personImage:
