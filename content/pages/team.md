@@ -291,11 +291,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/Ayesh_AyeshaPereira_ai4bha_tqcrwy.jpg
       - teamGroup: language
-        personName: Baburam Murmu Santali
-        personDesignation: 'Language Expert, Santali'
-        personImage:
-          src: '-'
-      - teamGroup: language
         personName: Baburam Murmu বাবুরাম মুরমু
         personDesignation: 'Language Expert, Santali'
         personImage:
@@ -305,7 +300,8 @@ blocks:
         personName: Baren Kisku ᱵᱚᱨᱮᱱ ᱠᱤᱥᱠᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/IMG_20220712_143801_-_Baren_Kisku_xqejnt.jpg
       - teamGroup: language
         personName: Bashiram Basumatary  बासिराम बसुमतारी
         personDesignation: 'Language Expert, Bodo'
