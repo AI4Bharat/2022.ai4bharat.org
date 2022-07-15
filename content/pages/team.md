@@ -258,7 +258,8 @@ blocks:
         personName: Anagha H. N. ಅನಘಾ ಹೆಚ್. ಎನ್.
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/PXL_20220324_154530623_4_AnaghaHN_ai4bharat.o_wximu8.jpg
       - teamGroup: language
         personName: Ann Mary Thomas  ആൻ മേരി തോമസ്
         personDesignation: 'Language Expert, Malayalam'
