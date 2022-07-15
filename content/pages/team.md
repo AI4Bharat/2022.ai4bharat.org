@@ -32,7 +32,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
-          alt: ''
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
@@ -277,7 +276,8 @@ blocks:
         personName: Baburam Murmu বাবুরাম মুরমু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/IMG_20220712_151838_-_BABURAM_MURMU_ar9h8l.jpg
       - teamGroup: language
         personName: Baren Kisku ᱵᱚᱨᱮᱱ ᱠᱤᱥᱠᱩ
         personDesignation: 'Language Expert, Santali'
