@@ -306,7 +306,8 @@ blocks:
         personName: Bashiram Basumatary  बासिराम बसुमतारी
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/passport_photo_PrafullaBasumatary_a_jpvz4g.png
       - teamGroup: language
         personName: Bhimasena Bhol  ଭୀମସେନ ଭୋଳ
         personDesignation: 'Language Expert, Odia'
