@@ -282,7 +282,8 @@ blocks:
         personName: Atrayee Dutta আত্রেয়ী দত্ত
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/atrayee_dutta_AtrayeeDutta_ai4bhar_goue3j.jpg
       - teamGroup: language
         personName: Ayesha Pereira आइशा परेरा
         personDesignation: 'Language Expert,  Hindi'
