@@ -8,6 +8,13 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: operations
+        personName: "Anupama Sujatha\tഅനുപമ"
+        personDesignation: 'Data Lead, AI4Bharat'
+      - personName: ''
+        personDesignation: ''
+      - personName: ''
+        personDesignation: ''
       - teamGroup: tech
         personName: A Aparna அ அபர்ணா
         personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
@@ -632,8 +639,7 @@ blocks:
         personName: Sansuma Brahma सानसुमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890192/Team%20pictures/Language/SANSUMA_SansumaBrahma_ai4bha_p53wnc.jpg
+          src: '-'
       - teamGroup: language
         personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
