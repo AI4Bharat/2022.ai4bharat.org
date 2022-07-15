@@ -432,7 +432,8 @@ blocks:
         personName: Habeebunnisa حبیب النساء
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/dp4ai4bharat_HabeebunnisaSadaf_ai_ijqtff.jpg
       - teamGroup: language
         personName: Hafsah Faquih  حفصہ فقیہ
         personDesignation: 'Language Expert, Urdu'
