@@ -11,8 +11,9 @@ blocks:
       - teamGroup: operations
         personName: "Anupama Sujatha\tഅനുപമ"
         personDesignation: 'Data Lead, AI4Bharat'
-      - personName: ''
-        personDesignation: ''
+      - teamGroup: operations
+        personName: "Janki Nawale\tजानकी"
+        personDesignation: 'Data Lead, AI4Bharat'
       - personName: ''
         personDesignation: ''
       - teamGroup: tech
