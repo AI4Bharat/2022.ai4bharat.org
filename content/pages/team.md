@@ -354,7 +354,8 @@ blocks:
         personName: Chingtham Diana Devi ꯆꯤꯡꯊꯥꯝ ꯗꯥꯢꯑꯦꯅꯥ ꯗꯦꯕꯤ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/IMG20220410162739_ChingthamDianaDevi_a_tvagbv.jpg
       - teamGroup: language
         personName: Churki Hansda ᱪᱩᱲᱠᱤ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
