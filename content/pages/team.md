@@ -264,7 +264,8 @@ blocks:
         personName: Ann Mary Thomas  ആൻ മേരി തോമസ്
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890568/Team%20pictures/Language/490B0964-8034-4250-AE96-686C08FD991B_AnnMaryThomas_ai4bha_ccjdbt.jpg
       - teamGroup: language
         personName: Anwesha Singbal अन्वेषा सिंगबाळ
         personDesignation: 'Language Expert, Konkani'
