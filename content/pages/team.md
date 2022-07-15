@@ -372,7 +372,8 @@ blocks:
         personName: Dattatraya (Pradeep) Padgaonkar  दत्तात्रय (प्रदीप) पाडगावकर
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220628_121809_DattatrayaPradeepPad_ecga6h.jpg
       - teamGroup: language
         personName: Debanga Pallav Saikia Debanga Pallav Saikia (দেৱাংগ পল্লৱ শইকীয়া)
         personDesignation: 'Language Expert, Assamese'
