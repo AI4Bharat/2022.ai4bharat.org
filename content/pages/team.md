@@ -420,7 +420,8 @@ blocks:
         personName: Dwithun Wary दैथुन उवारी
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/photo_DwithunWary_ai4bhara_clypwh.jpg
       - teamGroup: language
         personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
