@@ -473,7 +473,7 @@ blocks:
         personDesignation: 'Language Expert, Malayalam'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/JIHADH_M_JihadhM_ai4bharat.or_ozltvw.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/photo_jiza_JizaMaryThomas_ai4bh_trfekf.jpg
       - teamGroup: language
         personName: Kangkana Deka কংকনা ডেকা
         personDesignation: 'Language Expert, Assamese'
