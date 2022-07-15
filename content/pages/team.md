@@ -779,7 +779,8 @@ blocks:
         personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890382/Team%20pictures/Language/veda1_VedaBharti_ai4bharat_omsjev.jpg
       - teamGroup: language
         personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
