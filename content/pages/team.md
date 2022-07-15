@@ -390,7 +390,8 @@ blocks:
         personName: Deobrata Ghimiray देवब्रत घिमिरे
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/IMG-20220705-WA0000_DeobrataGhimiray_ai4_jubzoj.jpg
       - teamGroup: language
         personName: Dhaka Ram Kafle ढाकाराम काफ्ले
         personDesignation: 'Language Expert, Nepali'
