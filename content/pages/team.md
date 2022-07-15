@@ -479,7 +479,8 @@ blocks:
         personName: Kangkana Deka কংকনা ডেকা
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889804/Team%20pictures/Language/IMG-20190706-WA0034_KangkanaDeka_ai4bhar_o3tqb7.jpg
       - teamGroup: language
         personName: Kathakali Das Bhaumik কথাকলি দাস ভৌমিক
         personDesignation: 'Language Expert, Bengali'
