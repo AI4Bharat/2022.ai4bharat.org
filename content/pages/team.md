@@ -246,7 +246,8 @@ blocks:
         personName: Adithi.R ಅದಿತಿ.ಆರ್.
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/Adithi_R_AdithiR_ai4bharat.or_fszpvl.jpg
       - teamGroup: language
         personName: Alfina ꯑꯜꯐꯤꯅꯥ
         personDesignation: 'Language Expert, Manipuri'
