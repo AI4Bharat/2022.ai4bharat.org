@@ -449,7 +449,8 @@ blocks:
         personName: Hirendra Kumar Jha हीरेन्द्र कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890626/Team%20pictures/Language/20211124_215324_-_Hirendra_Kumar_Jha_gize28.jpg
       - teamGroup: language
         personName: Jaya Saraswati जया सरस्वती
         personDesignation: 'Language Expert,  Hindi'
