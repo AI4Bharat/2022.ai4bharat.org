@@ -9,6 +9,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: founders
+        personName: Mitesh Khapra
+        personDesignation: ' Associate Professor at CSE Department, IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+      - teamGroup: founders
         personName: Pratyush Kumar
         personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
         personImage:
