@@ -461,7 +461,8 @@ blocks:
         personName: Jebi Mariam Kurian  ജെബി മറിയം കുര്യൻ
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/Photo_Jebi_JebiMariamKurian_ai4_gjgasa.jpg
       - teamGroup: language
         personName: Jihadh M ജിഹാദ് എം
         personDesignation: 'Language Expert, Malayalam'
