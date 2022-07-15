@@ -509,7 +509,8 @@ blocks:
         personName: Nilanjana Chowdhury নীলাঞ্জনা চৌধুরী
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/DSCF5570_1_NilanjanaChowdhury_a_zpsmh4.jpg
       - teamGroup: language
         personName: Pankaj Kumar पंकज कुमार
         personDesignation: 'Language Expert, Maithili'
@@ -654,7 +655,8 @@ blocks:
         personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/my_pic_SatyabrataBarik_ai4b_ghe3ln.jpg
       - teamGroup: language
         personName: Shakir Azeem C B ஷாகிர் அஜீம் சி.பி.
         personDesignation: 'Language Expert, Tamil'
@@ -694,7 +696,8 @@ blocks:
         personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890275/Team%20pictures/Language/Sova-Pic_-_Sova_tudu_sedwaf.jpg
       - teamGroup: language
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
@@ -724,7 +727,8 @@ blocks:
         personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ  జె
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890320/Team%20pictures/Language/Srimoukthika_Padma_SrimoukthikaPJ_ai4bh_euqxyx.jpg
       - teamGroup: language
         personName: Suchishraba Sarangi ଶୁଚିଶ୍ରବା ଷଡ଼ଙ୍ଗୀ
         personDesignation: 'Language Expert, Odia'
@@ -769,8 +773,7 @@ blocks:
         personName: Tika Ram Rai टीका राम राई
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/pass_photo_TikaRamRai_ai4bharat_gjwwwu.jpg
+          src: '-'
       - teamGroup: language
         personName: Urmila Murmu ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
@@ -780,20 +783,17 @@ blocks:
         personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890382/Team%20pictures/Language/veda1_VedaBharti_ai4bharat_omsjev.jpg
+          src: '-'
       - teamGroup: language
         personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890597/Team%20pictures/Language/3260_VijayWali_ai4bharat._e8bmxa.jpg
+          src: '-'
       - teamGroup: language
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/image_-_Vikas_Vineet_Jha_jnmdhr.jpg
+          src: '-'
       - teamGroup: language
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
