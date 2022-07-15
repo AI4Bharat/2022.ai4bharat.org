@@ -438,12 +438,13 @@ blocks:
         personName: Hafsah Faquih  حفصہ فقیہ
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: '-'
+          src: ''
       - teamGroup: language
         personName: Harisha H M ಹರೀಶ ಹೆಚ್. ಎಂ.
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/IMG_20150821_220945_HarishaHM_ai4bharat._rvr3fd.jpg
       - teamGroup: language
         personName: Hirendra Kumar Jha हीरेन्द्र कुमार झा
         personDesignation: 'Language Expert, Maithili'
