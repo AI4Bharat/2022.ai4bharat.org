@@ -288,7 +288,8 @@ blocks:
         personName: Ayesha Pereira आइशा परेरा
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/Ayesh_AyeshaPereira_ai4bha_tqcrwy.jpg
       - teamGroup: language
         personName: Baburam Murmu Santali
         personDesignation: 'Language Expert, Santali'
