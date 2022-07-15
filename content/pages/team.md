@@ -360,7 +360,8 @@ blocks:
         personName: Churki Hansda ᱪᱩᱲᱠᱤ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/Churki_-_Churki_Hansda_hs51k7.jpg
       - teamGroup: language
         personName: Cialini Judith Fernandes  सियालिनी फेर्नांडीस
         personDesignation: 'Language Expert, Konkani'
