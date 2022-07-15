@@ -309,7 +309,8 @@ blocks:
         personName: Bhushan Oke भूषण ओक
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/bhushan_oke1_BhushanOke_ai4bharat_wz1fbl.jpg
       - teamGroup: language
         personName: Bikash Chetia বিকাশ চেতিয়া
         personDesignation: 'Language Expert, Assamese'
@@ -319,7 +320,8 @@ blocks:
         personName: Binita Basumatary बिनिता बोसुमोतारि
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/photo_BinitaBasumatary_ai4_yeynlu.jpg
       - teamGroup: language
         personName: Bishnu Prasad Barman বিষ্ণু প্রসাদ বর্মণ
         personDesignation: 'Language Expert, Assamese'
@@ -694,8 +696,7 @@ blocks:
         personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890275/Team%20pictures/Language/Sova-Pic_-_Sova_tudu_sedwaf.jpg
+          src: '-'
       - teamGroup: language
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
