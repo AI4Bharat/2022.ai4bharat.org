@@ -467,7 +467,8 @@ blocks:
         personName: Jihadh M ജിഹാദ് എം
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/JIHADH_M_JihadhM_ai4bharat.or_ozltvw.jpg
       - teamGroup: language
         personName: Jiza Mary Thomas ജിസാ മേരി തോമസ്
         personDesignation: 'Language Expert, Malayalam'
