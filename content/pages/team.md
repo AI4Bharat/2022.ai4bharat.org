@@ -270,7 +270,8 @@ blocks:
         personName: Anwesha Singbal अन्वेषा सिंगबाळ
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/DSC_0492_-_Anwesha_singbal_ewvgmi.jpg
       - teamGroup: language
         personName: Aruna Kumar K R ಅರುಣ ಕುಮಾರ ಕೆ.ಆರ್
         personDesignation: 'Language Expert, Kannada'
