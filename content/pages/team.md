@@ -426,7 +426,8 @@ blocks:
         personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/Guna_Hembrom_-_GUNA_HEMBROM_sdh8ox.jpg
       - teamGroup: language
         personName: Habeebunnisa حبیب النساء
         personDesignation: 'Language Expert, Urdu'
