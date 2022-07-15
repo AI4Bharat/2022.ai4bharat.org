@@ -396,7 +396,8 @@ blocks:
         personName: Dhaka Ram Kafle ढाकाराम काफ्ले
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/1657638330068_DhakaRamKafle_ai4bha_rgralr.jpg
       - teamGroup: language
         personName: Diana Thingujam ꯗꯥꯏꯅꯥ ꯊꯤꯉꯨꯖꯝ
         personDesignation: 'Language Expert, Manipuri'
