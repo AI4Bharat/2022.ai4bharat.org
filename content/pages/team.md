@@ -424,7 +424,8 @@ blocks:
         personName: Jaya Saraswati जया सरस्वती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/JS_JayaSaraswati_ai4bha_q7lyri.jpg
       - teamGroup: language
         personName: Jebi Mariam Kurian  ജെബി മറിയം കുര്യൻ
         personDesignation: 'Language Expert, Malayalam'
