@@ -30,8 +30,7 @@ blocks:
         personName: Akshat Sharma अक्षत शर्मा
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
+          src: ''
           alt: ''
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
