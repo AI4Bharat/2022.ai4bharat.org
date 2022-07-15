@@ -414,7 +414,8 @@ blocks:
         personName: Dr. Bihung Brahma ड. बिहुं ब्रह्म
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/My_Photo_BihungBrahma_ai4bhar_ksxokl.jpg
       - teamGroup: language
         personName: Dwithun Wary दैथुन उवारी
         personDesignation: 'Language Expert, Bodo'
