@@ -378,7 +378,8 @@ blocks:
         personName: Debanga Pallav Saikia Debanga Pallav Saikia (দেৱাংগ পল্লৱ শইকীয়া)
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/MICROSOFT_FOTO_DebangaPallavSaikia_mfut0i.jpg
       - teamGroup: language
         personName: Deepika Agrawal दीपिका अग्रवाल
         personDesignation: 'Language Expert,  Hindi'
