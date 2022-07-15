@@ -32,6 +32,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
+          alt: ''
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
