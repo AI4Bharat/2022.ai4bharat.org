@@ -312,7 +312,8 @@ blocks:
         personName: Bhimasena Bhol  ଭୀମସେନ ଭୋଳ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890243/Team%20pictures/Language/Screenshot_2022-07-14-19-01-30_BhimasenaBhol_ai4bha_cjdrqe.jpg
       - teamGroup: language
         personName: Bhushan Oke भूषण ओक
         personDesignation: 'Language Expert, Marathi'
