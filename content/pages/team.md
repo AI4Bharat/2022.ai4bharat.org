@@ -794,7 +794,8 @@ blocks:
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/Photo_VrindaSarkar_ai4bhar_ynpomo.jpg
     tabsEnabled: true
     _template: teamCardsGrid
 ---
