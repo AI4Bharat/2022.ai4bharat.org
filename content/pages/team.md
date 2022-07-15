@@ -366,7 +366,8 @@ blocks:
         personName: Cialini Judith Fernandes  सियालिनी फेर्नांडीस
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890542/Team%20pictures/Language/7FC3E5B6-297E-40CE-A5D2-7E88145FE9BB_CialiniJudithFernand_qvlbyj.jpg
       - teamGroup: language
         personName: Dattatraya (Pradeep) Padgaonkar  दत्तात्रय (प्रदीप) पाडगावकर
         personDesignation: 'Language Expert, Konkani'
