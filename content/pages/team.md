@@ -402,7 +402,8 @@ blocks:
         personName: Diana Thingujam ꯗꯥꯏꯅꯥ ꯊꯤꯉꯨꯖꯝ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/DIANA_PHOTO_2022_DianaThingujam_ai4bh_nbmorf.jpg
       - teamGroup: language
         personName: Dimpi Sarma ডিম্পী শৰ্মা
         personDesignation: 'Language Expert, Assamese'
