@@ -336,7 +336,8 @@ blocks:
         personName: Bishnu Prasad Barman বিষ্ণু প্রসাদ বর্মণ
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/bishnu-dp_BishnuPrasadBarman_a_tay4wt.jpg
       - teamGroup: language
         personName: Bisma Ashraf بسما   اشرف
         personDesignation: 'Language Expert, Kashmiri'
