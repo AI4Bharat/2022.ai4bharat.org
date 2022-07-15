@@ -276,7 +276,8 @@ blocks:
         personName: Aruna Kumar K R ಅರುಣ ಕುಮಾರ ಕೆ.ಆರ್
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/Aruna_Kumar_K_R_ArunaKumarKR_ai4bhar_qste5q.jpg
       - teamGroup: language
         personName: Atrayee Dutta আত্রেয়ী দত্ত
         personDesignation: 'Language Expert, Bengali'
