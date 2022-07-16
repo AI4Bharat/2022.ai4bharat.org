@@ -15,6 +15,9 @@ blocks:
         type: link
         icon: false
         link: /launch
+    image:
+      src: >-
+        https://res.cloudinary.com/ai4bharat/image/upload/v1657697407/AI4BharatLaunch_gsqlw3_mhtebr.png
     _template: hero
   - quote: Our Mission
     author: ''
