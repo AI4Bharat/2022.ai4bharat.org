@@ -791,7 +791,8 @@ blocks:
         personName: Suresha R सुरेशः आर्
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890613/Team%20pictures/Language/202108_Photo_2_SureshaR_ai4bharat.o_srgi1p.jpg
       - teamGroup: language
         personName: Suruthi Shree A சுருதி ஸ்ரீ அ
         personDesignation: 'Language Expert, Tamil'
