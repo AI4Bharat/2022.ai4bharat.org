@@ -801,7 +801,8 @@ blocks:
         personName: Syed Samreena Sajad  سید ثمرینہ سجاد
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/IMG-20220707-WA0355_SyedSamreenaSajad_ai_xyccaw.jpg
       - teamGroup: language
         personName: Tika Ram Rai टीका राम राई
         personDesignation: 'Language Expert, Nepali'
