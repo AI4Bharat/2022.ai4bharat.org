@@ -1,5 +1,17 @@
 ---
 blocks:
+  - tagline: Here's some text above the other text
+    headline: Launch Event
+    text: >
+      Nilekani center at AI4Bharat is launching on 28th July at IIT Madras.
+      Co-located with the launch will be the first AI4Bharat workshop on Indian
+      language technology.&#x20;
+    actions:
+      - label: Sign up
+        type: button
+        icon: true
+        link: 'https://forms.office.com/r/vddNi9fuqS'
+    _template: hero
   - quote: Our Mission
     author: ''
     color: tint
