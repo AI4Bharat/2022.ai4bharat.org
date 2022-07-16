@@ -732,7 +732,8 @@ blocks:
         personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890275/Team%20pictures/Language/Sova-Pic_-_Sova_tudu_sedwaf.jpg
       - teamGroup: language
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
