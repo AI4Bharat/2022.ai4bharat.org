@@ -691,7 +691,8 @@ blocks:
         personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/my_pic_SatyabrataBarik_ai4b_ghe3ln.jpg
       - teamGroup: language
         personName: Shakir Azeem C B ஷாகிர் அஜீம் சி.பி.
         personDesignation: 'Language Expert, Tamil'
