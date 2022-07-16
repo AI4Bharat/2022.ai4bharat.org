@@ -821,7 +821,8 @@ blocks:
         personName: Vijay Wali وِجے ولی
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890597/Team%20pictures/Language/3260_VijayWali_ai4bharat._e8bmxa.jpg
       - teamGroup: language
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
