@@ -7,7 +7,7 @@ blocks:
       Co-located with the launch will be the first AI4Bharat workshop on Indian
       language technology.&#x20;
     actions:
-      - label: Action Label
+      - label: Sign up
         type: button
         icon: true
         link: 'https://forms.office.com/r/vddNi9fuqS'
