@@ -726,7 +726,8 @@ blocks:
         personName: Sounak Dutta শৌণক দত্ত
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/compress_pic_sounak_1_100_kb-min_SounakDutta_ai4bhara_tszoma.jpg
       - teamGroup: language
         personName: Sova Tudu শোভা টুডু
         personDesignation: 'Language Expert, Santali'
