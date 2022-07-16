@@ -741,7 +741,8 @@ blocks:
         personName: Srijana Sharma सृजना शर्मा
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890289/Team%20pictures/Language/SRIJANA_SHARMA_SrijanaSharma_ai4bha_wa4dvn.jpg
       - teamGroup: language
         personName: Srilakshmi B  శ్రీలక్ష్మి .బి
         personDesignation: 'Language Expert, Telugu'
