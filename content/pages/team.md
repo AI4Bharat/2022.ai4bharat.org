@@ -716,7 +716,8 @@ blocks:
         personName: Sidwma Brahma सिदोमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/photo_SidwmaBrahma_ai4bhar_lrhyyy.jpg
       - teamGroup: language
         personName: Sonal Padhiyar સોનલ પઢિયાર
         personDesignation: 'Language Expert, Gujarati'
