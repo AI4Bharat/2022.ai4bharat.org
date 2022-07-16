@@ -751,7 +751,8 @@ blocks:
         personName: Srilekha P Nambiar  ശ്രീലേഖ പി നമ്പ്യാർ
         personDesignation: 'Language Expert, Malayalam'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890557/Team%20pictures/Language/67f38333-f86a-4d5a-9767-23e0c75833b5_1__SrilekhaPadmakumarNa_qjzx6p.jpg
       - teamGroup: language
         personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ జె
         personDesignation: 'Language Expert, Telugu'
