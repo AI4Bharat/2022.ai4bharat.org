@@ -766,7 +766,8 @@ blocks:
         personName: Suchishraba Sarangi ଶୁଚିଶ୍ରବା ଷଡ଼ଙ୍ଗୀ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890342/Team%20pictures/Language/Suchishraba_photo_SuchishrabaSarangi_a_pacr7z.jpg
       - teamGroup: language
         personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: 'Language Expert, Malayalam'
