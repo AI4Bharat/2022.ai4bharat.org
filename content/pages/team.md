@@ -723,7 +723,8 @@ blocks:
         personName: Sonal Padhiyar સોનલ પઢિયાર
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/Passport_size_Photo_SonalPadhiyar_ai4bha_rnkx3w.jpg
       - teamGroup: language
         personName: Sounak Dutta শৌণক দত্ত
         personDesignation: 'Language Expert, Bengali'
