@@ -711,7 +711,8 @@ blocks:
         personName: Shweta Anand Deshmukh श्वेता आनंद देशमुख
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/photo_ShwetaDeshmukh_ai4bh_mv8t9p.png
       - teamGroup: language
         personName: Sidwma Brahma सिदोमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
