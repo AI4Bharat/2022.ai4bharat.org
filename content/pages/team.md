@@ -9,9 +9,6 @@ blocks:
     _template: hero
   - items:
       - teamGroup: operations
-        personName: "Bhanumathy M\tபானுமதி மா "
-        personDesignation: ''
-      - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
         personDesignation: Chief of Operations
       - teamGroup: operations
@@ -779,7 +776,8 @@ blocks:
         personName: Sufiya Pathan सूफ़िया पठान
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/passport_photo_SufiyaPathan_ai4bhar_emgboa.jpg
       - teamGroup: language
         personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
         personDesignation: 'Language Expert, Maithili'
