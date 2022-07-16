@@ -746,7 +746,8 @@ blocks:
         personName: Srilakshmi B  శ్రీలక్ష్మి .బి
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/photo_SrilakshmiB_ai4bhara_xumquw.jpg
       - teamGroup: language
         personName: Srilekha P Nambiar  ശ്രീലേഖ പി നമ്പ്യാർ
         personDesignation: 'Language Expert, Malayalam'
