@@ -736,7 +736,8 @@ blocks:
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/imageedit_3_3233515191_SrijaMukherjee_ai4bh_zgx4an.jpg
       - teamGroup: language
         personName: Srijana Sharma सृजना शर्मा
         personDesignation: 'Language Expert, Nepali'
