@@ -23,7 +23,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { Banner } from "../blocks/banner";
+// import { Banner } from "../blocks/banner";
 
 // const callsToAction = [
 //   { name: 'Watch Demo', href: '#', icon: PlayIcon },
