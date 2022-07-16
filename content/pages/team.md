@@ -701,12 +701,14 @@ blocks:
         personName: Shivapriya Murali சிவப்பிரியா முரளி
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/1657621019997_-_Shivapriya_Murali_eql5sy.jpg
       - teamGroup: language
         personName: Shreerupa Chattopadhyay শ্রীরূপা চট্টোপাধ্যায়
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/IMG_20220321_144546403_ShreerupaChattopadhy_i72ckt.jpg
       - teamGroup: language
         personName: Shweta Anand Deshmukh श्वेता आनंद देशमुख
         personDesignation: 'Language Expert, Marathi'
