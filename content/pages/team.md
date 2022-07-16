@@ -9,6 +9,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: founders
+        personName: 'Pratyush Kumar '
+        personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
+      - teamGroup: founders
         personName: Anoop Kunchukuttan
         personDesignation: ' Researcher at Microsoft'
         personImage:
