@@ -761,7 +761,8 @@ blocks:
         personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ  జె
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890320/Team%20pictures/Language/Srimoukthika_Padma_SrimoukthikaPJ_ai4bh_euqxyx.jpg
       - teamGroup: language
         personName: Suchishraba Sarangi ଶୁଚିଶ୍ରବା ଷଡ଼ଙ୍ଗୀ
         personDesignation: 'Language Expert, Odia'
