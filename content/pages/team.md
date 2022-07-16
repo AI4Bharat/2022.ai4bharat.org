@@ -696,7 +696,8 @@ blocks:
         personName: Shakir Azeem C B ஷாகிர் அஜீம் சி.பி.
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/My_Photo_-_Shakir_ShakirAzeemCB_ai4bha_hy3ajy.jpg
       - teamGroup: language
         personName: Shivapriya Murali சிவப்பிரியா முரளி
         personDesignation: 'Language Expert, Tamil'
