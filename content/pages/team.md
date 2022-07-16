@@ -8,6 +8,34 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: founders
+        personName: Vivek Raghavan
+        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
+          alt: Vivek Raghavan
+      - teamGroup: founders
+        personName: Mitesh Khapra
+        personDesignation: 'Associate Professor at CSE Department, IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+          alt: Mitesh Khapra
+      - teamGroup: founders
+        personName: Pratyush Kumar
+        personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
+          alt: Pratyush Kumar
+      - teamGroup: founders
+        personName: Anoop Kunchukuttan
+        personDesignation: Researcher at Microsoft
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
+          alt: Anoop Kunchukuttan
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
         personDesignation: Chief of Operations
