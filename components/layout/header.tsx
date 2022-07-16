@@ -355,7 +355,7 @@ export const Header = ({ data }) => {
         />
       </Container>
       
-      <Banner data={data}/>
+      {/* <Banner data={data}/> */}
     </div>
   );
 };
