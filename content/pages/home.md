@@ -13,8 +13,8 @@ blocks:
         link: 'https://forms.office.com/r/vddNi9fuqS'
       - label: Learn more
         type: link
-        icon: true
-        link: 'https://forms.office.com/r/vddNi9fuqS'
+        icon: false
+        link: /launch
     _template: hero
   - quote: Our Mission
     author: ''
