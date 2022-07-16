@@ -174,8 +174,7 @@ blocks:
         text: >-
           As the primary sponsor, Nandan Nilekani has generously contributed to
           the formation of the AI4Bharat center with a focus on open-source
-          language tech as a public good. The team at EkStep Foundation also
-          closely collaborates and mentors the center. 
+          language tech as a public good. 
     color: default
     _template: photoCardSingle
   - items:
