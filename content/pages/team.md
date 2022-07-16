@@ -826,7 +826,8 @@ blocks:
         personName: Vikas Vineet विकास विनीत
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/image_-_Vikas_Vineet_Jha_jnmdhr.jpg
       - teamGroup: language
         personName: Vrinda Sarkar वृन्दा सरकार
         personDesignation: 'Language Expert, Marathi'
