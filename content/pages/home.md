@@ -1,29 +1,5 @@
 ---
 blocks:
-  - tagline: ''
-    headline: We are launching!
-    text: >
-      ##
-
-
-      The Nilekani Center at AI4Bharat is  launching on 28th July 2022 at IIT
-      Madras. Co-located with the launch will be the first AI4Bharat Workshop on
-      Indian Language AI.
-    actions:
-      - label: Sign Up For Event
-        type: button
-        icon: true
-        link: 'https://forms.office.com/r/vddNi9fuqS'
-      - label: Learn More
-        type: link
-        icon: true
-        link: /launch
-    image:
-      src: >-
-        https://res.cloudinary.com/dechqhn3b/image/upload/v1657467743/AI4BharatLaunch_gsqlw3.png
-      alt: AI4Bharat
-    color: default
-    _template: hero
   - quote: Our Mission
     author: ''
     color: tint
@@ -210,11 +186,11 @@ blocks:
           supported AI4Bharat with unrestricted research grants and also by
           allocating time from researchers to contribute towards open-source
           technologies.
-      - title: CDAC
+      - title: Ek Step Foundation
         image: ''
         text: >-
-          CDAC has provided generous access to super-computing resources for
-          training large AI models and hosting large amounts of data
+          AI4Bharat is supported by mentorship and software engineering to build
+          applications for Indian language AI as a digital public good.
     _template: photoCardsGrid2
   - quote: Our Team
     author: Phil Karlton
