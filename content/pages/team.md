@@ -786,7 +786,8 @@ blocks:
         personName: Sunita Dahal सुनिता दहाल
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890585/Team%20pictures/Language/002936_SunitaDahal_ai4bhara_tzoxsf.jpg
       - teamGroup: language
         personName: Suresha R सुरेशः आर्
         personDesignation: 'Language Expert, Sanskrit'
