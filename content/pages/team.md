@@ -8,30 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: founders
-        personName: Mitesh Khapra
-        personDesignation: 'Associate Professor at CSE Department, IIT Madras'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
-      - teamGroup: founders
-        personName: 'Pratyush Kumar '
-        personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699057/pratyush_kumar_hgkewb.jpg
-      - teamGroup: founders
-        personName: Anoop Kunchukuttan
-        personDesignation: ' Researcher at Microsoft'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
-      - teamGroup: founders
-        personName: Vivek Raghavan
-        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
         personDesignation: Chief of Operations
@@ -830,7 +806,8 @@ blocks:
         personName: Tika Ram Rai टीका राम राई
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/pass_photo_TikaRamRai_ai4bharat_gjwwwu.jpg
       - teamGroup: language
         personName: Urmila Murmu ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
