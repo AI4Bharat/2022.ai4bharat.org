@@ -777,7 +777,7 @@ blocks:
         personDesignation: 'Language Expert,  Hindi'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/passport_photo_SufiyaPathan_ai4bhar_emgboa.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889804/Team%20pictures/Language/IMG-20160920-WA0014_SufiyaPathan_ai4bhar_vx8yp0.jpg
       - teamGroup: language
         personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
         personDesignation: 'Language Expert, Maithili'
