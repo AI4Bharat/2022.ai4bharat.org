@@ -653,7 +653,8 @@ blocks:
         personName: Raju Mardi ᱨᱟᱡᱩ ᱢᱟᱨᱰᱤ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890503/Team%20pictures/Language/%E1%B1%A8%E1%B1%9F%E1%B1%A1%E1%B1%A9_%E1%B1%A2%E1%B1%9F%E1%B1%A8%E1%B1%B0%E1%B1%A4_-_Raju_Mardi_quuant.jpg
       - teamGroup: language
         personName: Rakshit Ghai रक्षित घई
         personDesignation: 'Language Expert,  Hindi'
