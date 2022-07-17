@@ -525,7 +525,8 @@ blocks:
         personName: Leema Rajavarman  லீமா ராஜவர்மன்
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220628_111713_LeemaRajavarman_ai4b_qz2yz7.jpg
       - teamGroup: language
         personName: Lekhnath Chhetri लेखनाथ छेत्री
         personDesignation: 'Language Expert, Nepali'
