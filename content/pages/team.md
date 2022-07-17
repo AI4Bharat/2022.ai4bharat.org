@@ -663,7 +663,8 @@ blocks:
         personName: Ranjana Pathak रंजना पाठक
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/Ranjana_Pic_RanjanaPathak_ai4bha_rlexuh.jpg
       - teamGroup: language
         personName: Reena Ashem ꯔꯤꯅꯥ ꯑꯁꯦꯝ
         personDesignation: 'Language Expert, Manipuri'
