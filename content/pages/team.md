@@ -698,7 +698,8 @@ blocks:
         personName: Sandeep Kumar Jha संदीप कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890460/Team%20pictures/Language/WhatsApp_Image_2022-07-07_at_2.24.17_PM_-_sandeep_Jha_am2ebe.jpg
       - teamGroup: language
         personName: Sanjay Kumar Jha संजय कुमार झा
         personDesignation: 'Language Expert, Maithili'
