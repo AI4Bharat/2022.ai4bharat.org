@@ -673,7 +673,8 @@ blocks:
         personName: Reena Ashem Meiteilon
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/IMG_20180622_181843_2__ReenaAshem_ai4bharat_tu484j.jpg
       - teamGroup: language
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
