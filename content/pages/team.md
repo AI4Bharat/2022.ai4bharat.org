@@ -670,7 +670,7 @@ blocks:
         personImage:
           src: '-'
       - teamGroup: language
-        personName: Reena Ashem Meiteilon
+        personName: 'Reena Ashem '
         personDesignation: 'Language Expert, Manipuri'
         personImage:
           src: >-
