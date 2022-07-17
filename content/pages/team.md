@@ -688,7 +688,8 @@ blocks:
         personName: Sai Sudeep Das ସାଇ ସୁଦୀପ ଦାସ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/SAI_SUDEEP_DAS_SaiSudeepDas_ai4bhar_vckg25.jpg
       - teamGroup: language
         personName: Saket Kumar साकेत कुमार
         personDesignation: 'Language Expert, Maithili'
