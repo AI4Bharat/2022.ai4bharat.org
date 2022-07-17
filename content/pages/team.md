@@ -335,7 +335,7 @@ blocks:
         personDesignation: 'Language Expert, Bodo'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/passport_photo_PrafullaBasumatary_a_jpvz4g.png
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/IMG_20220129_232612_BashiramBasumatary_a_tskq5j.jpg
       - teamGroup: language
         personName: Bhimasena Bhol  ଭୀମସେନ ଭୋଳ
         personDesignation: 'Language Expert, Odia'
@@ -797,11 +797,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657890557/Team%20pictures/Language/67f38333-f86a-4d5a-9767-23e0c75833b5_1__SrilekhaPadmakumarNa_qjzx6p.jpg
-      - teamGroup: language
-        personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ జె
-        personDesignation: 'Language Expert, Telugu'
-        personImage:
-          src: '-'
       - teamGroup: language
         personName: Srimoukthika Padma J శ్రీమౌక్తిక పద్మ  జె
         personDesignation: 'Language Expert, Telugu'
