@@ -638,7 +638,8 @@ blocks:
         personName: Pukhrambam Sanju Singh ꯄꯨꯈ꯭ꯔꯝꯕꯝ ꯁꯟꯖꯨ ꯁꯤꯡꯍ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220629_171752_PukhrambamSanjuSingh_vaftgy.jpg
       - teamGroup: language
         personName: Radhika Deshpande राधिका देशपांडे
         personDesignation: 'Language Expert, Marathi'
