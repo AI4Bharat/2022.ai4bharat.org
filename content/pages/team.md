@@ -648,7 +648,8 @@ blocks:
         personName: Rahul Kumar Jha राहुल कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890652/Team%20pictures/Language/20220704_133715_-_rahul_jha_tedggn.jpg
       - teamGroup: language
         personName: Raju Mardi ᱨᱟᱡᱩ ᱢᱟᱨᱰᱤ
         personDesignation: 'Language Expert, Santali'
