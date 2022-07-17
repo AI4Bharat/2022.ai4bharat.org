@@ -531,7 +531,8 @@ blocks:
         personName: Lekhnath Chhetri लेखनाथ छेत्री
         personDesignation: 'Language Expert, Nepali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889804/Team%20pictures/Language/IMG-20220417-WA0006_LekhnathChhetri_ai4b_okiu95.jpg
       - teamGroup: language
         personName: Lelina Barman লেলিনা বৰ্মন
         personDesignation: 'Language Expert, Assamese'
