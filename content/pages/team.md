@@ -708,7 +708,8 @@ blocks:
         personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/IMG_20220712_144057_-_SANJIBAN_MURMU_aa3csr.jpg
       - teamGroup: language
         personName: Sansuma Brahma सानसुमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
