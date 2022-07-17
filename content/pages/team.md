@@ -703,7 +703,8 @@ blocks:
         personName: Sanjay Kumar Jha संजय कुमार झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889844/Team%20pictures/Language/San_Pic_-_Sanjay_Aripana_otwqca.jpg
       - teamGroup: language
         personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
