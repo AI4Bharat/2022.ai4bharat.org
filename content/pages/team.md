@@ -534,7 +534,8 @@ blocks:
         personName: Lelina Barman লেলিনা বৰ্মন
         personDesignation: 'Language Expert, Assamese'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/InShot_20220310_224623372_LelinaBarman_ai4bhar_thrfac.jpg
       - teamGroup: language
         personName: Md. Jahir Husain ꯑꯦꯝ.ꯗꯤ. ꯖꯥꯍꯤꯔ ꯍꯨꯁꯦꯏꯟ
         personDesignation: 'Language Expert, Manipuri'
