@@ -519,7 +519,8 @@ blocks:
         personName: Kunal Sharad Gandhi कुणाल शरद गांधी
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/IMG_Kunal_Gandhi_KunalGandhi_ai4bhara_bmubth.jpg
       - teamGroup: language
         personName: Leema Rajavarman  லீமா ராஜவர்மன்
         personDesignation: 'Language Expert, Tamil'
