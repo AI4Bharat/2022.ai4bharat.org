@@ -633,7 +633,8 @@ blocks:
         personName: Promila Hansda ᱯᱨᱚᱢᱤᱞᱟ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890513/Team%20pictures/Language/%E1%B1%AF%E1%B1%A8%E1%B1%9A%E1%B1%A2%E1%B1%A4%E1%B1%9E%E1%B1%9F_-_Promila_Hansda_votjpp.jpg
       - teamGroup: language
         personName: Pukhrambam Sanju Singh ꯄꯨꯈ꯭ꯔꯝꯕꯝ ꯁꯟꯖꯨ ꯁꯤꯡꯍ
         personDesignation: 'Language Expert, Manipuri'
