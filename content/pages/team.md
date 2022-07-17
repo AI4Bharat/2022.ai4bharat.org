@@ -713,7 +713,8 @@ blocks:
         personName: Sansuma Brahma सानसुमा ब्रह्म'
         personDesignation: 'Language Expert, Bodo'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890192/Team%20pictures/Language/SANSUMA_SansumaBrahma_ai4bha_p53wnc.jpg
       - teamGroup: language
         personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
