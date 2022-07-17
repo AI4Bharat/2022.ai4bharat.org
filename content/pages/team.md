@@ -643,7 +643,8 @@ blocks:
         personName: Radhika Deshpande राधिका देशपांडे
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890438/Team%20pictures/Language/WhatsApp_Image_2021-12-04_at_8.34.42_AM_RadhikaDeshpande_ai4_k17cz3.jpg
       - teamGroup: language
         personName: Rahul Kumar Jha राहुल कुमार झा
         personDesignation: 'Language Expert, Maithili'
