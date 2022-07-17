@@ -628,7 +628,8 @@ blocks:
         personName: Priyeshi Kumari प्रियेशी कुमारी
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220705_164119_-_Priyeshi_Kumari_gvbikp.jpg
       - teamGroup: language
         personName: Promila Hansda ᱯᱨᱚᱢᱤᱞᱟ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
