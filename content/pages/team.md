@@ -683,7 +683,8 @@ blocks:
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/Saee_K_SaeeKodolikar_ai4bha_cjxhwd.jpg
       - teamGroup: language
         personName: Sai Sudeep Das ସାଇ ସୁଦୀପ ଦାସ
         personDesignation: 'Language Expert, Odia'
