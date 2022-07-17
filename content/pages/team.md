@@ -693,7 +693,8 @@ blocks:
         personName: Saket Kumar साकेत कुमार
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/saket_kumar_-_Kumar_Saket_xuz9jv.jpg
       - teamGroup: language
         personName: Sandeep Kumar Jha संदीप कुमार झा
         personDesignation: 'Language Expert, Maithili'
