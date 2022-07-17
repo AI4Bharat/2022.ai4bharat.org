@@ -618,7 +618,8 @@ blocks:
         personName: Prasad Gopal Jog प्रसाद गोपाळ जोग
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/DSC_0640_PrasadJog_ai4bharat._n9ovom.jpg
       - teamGroup: language
         personName: Prasanta Kumar Hansda ᱯᱨᱚᱥᱟᱱᱛᱚ ᱠᱩᱢᱟᱨ ᱦᱟᱸᱥᱫᱟ
         personDesignation: 'Language Expert, Santali'
