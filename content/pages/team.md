@@ -658,7 +658,8 @@ blocks:
         personName: Rakshit Ghai रक्षित घई
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/Rakshit_Ghai_RakshitGhai_ai4bhara_vmaz9m.jpg
       - teamGroup: language
         personName: Ranjana Pathak रंजना पाठक
         personDesignation: 'Language Expert, Marathi'
