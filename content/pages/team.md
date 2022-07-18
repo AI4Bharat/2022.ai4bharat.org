@@ -573,7 +573,8 @@ blocks:
         personName: Neha Singh Bhakal नेहा सिंह भाकल
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/person_photo_Neha_ai4bharat.org_b59coc.jpg
       - teamGroup: language
         personName: Nilanjana Chowdhury নীলাঞ্জনা চৌধুরী
         personDesignation: 'Language Expert, Bengali'
