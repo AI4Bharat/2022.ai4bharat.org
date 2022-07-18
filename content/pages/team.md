@@ -548,7 +548,8 @@ blocks:
         personName: Mohd Wajhiuddin محمد وجیہ الدین
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889806/Team%20pictures/Language/Mohd-Wajhiuddin_MohammedWajhiuddin_a_suqj2p.jpg
       - teamGroup: language
         personName: Muhammad Anzar Ziaulhaq Sareshwala محمد انذر ضیاء الحق سریش والا
         personDesignation: 'Language Expert, Urdu'
