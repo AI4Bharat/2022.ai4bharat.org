@@ -563,7 +563,8 @@ blocks:
         personName: Neelam Sankhla नीलम सांखला
         personDesignation: 'Language Expert,  Hindi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/Neelam_pic_NeelamSankhla_ai4bha_bqwevl.jpg
       - teamGroup: language
         personName: Neha Satish Bandekar नेहा सतीश बांदेकर
         personDesignation: 'Language Expert, Marathi'
