@@ -609,7 +609,8 @@ blocks:
         personName: Pramodini Pradhan ପ୍ରମୋଦିନୀ ପ୍ରଧାନ
         personDesignation: 'Language Expert, Odia'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/profile_pic_PramodiniPradhan_ai4_daeviq.jpg
       - teamGroup: language
         personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
         personDesignation: 'Language Expert, Gujarati'
