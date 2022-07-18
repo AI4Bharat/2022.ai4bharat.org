@@ -568,7 +568,8 @@ blocks:
         personName: Neha Satish Bandekar नेहा सतीश बांदेकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/profile_NehaSatishBandekar_a_fokqos.jpg
       - teamGroup: language
         personName: Neha Singh Bhakal नेहा सिंह भाकल
         personDesignation: 'Language Expert,  Hindi'
