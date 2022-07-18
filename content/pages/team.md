@@ -583,7 +583,8 @@ blocks:
         personName: Pankaj Kumar पंकज कुमार
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/FB_IMG_1657691547744_-_Pankaj_Kumar_cycrtr.jpg
       - teamGroup: language
         personName: Paresh Prabhu परेश प्रभू
         personDesignation: 'Language Expert, Marathi'
