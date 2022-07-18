@@ -588,7 +588,8 @@ blocks:
         personName: Paresh Prabhu परेश प्रभू
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/PARESH_PRABHU_PHOTO_PareshPrabhu_ai4bhar_rlmqx7.jpg
       - teamGroup: language
         personName: Prabu Srinivas Ks பிரபு ‌‌‌‌‌‌ஸ்ரீனிவாஸ் கொ.சோ.
         personDesignation: 'Language Expert, Tamil'
