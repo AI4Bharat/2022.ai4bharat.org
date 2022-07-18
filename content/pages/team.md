@@ -578,7 +578,8 @@ blocks:
         personName: Nilanjana Chowdhury নীলাঞ্জনা চৌধুরী
         personDesignation: 'Language Expert, Bengali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/DSCF5570_NilanjanaChowdhury_a_l5yl6i.jpg
       - teamGroup: language
         personName: Pankaj Kumar पंकज कुमार
         personDesignation: 'Language Expert, Maithili'
