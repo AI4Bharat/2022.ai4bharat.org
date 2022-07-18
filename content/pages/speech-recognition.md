@@ -35,7 +35,7 @@ blocks:
         updated: true
         text: >-
           State-of-the-art open-source ASR models for 9 languages (including
-          Nepali and Sinhalese) as measured on public benchmarks. 
+          Nepali and Sinhala) as measured on public benchmarks. 
       - icon:
           color: ''
           style: float
