@@ -593,7 +593,8 @@ blocks:
         personName: Prabu Srinivas Ks பிரபு ‌‌‌‌‌‌ஸ்ரீனிவாஸ் கொ.சோ.
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/IMG_20220123_232438_PrabuSrinivasKs_ai4b_pcpiqp.jpg
       - teamGroup: language
         personName: Pradnya Bhagat प्रज्ञा भगत
         personDesignation: 'Language Expert, Konkani'
