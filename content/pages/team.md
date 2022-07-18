@@ -553,7 +553,8 @@ blocks:
         personName: Muhammad Anzar Ziaulhaq Sareshwala محمد انذر ضیاء الحق سریش والا
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/Photo_2__MuhammadAnzarSareshw_q1ynl8.jpg
       - teamGroup: language
         personName: 'Nazima '
         personDesignation: 'Language Expert, Kashmiri'
