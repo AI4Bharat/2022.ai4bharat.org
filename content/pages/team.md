@@ -555,10 +555,11 @@ blocks:
         personImage:
           src: '-'
       - teamGroup: language
-        personName: Nazima Nazima
+        personName: 'Nazima '
         personDesignation: 'Language Expert, Kashmiri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657890571/Team%20pictures/Language/2662C2A1-4C5D-4040-86F7-8584CA97C841_NazimaMehdi_ai4bhara_eksidn.jpg
       - teamGroup: language
         personName: Neelam Sankhla नीलम सांखला
         personDesignation: 'Language Expert,  Hindi'
