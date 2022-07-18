@@ -598,7 +598,8 @@ blocks:
         personName: Pradnya Bhagat प्रज्ञा भगत
         personDesignation: 'Language Expert, Konkani'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/Pradnya_1__PradnyaBhagat_ai4bha_gpy0wq.jpg
       - teamGroup: language
         personName: Prafulla Basumatary प्रफुल्ल बसुमतारि
         personDesignation: 'Language Expert, Bodo'
