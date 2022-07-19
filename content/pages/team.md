@@ -543,7 +543,8 @@ blocks:
         personName: Md. Jahir Husain ꯑꯦꯝ.ꯗꯤ. ꯖꯥꯍꯤꯔ ꯍꯨꯁꯦꯏꯟ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231210/Team%20pictures/Language/Photo1_MdJahirHusain_ai4bha_rtqg9j.jpg
       - teamGroup: language
         personName: Mohd Wajhiuddin محمد وجیہ الدین
         personDesignation: 'Language Expert, Urdu'
