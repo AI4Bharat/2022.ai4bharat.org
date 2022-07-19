@@ -748,7 +748,8 @@ blocks:
         personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230820/Team%20pictures/Language/my_pic_SatyabrataBarik_ai4b_kkihiv.jpg
       - teamGroup: language
         personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: 'Language Expert, Odia'
