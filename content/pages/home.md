@@ -192,8 +192,8 @@ blocks:
         image: 'https://static.toiimg.com/photo/60204902.cms'
         text: >-
           As the primary sponsor, Nandan Nilekani has generously contributed to
-          the formation of the AI4Bharat center with a focus on open-source
-          language tech as a public good. 
+          the formation of the Nilekani center at AI4Bharat center with a focus
+          on open-source language tech as a public good. 
     color: default
     _template: photoCardSingle
   - items:
