@@ -138,16 +138,6 @@
         "description": ""
       },
       {
-        "href": "/data-reports",
-        "label": "Data Reports",
-        "icon": {
-          "color": "orange",
-          "style": "float",
-          "name": "chat"
-        },
-        "description": ""
-      },
-      {
         "href": "/publications",
         "label": "Publications",
         "icon": {

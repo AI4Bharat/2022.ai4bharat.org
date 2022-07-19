@@ -22,13 +22,6 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Data Reports
-       
-        link: '/data-reports'
-      - icon:
-          color: ''
-          style: float
-          name: ''
         title: Publications
     
         link: '/publications'

@@ -166,6 +166,7 @@ type GlobalFooterSocial {
 
 type GlobalFooter {
   color: String
+  paraText: String
   social: GlobalFooterSocial
 }
 
@@ -588,6 +589,7 @@ input GlobalFooterSocialMutation {
 
 input GlobalFooterMutation {
   color: String
+  paraText: String
   social: GlobalFooterSocialMutation
 }
 

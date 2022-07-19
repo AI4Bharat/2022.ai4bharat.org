@@ -271,6 +271,11 @@ const schema = defineSchema({
               ],
             },
             {
+              type: "string",
+              name:"paraText",
+              label: "Para Text",
+            },
+            {
               type: "object",
               label: "Social Links",
               name: "social",
