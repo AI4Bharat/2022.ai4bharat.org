@@ -132,7 +132,7 @@ export const Footer = ({ data, icon, rawData }) => {
           AI4Bharat
         </h6>
         <p className="">
-       A center focusing on building open-source language AI for Indian languages. 
+Our focus is on building open-source language AI for Indian languages, including datasets, models, and applications.
         </p>
       </div>
       <div className="">
