@@ -854,7 +854,8 @@ blocks:
         personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230573/Team%20pictures/Language/sujit_-_Sujit_Singh_jha_p8hy7q.jpg
       - teamGroup: language
         personName: Sunita Dahal सुनिता दहाल
         personDesignation: 'Language Expert, Nepali'
