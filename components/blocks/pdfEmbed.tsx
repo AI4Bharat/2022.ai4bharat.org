@@ -50,7 +50,7 @@ export const PDFEmbed = ({ data, parentField = "" }) => {
 
         {/* <iframe src={data.url} className="w-full h-96" ></iframe> */}
         <div>
-            <iframe id="pdf-js-viewer" src={`/web/viewer.html?file=/${data.url}`} className="w-full" title="webviewer" width="500" height="600"></iframe>
+            <iframe id="pdf-js-viewer" src={`/web/viewer.html?file=${data.url}`} className="w-full" title="webviewer" width="500" height="600"></iframe>
         </div>     
 </div>
     </Section>
