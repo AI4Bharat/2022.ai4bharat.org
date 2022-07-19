@@ -772,7 +772,7 @@ blocks:
         personDesignation: 'Language Expert, Bengali'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/IMG_20220321_144546403_ShreerupaChattopadhy_i72ckt.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230709/Team%20pictures/Language/IMG_20220321_144546403_ShreerupaChattopadhy_b2izey.jpg
       - teamGroup: language
         personName: Shweta Anand Deshmukh श्वेता आनंद देशमुख
         personDesignation: 'Language Expert, Marathi'
