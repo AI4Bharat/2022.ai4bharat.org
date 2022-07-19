@@ -201,9 +201,8 @@ blocks:
         image: ''
         text: >-
           Microsoft’s Research Lab and India Development Center (IDC) have
-          supported AI4Bharat with unrestricted research grants and also by
-          allocating time from researchers to contribute towards open-source
-          technologies.
+          supported us with unrestricted research grants and also by allocating
+          time from researchers to contribute towards open-source technologies.
       - title: Ek Step Foundation
         image: ''
         text: >-
