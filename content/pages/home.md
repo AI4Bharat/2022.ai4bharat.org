@@ -203,7 +203,7 @@ blocks:
           Microsoft’s Research Lab and India Development Center (IDC) have
           supported us with unrestricted research grants and also by allocating
           time from researchers to contribute towards open-source technologies.
-      - title: Ek Step Foundation
+      - title: EkStep Foundation
         image: ''
         text: >-
           We are also supported by EkStep Foundation with mentorship and
