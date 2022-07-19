@@ -626,7 +626,8 @@ blocks:
         personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231137/Team%20pictures/Language/PUM_0667_-_pranav_pandya_hu1xch.jpg
       - teamGroup: language
         personName: Prasad Gopal Jog प्रसाद गोपाळ जोग
         personDesignation: 'Language Expert, Marathi'
