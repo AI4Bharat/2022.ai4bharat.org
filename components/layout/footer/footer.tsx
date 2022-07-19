@@ -174,9 +174,9 @@ export const Footer = ({ data, icon, rawData }) => {
         <p className="mb-4">
           <a href="/models" className="text-gray-600">Models</a>
         </p>
-        <p className="mb-4">
+        {/* <p className="mb-4">
           <a href="/data-reports" className="text-gray-600">Data Reports</a>
-        </p>
+        </p> */}
         <p>
           <a href="/publications" className="text-gray-600">Publications</a>
         </p>

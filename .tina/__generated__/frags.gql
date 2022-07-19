@@ -55,6 +55,7 @@ fragment GlobalParts on Global {
   footer {
     __typename
     color
+    paraText
     social {
       __typename
       map
