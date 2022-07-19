@@ -1,6 +1,6 @@
 ---
 blocks:
-  - title: AI4Bharat Launch
+  - title: Launch Event
     header: ''
     description: ''
     url: /AI4Bharat Launch.pdf
