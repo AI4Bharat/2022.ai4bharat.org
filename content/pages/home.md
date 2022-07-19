@@ -1,7 +1,7 @@
 ---
 blocks:
   - tagline: ''
-    headline: Launch Event
+    headline: Launch at IIT Madras
     text: >
       Nilekani center at AI4Bharat is launching on 28th July at IIT Madras.
       Co-located with the launch will be the first AI4Bharat workshop on Indian
