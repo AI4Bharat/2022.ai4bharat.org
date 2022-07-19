@@ -17,7 +17,7 @@ blocks:
         link: /launch
     image:
       src: >-
-        https://res.cloudinary.com/ai4bharat/image/upload/v1657697407/AI4BharatLaunch_gsqlw3_mhtebr.png
+        https://res.cloudinary.com/ai4bharat/image/upload/v1658214899/FlyerShort_paapza.png
     _template: hero
   - quote: Our Mission
     author: ''
