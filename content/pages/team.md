@@ -702,7 +702,8 @@ blocks:
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231010/Team%20pictures/Language/Saee_K_SaeeKodolikar_ai4bha_ueexi6.jpg
       - teamGroup: language
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
