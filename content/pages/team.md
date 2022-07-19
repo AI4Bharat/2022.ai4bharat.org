@@ -466,7 +466,8 @@ blocks:
         personName: Hafsah Faquih  حفصہ فقیہ
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231282/Team%20pictures/Language/20220627_141531_HafsahFaquih_ai4bhar_xrjffe.jpg
       - teamGroup: language
         personName: Harisha H M ಹರೀಶ ಹೆಚ್. ಎಂ.
         personDesignation: 'Language Expert, Sanskrit'
