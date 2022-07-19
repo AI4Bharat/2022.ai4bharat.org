@@ -206,8 +206,9 @@ blocks:
       - title: Ek Step Foundation
         image: ''
         text: >-
-          AI4Bharat is supported by mentorship and software engineering to build
-          applications for Indian language AI as a digital public good.
+          We are also supported by EkStep Foundation with mentorship and
+          software engineering to build and deploy open-source applications for
+          Indian languages.
     _template: photoCardsGrid2
   - quote: Our Team
     author: Phil Karlton
