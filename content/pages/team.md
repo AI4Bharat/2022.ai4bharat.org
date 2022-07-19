@@ -690,7 +690,8 @@ blocks:
         personName: Reena Ashem ꯔꯤꯅꯥ ꯑꯁꯦꯝ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230942/Team%20pictures/Language/IMG_20180622_181843_2__ReenaAshem_ai4bharat_akrgwv.jpg
       - teamGroup: language
         personName: 'Reena Ashem '
         personDesignation: 'Language Expert, Manipuri'
