@@ -221,7 +221,7 @@ blocks:
     _template: testimonial
   - items:
       - personName: Vivek Raghavan
-        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
+        personDesignation: 'Chief Mentor and Evangelist, EkStep Foundation'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
