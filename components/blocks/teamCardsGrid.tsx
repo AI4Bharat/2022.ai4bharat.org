@@ -85,11 +85,12 @@ export const TeamCardsGrid = ({ data, parentField }) => {
       {data.tabsEnabled 
       ?
       <Tabs>
-          <TabList className="flex flex-row p-6 w-min mx-auto">
+          <TabList className="flex flex-col md:flex-row p-6 w-max mx-auto overflow-auto">
             <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Founders</Tab>
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Operations</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Delivery and Operations</Tab>
             <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Tech</Tab>
             <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Language</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Visiting Researchers</Tab>
           </TabList>
 
           <TabPanel> 
@@ -210,6 +211,36 @@ export const TeamCardsGrid = ({ data, parentField }) => {
             </TabPanel>
 
 
+            <TabPanel> 
+              <Container
+                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+                size="small"
+              >
+                {data.items &&
+                  data.items.map(function (block, i) {
+                    return (
+                    <>
+                      {(block.teamGroup == "visitingResearchers") && 
+                      <TeamCard
+                        tinaField={`${parentField}.items.${i}`}
+                        featuresColor={data.color}
+                        key={i}
+                        data={block}
+                      />
+                  }
+                    </>
+                    );
+                  })}
+                      
+              {data.link &&            
+              <div className="flex justify-center items-center">
+              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
+              </div>
+              }
+            </Container>
+            </TabPanel>
+
+
       </Tabs>
    
    : <Container
@@ -279,6 +310,7 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
             { label: "Operations", value: "operations" },
             { label: "Tech", value: "tech" },
             { label: "Language", value: "language" },
+            { label: "Visiting Researchers", value: "visitingResearchers" },
           ],
         },
         {
