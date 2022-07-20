@@ -8,6 +8,9 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: tech
+        personName: Alpana Majhi আল্পনা মাজি
+        personDesignation: 'Senior Software Engineer, Tarento Technologies'
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
