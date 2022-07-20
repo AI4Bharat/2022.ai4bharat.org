@@ -54,6 +54,9 @@ blocks:
       - teamGroup: operations
         personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
         personDesignation: 'Data Lead, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658330091/Team%20pictures/Operations/Rishi_1_uwjoav.jpg
       - teamGroup: tech
         personName: A Aparna அ அபர்ணா
         personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
