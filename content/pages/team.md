@@ -8,6 +8,13 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: operations
+        personName: "Shanthi.S\tசாந்தி.எஸ்"
+        personDesignation: 'Operations, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658330101/Team%20pictures/Operations/Shanthi_1_fbc7uf.jpg
+        personDescription: ''
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
