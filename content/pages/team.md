@@ -97,6 +97,9 @@ blocks:
       - teamGroup: tech
         personName: Alpana Majhi আল্পনা মাজি
         personDesignation: 'Senior Software Engineer, Tarento Technologies'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658331018/Team%20pictures/Tech/alpana_1_faekgu.png
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
