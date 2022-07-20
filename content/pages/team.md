@@ -8,9 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: tech
-        personName: Raghavan AK ராகவன் அ க
-        personDesignation: 'M.S., IIT Madras'
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -208,6 +205,9 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/praveen_vxc29j.jpg
       - teamGroup: tech
+        personName: Raghavan AK ராகவன் அ க
+        personDesignation: 'M.S., IIT Madras'
+      - teamGroup: tech
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
@@ -249,18 +249,18 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/yash_mpcpdi.jpg
-      - teamGroup: tech
-        personName: Yogesh Bhatt योगेश भट्ट
-        personDesignation: 'Intern, Student at Graphic Era University'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
       - teamGroup: language
         personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/IMG_8648_AakankshaDubey_ai4bh_kfs2k7.jpg
+      - teamGroup: tech
+        personName: Yogesh Bhatt योगेश भट्ट
+        personDesignation: 'Intern, Student at Graphic Era University'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
       - teamGroup: language
         personName: Abhigna Joshi ಅಭಿಜ್ಞಾ ಜೋಶಿ
         personDesignation: 'Language Expert, Kannada'
