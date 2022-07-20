@@ -8,6 +8,9 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: visitingResearchers
+        personName: Ratish Puduppully
+        personDesignation: ''
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
