@@ -8,6 +8,12 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: tech
+        personName: Anuran Roy অনুরণ রায়
+        personDesignation: 'Intern, Student at VIT'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658330597/Team%20pictures/Tech/Screenshot_2021-12-21_23-26-12_hlj6g8.png
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
