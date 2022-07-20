@@ -20,7 +20,7 @@ blocks:
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658327893/Team%20pictures/Founders/Mitesh_1_n1jtzu.jpg
           alt: Mitesh Khapra
       - teamGroup: founders
         personName: Pratyush Kumar
