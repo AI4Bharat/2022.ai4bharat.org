@@ -34,7 +34,7 @@ blocks:
         personDesignation: Researcher at Microsoft
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1658328315/anoop_kunchukuttan_new_ilf24b.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
           alt: Anoop Kunchukuttan
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
@@ -205,6 +205,12 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/praveen_vxc29j.jpg
       - teamGroup: tech
+        personName: Raghavan AK ராகவன் அ க
+        personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658329423/Team%20pictures/Tech/Raghavan_mopqhk.jpg
+      - teamGroup: tech
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
         personImage:
@@ -246,18 +252,18 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/yash_mpcpdi.jpg
-      - teamGroup: tech
-        personName: Yogesh Bhatt योगेश भट्ट
-        personDesignation: 'Intern, Student at Graphic Era University'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
       - teamGroup: language
         personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: 'Language Expert,  Hindi'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/IMG_8648_AakankshaDubey_ai4bh_kfs2k7.jpg
+      - teamGroup: tech
+        personName: Yogesh Bhatt योगेश भट्ट
+        personDesignation: 'Intern, Student at Graphic Era University'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
       - teamGroup: language
         personName: Abhigna Joshi ಅಭಿಜ್ಞಾ ಜೋಶಿ
         personDesignation: 'Language Expert, Kannada'
