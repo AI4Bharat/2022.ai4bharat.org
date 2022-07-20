@@ -8,9 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: visitingResearchers
-        personName: Raj Dabre राज डाबरे
-        personDesignation: ''
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -952,6 +949,9 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/Photo_VrindaSarkar_ai4bhar_ynpomo.jpg
+      - teamGroup: visitingResearchers
+        personName: Raj Dabre राज डाबरे
+        personDesignation: ''
     tabsEnabled: true
     _template: teamCardsGrid
 ---
