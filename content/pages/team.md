@@ -951,7 +951,10 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/Photo_VrindaSarkar_ai4bhar_ynpomo.jpg
       - teamGroup: visitingResearchers
         personName: Raj Dabre राज डाबरे
-        personDesignation: ''
+        personDesignation: 'Researcher, NICT  Japan'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658332554/Team%20pictures/Visiting%20Researchers/Raj_Dabre_ft4r0s.jpg
       - teamGroup: visitingResearchers
         personName: Ratish Puduppully
         personDesignation: ''
