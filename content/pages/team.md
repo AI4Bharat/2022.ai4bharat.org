@@ -8,6 +8,12 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: tech
+        personName: 'Varun Gumma वरुण गुम्मा '
+        personDesignation: 'M.Tech, IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658331107/Team%20pictures/Tech/Varun_1_sekvep.jpg
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
