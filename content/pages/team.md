@@ -42,6 +42,9 @@ blocks:
       - teamGroup: operations
         personName: "Anupama Sujatha\tഅനുപമ"
         personDesignation: 'Data Lead, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658330098/Team%20pictures/Operations/Anupama_1_jocnjr.jpg
       - teamGroup: operations
         personName: "Janki Nawale\tजानकी"
         personDesignation: 'Data Lead, AI4Bharat'
