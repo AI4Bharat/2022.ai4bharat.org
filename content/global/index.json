@@ -118,10 +118,6 @@
     ],
     "resources": [
       {
-        "href": "https://github.com/AI4Bharat/indicnlp_catalog",
-        "label": "IndicNLP Catalog"
-      },
-      {
         "href": "/datasets",
         "label": "Datasets",
         "icon": {
@@ -150,6 +146,10 @@
           "name": "shield"
         },
         "description": ""
+      },
+      {
+        "href": "https://github.com/AI4Bharat/indicnlp_catalog",
+        "label": "IndicNLP Catalog"
       }
     ]
   },
