@@ -149,7 +149,10 @@
       },
       {
         "href": "https://github.com/AI4Bharat/indicnlp_catalog",
-        "label": "IndicNLP Catalog"
+        "label": "IndicNLP Catalog",
+        "icon": {
+          "style": "float"
+        }
       }
     ]
   },
