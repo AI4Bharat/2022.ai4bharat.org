@@ -8,9 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: tech
-        personName: Alpana Majhi আল্পনা মাজি
-        personDesignation: 'Senior Software Engineer, Tarento Technologies'
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -97,6 +94,9 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
+      - teamGroup: tech
+        personName: Alpana Majhi আল্পনা মাজি
+        personDesignation: 'Senior Software Engineer, Tarento Technologies'
       - teamGroup: tech
         personName: Ananya Sai ಅನನ್ಯ ಸಾಯಿ
         personDesignation: 'Ph.D., IIT Madras'
