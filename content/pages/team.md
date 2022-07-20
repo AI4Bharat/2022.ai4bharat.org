@@ -8,6 +8,9 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: operations
+        personName: "Bhanumathy M\tபானுமதி மா "
+        personDesignation: 'Operations, AI4Bharat'
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
