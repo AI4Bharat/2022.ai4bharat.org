@@ -8,13 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: operations
-        personName: "Shanthi.S\tசாந்தி.எஸ்"
-        personDesignation: 'Operations, AI4Bharat'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1658330101/Team%20pictures/Operations/Shanthi_1_fbc7uf.jpg
-        personDescription: ''
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -44,9 +37,6 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658328315/anoop_kunchukuttan_new_ilf24b.jpg
           alt: Anoop Kunchukuttan
       - teamGroup: operations
-        personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
-        personDesignation: Chief of Operations
-      - teamGroup: operations
         personName: "Anupama Sujatha\tഅനുപമ"
         personDesignation: 'Data Lead, AI4Bharat'
         personImage:
@@ -59,11 +49,21 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
       - teamGroup: operations
+        personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
+        personDesignation: Chief of Operations
+      - teamGroup: operations
         personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
         personDesignation: 'Data Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330091/Team%20pictures/Operations/Rishi_1_uwjoav.jpg
+      - teamGroup: operations
+        personName: "Shanthi.S\tசாந்தி.எஸ்"
+        personDesignation: 'Operations, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658330101/Team%20pictures/Operations/Shanthi_1_fbc7uf.jpg
+        personDescription: ''
       - teamGroup: tech
         personName: A Aparna அ அபர்ணா
         personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
