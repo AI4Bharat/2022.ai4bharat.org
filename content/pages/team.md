@@ -207,6 +207,9 @@ blocks:
       - teamGroup: tech
         personName: Raghavan AK ராகவன் அ க
         personDesignation: 'M.S., IIT Madras'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658329423/Team%20pictures/Tech/Raghavan_mopqhk.jpg
       - teamGroup: tech
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
         personDesignation: 'Intern, Student at PICT, Pune'
