@@ -45,6 +45,9 @@ blocks:
       - teamGroup: operations
         personName: "Bhanumathy M\tபானுமதி மா "
         personDesignation: 'Operations, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658334932/Team%20pictures/Operations/Bhanu_Photo_1_zxxkc4.jpg
       - teamGroup: operations
         personName: "Bhavana RR\tಭಾವನಾ"
         personDesignation: 'Operations, AI4Bharat'
