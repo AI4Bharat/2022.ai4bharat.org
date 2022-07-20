@@ -8,9 +8,6 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
-      - teamGroup: visitingResearchers
-        personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
-        personDesignation: ''
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -960,6 +957,9 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658332554/Team%20pictures/Visiting%20Researchers/Raj_Dabre_ft4r0s.jpg
       - teamGroup: visitingResearchers
         personName: Ratish Puduppully
+        personDesignation: ''
+      - teamGroup: visitingResearchers
+        personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
         personDesignation: ''
     tabsEnabled: true
     _template: teamCardsGrid
