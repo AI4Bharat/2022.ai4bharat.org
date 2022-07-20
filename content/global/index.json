@@ -151,7 +151,7 @@
         "href": "https://github.com/AI4Bharat/indicnlp_catalog",
         "label": "IndicNLP Catalog",
         "icon": {
-          "style": "circle",
+          "style": "float",
           "name": "code"
         }
       }
