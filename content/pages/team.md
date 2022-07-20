@@ -8,6 +8,9 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: tech
+        personName: Raghavan AK ராகவன் அ க
+        personDesignation: 'M.S., IIT Madras'
       - teamGroup: founders
         personName: Vivek Raghavan
         personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
@@ -34,7 +37,7 @@ blocks:
         personDesignation: Researcher at Microsoft
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1658328315/anoop_kunchukuttan_new_ilf24b.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
           alt: Anoop Kunchukuttan
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
