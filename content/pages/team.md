@@ -8,9 +8,12 @@ blocks:
       content and tools for Indian languages.
     _template: hero
   - items:
+      - teamGroup: visitingResearchers
+        personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
+        personDesignation: ''
       - teamGroup: founders
         personName: Vivek Raghavan
-        personDesignation: 'Chief Mentor and Evangelist, EkStep Foundation'
+        personDesignation: 'Chief mentor and evangelist, EkStep Foundation'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
