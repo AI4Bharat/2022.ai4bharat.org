@@ -56,7 +56,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
-        personDesignation: Chief of Operations
+        personDesignation: Chief of Delivery & Operations
       - teamGroup: operations
         personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
         personDesignation: 'Data Lead, AI4Bharat'
