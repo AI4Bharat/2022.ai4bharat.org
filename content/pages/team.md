@@ -3,7 +3,7 @@ blocks:
   - tagline: ''
     headline: Our Team
     text: >
-      AI4Bharat is an inter-disciplinary team of reserachers, language experts,
+      AI4Bharat is an inter-disciplinary team of researchers, language experts,
       and software developers. We share a passion for building open-source
       content and tools for Indian languages.
     _template: hero
@@ -20,7 +20,7 @@ blocks:
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658327893/Team%20pictures/Founders/Mitesh_1_n1jtzu.jpg
           alt: Mitesh Khapra
       - teamGroup: founders
         personName: Pratyush Kumar
@@ -34,7 +34,7 @@ blocks:
         personDesignation: Researcher at Microsoft
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658328315/anoop_kunchukuttan_new_ilf24b.jpg
           alt: Anoop Kunchukuttan
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
@@ -466,7 +466,8 @@ blocks:
         personName: Hafsah Faquih  حفصہ فقیہ
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231282/Team%20pictures/Language/20220627_141531_HafsahFaquih_ai4bhar_xrjffe.jpg
       - teamGroup: language
         personName: Harisha H M ಹರೀಶ ಹೆಚ್. ಎಂ.
         personDesignation: 'Language Expert, Sanskrit'
@@ -543,7 +544,8 @@ blocks:
         personName: Md. Jahir Husain ꯑꯦꯝ.ꯗꯤ. ꯖꯥꯍꯤꯔ ꯍꯨꯁꯦꯏꯟ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231210/Team%20pictures/Language/Photo1_MdJahirHusain_ai4bha_rtqg9j.jpg
       - teamGroup: language
         personName: Mohd Wajhiuddin محمد وجیہ الدین
         personDesignation: 'Language Expert, Urdu'
@@ -626,7 +628,8 @@ blocks:
         personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231137/Team%20pictures/Language/PUM_0667_-_pranav_pandya_hu1xch.jpg
       - teamGroup: language
         personName: Prasad Gopal Jog प्रसाद गोपाळ जोग
         personDesignation: 'Language Expert, Marathi'
@@ -690,7 +693,8 @@ blocks:
         personName: Reena Ashem ꯔꯤꯅꯥ ꯑꯁꯦꯝ
         personDesignation: 'Language Expert, Manipuri'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230942/Team%20pictures/Language/IMG_20180622_181843_2__ReenaAshem_ai4bharat_akrgwv.jpg
       - teamGroup: language
         personName: 'Reena Ashem '
         personDesignation: 'Language Expert, Manipuri'
@@ -701,7 +705,8 @@ blocks:
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658231010/Team%20pictures/Language/Saee_K_SaeeKodolikar_ai4bha_ueexi6.jpg
       - teamGroup: language
         personName: Saee Kodolikar सई कोडोलीकर
         personDesignation: 'Language Expert, Marathi'
@@ -748,7 +753,8 @@ blocks:
         personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230820/Team%20pictures/Language/my_pic_SatyabrataBarik_ai4b_kkihiv.jpg
       - teamGroup: language
         personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: 'Language Expert, Odia'
@@ -772,7 +778,7 @@ blocks:
         personDesignation: 'Language Expert, Bengali'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/IMG_20220321_144546403_ShreerupaChattopadhy_i72ckt.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230709/Team%20pictures/Language/IMG_20220321_144546403_ShreerupaChattopadhy_b2izey.jpg
       - teamGroup: language
         personName: Shweta Anand Deshmukh श्वेता आनंद देशमुख
         personDesignation: 'Language Expert, Marathi'
@@ -854,7 +860,8 @@ blocks:
         personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: '-'
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658230573/Team%20pictures/Language/sujit_-_Sujit_Singh_jha_p8hy7q.jpg
       - teamGroup: language
         personName: Sunita Dahal सुनिता दहाल
         personDesignation: 'Language Expert, Nepali'

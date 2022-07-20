@@ -146,6 +146,14 @@
           "name": "shield"
         },
         "description": ""
+      },
+      {
+        "href": "https://github.com/AI4Bharat/indicnlp_catalog",
+        "label": "IndicNLP Catalog",
+        "icon": {
+          "style": "float",
+          "name": "store"
+        }
       }
     ]
   },

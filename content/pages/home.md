@@ -1,11 +1,16 @@
 ---
 blocks:
   - tagline: ''
-    headline: Launch Event
+    headline: Launch at IIT Madras
     text: >
-      Nilekani center at AI4Bharat is launching on 28th July at IIT Madras.
-      Co-located with the launch will be the first AI4Bharat workshop on Indian
-      language technology.&#x20;
+      “Nilekani Center at
+
+      AI4Bharat” will be launched on 28th July at IIT Madras. The launch
+
+      will be followed by the first workshop on Indian language technology under
+      the AI4Bharat
+
+      initiative of IIT Madras.
     actions:
       - label: Sign up
         type: button
@@ -225,7 +230,7 @@ blocks:
         personDesignation: 'Associate Professor at CSE Department, IIT Madras'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699053/mitesh_khapra_weyyim.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658327893/Team%20pictures/Founders/Mitesh_1_n1jtzu.jpg
           alt: Mitesh Khapra
       - personName: Pratyush Kumar
         personDesignation: Researcher at Microsoft Research and Adjunct Faculty at IIT Madras
@@ -237,7 +242,7 @@ blocks:
         personDesignation: Researcher at Microsoft
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657699049/anoop_kunchukuttan_ujvxts.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658328315/anoop_kunchukuttan_new_ilf24b.jpg
           alt: Anoop Kunchukuttan
     color: default
     link: /team
