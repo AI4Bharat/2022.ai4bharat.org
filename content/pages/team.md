@@ -59,7 +59,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
-        personDesignation: Chief of Delivery & Operations, AI4Bharat
+        personDesignation: 'Chief of Delivery & Operations, AI4Bharat'
       - teamGroup: operations
         personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
         personDesignation: 'Data Lead, AI4Bharat'
@@ -75,7 +75,7 @@ blocks:
         personDescription: ''
       - teamGroup: tech
         personName: A Aparna அ அபர்ணா
-        personDesignation: 'Project Associate, AI4Bharat, IIT Madras'
+        personDesignation: 'Project Associate, IIT Madras'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Aparna_htfuwe.jpg
