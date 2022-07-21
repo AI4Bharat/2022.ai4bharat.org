@@ -964,6 +964,9 @@ blocks:
       - teamGroup: visitingResearchers
         personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
         personDesignation: ''
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658373300/Team%20pictures/Visiting%20Researchers/Rudra_giizhc.jpg
     tabsEnabled: true
     _template: teamCardsGrid
 ---
