@@ -966,7 +966,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658373303/Team%20pictures/Visiting%20Researchers/ratish_photo__1_d9dnd5.jpg
       - teamGroup: visitingResearchers
         personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
-        personDesignation: ''
+        personDesignation: 'Researcher at IBM Research, India'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658373300/Team%20pictures/Visiting%20Researchers/Rudra_giizhc.jpg
