@@ -959,8 +959,11 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658332554/Team%20pictures/Visiting%20Researchers/Raj_Dabre_ft4r0s.jpg
       - teamGroup: visitingResearchers
-        personName: Ratish Puduppully
-        personDesignation: ''
+        personName: Ratish Puduppully രതീഷ് പുതുപ്പുള്ളി
+        personDesignation: Researcher at University of Edinburgh
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658373303/Team%20pictures/Visiting%20Researchers/ratish_photo__1_d9dnd5.jpg
       - teamGroup: visitingResearchers
         personName: Rudra Murthy ರುದ್ರ ಮೂರ್ತಿ
         personDesignation: ''
