@@ -38,37 +38,37 @@ blocks:
           alt: Anoop Kunchukuttan
       - teamGroup: operations
         personName: "Anupama Sujatha\tഅനുപമ"
-        personDesignation: 'Data Lead, AI4Bharat, IITM'
+        personDesignation: 'Data Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330098/Team%20pictures/Operations/Anupama_1_jocnjr.jpg
       - teamGroup: operations
         personName: "Bhanumathy M\tபானுமதி மா "
-        personDesignation: 'Operations, AI4Bharat'
+        personDesignation: 'Recruitment Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658334932/Team%20pictures/Operations/Bhanu_Photo_1_zxxkc4.jpg
       - teamGroup: operations
         personName: "Bhavana RR\tಭಾವನಾ"
-        personDesignation: 'Operations, AI4Bharat'
+        personDesignation: 'Recruitment Lead, AI4Bharat'
       - teamGroup: operations
         personName: "Janki Nawale\tजानकी"
-        personDesignation: 'Data Lead, AI4Bharat, IITM'
+        personDesignation: 'Data Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
-        personDesignation: Chief of Delivery & Operations
+        personDesignation: Chief of Delivery & Operations, AI4Bharat
       - teamGroup: operations
         personName: "Sunjay Rishi Murali\tசஞ்சய் ரிஷி முரளி"
-        personDesignation: 'Data Lead, AI4Bharat, IITM'
+        personDesignation: 'Data Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330091/Team%20pictures/Operations/Rishi_1_uwjoav.jpg
       - teamGroup: operations
         personName: "Shanthi.S\tசாந்தி.எஸ்"
-        personDesignation: 'Operations, AI4Bharat'
+        personDesignation: 'Accounts & Logistics Lead, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330101/Team%20pictures/Operations/Shanthi_1_fbc7uf.jpg
