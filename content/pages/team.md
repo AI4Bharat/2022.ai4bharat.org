@@ -53,7 +53,7 @@ blocks:
         personDesignation: 'Operations, AI4Bharat'
       - teamGroup: operations
         personName: "Janki Nawale\tजानकी"
-        personDesignation: 'Data Lead, AI4Bharat'
+        personDesignation: 'Data Lead, AI4Bharat, IITM'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
