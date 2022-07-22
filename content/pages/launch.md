@@ -1,6 +1,6 @@
 ---
 blocks:
-  - title: Launch Event
+  - title: ''
     header: ''
     description: ''
     url: /Event Launch.pdf
