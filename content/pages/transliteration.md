@@ -82,7 +82,7 @@ blocks:
         updated: false
         text: >-
           A transliteration interface (Indic-En online keyboard) that converts
-          indic text into romanized text.
+          Indic text into romanized text.
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
