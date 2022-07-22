@@ -12,7 +12,8 @@ blocks:
       transliteration of the romanized input into the native script. To enable
       this, at AI4Bharat, we have undertaken the task of creating large-scale
       transliteration corpora for Indic languages along with models for
-      transliteration of romanized inputs into native scripts.
+      transliteration of romanized inputs into native scripts. The
+      transliteration interface can be found [here](https://xlit.ai4bharat.org/)
     _template: hero
   - quote: Our Contributions
     author: Phil Karlton
