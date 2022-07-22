@@ -63,6 +63,17 @@ blocks:
           A model for identifying the language of romanized content on social
           media. This model will be trained using the large number of romanized
           Indian language words in Aksharantar.
+      - icon:
+          color: ''
+          style: float
+          name: chat
+        title: IndicXlit Keyboard
+        link: 'https://xlit.ai4bharat.org/'
+        comingSoon: false
+        updated: false
+        text: >-
+          A transliteration interface (En-Indic online keyboard) that converts
+          romanized text into Indic text.
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
