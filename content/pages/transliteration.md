@@ -79,7 +79,7 @@ blocks:
           style: float
           name: chat
         title: IndicXlit Keyboard (Indic-En)
-        link: abc
+        link: ''
         comingSoon: true
         updated: false
         text: >-
