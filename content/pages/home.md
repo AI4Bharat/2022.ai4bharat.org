@@ -10,7 +10,7 @@ blocks:
       will be followed by the first workshop on Indian language technology under
       the AI4Bharat
 
-      initiative of IIT Madras.
+      initiative of IIT Madras.&#x20;
     actions:
       - label: Sign up
         type: button
