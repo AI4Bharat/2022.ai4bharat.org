@@ -51,6 +51,9 @@ blocks:
       - teamGroup: operations
         personName: "Bhavana RR\tಭಾವನಾ"
         personDesignation: 'Recruitment Lead, AI4Bharat'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1658493521/Team%20pictures/Operations/Bhavana_1_j3hpdo.jpg
       - teamGroup: operations
         personName: "Janki Nawale\tजानकी"
         personDesignation: 'Data Lead, AI4Bharat'
