@@ -79,7 +79,8 @@ blocks:
           style: float
           name: chat
         title: IndicXlit Keyboard (Indic-En)
-        comingSoon: false
+        link: abc
+        comingSoon: true
         updated: false
         text: >-
           A transliteration interface (Indic-En online keyboard) that converts
