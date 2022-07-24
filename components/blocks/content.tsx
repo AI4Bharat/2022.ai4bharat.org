@@ -40,15 +40,12 @@ export const Content = ({ data, parentField = "" }) => {
           data.color === "primary" ? `prose-primary` : `dark:prose-dark`
         }`}
         data-tinafield={`${parentField}.body`}
-        size="large"
+        size="small"
       >
         <div>
         <div className="text-lg max-w-3xl mx-auto"><TinaMarkdown content={data.body} /></div> 
         {/* <span className="inline-block"><VideoPlayer embedCode="Zqhb1AcJ2tw"/></span> */}
         </div>
-        <div className="text-center overflow-auto px-2 mx-auto">
- 
- </div>
       </Container>
     </Section>
   );

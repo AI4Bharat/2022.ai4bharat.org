@@ -1,8 +1,9 @@
 ---
 blocks:
-  - body: "# IndicFT\n\n***\n\n[fastText](https://fasttext.cc/)\_is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.\n\nOur fastText models are available for 11 Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.\n\n### Usage\n\nTo use our fastText models, first\_[download them](https://indicnlp.ai4bharat.org/indicft/#downloads). Next, install the fastText library:\n\n```\npip3 install fasttext\n\n```\n\nand then load the models like this:\n\n```\nimport fasttext\nmodel = fasttext.load_model(path_to_binary_file)\n\n```\n\nFor instructions on how to use these models, please refer to the official\_[fastText documentation](https://fasttext.cc/docs/en/support.html)\n\n### Downloads\n"
+  - body: "#\n\n# IndicFT\n\n***\n\n[fastText](https://fasttext.cc/)\_is a subword-aware word embedding model. It is particularly well-suited for Indian languages due to their highly agglutinative morphology. We train fastText models on our IndicNLP Corpora and evaluate them on a set of tasks to measure its performance.\n\nOur fastText models are available for 11 Indian languages: Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu.\n\n### Usage\n\nTo use our fastText models, first\_[download them](https://indicnlp.ai4bharat.org/indicft/#downloads). Next, install the fastText library:\n\n```\npip3 install fasttext\n\n```\n\nand then load the models like this:\n\n```\nimport fasttext\nmodel = fasttext.load_model(path_to_binary_file)\n\n```\n\nFor instructions on how to use these models, please refer to the official\_[fastText documentation](https://fasttext.cc/docs/en/support.html)\n"
     _template: content
-  - markupTable: >-
+  - caption: Downloads
+    markupTable: >-
       <table>
 
       <thead>
@@ -122,9 +123,10 @@ blocks:
       </table>
     color: default
     _template: table
-  - body: "### Evaluation\n\nFor a full results of evaluation, check our\_[paper](https://indicnlp.ai4bharat.org/papers/arxiv2020\\_indicnlp\\_corpus.pdf). Here, we show some of the evaluations.\n\n#### Word Similarity\n"
+  - body: "### Evaluation\n\nFor a full results of evaluation, check our\_[paper](https://indicnlp.ai4bharat.org/papers/arxiv2020\\_indicnlp\\_corpus.pdf). Here, we show some of the evaluations.\n"
     _template: content
-  - markupTable: |-
+  - caption: Word Similarity
+    markupTable: |-
       <table>
       <thead>
       <tr>
@@ -181,10 +183,8 @@ blocks:
       </table>
     color: default
     _template: table
-  - body: |
-      #### News Genre Classification
-    _template: content
-  - markupTable: |-
+  - caption: News Genre Classification
+    markupTable: |-
       <table>
       <thead>
       <tr>
@@ -259,7 +259,7 @@ blocks:
       </table>
     color: default
     _template: table
-  - body: "****\n\n### Citing\n\nIf you are using IndicFT, please cite the following\_[paper](https://aclanthology.org/2020.findings-emnlp.445):\n\n```\n@inproceedings{kakwani2020indicnlpsuite,\n    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},\n    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},\n    year={2020},\n    booktitle={Findings of EMNLP},\n}\n\n```\n\n### License\n\nThe IndicFT embeddings are released under the MIT License.\n"
+  - body: "### Citing\n\nIf you are using IndicFT, please cite the following\_[paper](https://aclanthology.org/2020.findings-emnlp.445):\n\n```\n@inproceedings{kakwani2020indicnlpsuite,\n    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},\n    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},\n    year={2020},\n    booktitle={Findings of EMNLP},\n}\n\n```\n\n### License\n\nThe IndicFT embeddings are released under the MIT License.\n"
     _template: content
 ---
 

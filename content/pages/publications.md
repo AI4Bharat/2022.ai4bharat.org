@@ -100,6 +100,6 @@ blocks:
         text: >-
           Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik
           Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar. 2020.
-    _template: featuresAlt
+    _template: longCardsGrid
 ---
 

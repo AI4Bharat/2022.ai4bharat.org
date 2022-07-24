@@ -292,6 +292,26 @@ type PageBlocksFeaturesAlt2 {
   color: String
 }
 
+type PageBlocksLongCardsGridItemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type PageBlocksLongCardsGridItems {
+  icon: PageBlocksLongCardsGridItemsIcon
+  title: String
+  link: String
+  comingSoon: Boolean
+  updated: Boolean
+  text: String
+}
+
+type PageBlocksLongCardsGrid {
+  items: [PageBlocksLongCardsGridItems]
+  color: String
+}
+
 type PageBlocksCardGrid2Items {
   title: String
   image: String
@@ -338,12 +358,12 @@ type PageBlocksFlatCardsGridItemsChip {
 }
 
 type PageBlocksFlatCardsGridItems {
+  iconShown: Boolean
   icon: PageBlocksFlatCardsGridItemsIcon
   chip: PageBlocksFlatCardsGridItemsChip
   title: String
   link: String
   text: String
-  iconShown: Boolean
   iconColor: String
 }
 
@@ -449,12 +469,13 @@ type PageBlocksPdfEmbed {
 }
 
 type PageBlocksTable {
+  caption: String
   markdownTable: String
   markupTable: String
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksLongCardsGrid | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -687,6 +708,26 @@ input PageBlocksFeaturesAlt2Mutation {
   color: String
 }
 
+input PageBlocksLongCardsGridItemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input PageBlocksLongCardsGridItemsMutation {
+  icon: PageBlocksLongCardsGridItemsIconMutation
+  title: String
+  link: String
+  comingSoon: Boolean
+  updated: Boolean
+  text: String
+}
+
+input PageBlocksLongCardsGridMutation {
+  items: [PageBlocksLongCardsGridItemsMutation]
+  color: String
+}
+
 input PageBlocksCardGrid2ItemsMutation {
   title: String
   image: String
@@ -733,12 +774,12 @@ input PageBlocksFlatCardsGridItemsChipMutation {
 }
 
 input PageBlocksFlatCardsGridItemsMutation {
+  iconShown: Boolean
   icon: PageBlocksFlatCardsGridItemsIconMutation
   chip: PageBlocksFlatCardsGridItemsChipMutation
   title: String
   link: String
   text: String
-  iconShown: Boolean
   iconColor: String
 }
 
@@ -844,6 +885,7 @@ input PageBlocksPdfEmbedMutation {
 }
 
 input PageBlocksTableMutation {
+  caption: String
   markdownTable: String
   markupTable: String
   color: String
@@ -854,6 +896,7 @@ input PageBlocksMutation {
   features: PageBlocksFeaturesMutation
   featuresAlt: PageBlocksFeaturesAltMutation
   featuresAlt2: PageBlocksFeaturesAlt2Mutation
+  longCardsGrid: PageBlocksLongCardsGridMutation
   cardGrid2: PageBlocksCardGrid2Mutation
   content: PageBlocksContentMutation
   videoCarousel: PageBlocksVideoCarouselMutation
