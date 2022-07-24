@@ -4,6 +4,7 @@ import { Content } from "./blocks/content";
 import { Features } from "./blocks/features";
 import { FeaturesAlt } from "./blocks/featuresalt";
 import { FeaturesAlt2 } from "./blocks/featuresalt2";
+import { LongCardsGrid } from "./blocks/longCardsGrid";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 import { VideoCarousel } from "./blocks/videoCarousel";
@@ -58,6 +59,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     key={i + block.__typename}
                   >
                     <FeaturesAlt data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+                case "PageBlocksLongCardsGrid":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <LongCardsGrid data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
                 case "PageBlocksFeaturesAlt2":

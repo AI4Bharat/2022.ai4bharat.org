@@ -146,6 +146,23 @@ fragment PageParts on Page {
       }
       color
     }
+    ... on PageBlocksLongCardsGrid {
+      items {
+        __typename
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        title
+        link
+        comingSoon
+        updated
+        text
+      }
+      color
+    }
     ... on PageBlocksCardGrid2 {
       items {
         __typename
@@ -179,6 +196,7 @@ fragment PageParts on Page {
       description
       items {
         __typename
+        iconShown
         icon {
           __typename
           color
@@ -194,7 +212,6 @@ fragment PageParts on Page {
         title
         link
         text
-        iconShown
         iconColor
       }
       highlightColor
@@ -279,6 +296,7 @@ fragment PageParts on Page {
       color
     }
     ... on PageBlocksTable {
+      caption
       markdownTable
       markupTable
       color

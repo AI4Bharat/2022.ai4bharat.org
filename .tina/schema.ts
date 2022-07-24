@@ -3,6 +3,7 @@ import { contentBlockSchema } from "../components/blocks/content";
 import { featureBlockSchema } from "../components/blocks/features";
 import { featureAltBlockSchema } from "../components/blocks/featuresalt";
 import { featureAltBlockSchema2 } from "../components/blocks/featuresalt2";
+import { longCardsGridBlockSchema } from "../components/blocks/longCardsGrid";
 import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
@@ -427,6 +428,7 @@ const schema = defineSchema({
             featureBlockSchema,
             featureAltBlockSchema,
             featureAltBlockSchema2,
+            longCardsGridBlockSchema,
             CardGrid2BlockSchema,
             contentBlockSchema,
             videoCarouselBlockSchema,

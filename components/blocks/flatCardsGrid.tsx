@@ -55,7 +55,7 @@ export const FlatCard = ({ featuresColor, data, tinaField }) => {
                 ? `bg-orange-400`
                 : data.iconColor === "yellow"
                     ? `bg-yellow-400`
-                    : `bg-gray-200`
+                    : null
       }`}>
      
                      {/* <ScaleIcon className="h-6 w-6 text-white" aria-hidden="true" />  */}
@@ -203,6 +203,11 @@ export const flatCardsGridBlockSchema: TinaTemplate = {
         },
       },
       fields: [
+        {
+          type: "boolean",
+          label: "Show Icon ?",
+          name: "iconShown",
+        },
         iconSchema,
         chipSchema,
         {
@@ -222,11 +227,6 @@ export const flatCardsGridBlockSchema: TinaTemplate = {
           ui: {
             component: "textarea",
           },
-        },
-        {
-          type: "boolean",
-          label: "Show Icon ?",
-          name: "iconShown",
         },
         {
             type: "string",

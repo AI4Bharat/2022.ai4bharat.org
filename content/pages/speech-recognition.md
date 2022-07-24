@@ -99,6 +99,8 @@ blocks:
           We are working with Desicrew to collect voice samples from across 500
           districts in the country. We are beginning with TamilNadu in August
           2022.
+        iconShown: false
+        iconColor: ''
       - icon:
           color: ''
           style: float
@@ -108,6 +110,7 @@ blocks:
           Karya is an application developed at Microsoft Research and maintained
           by Karya Inc. We are using Karya to collect voice samples from across
           the country.
+        iconShown: false
       - icon:
           color: ''
           style: float
@@ -116,6 +119,7 @@ blocks:
         text: >-
           We are working with NPTEL to deploy the Chitralekha tool for
           subtitling and translating higher education videos. 
+        iconShown: false
     _template: flatCardsGrid
   - tagline: ''
     headline: IndicASR Workshop
