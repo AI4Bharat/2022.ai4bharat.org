@@ -122,7 +122,66 @@ blocks:
       </table>
     color: default
     _template: table
-  - body: "### Evaluation\n\nFor a full results of evaluation, check our\_[paper](https://indicnlp.ai4bharat.org/papers/arxiv2020\\_indicnlp\\_corpus.pdf). Here, we show some of the evaluations.\n\n#### Word Similarity\n\nLanguagefastText wikifastText wiki+CCIndic fastTextpa0.4670.384**0.445**hi0.5750.551**0.598**gu0.5070.521**0.600**mr0.497**0.544**0.509te0.5590.543**0.578**ta**0.439**0.4380.422Average0.5070.497**0.525**\n\n#### News Genre Classification\n\nLanguagefastText wikifastText wiki+CCIndic fastTextpa**97.12**95.5396.47bn96.5797.57**97.71**or94.8096.20**98.43**gu95.1294.63**99.02**mr96.4497.07**99.37**kn95.9396.53**97.43**te98.6798.08**99.17**ml89.0289.18**92.83**ta95.9995.90**97.26**Average95.5295.63**97.52**\n\n### Citing\n\nIf you are using IndicFT, please cite the following\_[paper](https://aclanthology.org/2020.findings-emnlp.445):\n\n```\n@inproceedings{kakwani2020indicnlpsuite,\n    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},\n    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},\n    year={2020},\n    booktitle={Findings of EMNLP},\n}\n\n```\n\n### License\n\nThe IndicFT embeddings are released under the MIT License.\n"
+  - body: "### Evaluation\n\nFor a full results of evaluation, check our\_[paper](https://indicnlp.ai4bharat.org/papers/arxiv2020\\_indicnlp\\_corpus.pdf). Here, we show some of the evaluations.\n\n#### Word Similarity\n"
+    _template: content
+  - markupTable: |-
+      <table>
+      <thead>
+      <tr>
+      <th>Language</th>
+      <th>fastText wiki</th>
+      <th>fastText wiki+CC</th>
+      <th>Indic fastText</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>pa</td>
+      <td>0.467</td>
+      <td>0.384</td>
+      <td><strong>0.445</strong></td>
+      </tr>
+      <tr>
+      <td>hi</td>
+      <td>0.575</td>
+      <td>0.551</td>
+      <td><strong>0.598</strong></td>
+      </tr>
+      <tr>
+      <td>gu</td>
+      <td>0.507</td>
+      <td>0.521</td>
+      <td><strong>0.600</strong></td>
+      </tr>
+      <tr>
+      <td>mr</td>
+      <td>0.497</td>
+      <td><strong>0.544</strong></td>
+      <td>0.509</td>
+      </tr>
+      <tr>
+      <td>te</td>
+      <td>0.559</td>
+      <td>0.543</td>
+      <td><strong>0.578</strong></td>
+      </tr>
+      <tr>
+      <td>ta</td>
+      <td><strong>0.439</strong></td>
+      <td>0.438</td>
+      <td>0.422</td>
+      </tr>
+      <tr>
+      <td>Average</td>
+      <td>0.507</td>
+      <td>0.497</td>
+      <td><strong>0.525</strong></td>
+      </tr>
+      </tbody>
+      </table>
+    color: default
+    _template: table
+  - body: "#### News Genre Classification\n\nLanguagefastText wikifastText wiki+CCIndic fastTextpa**97.12**95.5396.47bn96.5797.57**97.71**or94.8096.20**98.43**gu95.1294.63**99.02**mr96.4497.07**99.37**kn95.9396.53**97.43**te98.6798.08**99.17**ml89.0289.18**92.83**ta95.9995.90**97.26**Average95.5295.63**97.52**\n\n### Citing\n\nIf you are using IndicFT, please cite the following\_[paper](https://aclanthology.org/2020.findings-emnlp.445):\n\n```\n@inproceedings{kakwani2020indicnlpsuite,\n    title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},\n    author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},\n    year={2020},\n    booktitle={Findings of EMNLP},\n}\n\n```\n\n### License\n\nThe IndicFT embeddings are released under the MIT License.\n"
     _template: content
 ---
 
