@@ -13,6 +13,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1658861166/Anuvaad_Screenshot_zmrbtd.png
       alt: Anuvaad Software - Doc Translation
+    color: tint
     _template: hero
 ---
 
