@@ -73,7 +73,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: aperture
         title: Platforms and Open source tools for Indian languages
         link: >-
           https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
