@@ -1,11 +1,9 @@
 ---
 blocks:
-  - title: ''
-    header: ''
-    description: ''
-    url: /Event Launch.pdf
+  - quote: Events
+    author: ''
     color: default
-    _template: pdfEmbed
+    _template: testimonial
   - items:
       - icon:
           color: ''
@@ -16,10 +14,10 @@ blocks:
           https://us06web.zoom.us/j/87948060495?pwd=VGhrQnJWZXpEMldMc2V0WDNIRFJHZz09
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 11:00 AM to 01:00 PM IST
+        text: |
           Meeting ID: 879 4806 0495 |
-          Passcode: 28722 
+          Passcode: 28722 |
+          Time: Jul 28, 2022 11:00 AM to 01:00 PM India
       - icon:
           color: ''
           style: float
@@ -30,9 +28,8 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Jul 28, 2022 - 02:00 PM to 03:00 PM IST
           Meeting ID: 851 8757 8123 | 
-          Passcode: 28222 
+          Passcode: 28222 | Time: Jul 28, 2022 02:00 PM - 03:00 PM India
       - icon:
           color: ''
           style: float
@@ -43,9 +40,8 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Jul 28, 2022 - 03:00 PM to 05:30 PM IST
           Meeting ID: 836 8666 3138 |
-          Passcode: 28722 | 
+          Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
       - icon:
           color: ''
           style: float
@@ -58,9 +54,8 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Jul 28, 2022 -  03:00 PM to 05:30 PM IST
           Meeting ID: 817 7097 5185 | 
-          Passcode: 28722 
+          Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
       - icon:
           color: ''
           style: float
@@ -71,9 +66,8 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Jul 28, 2022 - 03:00 PM to 05:30 PM IST
           Meeting ID: 851 8757 8123 |
-          Passcode: 28222 
+          Passcode: 28222 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
       - icon:
           color: ''
           style: float
@@ -84,9 +78,14 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Jul 28, 2022 - 05:30 PM to 06:30 PM IST
           Meeting ID: 842 9276 7175 |
-          Passcode: 28722 
+          Passcode: 28722 | Time: Jul 28, 2022 05:30 PM - 06:30 PM India
     _template: featuresAlt
+  - title: ''
+    header: ''
+    description: ''
+    url: /Event Launch.pdf
+    color: default
+    _template: pdfEmbed
 ---
 
