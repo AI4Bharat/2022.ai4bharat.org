@@ -160,7 +160,7 @@ const defaultFlatCard = {
     style: "float",
     name: "",
   },
-  iconShown: "true",
+  iconShown: true,
   link: ""
 };
 

@@ -44,6 +44,6 @@ th, td {
   }
 
   /* added to remove double bullet points appearing in content */
-  ::before{
+  li::marker{
     display: none;
   }
