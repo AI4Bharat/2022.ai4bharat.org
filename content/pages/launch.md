@@ -35,7 +35,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: chat
         title: Workshop on Automatic Speech recognition
         link: >-
           https://us06web.zoom.us/j/83686663138?pwd=alJoV0NPYVRyNERFb0FydWNNL2hIQT09
