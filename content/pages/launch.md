@@ -70,6 +70,18 @@ blocks:
         text: |-
           Meeting ID: 851 8757 8123 |
           Passcode: 28222 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Platforms and Open source tools for Indian languages
+        link: >-
+          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
+        comingSoon: false
+        updated: false
+        text: |-
+          Meeting ID: 842 9276 7175 |
+          Passcode: 28722 | Time: Jul 28, 2022 05:30 PM - 06:30 PM India
     _template: featuresAlt
 ---
 
