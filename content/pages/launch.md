@@ -58,7 +58,7 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Time: Jul 28, 2022 03:00 PM - 05:30 PM India
+          Jul 28, 2022 -  03:00 PM to 05:30 PM IST
           Meeting ID: 817 7097 5185 | 
           Passcode: 28722 |
       - icon:
