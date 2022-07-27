@@ -1,9 +1,15 @@
 ---
 blocks:
-  - quote: Join Live Events
-    author: Phil Karlton
+  - title: ''
+    header: ''
+    description: ''
+    url: /Event Launch.pdf
     color: default
-    _template: testimonial
+    _template: pdfEmbed
+  - body: |
+      # JOIN LIVE EVENTS
+    color: tint
+    _template: content
   - items:
       - icon:
           color: ''
@@ -16,6 +22,7 @@ blocks:
         updated: false
         text: |-
           Jul 28, 2022 - 11:00 AM to 01:00 PM IST
+
           Meeting ID: 879 4806 0495 |
           Passcode: 28722 
       - icon:
@@ -86,11 +93,5 @@ blocks:
           Meeting ID: 842 9276 7175 |
           Passcode: 28722 
     _template: featuresAlt
-  - title: ''
-    header: ''
-    description: ''
-    url: /Event Launch.pdf
-    color: default
-    _template: pdfEmbed
 ---
 
