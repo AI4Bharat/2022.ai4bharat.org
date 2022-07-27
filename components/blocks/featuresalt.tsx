@@ -44,6 +44,33 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
           {data.title}
       </div> 
     )}
+    
+    {data.pointerDetail1 &&(
+      <p 
+      className="text-gray-700 text-xs mt-2 mb-2 font-nunito"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.pointerDetail1}
+      </p>
+    )}
+
+    {data.pointerDetail2 &&(
+      <p 
+      className="text-gray-700 text-xs mb-2 font-nunito"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.pointerDetail2}
+      </p>
+    )}
+
+    {data.pointerDetail3 &&(
+      <p 
+      className="text-gray-700 text-xs mb-2 font-nunito"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.pointerDetail3}
+      </p>
+    )}
 
     {data.text && (
       <p 
@@ -165,6 +192,21 @@ export const featureAltBlockSchema: TinaTemplate = {
           type: "boolean",
           label: "Updated",
           name: "updated",
+        },
+        {
+          type: "string",
+          label: "Pointer Detail 1",
+          name: "pointerDetail1",
+        },
+        {
+          type: "string",
+          label: "Pointer Detail 2",
+          name: "pointerDetail2",
+        },
+        {
+          type: "string",
+          label: "Pointer Detail 3",
+          name: "pointerDetail3",
         },
         {
           type: "string",

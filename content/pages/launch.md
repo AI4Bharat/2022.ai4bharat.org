@@ -15,11 +15,10 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 11:00 AM to 01:00 PM IST
-
-          Meeting ID: 879 4806 0495 |
-          Passcode: 28722 
+        pointerDetail1: 'Jul 28, 2022 - 11:00 AM to 01:00 PM IST'
+        pointerDetail2: 'Meeting ID: 879 4806 0495'
+        pointerDetail3: 'Passcode: 28722 '
+        text: ''
       - icon:
           color: ''
           style: float
@@ -30,10 +29,11 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 02:00 PM to 03:00 PM IST
-          Meeting ID: 851 8757 8123 | 
-          Passcode: 28222 
+        pointerDetail1: 'Jul 28, 2022 - 02:00 PM to 03:00 PM IST'
+        pointerDetail2: 'Meeting ID: 851 8757 8123'
+        pointerDetail3: 'Passcode: 28222 '
+        text: |+
+
       - icon:
           color: ''
           style: float
@@ -44,10 +44,10 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 03:00 PM to 05:30 PM IST
-          Meeting ID: 836 8666 3138 |
-          Passcode: 28722 | 
+        pointerDetail1: 'Jul 28, 2022 - 03:00 PM to 05:30 PM IST'
+        pointerDetail2: 'Meeting ID: 836 8666 3138'
+        pointerDetail3: 'Passcode: 28722'
+        text: ''
       - icon:
           color: ''
           style: float
@@ -60,10 +60,10 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 -  03:00 PM to 05:30 PM IST
-          Meeting ID: 817 7097 5185 | 
-          Passcode: 28722 
+        pointerDetail1: 'Jul 28, 2022 -  03:00 PM to 05:30 PM IST'
+        pointerDetail2: 'Meeting ID: 817 7097 5185'
+        pointerDetail3: 'Passcode: 28722 '
+        text: ''
       - icon:
           color: ''
           style: float
@@ -74,10 +74,11 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 03:00 PM to 05:30 PM IST
-          Meeting ID: 851 8757 8123 |
-          Passcode: 28222 
+        pointerDetail1: 'Jul 28, 2022 - 03:00 PM to 05:30 PM IST'
+        pointerDetail2: 'Meeting ID: 851 8757 8123'
+        pointerDetail3: 'Passcode: 28222 '
+        text: |+
+
       - icon:
           color: ''
           style: float
@@ -88,10 +89,10 @@ blocks:
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
-        text: |-
-          Jul 28, 2022 - 05:30 PM to 06:30 PM IST
-          Meeting ID: 842 9276 7175 |
-          Passcode: 28722 
+        pointerDetail1: 'Jul 28, 2022 - 05:30 PM to 06:30 PM IST'
+        pointerDetail2: 'Meeting ID: 842 9276 7175'
+        pointerDetail3: 'Passcode: 28722 '
+        text: ''
     _template: featuresAlt
   - title: ''
     header: ''
