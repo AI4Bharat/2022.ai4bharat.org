@@ -47,7 +47,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: cloud
         title: >-
           Workshop on Natural language understanding and Natural language
           Generation
