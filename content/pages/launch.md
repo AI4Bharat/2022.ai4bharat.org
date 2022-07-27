@@ -32,6 +32,18 @@ blocks:
         text: |-
           Meeting ID: 851 8757 8123 | 
           Passcode: 28222 | Time: Jul 28, 2022 02:00 PM - 03:00 PM India
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Workshop on Automatic Speech recognition
+        link: >-
+          https://us06web.zoom.us/j/83686663138?pwd=alJoV0NPYVRyNERFb0FydWNNL2hIQT09
+        comingSoon: false
+        updated: false
+        text: |-
+          Meeting ID: 836 8666 3138 |
+          Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
     _template: featuresAlt
 ---
 
