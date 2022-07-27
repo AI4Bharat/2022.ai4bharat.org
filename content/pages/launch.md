@@ -43,7 +43,7 @@ blocks:
         comingSoon: false
         updated: false
         text: |-
-          Time: Jul 28, 2022 03:00 PM - 05:30 PM India
+          Jul 28, 2022 - 03:00 PM to 05:30 PM India
           Meeting ID: 836 8666 3138 |
           Passcode: 28722 | 
       - icon:
