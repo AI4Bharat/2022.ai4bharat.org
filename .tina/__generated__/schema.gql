@@ -267,6 +267,9 @@ type PageBlocksFeaturesAltItems {
   linkPlaceholder: String
   comingSoon: Boolean
   updated: Boolean
+  pointerDetail1: String
+  pointerDetail2: String
+  pointerDetail3: String
   text: String
 }
 
@@ -684,6 +687,9 @@ input PageBlocksFeaturesAltItemsMutation {
   linkPlaceholder: String
   comingSoon: Boolean
   updated: Boolean
+  pointerDetail1: String
+  pointerDetail2: String
+  pointerDetail3: String
   text: String
 }
 
