@@ -1,15 +1,9 @@
 ---
 blocks:
-  - title: ''
-    header: ''
-    description: ''
-    url: /Event Launch.pdf
+  - quote: Join Live Events
+    author: ''
     color: default
-    _template: pdfEmbed
-  - body: |
-      # JOIN LIVE EVENTS
-    color: tint
-    _template: content
+    _template: testimonial
   - items:
       - icon:
           color: ''
@@ -99,5 +93,11 @@ blocks:
           Meeting ID: 842 9276 7175 |
           Passcode: 28722 
     _template: featuresAlt
+  - title: ''
+    header: ''
+    description: ''
+    url: /Event Launch.pdf
+    color: default
+    _template: pdfEmbed
 ---
 
