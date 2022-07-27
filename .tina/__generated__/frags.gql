@@ -125,6 +125,7 @@ fragment PageParts on Page {
         }
         title
         link
+        linkPlaceholder
         comingSoon
         updated
         text

@@ -12,6 +12,7 @@ blocks:
         title: Nilekani Centre at AI4Bharat Inauguration
         link: >-
           https://us06web.zoom.us/j/87948060495?pwd=VGhrQnJWZXpEMldMc2V0WDNIRFJHZz09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
@@ -25,6 +26,7 @@ blocks:
         title: Panel discussion on 'Language AI Ecosystem in India'
         link: >-
           https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
@@ -38,6 +40,7 @@ blocks:
         title: Workshop on Automatic Speech recognition
         link: >-
           https://us06web.zoom.us/j/83686663138?pwd=alJoV0NPYVRyNERFb0FydWNNL2hIQT09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
@@ -53,6 +56,7 @@ blocks:
           Generation
         link: >-
           https://us06web.zoom.us/j/81770975185?pwd=UHRpWnJnWDlWUUFTQUd1RFpzVmpLdz09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
@@ -66,6 +70,7 @@ blocks:
         title: Workshop on Machine Translation and Transliteration
         link: >-
           https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
@@ -79,6 +84,7 @@ blocks:
         title: Platforms and Open source tools for Indian languages
         link: >-
           https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
+        linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
         text: |-
