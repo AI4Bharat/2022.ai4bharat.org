@@ -73,7 +73,7 @@ blocks:
         text: |-
           Jul 28, 2022 - 03:00 PM to 05:30 PM IST
           Meeting ID: 851 8757 8123 |
-          Passcode: 28222 | 
+          Passcode: 28222 
       - icon:
           color: ''
           style: float
