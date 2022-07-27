@@ -264,6 +264,7 @@ type PageBlocksFeaturesAltItems {
   icon: PageBlocksFeaturesAltItemsIcon
   title: String
   link: String
+  linkPlaceholder: String
   comingSoon: Boolean
   updated: Boolean
   text: String
@@ -680,6 +681,7 @@ input PageBlocksFeaturesAltItemsMutation {
   icon: PageBlocksFeaturesAltItemsIconMutation
   title: String
   link: String
+  linkPlaceholder: String
   comingSoon: Boolean
   updated: Boolean
   text: String

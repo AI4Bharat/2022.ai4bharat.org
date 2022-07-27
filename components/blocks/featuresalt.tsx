@@ -63,7 +63,12 @@ export const FeatureAlt = ({ featuresColor, data, tinaField }) => {
        passHref
      >
        <a key={data.id}>
-    <div className="p-2 bg-orange-200 w-full h-10 absolute inset-x-0 bottom-0"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none">Know More →</p></div>
+    <div className="p-2 bg-orange-200 w-full h-10 absolute inset-x-0 bottom-0"><p className="px-2 text-white transition transform hover:translate-x-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
+      {data.linkPlaceholder
+        ? `${data.linkPlaceholder}`
+        : `Know More →`
+      }
+      </p></div>
     </a>
           </Link> 
 }
@@ -145,6 +150,11 @@ export const featureAltBlockSchema: TinaTemplate = {
           type: "string",
           label: "Link",
           name: "link",
+        },
+        {
+          type: "string",
+          label: "Link Placeholder",
+          name: "linkPlaceholder",
         },
         {
           type: "boolean",
