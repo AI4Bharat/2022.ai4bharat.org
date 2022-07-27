@@ -61,7 +61,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: chart
         title: Workshop on Machine Translation and Transliteration
         link: >-
           https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
