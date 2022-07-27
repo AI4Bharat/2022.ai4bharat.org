@@ -12,11 +12,12 @@ blocks:
 
       initiative of IIT Madras.&#x20;
     actions:
-      - label: Sign up
+      - label: Join Here for Launch Event
         type: button
         icon: true
-        link: 'https://forms.office.com/r/vddNi9fuqS'
-      - label: Learn more
+        link: >-
+          https://us06web.zoom.us/j/87948060495?pwd=VGhrQnJWZXpEMldMc2V0WDNIRFJHZz09
+      - label: Click here for other sessions
         type: link
         icon: false
         link: /launch
@@ -43,7 +44,8 @@ blocks:
     _template: testimonial
   - title: ''
     items:
-      - icon:
+      - iconShown: true
+        icon:
           color: white
           name: map
         title: Data
@@ -51,9 +53,9 @@ blocks:
         text: >-
           Curate and create the largest public datasets and benchmarks across
           various tasks and 22 Indian languages.
-        iconShown: true
         iconColor: orange
-      - icon:
+      - iconShown: true
+        icon:
           color: white
           name: chat
         title: AI Models
@@ -61,18 +63,18 @@ blocks:
           Build state-of-the-art, open, foundational  
           AI models across  
           tasks and 22 Indian languages.
-        iconShown: true
         iconColor: orange
-      - icon:
+      - iconShown: true
+        icon:
           color: white
           name: cloud
         title: Applications
         text: >-
           Design and deploy with partners reference applications to demonstrate
           potential of open AI models.
-        iconShown: true
         iconColor: orange
-      - icon:
+      - iconShown: true
+        icon:
           color: white
           name: world
         title: Ecosystem
@@ -80,7 +82,6 @@ blocks:
           Enable researchers, startups, and govt.  
           to innovate on  
           Indian language AI tech with educational material and workshops.
-        iconShown: true
         iconColor: orange
     _template: flatCardsGrid
   - quote: Areas
