@@ -58,6 +58,18 @@ blocks:
         text: |-
           Meeting ID: 817 7097 5185 | 
           Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Workshop on Machine Translation and Transliteration
+        link: >-
+          https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
+        comingSoon: false
+        updated: false
+        text: |-
+          Meeting ID: 851 8757 8123 |
+          Passcode: 28222 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
     _template: featuresAlt
 ---
 
