@@ -44,6 +44,20 @@ blocks:
         text: |-
           Meeting ID: 836 8666 3138 |
           Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          Workshop on Natural language understanding and Natural language
+          Generation
+        link: >-
+          https://us06web.zoom.us/j/81770975185?pwd=UHRpWnJnWDlWUUFTQUd1RFpzVmpLdz09
+        comingSoon: false
+        updated: false
+        text: |-
+          Meeting ID: 817 7097 5185 | 
+          Passcode: 28722 | Time: Jul 28, 2022 03:00 PM - 05:30 PM India
     _template: featuresAlt
 ---
 
