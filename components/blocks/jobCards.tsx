@@ -109,7 +109,7 @@ export const JobCardsGrid = ({ data, parentField }) => {
 };
 
 const defaultJobCard = {
-  title: "Here's Another Feature",
+  title: "Here's Another Card",
   description: "This is where you might talk about the feature, if this wasn't just filler text.",
   jobType:"",
   duration:"",

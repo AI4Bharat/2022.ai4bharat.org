@@ -163,7 +163,7 @@ const schema = defineSchema({
                 },
                 defaultItem: {
                   href: "home",
-                  label: "Home",
+                  label: "Example Nav Link",
                 },
               },
               fields: [
@@ -190,7 +190,7 @@ const schema = defineSchema({
                 },
                 defaultItem: {
                   href: "home",
-                  label: "Translation",
+                  label: "Example Area Nav Heading",
                 },
               },
               fields: [
@@ -233,7 +233,7 @@ const schema = defineSchema({
                 },
                 defaultItem: {
                   href: "home",
-                  label: "Translation",
+                  label: "Example Resource Nav Heading",
                 },
               },
               fields: [

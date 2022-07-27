@@ -42,3 +42,8 @@ th, td {
   tbody td:first-child{
     padding: 6px;
   }
+
+  /* added to remove double bullet points appearing in content */
+  li::marker{
+    display: none;
+  }
