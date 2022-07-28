@@ -61,8 +61,9 @@ blocks:
           style: float
           name: AI4B
         title: Naamapadam
-        comingSoon: true
-        updated: false
+        link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
+        comingSoon: false
+        updated: true
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
@@ -103,9 +104,14 @@ blocks:
           style: float
           name: AI4B
         title: IndicNER
-        comingSoon: true
-        updated: false
-        text: Named Entity Recognizer models for multiple Indian languages.
+        link: 'https://huggingface.co/ai4bharat/IndicNER'
+        linkPlaceholder: ''
+        comingSoon: false
+        updated: true
+        text: >
+          Named Entity Recognizer models for multiple Indian languages. The
+          models are trained on the Naampadam NER dataset mined from Samanantar
+          parallel corpora.
     _template: featuresAlt
   - quote: Our Partners
     author: Anoop K
