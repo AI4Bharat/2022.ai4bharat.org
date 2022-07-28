@@ -222,7 +222,7 @@ blocks:
     _template: testimonial
   - items:
       - personName: Vivek Raghavan
-        personDesignation: 'Chief Mentor and Evangelist, EkStep Foundation'
+        personDesignation: 'Chief AI Evangelist, EkStep and Mentor, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657699030/vivek_raghavan_ugfdjs.jpg
