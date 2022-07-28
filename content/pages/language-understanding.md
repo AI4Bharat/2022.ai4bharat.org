@@ -103,7 +103,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicNER
-        link: 'https://huggingface.co/ ai4bharat/IndicNER'
+        link: 'https://huggingface.co/ai4bharat/IndicNER'
         linkPlaceholder: ''
         comingSoon: false
         updated: true
