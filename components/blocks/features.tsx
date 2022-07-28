@@ -15,7 +15,9 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
       data-tinafield={tinaField}
       className="flex-4 flex flex-col p-12 gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto hover:bg-gray-100 "
       style={{ flexBasis: "12rem" }}
-    ><Link
+    >
+      {data.link &&
+    <Link
        
     href={data.link}
     passHref
@@ -55,6 +57,7 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
       {data.actions && <Actions actions={data.actions} />}
       </a>
           </Link>
+}
     </div>
   );
 };

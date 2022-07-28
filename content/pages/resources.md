@@ -7,24 +7,28 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: world
         title: Datasets
-      
-        link: '/datasets'
+        link: /datasets
       - icon:
           color: ''
           style: float
-          name: ''
+          name: chart
         title: Models
-        
-        link: '/models'
+        link: /models
       - icon:
           color: ''
           style: float
-          name: ''
+          name: shield
         title: Publications
-    
-        link: '/publications'
+        link: /publications
+      - icon:
+          color: ''
+          style: float
+          name: store
+        title: IndicNLP Catalog
+        link: 'https://github.com/AI4Bharat/indicnlp_catalog'
+        text: ''
     _template: features
 ---
 
