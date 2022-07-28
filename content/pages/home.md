@@ -16,7 +16,7 @@ blocks:
         type: button
         icon: true
         link: >-
-          https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
+          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
       - label: Click here for other sessions
         type: link
         icon: false
