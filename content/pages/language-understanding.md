@@ -61,8 +61,9 @@ blocks:
           style: float
           name: AI4B
         title: Naamapadam
-        comingSoon: true
-        updated: false
+        link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
+        comingSoon: false
+        updated: true
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
