@@ -40,7 +40,7 @@ blocks:
           name: chat
         title: Workshop on Automatic Speech recognition
         link: >-
-          https://us06web.zoom.us/j/83686663138?pwd=alJoV0NPYVRyNERFb0FydWNNL2hIQT09
+          https://us06web.zoom.us/j/81770975185?pwd=UHRpWnJnWDlWUUFTQUd1RFpzVmpLdz09
         linkPlaceholder: Join Here →
         comingSoon: false
         updated: false
