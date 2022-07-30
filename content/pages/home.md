@@ -12,11 +12,11 @@ blocks:
 
       initiative of IIT Madras.&#x20;
     actions:
-      - label: Join Here for Launch Event
+      - label: Join Here for Live Event
         type: button
         icon: true
         link: >-
-          https://us06web.zoom.us/j/87948060495?pwd=VGhrQnJWZXpEMldMc2V0WDNIRFJHZz09
+          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
       - label: Click here for other sessions
         type: link
         icon: false
