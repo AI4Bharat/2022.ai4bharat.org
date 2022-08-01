@@ -156,7 +156,7 @@ blocks:
           name: user
         title: Shoonya
         link: /shoonya
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Open-source workbench for AI-assisted language work on Indian
