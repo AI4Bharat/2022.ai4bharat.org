@@ -52,10 +52,10 @@ blocks:
         title: >-
           Workshop on Natural language understanding and Natural language
           Generation
-        link: '-'
-        linkPlaceholder: Click Here →
+        link: 'https://github.com/AI4Bharat/workshop-nlg-nlu-2022'
+        linkPlaceholder: Click Here for Materials →
         comingSoon: false
-        updated: false
+        updated: true
         pointerDetail1: 'Jul 28, 2022 -  03:00 PM to 05:30 PM IST'
         pointerDetail2: Recordings Coming Soon..
         pointerDetail3: ''
