@@ -60,7 +60,7 @@ blocks:
           For low-resource language, Shoonya supports showing annotators
           translations in other languages.
     _template: flatCardsGrid
-  - quote: Shoonya v1 Public Release is planned for 28th July
+  - quote: Shoonya v1 Public has been Released on 28th July
     author: ''
     color: primary
     _template: testimonial
