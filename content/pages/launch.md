@@ -92,7 +92,7 @@ blocks:
           style: float
           name: aperture
         title: Platforms and Open source tools for Indian languages
-        link: '-'
+        link: ''
         linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
