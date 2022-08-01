@@ -10,14 +10,13 @@ blocks:
           style: float
           name: shield
         title: Nilekani Centre at AI4Bharat Inauguration
-        link: >-
-          https://us06web.zoom.us/j/87948060495?pwd=VGhrQnJWZXpEMldMc2V0WDNIRFJHZz09
-        linkPlaceholder: Join Here →
+        link: '-'
+        linkPlaceholder: Click Here→
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 11:00 AM to 01:00 PM IST'
-        pointerDetail2: 'Meeting ID: 879 4806 0495'
-        pointerDetail3: 'Passcode: 28722 '
+        pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: ''
       - icon:
           color: ''
