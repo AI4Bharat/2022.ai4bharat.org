@@ -1,6 +1,6 @@
 ---
 blocks:
-  - quote: Join Live Events
+  - quote: Attend Recorded Sessions
     author: ''
     color: default
     _template: testimonial
