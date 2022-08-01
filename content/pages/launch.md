@@ -64,12 +64,12 @@ blocks:
           color: ''
           style: float
           name: chart
-        title: Workshop on Machine Translation and Transliteration
-        link: '-'
-        linkPlaceholder: Click Here →
+        title: Workshop on Machine Translation
+        link: 'https://github.com/AI4Bharat/indicTrans/tree/main/AI4B_Demo'
+        linkPlaceholder: Click Here for Materials →
         comingSoon: false
         updated: false
-        pointerDetail1: 'Jul 28, 2022 - 03:00 PM to 05:30 PM IST'
+        pointerDetail1: 'Jul 28, 2022 - 03:30 PM to 05:00 PM IST'
         pointerDetail2: Recordings Coming Soon..
         pointerDetail3: ''
         text: |+
