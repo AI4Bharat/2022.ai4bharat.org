@@ -113,7 +113,7 @@
           "name": "code"
         },
         "description": "Open-source tool for AI-assisted video subtitling and translating with a focus on educational and media content.",
-        "comingSoon": true
+        "comingSoon": false
       }
     ],
     "resources": [
