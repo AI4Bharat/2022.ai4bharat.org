@@ -23,14 +23,13 @@ blocks:
           style: float
           name: world
         title: Panel discussion on 'Language AI Ecosystem in India'
-        link: >-
-          https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
-        linkPlaceholder: Join Here →
+        link: '-'
+        linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 02:00 PM to 03:00 PM IST'
-        pointerDetail2: 'Meeting ID: 851 8757 8123'
-        pointerDetail3: 'Passcode: 28222 '
+        pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: |+
 
       - icon:
