@@ -10,7 +10,7 @@ blocks:
           style: float
           name: shield
         title: Nilekani Centre at AI4Bharat Inauguration
-        link: '-'
+        link: ''
         linkPlaceholder: Click Here→
         comingSoon: false
         updated: false
