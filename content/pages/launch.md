@@ -23,7 +23,7 @@ blocks:
           style: float
           name: world
         title: Panel discussion on 'Language AI Ecosystem in India'
-        link: '-'
+        link: ''
         linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
