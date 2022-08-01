@@ -12,7 +12,7 @@ blocks:
 
       initiative of IIT Madras.&#x20;
     actions:
-      - label: Join Here for Live Event
+      - label: Click here for more information
         type: button
         icon: true
         link: >-
