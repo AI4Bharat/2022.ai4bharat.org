@@ -15,11 +15,6 @@ blocks:
       - label: Click here for more information
         type: button
         icon: true
-        link: >-
-          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
-      - label: Click here for other sessions
-        type: link
-        icon: false
         link: /launch
     image:
       src: >-
