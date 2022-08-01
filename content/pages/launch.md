@@ -1,6 +1,6 @@
 ---
 blocks:
-  - quote: Attend Recorded Sessions
+  - quote: Recorded Sessions of Nilekani Center's Launch Events
     author: ''
     color: default
     _template: testimonial
