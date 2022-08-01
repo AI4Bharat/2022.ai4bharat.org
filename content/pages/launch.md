@@ -65,14 +65,13 @@ blocks:
           style: float
           name: chart
         title: Workshop on Machine Translation and Transliteration
-        link: >-
-          https://us06web.zoom.us/j/85187578123?pwd=bmZSTVVVdWhiblNGbFYzTVU1MnlFQT09
-        linkPlaceholder: Join Here →
+        link: '-'
+        linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 03:00 PM to 05:30 PM IST'
-        pointerDetail2: 'Meeting ID: 851 8757 8123'
-        pointerDetail3: 'Passcode: 28222 '
+        pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: |+
 
       - icon:
