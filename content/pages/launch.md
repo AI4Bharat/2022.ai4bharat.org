@@ -77,6 +77,18 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: ''
+        title: Workshop on Machine Transliteration
+        link: 'https://github.com/AI4Bharat/IndicXlit/tree/master/workshop'
+        linkPlaceholder: Click Here for Materials →
+        comingSoon: false
+        updated: true
+        pointerDetail1: 'Jul 28, 2022 - 05:00 PM to 05:30 PM IST'
+        pointerDetail2: Recordings Coming Soon..
+        text: ''
+      - icon:
+          color: ''
+          style: float
           name: aperture
         title: Platforms and Open source tools for Indian languages
         link: '-'
