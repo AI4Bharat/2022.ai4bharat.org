@@ -104,7 +104,7 @@
           "name": "map"
         },
         "description": "Open-source workbench for AI-assisted language work on Indian languages with initial focus on translation.",
-        "comingSoon": true
+        "comingSoon": false
       },
       {
         "href": "/chitralekha",
