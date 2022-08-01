@@ -85,6 +85,7 @@ blocks:
         updated: true
         pointerDetail1: 'Jul 28, 2022 - 05:00 PM to 05:30 PM IST'
         pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: ''
       - icon:
           color: ''
