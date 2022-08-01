@@ -68,7 +68,7 @@ blocks:
           We are working with Project BIRD from IIM Ahmedabad to provide same
           language subtitling for improving literacy in Indian languages.
     _template: flatCardsGrid
-  - quote: Chitralekha v1 Public has been Released on 28th July
+  - quote: Chitralekha v1 has been Released Publicly on 28th July
     author: ''
     color: primary
     _template: testimonial
