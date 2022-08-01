@@ -37,14 +37,13 @@ blocks:
           style: float
           name: chat
         title: Workshop on Automatic Speech recognition
-        link: >-
-          https://us06web.zoom.us/j/83686663138?pwd=alJoV0NPYVRyNERFb0FydWNNL2hIQT09
-        linkPlaceholder: Join Here →
+        link: '-'
+        linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 03:00 PM to 05:30 PM IST'
-        pointerDetail2: 'Meeting ID: 836 8666 3138'
-        pointerDetail3: 'Passcode: 28722'
+        pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: ''
       - icon:
           color: ''
