@@ -79,14 +79,13 @@ blocks:
           style: float
           name: aperture
         title: Platforms and Open source tools for Indian languages
-        link: >-
-          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
-        linkPlaceholder: Join Here →
+        link: '-'
+        linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 05:30 PM to 06:30 PM IST'
-        pointerDetail2: 'Meeting ID: 842 9276 7175'
-        pointerDetail3: 'Passcode: 28722 '
+        pointerDetail2: Recordings Coming Soon..
+        pointerDetail3: ''
         text: ''
     _template: featuresAlt
   - title: ''
