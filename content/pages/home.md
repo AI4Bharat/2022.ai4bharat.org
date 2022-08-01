@@ -167,7 +167,7 @@ blocks:
           name: chat
         title: Chitralekha
         link: /chitralekha
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Open-source tool for AI-assisted video subtitling and translating with
