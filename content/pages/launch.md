@@ -81,14 +81,14 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Workshop on Machine Transliteration
+        title: 'Workshop-3b: Neural Machine Transliteration'
         link: 'https://github.com/AI4Bharat/IndicXlit/tree/master/workshop'
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
         updated: true
-        pointerDetail1: 'Jul 28, 2022 - 05:00 PM to 05:30 PM IST'
-        pointerDetail2: Recordings Coming Soon..
-        pointerDetail3: ''
+        pointerDetail1: '05:00 PM to 05:30 PM'
+        pointerDetail2: 'Place: Auditorium'
+        pointerDetail3: Recordings Coming Soon..
         text: ''
       - icon:
           color: ''
