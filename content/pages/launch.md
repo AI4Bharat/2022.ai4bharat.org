@@ -46,7 +46,7 @@ blocks:
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
         updated: true
-        pointerDetail1: '03:00 PM to 05:30 PM'
+        pointerDetail1: '03:30 PM to 05:30 PM'
         pointerDetail2: 'Place: Hall-3'
         pointerDetail3: Recordings Coming Soon..
         text: ''
