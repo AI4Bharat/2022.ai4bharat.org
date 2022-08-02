@@ -1,9 +1,11 @@
 ---
 blocks:
   - quote: Recorded Sessions of Nilekani Center's Launch Events
-    author: ''
+    author: AI4Bharat
     color: default
     _template: testimonial
+  - body: ''
+    _template: content
   - items:
       - icon:
           color: ''
