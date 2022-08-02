@@ -81,7 +81,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: 'Workshop-3b: Neural Machine Transliteration'
+        title: 'Workshop-3b: Neural Machine Transliteration '
         link: 'https://github.com/AI4Bharat/IndicXlit/tree/master/workshop'
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
