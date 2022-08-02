@@ -54,9 +54,7 @@ blocks:
           color: ''
           style: float
           name: cloud
-        title: >-
-          Workshop-2: Natural Language Understanding and Natural Language
-          Generation
+        title: 'Workshop-2: Natural Language Processing: Understanding & Generation'
         link: 'https://github.com/AI4Bharat/workshop-nlg-nlu-2022'
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
