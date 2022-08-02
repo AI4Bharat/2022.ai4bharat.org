@@ -4,7 +4,10 @@ blocks:
     author: AI4Bharat
     color: default
     _template: testimonial
-  - body: ''
+  - body: |
+      **Date:** July 28, 2022 (11:00-18:30 IST)\
+      **Venue:** IC\&SR building, IIT-Madras
+    color: default
     _template: content
   - items:
       - icon:
