@@ -113,7 +113,7 @@ blocks:
         pointerDetail1: 'Jul 28, 2022 - 06:00 PM to 06:30 PM IST'
         pointerDetail2: 'Presentation on Anuvaad, Shoonya & Chitralekha'
         pointerDetail3: Recordings Coming Soon..
-        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation'
+        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation '
     _template: featuresAlt
   - title: ''
     header: ''
