@@ -32,7 +32,7 @@ blocks:
         linkPlaceholder: Click Here →
         comingSoon: false
         updated: false
-        pointerDetail1: 'Jul 28, 2022 - 02:00 PM to 03:00 PM IST'
+        pointerDetail1: '02:00 PM to 03:00 PM'
         pointerDetail2: 'Place: Auditorium'
         pointerDetail3: Recordings Coming Soon..
         text: |+
