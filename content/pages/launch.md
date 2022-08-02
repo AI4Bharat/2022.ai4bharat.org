@@ -33,8 +33,8 @@ blocks:
         comingSoon: false
         updated: false
         pointerDetail1: 'Jul 28, 2022 - 02:00 PM to 03:00 PM IST'
-        pointerDetail2: Recordings Coming Soon..
-        pointerDetail3: ''
+        pointerDetail2: 'Place: Auditorium'
+        pointerDetail3: Recordings Coming Soon..
         text: |+
 
       - icon:
