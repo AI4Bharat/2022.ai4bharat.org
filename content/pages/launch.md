@@ -100,6 +100,20 @@ blocks:
         pointerDetail2: Presentation on Bhashini and ULCA
         pointerDetail3: Recordings Coming Soon..
         text: 'Speaker: Aravinth Bheemraj, EkStep Foundation'
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Open-source Tools for Indian languages
+        link: >-
+          https://www.slideshare.net/AravinthBheemaraj/ntlm-open-source-language-ai-tools
+        linkPlaceholder: Click Here for Slides →
+        comingSoon: false
+        updated: true
+        pointerDetail1: 'Jul 28, 2022 - 06:00 PM to 06:30 PM IST'
+        pointerDetail2: 'Presentation on Anuvaad, Shoonya & Chitralekha'
+        pointerDetail3: Recordings Coming Soon..
+        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation'
     _template: featuresAlt
   - title: ''
     header: ''
