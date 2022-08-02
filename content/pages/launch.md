@@ -67,7 +67,7 @@ blocks:
           color: ''
           style: float
           name: chart
-        title: 'Workshop-3a: Machine Translation'
+        title: 'Workshop-3a: Neural Machine Translation'
         link: 'https://github.com/AI4Bharat/indicTrans/tree/main/AI4B_Demo'
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
