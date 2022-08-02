@@ -113,10 +113,10 @@ blocks:
         linkPlaceholder: Click Here for Slides →
         comingSoon: false
         updated: true
-        pointerDetail1: 'Jul 28, 2022 - 06:00 PM to 06:30 PM IST'
+        pointerDetail1: '06:00 PM to 06:30 PM'
         pointerDetail2: 'Presentation on Anuvaad, Shoonya & Chitralekha'
         pointerDetail3: Recordings Coming Soon..
-        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation '
+        text: 'Guest Speaker: Aravinth Bheemraj, EkStep Foundation '
     _template: featuresAlt
   - title: ''
     header: ''
