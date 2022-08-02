@@ -55,15 +55,15 @@ blocks:
           style: float
           name: cloud
         title: >-
-          Workshop on Natural language understanding and Natural language
+          Workshop-2: Natural Language Understanding and Natural Language
           Generation
         link: 'https://github.com/AI4Bharat/workshop-nlg-nlu-2022'
         linkPlaceholder: Click Here for Materials →
         comingSoon: false
         updated: true
-        pointerDetail1: 'Jul 28, 2022 -  03:00 PM to 05:30 PM IST'
-        pointerDetail2: Recordings Coming Soon..
-        pointerDetail3: ''
+        pointerDetail1: '03:30 PM to 05:30 PM'
+        pointerDetail2: 'Place: Hall-4'
+        pointerDetail3: Recordings Coming Soon..
         text: ''
       - icon:
           color: ''
