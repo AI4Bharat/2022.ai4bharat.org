@@ -91,15 +91,15 @@ blocks:
           color: ''
           style: float
           name: aperture
-        title: Platforms and Open source tools for Indian languages
-        link: ''
-        linkPlaceholder: Click Here →
+        title: NLTM Initiative - Platforms for Indian languages
+        link: 'https://www.slideshare.net/AravinthBheemaraj/bhashini-nltm-tools'
+        linkPlaceholder: Click Here for Slides →
         comingSoon: false
-        updated: false
-        pointerDetail1: 'Jul 28, 2022 - 05:30 PM to 06:30 PM IST'
-        pointerDetail2: Recordings Coming Soon..
-        pointerDetail3: ''
-        text: 'Presentation on ULCA, Bhashini, Anuvaad, Shoonya, Chitralekha'
+        updated: true
+        pointerDetail1: 'Jul 28, 2022 - 05:30 PM to 06:00 PM IST'
+        pointerDetail2: Presentation on Bhashini and ULCA
+        pointerDetail3: Recordings Coming Soon..
+        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation'
     _template: featuresAlt
   - title: ''
     header: ''
