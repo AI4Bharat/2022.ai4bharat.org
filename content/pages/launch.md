@@ -99,10 +99,10 @@ blocks:
         linkPlaceholder: Click Here for Slides →
         comingSoon: false
         updated: true
-        pointerDetail1: 'Jul 28, 2022 - 05:30 PM to 06:00 PM IST'
+        pointerDetail1: '05:30 PM to 06:00 PM'
         pointerDetail2: Presentation on Bhashini and ULCA
         pointerDetail3: Recordings Coming Soon..
-        text: 'Speaker: Aravinth Bheemraj, EkStep Foundation'
+        text: 'Guest Speaker: Aravinth Bheemraj, EkStep Foundation'
       - icon:
           color: ''
           style: float
