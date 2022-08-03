@@ -103,7 +103,7 @@ const components: Components<{
   },
 };
 
-export const About us = (props) => {
+export const About = (props) => {
   const theme = useTheme();
   const titleColorClasses = {
     blue: "from-blue-400 to-blue-600 dark:from-blue-300 dark:to-blue-500",
