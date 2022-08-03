@@ -303,7 +303,7 @@ export const Header = ({ data }) => {
                       'group font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2'
                     )}
                   >
-                    <span>About_us</span>
+                    <span>About us</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
