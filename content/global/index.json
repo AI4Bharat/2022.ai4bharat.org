@@ -20,10 +20,6 @@
         "label": "Resources"
       },
       {
-        "href": "about",
-        "label": "About us"
-      },
-      {
         "href": "positions",
         "label": "Positions"
       }
