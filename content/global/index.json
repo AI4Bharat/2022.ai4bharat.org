@@ -20,8 +20,8 @@
         "label": "Resources"
       },
       {
-        "href": "positions",
-        "label": "Positions"
+        "href": "about",
+        "label": "About us"
       }
     ],
     "areas": [
@@ -151,6 +151,38 @@
           "name": "store"
         }
       }
+    ],
+    "about": [
+      {
+        "href": "/team",
+        "label": "Our Team",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "world"
+        },
+        "description": ""
+      },
+      {
+        "href": "/media",
+        "label": "Media",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "chart"
+        },
+        "description": ""
+      },
+      {
+        "href": "/positions",
+        "label": "Open Positions",
+        "icon": {
+          "color": "orange",
+          "style": "float",
+          "name": "shield"
+        },
+        "description": ""
+      },
     ]
   },
   "footer": {
