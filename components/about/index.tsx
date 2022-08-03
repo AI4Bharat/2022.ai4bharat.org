@@ -1,1 +1,1 @@
-export { About us } from "./about us";
+export { About_us } from "./about us";
