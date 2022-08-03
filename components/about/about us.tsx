@@ -4,7 +4,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { BsArrowRight } from "react-icons/bs";
 import { useTheme } from "../layout";
 
-export const About us = ({ data }) => {
+export const About_us = ({ data }) => {
   const theme = useTheme();
   const titleColorClasses = {
     blue: "group-hover:text-blue-600 dark:group-hover:text-blue-300",
