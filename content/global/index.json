@@ -12,16 +12,16 @@
         "label": "Home"
       },
       {
-        "href": "about",
-        "label": "About"
-      },
-      {
         "href": "areas",
         "label": "Areas"
       },
       {
         "href": "resources",
         "label": "Resources"
+      },
+      {
+        "href": "about",
+        "label": "About us"
       },
       {
         "href": "positions",
