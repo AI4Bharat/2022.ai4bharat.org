@@ -102,7 +102,7 @@ export const TeamCardsGrid = ({ data, parentField }) => {
                 data.items.map(function (block, i) {
                   return (
                   <>
-                  {console.log(block.teamGroup)} 
+                  {/* {console.log(block.teamGroup)}  */}
                   {(block.teamGroup == "founders") && 
                     <TeamCard
                       tinaField={`${parentField}.items.${i}`}
@@ -296,6 +296,9 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
       name: "items",
       list: true,
       ui: {
+        itemProps: (item) => {
+          return { label: item?.personName };
+        },
         defaultItem: {
           ...defaultTeamCard,
         },

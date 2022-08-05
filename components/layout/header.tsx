@@ -100,9 +100,7 @@ export const Header = ({ data }) => {
                 <Icon
                   parentColor={data.color}
                   data={{
-                    name: data.icon.name,
-                    color: data.icon.color,
-                    style: data.icon.style,
+                    ...data.icon
                   }}
                   className="inline-block h-auto w-10 mr-1"
                 />
@@ -128,7 +126,7 @@ export const Header = ({ data }) => {
                 {data.nav && data.nav.map((item)=>(
                  
                    <>
-                    {console.log(item)}
+                    {/* {console.log(item)} */}
                     {item.dropdown
                      ? <Popover className="relative">
                      {({ open }) => (
@@ -211,7 +209,7 @@ export const Header = ({ data }) => {
                                      </a>
                                    ))}
                                </div>
-                               {console.log(data.callsToAction)}
+                               {/* {console.log(data.callsToAction)} */}
                                <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                                  {data.callsToAction &&
                                    data.callsToAction.map((item) => (
