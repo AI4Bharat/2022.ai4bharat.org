@@ -5,21 +5,16 @@ blocks:
     text: >
       “Nilekani Center at
 
-      AI4Bharat” will be launched on 28th July at IIT Madras. The launch
+      AI4Bharat” was officially launched on 28th July at IIT Madras. The launch
 
-      will be followed by the first workshop on Indian language technology under
+      was followed by the first workshops on Indian language technology under
       the AI4Bharat
 
       initiative of IIT Madras.&#x20;
     actions:
-      - label: Join Here for Live Event
+      - label: Click here for more information
         type: button
         icon: true
-        link: >-
-          https://us06web.zoom.us/j/84292767175?pwd=Z0YxMGdxUEgzWHlDSzF4ZHJmZWNDZz09
-      - label: Click here for other sessions
-        type: link
-        icon: false
         link: /launch
     image:
       src: >-
@@ -161,7 +156,7 @@ blocks:
           name: user
         title: Shoonya
         link: /shoonya
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Open-source workbench for AI-assisted language work on Indian
@@ -172,7 +167,7 @@ blocks:
           name: chat
         title: Chitralekha
         link: /chitralekha
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           Open-source tool for AI-assisted video subtitling and translating with

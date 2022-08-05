@@ -3,6 +3,11 @@ blocks:
   - tagline: APPLICATION
     headline: Chitralekha
     text: "Chitralekha is an open-source tool for video transcription with optional translation support with a focus on Indian languages. With a proliferation of video content, we need tools to transcribe them efficiently and also to make the transcriptions accessible in other languages. And given that transcription and translation tasks are tedious we want to meaningfully support them with open-source AI models. \_\n"
+    actions:
+      - label: Click here to watch Chitraekha Demo
+        type: button
+        icon: true
+        link: 'https://www.youtube.com/watch?v=Jq3CcEb9pxQ'
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657467019/chitralekha_cisupk.png
@@ -68,7 +73,7 @@ blocks:
           We are working with Project BIRD from IIM Ahmedabad to provide same
           language subtitling for improving literacy in Indian languages.
     _template: flatCardsGrid
-  - quote: Chitralekha v1 Public Release is planned for 28th July
+  - quote: Chitralekha v1 has been Released Publicly on 28th July
     author: ''
     color: primary
     _template: testimonial
