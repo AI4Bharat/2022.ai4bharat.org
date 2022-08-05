@@ -198,7 +198,7 @@ const schema = defineSchema({
                   list: true,
                   ui: {
                     itemProps: (item) => {
-                      return { label: item?.itemHeading };
+                      return { label: item?.label };
                     },
                     defaultItem: {
                       href: "home",
@@ -214,7 +214,7 @@ const schema = defineSchema({
                     {
                       type: "string",
                       label: "Item Heading",
-                      name: "itemHeading",
+                      name: "label",
                     },
                    iconSchema,
                     {

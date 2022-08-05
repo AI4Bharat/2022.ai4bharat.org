@@ -29,7 +29,7 @@ fragment GlobalParts on Global {
       subitems {
         __typename
         href
-        itemHeading
+        label
         icon {
           __typename
           color
