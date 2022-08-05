@@ -24,6 +24,20 @@ fragment GlobalParts on Global {
       __typename
       href
       label
+      dropdown
+      orientation
+      subitems {
+        __typename
+        href
+        itemHeading
+        icon {
+          __typename
+          color
+          style
+          name
+        }
+        description
+      }
     }
     areas {
       __typename

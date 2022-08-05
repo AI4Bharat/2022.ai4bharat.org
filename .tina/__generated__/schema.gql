@@ -115,9 +115,25 @@ type GlobalHeaderIcon {
   name: String
 }
 
+type GlobalHeaderNavSubitemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderNavSubitems {
+  href: String
+  itemHeading: String
+  icon: GlobalHeaderNavSubitemsIcon
+  description: String
+}
+
 type GlobalHeaderNav {
   href: String
   label: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitems]
 }
 
 type GlobalHeaderAreasIcon {
@@ -563,9 +579,25 @@ input GlobalHeaderIconMutation {
   name: String
 }
 
+input GlobalHeaderNavSubitemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderNavSubitemsMutation {
+  href: String
+  itemHeading: String
+  icon: GlobalHeaderNavSubitemsIconMutation
+  description: String
+}
+
 input GlobalHeaderNavMutation {
   href: String
   label: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitemsMutation]
 }
 
 input GlobalHeaderAreasIconMutation {

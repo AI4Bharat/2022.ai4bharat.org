@@ -177,6 +177,53 @@ const schema = defineSchema({
                   label: "Label",
                   name: "label",
                 },
+                {
+                  type: "boolean",
+                  label: "Do you want a dropdown?",
+                  name: "dropdown",
+                },
+                {
+                  type: "string",
+                  label: "Dropdown Orientation",
+                  name: "orientation",
+                  options: ["Vertical", "Horizontal"].map((orientationStyle) => ({
+                    label: orientationStyle,
+                    value: orientationStyle,
+                  })),
+                },
+                {
+                  type: "object",
+                  label: "Sub Items",
+                  name: "subitems",
+                  list: true,
+                  ui: {
+                    itemProps: (item) => {
+                      return { label: item?.itemHeading };
+                    },
+                    defaultItem: {
+                      href: "home",
+                      label: "Example Sub Item Heading",
+                    },
+                  },
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "href",
+                    },
+                    {
+                      type: "string",
+                      label: "Item Heading",
+                      name: "itemHeading",
+                    },
+                   iconSchema,
+                    {
+                      type: "string",
+                      label: "Description",
+                      name: "description",
+                    },
+                  ],
+                },
               ],
             },
             {
