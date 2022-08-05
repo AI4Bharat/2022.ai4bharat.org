@@ -97,15 +97,7 @@ export const Header = ({ data }) => {
           <h4 className="select-none text-lg tracking-tight my-4 transition duration-150 ease-out transform">
             <Link href="/" passHref>
               <a className="flex items-center">
-                <Icon
-                  parentColor={data.color}
-                  data={{
-                    name: data.icon.name,
-                    color: data.icon.color,
-                    style: data.icon.style,
-                  }}
-                  className="inline-block h-auto w-10 mr-1"
-                />
+               
                 
                 {
                   <div className="font-semibold text-md text-orange-300">
