@@ -106,6 +106,7 @@ export const Header = ({ data }) => {
                   }}
                   className="inline-block h-auto w-10 mr-1"
                 />
+                
                 {
                   <div className="font-semibold text-md text-orange-300">
                     AI4BHARAT
