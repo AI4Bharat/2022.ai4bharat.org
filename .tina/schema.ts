@@ -19,7 +19,7 @@ import { quoteBlockSchema } from "../components/blocks/quote";
 import { teamCardsGridBlockSchema } from "../components/blocks/teamCardsGrid";
 import { jobCardsGridBlockSchema } from "../components/blocks/jobCards";
 import { pdfEmbedBlockSchema } from "../components/blocks/pdfEmbed";
-import { tableBlockSchema } from "../components/blocks/table"
+import { tableBlockSchema } from "../components/blocks/table";
 
 const schema = defineSchema({
   collections: [
@@ -77,7 +77,7 @@ const schema = defineSchema({
                 },
               ],
             },
-            
+
             {
               name: "BlockQuote",
               label: "Block Quote",
@@ -186,10 +186,12 @@ const schema = defineSchema({
                   type: "string",
                   label: "Dropdown Orientation",
                   name: "orientation",
-                  options: ["Vertical", "Horizontal"].map((orientationStyle) => ({
-                    label: orientationStyle,
-                    value: orientationStyle,
-                  })),
+                  options: ["Vertical", "Horizontal"].map(
+                    (orientationStyle) => ({
+                      label: orientationStyle,
+                      value: orientationStyle,
+                    })
+                  ),
                 },
                 {
                   type: "object",
@@ -216,7 +218,7 @@ const schema = defineSchema({
                       label: "Label",
                       name: "label",
                     },
-                   iconSchema,
+                    iconSchema,
                     {
                       type: "string",
                       label: "Description",
@@ -225,7 +227,7 @@ const schema = defineSchema({
                   ],
                 },
               ],
-            }
+            },
           ],
         },
         {
@@ -244,7 +246,7 @@ const schema = defineSchema({
             },
             {
               type: "string",
-              name:"paraText",
+              name: "paraText",
               label: "Para Text",
             },
             {
@@ -569,9 +571,9 @@ export const tinaConfig = defineConfig({
       cms.plugins.add(RouteMapping);
     });
 
-    import('react-tinacms-editor').then((field)=> {
-       cms.plugins.add(field.MarkdownFieldPlugin)
-     })
+    import("react-tinacms-editor").then((field) => {
+      cms.plugins.add(field.MarkdownFieldPlugin);
+    });
 
     return cms;
   },
