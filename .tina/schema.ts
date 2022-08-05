@@ -177,6 +177,53 @@ const schema = defineSchema({
                   label: "Label",
                   name: "label",
                 },
+                {
+                  type: "boolean",
+                  label: "Do you want a dropdown?",
+                  name: "dropdown",
+                },
+                {
+                  type: "string",
+                  label: "Dropdown Orientation",
+                  name: "orientation",
+                  options: ["Vertical", "Horizontal"].map((orientationStyle) => ({
+                    label: orientationStyle,
+                    value: orientationStyle,
+                  })),
+                },
+                {
+                  type: "object",
+                  label: "Sub Items",
+                  name: "subitems",
+                  list: true,
+                  ui: {
+                    itemProps: (item) => {
+                      return { label: item?.label };
+                    },
+                    defaultItem: {
+                      href: "home",
+                      label: "Example Sub Item Heading",
+                    },
+                  },
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "href",
+                    },
+                    {
+                      type: "string",
+                      label: "Label",
+                      name: "label",
+                    },
+                   iconSchema,
+                    {
+                      type: "string",
+                      label: "Description",
+                      name: "description",
+                    },
+                  ],
+                },
               ],
             },
             {
@@ -252,6 +299,60 @@ const schema = defineSchema({
                   type: "string",
                   label: "Description",
                   name: "description",
+                },
+              ],
+            },
+            {
+              type: "object",
+              label: "Dropdown Sub Item Groups",
+              name: "dropdownSubItemGroups",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label };
+                },
+                defaultItem: {
+                  label: "Example Sub Item Group",
+                },
+              },
+              fields: [
+                {
+                    type: "string",
+                    label: "Label",
+                    name: "label",
+                },
+                {
+                  type: "object",
+                  label: "Sub Items",
+                  name: "subitems",
+                  list: true,
+                  ui: {
+                    itemProps: (item) => {
+                      return { label: item?.label };
+                    },
+                    defaultItem: {
+                      href: "home",
+                      label: "Example Resource Nav Heading",
+                    },
+                  },
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "href",
+                    },
+                    {
+                      type: "string",
+                      label: "Label",
+                      name: "label",
+                    },
+                   iconSchema,
+                    {
+                      type: "string",
+                      label: "Description",
+                      name: "description",
+                    },
+                  ],
                 },
               ],
             },

@@ -5,8 +5,8 @@ import { useTheme } from ".";
 import { Icon } from "../util/icon";
 //import { Menu, Transition } from '@headlessui/react';
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
 import { FaBullhorn } from "react-icons/fa";
 import MenuBar from "../mobileNav/menuBar";
 import {
@@ -22,10 +22,10 @@ import {
   SupportIcon,
   ViewGridIcon,
   XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid';
+} from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import { ChevronUpIcon } from "tinacms";
-import {Navigation} from '../mobileNav/index';
+import { Navigation } from "../mobileNav/index";
 
 // import { Banner } from "../blocks/banner";
 
@@ -34,11 +34,9 @@ import {Navigation} from '../mobileNav/index';
 //   { name: 'Contact Us', href: '#', icon: PhoneIcon },
 // ]
 
-
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
-
 
 export const Header = ({ data }) => {
   const theme = useTheme();
@@ -95,12 +93,10 @@ export const Header = ({ data }) => {
   return (
     <div className={`bg-gradient-to-b ${headerColorCss} sticky top-0 z-50`}>
       <Container size="custom" className="py-0 relative z-10 max-w-8xl">
-        
         <div className="flex items-center justify-between">
           <h4 className="select-none text-lg tracking-tight my-4 transition duration-150 ease-out transform">
             <Link href="/" passHref>
               <a className="flex items-center">
-                
                 <Icon
                   parentColor={data.color}
                   data={{
@@ -109,226 +105,181 @@ export const Header = ({ data }) => {
                     style: data.icon.style,
                   }}
                   className="inline-block h-auto w-10 mr-1"
-                />{<div className="font-semibold text-md text-orange-300">AI4BHARAT</div>}
-              
+                />
+                {
+                  <div className="font-semibold text-md text-orange-300">
+                    AI4BHARAT
+                  </div>
+                }
               </a>
             </Link>
           </h4>
           <Popover className="relative">
-      <div className="max-w-7xl mx-auto mr-6 px-4 sm:px-6">
-        <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-        
-          <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
-              <span className="sr-only">Open menu</span>
-              <MenuIcon className="h-6 w-6" aria-hidden="true" />
-            </Popover.Button>
-          </div>
-          
-          <Popover.Group as="nav" className="hidden md:flex space-x-10">
-          <a href="/home" className="text-sm font-semibold text-gray-500 hover:text-gray-900">
-              Home
-            </a>
-            <Popover className="relative">
-              {({ open }) => (
-                <>
-                  <Popover.Button
-                    className={classNames(
-                      open ? 'text-gray-900' : 'text-gray-500',
-                      'group font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900'
-                    )}
-                  >
-                    <span>Areas</span>
-                    <ChevronDownIcon
-                      className={classNames(
-                        open ? 'text-gray-600' : 'text-gray-400',
-                        'ml-2 h-5 w-5 group-hover:text-gray-500'
-                      )}
-                      aria-hidden="true"
-                    />
-                  </Popover.Button>
-
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1"
-                  >
-                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-2xl sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                      <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div className="relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      
-                          {/* {console.log(data)} */}
-                         
-                          {data.areas && data.areas.map((item) => (
-                            <a
-                              key={item.label}
-                              href={item.href}
-                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                            >
-                              {( item.icon &&
-                               <Icon
-                                  parentColor={data.color}
-                                  data={{
-                                    size: "xs",
-                                    name: item.icon.name,
-                                    color: item.icon.color,
-                                    style: item.icon.style,
-                                  }}
-                                  className="flex-shrink-0 h-6 w-6 text-gray-600"
-                                /> 
-                                )}
-                              <div className="ml-4">
-                                <span>
-                                <p className="text-sm font-semibold text-gray-900 inline-block">{item.label}</p>
-                                { item.comingSoon && (
-        <span className="mb-4 py-1 px-3 rounded-full bg-cyan-200 font-semibold text-[0.65rem] inline-block ml-4"><FaBullhorn className="inline-block mr-2 pb-0.5 bg-color-white"/>Coming Soon</span>
-      )} 
-             </span>
-                                <p className="mt-1 text-xs text-gray-500">{item.description}</p>
-                          </div>
-                            </a>
-                          ))
-                          }
-                        </div>
-                     {console.log(data.callsToAction)}
-                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                          {data.callsToAction && data.callsToAction.map((item) => (
-                            <div key={item.name} className="flow-root">
-                              <a
-                                href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md text-xs font-semibold text-gray-900"
-                              >
-                               {( item.icon &&
-                                <Icon
-                                  parentColor={data.color}
-                                  data={{
-                                    size: "xs",
-                                    name: item.icon.name,
-                                    color: item.icon.color,
-                                    style: item.icon.style,
-                                  }}
-                                  className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                   />
-                                   )}
-                                <span className="ml-3">{item.name}</span>
-                              </a>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </Popover.Panel>
-                  </Transition>
-                </>
-              )}
-            </Popover>
-            
-            <Popover className="relative">
-              {({ open }) => (
-                <>
-                  <Popover.Button
-                    className={classNames(
-                      open ? 'text-gray-900' : 'text-gray-500',
-                      'group font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2'
-                    )}
-                  >
-                    <span>Resources</span>
-                    <ChevronDownIcon
-                      className={classNames(
-                        open ? 'text-gray-600' : 'text-gray-400',
-                        'ml-2 h-5 w-5 group-hover:text-gray-500'
-                      )}
-                      aria-hidden="true"
-                    />
-                  </Popover.Button>
-
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1"
-                  >
-                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-xs sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                      <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div className="relative grid  gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-       
-                          {/* {console.log(data.callsToAction)} */}
-                         
-                          {data.resources && data.resources.map((item) => (
-                            <a
-                              key={item.label}
-                              href={item.href}
-                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                            >
-                              {(item.icon &&
-                               <Icon
-                                  parentColor={data.color}
-                                  data={{
-                                    size: "xs",
-                                    name: item.icon.name,
-                                    color: item.icon.color,
-                                    style: item.icon.style,
-                                  }}
-                                  className="flex-shrink-0 h-6 w-6"
-                                /> 
-                            )}
-                              <div className="ml-4">
-                                <p className="text-sm font-semibold text-gray-900">{item.label}</p>
-                                <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                        
-                              </div>
-                            </a>
-                          ))
-                          }
-                        </div>
-                     
-                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-       
-                        </div>
-                      </div>
-                    </Popover.Panel>
-                  </Transition>
-                </>
-              )}
-            </Popover>
-
-           
-            <a href="/positions" className="text-sm font-semibold text-gray-500 hover:text-gray-900">
-              Positions
-            </a>
-
-          </Popover.Group>
-        
-        </div>
-      </div>
-
-      <Transition
-        as={Fragment}
-        enter="duration-200 ease-out"
-        enterFrom="opacity-0 scale-95"
-        enterTo="opacity-100 scale-100"
-        leave="duration-100 ease-in"
-        leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
-      >
-        <Popover.Panel focus className="absolute top-0 right-0 md:hidden">
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-            <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between"> 
-                <div>
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
-                    <span className="sr-only">Close menu</span>
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
+            <div className="max-w-7xl mx-auto mr-6 px-4 sm:px-6">
+              <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+                <div className="-mr-2 -my-2 md:hidden">
+                  <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
+                    <span className="sr-only">Open menu</span>
+                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
+
+                <Popover.Group as="nav" className="hidden md:flex space-x-10">
+                {data.nav && data.nav.map((item)=>(
+                 
+                   <>
+                    {console.log(item)}
+                    {item.dropdown
+                     ? <Popover className="relative">
+                     {({ open }) => (
+                       <>
+                         <Popover.Button
+                           className={classNames(
+                             open ? "text-gray-900" : "text-gray-500",
+                             "group font-semibold rounded-md inline-flex items-center text-sm hover:text-gray-900"
+                           )}
+                         >
+                           <span>{item.label}</span>
+                           <ChevronDownIcon
+                             className={classNames(
+                               open ? "text-gray-600" : "text-gray-400",
+                               "ml-2 h-5 w-5 group-hover:text-gray-500"
+                             )}
+                             aria-hidden="true"
+                           />
+                         </Popover.Button>
+ 
+                         <Transition
+                           as={Fragment}
+                           enter="transition ease-out duration-200"
+                           enterFrom="opacity-0 translate-y-1"
+                           enterTo="opacity-100 translate-y-0"
+                           leave="transition ease-in duration-150"
+                           leaveFrom="opacity-100 translate-y-0"
+                           leaveTo="opacity-0 translate-y-1"
+                         >
+                           <Popover.Panel className={`absolute z-10 -ml-4 mt-3 transform px-2 w-screen sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2
+                            ${
+                              item.orientation=="Vertical"
+                              ? `max-w-xs`
+                              : `max-w-2xl`
+                              }`}
+                            >
+                             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                               <div className={`relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 ${
+                              item.orientation=="Vertical"
+                              ? `grid-cols-1`
+                              : `grid-cols-2`
+                              }`}>
+                                 {/* {console.log(data)} */}
+ 
+                                 {item.subitems &&
+                                   item.subitems.map((item) => (
+                                     <a
+                                       key={item.label}
+                                       href={item.href}
+                                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                     >
+                                       {item.icon && (
+                                         <Icon
+                                           parentColor={data.color}
+                                           data={{
+                                             size: "xs",
+                                             name: item.icon.name,
+                                             color: item.icon.color,
+                                             style: item.icon.style,
+                                           }}
+                                           className="flex-shrink-0 h-6 w-6 text-gray-600"
+                                         />
+                                       )}
+                                       <div className="ml-4">
+                                         <span>
+                                           <p className="text-sm font-semibold text-gray-900 inline-block">
+                                             {item.label}
+                                           </p>
+                                           {item.comingSoon && (
+                                             <span className="mb-4 py-1 px-3 rounded-full bg-cyan-200 font-semibold text-[0.65rem] inline-block ml-4">
+                                               <FaBullhorn className="inline-block mr-2 pb-0.5 bg-color-white" />
+                                               Coming Soon
+                                             </span>
+                                           )}
+                                         </span>
+                                         <p className="mt-1 text-xs text-gray-500">
+                                           {item.description}
+                                         </p>
+                                       </div>
+                                     </a>
+                                   ))}
+                               </div>
+                               {console.log(data.callsToAction)}
+                               <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                                 {data.callsToAction &&
+                                   data.callsToAction.map((item) => (
+                                     <div key={item.name} className="flow-root">
+                                       <a
+                                         href={item.href}
+                                         className="-m-3 p-3 flex items-center rounded-md text-xs font-semibold text-gray-900"
+                                       >
+                                         {item.icon && (
+                                           <Icon
+                                             parentColor={data.color}
+                                             data={{
+                                               size: "xs",
+                                               name: item.icon.name,
+                                               color: item.icon.color,
+                                               style: item.icon.style,
+                                             }}
+                                             className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                           />
+                                         )}
+                                         <span className="ml-3">
+                                           {item.name}
+                                         </span>
+                                       </a>
+                                     </div>
+                                   ))}
+                               </div>
+                             </div>
+                           </Popover.Panel>
+                         </Transition>
+                       </>
+                     )}
+                   </Popover>
+                   : <a
+                   href={item.href}
+                   className="text-sm font-semibold text-gray-500 hover:text-gray-900"
+                 >
+                   {item.label}
+                 </a>
+                  }
+                </>
+                  ))}
+                  
+                </Popover.Group>
               </div>
-              {/* <div className="mt-6">
+            </div>
+
+            <Transition
+              as={Fragment}
+              enter="duration-200 ease-out"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="duration-100 ease-in"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <Popover.Panel focus className="absolute top-0 right-0 md:hidden">
+                <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                  <div className="pt-5 pb-6 px-5">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
+                          <span className="sr-only">Close menu</span>
+                          <XIcon className="h-6 w-6" aria-hidden="true" />
+                        </Popover.Button>
+                      </div>
+                    </div>
+                    <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {data.nav && data.nav.map((item) => (
                     <a
@@ -342,75 +293,71 @@ export const Header = ({ data }) => {
                     </a>
                   ))}
                 </nav>
-              </div> */}
-              <div className="w-[80vw]">
-               <Navigation
-           
-          // use your own router's api to get pathname
-          activeItemId="/category/react"
-          onSelect={({itemId}) => {
-            // maybe push to the route
-          }}
-          items={[
-            {
-              title: 'Home',
-              itemId: '/home',
-            },
-            {
-              title: 'Areas',
-              itemId: '/areas',
-              subNav: [
-                {
-                  title: 'Translation',
-                  itemId: '/category/React',
-                  desc: 'Open-source datasets (Samanantar) and models (IndicTrans) for neural machine translation between English and 12 Indic languages.',
-                  elemBefore: () => <Icon
-                        parentColor={data.color}
-                        data={{
-                          name: 'world',
-                          color: data.icon.color,
-                          style: 'small',
+              </div>
+                    {/* <div className="w-[80vw]">
+                      <Navigation
+                        // use your own router's api to get pathname
+                        activeItemId="/category/react"
+                        onSelect={({ itemId }) => {
+                          // maybe push to the route
                         }}
-                        className="inline-block h-auto w-10 mr-1"
-                    />,
-                },
-              ],
-            },
-            {
-              title: 'Resources',
-              itemId: '/resources',
-              subNav: [
-                {
-                  title: 'About',
-                  itemId: '/contact/about',
-                },
-              ],
-            },
-            {
-              title: 'Positions',
-              itemId: '/positions',
-            },
-          ]}
-        />
-        </div>
-            </div>
-
-          </div>
-          
-        </Popover.Panel>
-        
-      </Transition>
-    </Popover>
-
+                        items={[
+                          {
+                            title: "Home",
+                            itemId: "/home",
+                          },
+                          {
+                            title: "Areas",
+                            itemId: "/areas",
+                            subNav: [
+                              {
+                                title: "Translation",
+                                itemId: "/category/React",
+                                desc: "Open-source datasets (Samanantar) and models (IndicTrans) for neural machine translation between English and 12 Indic languages.",
+                                elemBefore: () => (
+                                  <Icon
+                                    parentColor={data.color}
+                                    data={{
+                                      name: "world",
+                                      color: data.icon.color,
+                                      style: "small",
+                                    }}
+                                    className="inline-block h-auto w-10 mr-1"
+                                  />
+                                ),
+                              },
+                            ],
+                          },
+                          {
+                            title: "Resources",
+                            itemId: "/resources",
+                            subNav: [
+                              {
+                                title: "About",
+                                itemId: "/contact/about",
+                              },
+                            ],
+                          },
+                          {
+                            title: "Positions",
+                            itemId: "/positions",
+                          },
+                        ]}
+                      />
+                    </div>*/}
+                  </div> 
+                </div>
+              </Popover.Panel>
+            </Transition>
+          </Popover>
         </div>
         <div
           className={`absolute h-1 bottom-0 left-4 right-4 -z-1 opacity-5`}
         />
 
-     {/* <MenuBar className="w-screen"/> */}
-    
+        {/* <MenuBar className="w-screen"/> */}
       </Container>
-      
+
       {/* <Banner data={data}/> */}
     </div>
   );

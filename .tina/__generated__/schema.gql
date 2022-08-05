@@ -115,9 +115,25 @@ type GlobalHeaderIcon {
   name: String
 }
 
+type GlobalHeaderNavSubitemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderNavSubitems {
+  href: String
+  label: String
+  icon: GlobalHeaderNavSubitemsIcon
+  description: String
+}
+
 type GlobalHeaderNav {
   href: String
   label: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitems]
 }
 
 type GlobalHeaderAreasIcon {
@@ -148,12 +164,31 @@ type GlobalHeaderResources {
   description: String
 }
 
+type GlobalHeaderDropdownSubItemGroupsSubitemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderDropdownSubItemGroupsSubitems {
+  href: String
+  label: String
+  icon: GlobalHeaderDropdownSubItemGroupsSubitemsIcon
+  description: String
+}
+
+type GlobalHeaderDropdownSubItemGroups {
+  label: String
+  subitems: [GlobalHeaderDropdownSubItemGroupsSubitems]
+}
+
 type GlobalHeader {
   icon: GlobalHeaderIcon
   color: String
   nav: [GlobalHeaderNav]
   areas: [GlobalHeaderAreas]
   resources: [GlobalHeaderResources]
+  dropdownSubItemGroups: [GlobalHeaderDropdownSubItemGroups]
 }
 
 type GlobalFooterSocial {
@@ -563,9 +598,25 @@ input GlobalHeaderIconMutation {
   name: String
 }
 
+input GlobalHeaderNavSubitemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderNavSubitemsMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderNavSubitemsIconMutation
+  description: String
+}
+
 input GlobalHeaderNavMutation {
   href: String
   label: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitemsMutation]
 }
 
 input GlobalHeaderAreasIconMutation {
@@ -596,12 +647,31 @@ input GlobalHeaderResourcesMutation {
   description: String
 }
 
+input GlobalHeaderDropdownSubItemGroupsSubitemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderDropdownSubItemGroupsSubitemsMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderDropdownSubItemGroupsSubitemsIconMutation
+  description: String
+}
+
+input GlobalHeaderDropdownSubItemGroupsMutation {
+  label: String
+  subitems: [GlobalHeaderDropdownSubItemGroupsSubitemsMutation]
+}
+
 input GlobalHeaderMutation {
   icon: GlobalHeaderIconMutation
   color: String
   nav: [GlobalHeaderNavMutation]
   areas: [GlobalHeaderAreasMutation]
   resources: [GlobalHeaderResourcesMutation]
+  dropdownSubItemGroups: [GlobalHeaderDropdownSubItemGroupsMutation]
 }
 
 input GlobalFooterSocialMutation {
