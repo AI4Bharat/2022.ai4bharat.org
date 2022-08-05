@@ -136,40 +136,10 @@ type GlobalHeaderNav {
   subitems: [GlobalHeaderNavSubitems]
 }
 
-type GlobalHeaderAreasIcon {
-  color: String
-  style: String
-  name: String
-}
-
-type GlobalHeaderAreas {
-  href: String
-  label: String
-  icon: GlobalHeaderAreasIcon
-  description: String
-  comingSoon: Boolean
-  updated: Boolean
-}
-
-type GlobalHeaderResourcesIcon {
-  color: String
-  style: String
-  name: String
-}
-
-type GlobalHeaderResources {
-  href: String
-  label: String
-  icon: GlobalHeaderResourcesIcon
-  description: String
-}
-
 type GlobalHeader {
   icon: GlobalHeaderIcon
   color: String
   nav: [GlobalHeaderNav]
-  areas: [GlobalHeaderAreas]
-  resources: [GlobalHeaderResources]
 }
 
 type GlobalFooterSocial {
@@ -600,40 +570,10 @@ input GlobalHeaderNavMutation {
   subitems: [GlobalHeaderNavSubitemsMutation]
 }
 
-input GlobalHeaderAreasIconMutation {
-  color: String
-  style: String
-  name: String
-}
-
-input GlobalHeaderAreasMutation {
-  href: String
-  label: String
-  icon: GlobalHeaderAreasIconMutation
-  description: String
-  comingSoon: Boolean
-  updated: Boolean
-}
-
-input GlobalHeaderResourcesIconMutation {
-  color: String
-  style: String
-  name: String
-}
-
-input GlobalHeaderResourcesMutation {
-  href: String
-  label: String
-  icon: GlobalHeaderResourcesIconMutation
-  description: String
-}
-
 input GlobalHeaderMutation {
   icon: GlobalHeaderIconMutation
   color: String
   nav: [GlobalHeaderNavMutation]
-  areas: [GlobalHeaderAreasMutation]
-  resources: [GlobalHeaderResourcesMutation]
 }
 
 input GlobalFooterSocialMutation {
