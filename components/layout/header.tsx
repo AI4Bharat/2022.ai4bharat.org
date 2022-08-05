@@ -8,6 +8,7 @@ import { Icon } from "../util/icon";
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { FaBullhorn } from "react-icons/fa";
+import MenuBar from "../mobileNav/menuBar";
 import {
   BookmarkAltIcon,
   CalendarIcon,
@@ -23,6 +24,9 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid';
+import { ChevronUpIcon } from "tinacms";
+import {Navigation} from '../mobileNav/index';
+
 // import { Banner } from "../blocks/banner";
 
 // const callsToAction = [
@@ -313,19 +317,18 @@ export const Header = ({ data }) => {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="absolute top-0 p-2 transition transform origin-top-right md:hidden">
+        <Popover.Panel focus className="absolute top-0 right-0 md:hidden">
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
-             
-                <div className="-mr-2">
+              <div className="flex items-center justify-between"> 
+                <div>
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6">
+              {/* <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {data.nav && data.nav.map((item) => (
                     <a
@@ -339,7 +342,57 @@ export const Header = ({ data }) => {
                     </a>
                   ))}
                 </nav>
-              </div>
+              </div> */}
+              <div className="w-[80vw]">
+               <Navigation
+           
+          // use your own router's api to get pathname
+          activeItemId="/category/react"
+          onSelect={({itemId}) => {
+            // maybe push to the route
+          }}
+          items={[
+            {
+              title: 'Home',
+              itemId: '/home',
+            },
+            {
+              title: 'Areas',
+              itemId: '/areas',
+              subNav: [
+                {
+                  title: 'Translation',
+                  itemId: '/category/React',
+                  desc: 'Open-source datasets (Samanantar) and models (IndicTrans) for neural machine translation between English and 12 Indic languages.',
+                  elemBefore: () => <Icon
+                        parentColor={data.color}
+                        data={{
+                          name: 'world',
+                          color: data.icon.color,
+                          style: 'small',
+                        }}
+                        className="inline-block h-auto w-10 mr-1"
+                    />,
+                },
+              ],
+            },
+            {
+              title: 'Resources',
+              itemId: '/resources',
+              subNav: [
+                {
+                  title: 'About',
+                  itemId: '/contact/about',
+                },
+              ],
+            },
+            {
+              title: 'Positions',
+              itemId: '/positions',
+            },
+          ]}
+        />
+        </div>
             </div>
 
           </div>
@@ -353,6 +406,9 @@ export const Header = ({ data }) => {
         <div
           className={`absolute h-1 bottom-0 left-4 right-4 -z-1 opacity-5`}
         />
+
+     {/* <MenuBar className="w-screen"/> */}
+    
       </Container>
       
       {/* <Banner data={data}/> */}
