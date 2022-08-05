@@ -102,7 +102,7 @@ export const Header = ({ data }) => {
                   data={{
                     color: data.icon.color,
                     style: data.icon.style,
-                    ...data.icon
+                    name: data.icon.name,
                   }}
                   className="inline-block h-auto w-10 mr-1"
                 />{<div className="font-semibold text-md text-orange-300">AI4BHARAT</div>}
