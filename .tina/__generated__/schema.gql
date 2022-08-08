@@ -115,45 +115,31 @@ type GlobalHeaderIcon {
   name: String
 }
 
+type GlobalHeaderNavSubitemsIcon {
+  color: String
+  style: String
+  name: String
+}
+
+type GlobalHeaderNavSubitems {
+  href: String
+  label: String
+  icon: GlobalHeaderNavSubitemsIcon
+  description: String
+}
+
 type GlobalHeaderNav {
   href: String
   label: String
-}
-
-type GlobalHeaderAreasIcon {
-  color: String
-  style: String
-  name: String
-}
-
-type GlobalHeaderAreas {
-  href: String
-  label: String
-  icon: GlobalHeaderAreasIcon
-  description: String
-  comingSoon: Boolean
-  updated: Boolean
-}
-
-type GlobalHeaderResourcesIcon {
-  color: String
-  style: String
-  name: String
-}
-
-type GlobalHeaderResources {
-  href: String
-  label: String
-  icon: GlobalHeaderResourcesIcon
-  description: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitems]
 }
 
 type GlobalHeader {
   icon: GlobalHeaderIcon
   color: String
   nav: [GlobalHeaderNav]
-  areas: [GlobalHeaderAreas]
-  resources: [GlobalHeaderResources]
 }
 
 type GlobalFooterSocial {
@@ -563,45 +549,31 @@ input GlobalHeaderIconMutation {
   name: String
 }
 
+input GlobalHeaderNavSubitemsIconMutation {
+  color: String
+  style: String
+  name: String
+}
+
+input GlobalHeaderNavSubitemsMutation {
+  href: String
+  label: String
+  icon: GlobalHeaderNavSubitemsIconMutation
+  description: String
+}
+
 input GlobalHeaderNavMutation {
   href: String
   label: String
-}
-
-input GlobalHeaderAreasIconMutation {
-  color: String
-  style: String
-  name: String
-}
-
-input GlobalHeaderAreasMutation {
-  href: String
-  label: String
-  icon: GlobalHeaderAreasIconMutation
-  description: String
-  comingSoon: Boolean
-  updated: Boolean
-}
-
-input GlobalHeaderResourcesIconMutation {
-  color: String
-  style: String
-  name: String
-}
-
-input GlobalHeaderResourcesMutation {
-  href: String
-  label: String
-  icon: GlobalHeaderResourcesIconMutation
-  description: String
+  dropdown: Boolean
+  orientation: String
+  subitems: [GlobalHeaderNavSubitemsMutation]
 }
 
 input GlobalHeaderMutation {
   icon: GlobalHeaderIconMutation
   color: String
   nav: [GlobalHeaderNavMutation]
-  areas: [GlobalHeaderAreasMutation]
-  resources: [GlobalHeaderResourcesMutation]
 }
 
 input GlobalFooterSocialMutation {

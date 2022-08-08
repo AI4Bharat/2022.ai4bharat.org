@@ -13,7 +13,7 @@ export default function BlogPostPage(
     data: props.data,
   });
   if (data && data.post) {
-    console.log(data);
+    // console.log(data);
     return (
       <Layout rawData={data} data={data.global as any}>
         <Model {...data.post} />;

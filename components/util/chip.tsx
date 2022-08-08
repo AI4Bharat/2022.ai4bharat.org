@@ -150,7 +150,7 @@ export const Chip = ({
     //   :
        chipColor
       ].filled;
-      {console.log(chipColorClasses)}
+      // {console.log(chipColorClasses)}
     return (
       
       <div>

@@ -177,81 +177,52 @@ const schema = defineSchema({
                   label: "Label",
                   name: "label",
                 },
-              ],
-            },
-            {
-              type: "object",
-              label: "Area Nav Links",
-              name: "areas",
-              list: true,
-              ui: {
-                itemProps: (item) => {
-                  return { label: item?.label };
-                },
-                defaultItem: {
-                  href: "home",
-                  label: "Example Area Nav Heading",
-                },
-              },
-              fields: [
-                {
-                  type: "string",
-                  label: "Link",
-                  name: "href",
-                },
-                {
-                  type: "string",
-                  label: "Label",
-                  name: "label",
-                },
-               iconSchema,
-                {
-                  type: "string",
-                  label: "Description",
-                  name: "description",
-                },
                 {
                   type: "boolean",
-                  label: "Coming Soon",
-                  name: "comingSoon",
-                },
-                {
-                  type: "boolean",
-                  label: "Updated",
-                  name: "updated",
-                },
-              ],
-            },
-            {
-              type: "object",
-              label: "Resource Nav Links",
-              name: "resources",
-              list: true,
-              ui: {
-                itemProps: (item) => {
-                  return { label: item?.label };
-                },
-                defaultItem: {
-                  href: "home",
-                  label: "Example Resource Nav Heading",
-                },
-              },
-              fields: [
-                {
-                  type: "string",
-                  label: "Link",
-                  name: "href",
+                  label: "Do you want a dropdown?",
+                  name: "dropdown",
                 },
                 {
                   type: "string",
-                  label: "Label",
-                  name: "label",
+                  label: "Dropdown Orientation",
+                  name: "orientation",
+                  options: ["Vertical", "Horizontal"].map((orientationStyle) => ({
+                    label: orientationStyle,
+                    value: orientationStyle,
+                  })),
                 },
-               iconSchema,
                 {
-                  type: "string",
-                  label: "Description",
-                  name: "description",
+                  type: "object",
+                  label: "Sub Items",
+                  name: "subitems",
+                  list: true,
+                  ui: {
+                    itemProps: (item) => {
+                      return { label: item?.label };
+                    },
+                    defaultItem: {
+                      href: "home",
+                      label: "Example Sub Item Heading",
+                    },
+                  },
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "href",
+                    },
+                    {
+                      type: "string",
+                      label: "Item Heading",
+                      name: "label",
+                    },
+                   iconSchema,
+                    {
+                      type: "string",
+                      label: "Description",
+                      name: "description",
+                    },
+                  ],
                 },
               ],
             },

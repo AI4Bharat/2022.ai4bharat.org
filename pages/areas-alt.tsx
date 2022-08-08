@@ -8,7 +8,7 @@ export default function HomePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   const areas = props.data.postConnection.edges;
-  console.log(areas);
+  // console.log(areas);
 
   return (
     <Layout>
