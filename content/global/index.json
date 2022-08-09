@@ -147,7 +147,18 @@
       {
         "href": "positions",
         "label": "Positions",
-        "dropdown": false
+        "dropdown": false,
+        "subitems": [
+          {
+            "href": "positions",
+            "label": "Open Positions",
+            "icon": {
+              "color": "orange",
+              "style": "circle",
+              "name": "world"
+            }
+          }
+        ]
       }
     ]
   },
