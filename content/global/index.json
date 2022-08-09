@@ -145,10 +145,20 @@
         ]
       },
       {
-        "href": "positions",
-        "label": "Positions",
-        "dropdown": false,
+        "href": "about_us",
+        "label": "About us",
+        "dropdown": true,
+        "orientation": "Vertical",
         "subitems": [
+          {
+            "href": "team",
+            "label": "Our Team",
+            "icon": {
+              "color": "orange",
+              "style": "circle",
+              "name": "user"
+            }
+          },
           {
             "href": "positions",
             "label": "Open Positions",
