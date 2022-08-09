@@ -164,7 +164,7 @@
             "label": "Open Positions",
             "icon": {
               "color": "orange",
-              "style": "circle",
+              "style": "float",
               "name": "world"
             }
           }
