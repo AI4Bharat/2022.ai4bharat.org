@@ -155,7 +155,7 @@
             "label": "Our Team",
             "icon": {
               "color": "orange",
-              "style": "circle",
+              "style": "float",
               "name": "user"
             }
           },
