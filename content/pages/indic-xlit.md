@@ -25,7 +25,7 @@ blocks:
       ## **Know more about IndicXlit**
 
 
-      You can visit the [IndicXlit ](https://github.com/AI4Bharat/IndicXlit)page
+      You can visit the [IndicXlit](https://github.com/AI4Bharat/IndicXlit) page
       to know more about the models including:&#x20;
 
 
