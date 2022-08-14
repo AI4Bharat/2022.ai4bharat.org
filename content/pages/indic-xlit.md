@@ -33,6 +33,8 @@ blocks:
 
       *   Using the publicly available models
 
+      *   IndicXlit accuracy
+
       *   Training IndicXlit
 
       *   Building the Aksharantar dataset
