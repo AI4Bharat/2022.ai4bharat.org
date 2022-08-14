@@ -2,8 +2,8 @@
 blocks:
   - title: Try our models online!
     header: ''
-    description: ''
-    url: 'https://xlit.ai4bharat.org/converter'
+    description: '<iframe src="https://xlit.ai4bharat.org/converter" title="Test"></iframe>'
+    url: ''
     color: default
     _template: pdfEmbed
 ---
