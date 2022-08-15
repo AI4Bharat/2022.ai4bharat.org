@@ -30,15 +30,18 @@ blocks:
           style: float
           name: world
         title: Panel discussion on 'Language AI Ecosystem in India'
-        link: ''
-        linkPlaceholder: Click Here →
+        link: 'https://www.youtube.com/watch?v=gHouIJoENJs'
+        linkPlaceholder: Watch Video→
         comingSoon: false
-        updated: false
+        updated: true
         pointerDetail1: '02:00 PM to 03:30 PM'
         pointerDetail2: 'Place: Auditorium'
-        pointerDetail3: Recordings Coming Soon..
-        text: |+
-
+        pointerDetail3: ''
+        text: >-
+          Members: Sriram Rajamani (Microsoft Research), Vishal Anand (NPCI),
+          Pushpak Bhattacharya (IIT-Bombay), Harsh Jhadakia (Koo), Manivannan
+          (DesiCrew), Brij Kothari (Billion Readers), Kumar Rangarajan (Slang
+          Labs)
       - icon:
           color: ''
           style: float
