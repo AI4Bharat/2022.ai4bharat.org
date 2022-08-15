@@ -24,7 +24,8 @@ blocks:
         pointerDetail3: ''
         text: >-
           Guest Speakers: Nandan (Nilekani Philanthropies), Vivek Raghavan
-          (EkStep Foundation), V. Kamakoti (Director, IIT-M), etc.
+          (EkStep Foundation), V. Kamakoti (Director, IIT-M), Mahesh Panchagnula
+          (Dean, IIT-M)
       - icon:
           color: ''
           style: float
