@@ -15,14 +15,16 @@ blocks:
           style: float
           name: shield
         title: Nilekani Centre at AI4Bharat Inauguration
-        link: ''
-        linkPlaceholder: Click Here→
+        link: 'https://www.youtube.com/watch?v=26T6CTXBx-U'
+        linkPlaceholder: Watch Video→
         comingSoon: false
-        updated: false
+        updated: true
         pointerDetail1: '11:00 AM to 01:00 PM'
         pointerDetail2: 'Place: Auditorium'
-        pointerDetail3: Recordings Coming Soon..
-        text: ''
+        pointerDetail3: ''
+        text: >-
+          Guest Speakers: Nandan (Nilekani Philanthropies), Vivek Raghavan
+          (EkStep Foundation), V. Kamakoti (Director, IIT-M), etc.
       - icon:
           color: ''
           style: float
