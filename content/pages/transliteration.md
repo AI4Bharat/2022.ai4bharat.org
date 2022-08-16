@@ -23,7 +23,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Aksharantar
+        title: "\U0001F4DCAksharantar dataset"
         link: /aksharantar
         comingSoon: false
         updated: false
