@@ -65,7 +65,7 @@ blocks:
           color: ''
           style: float
           name: chat
-        title: IndicXlit Keyboard (En-Indic)
+        title: ⌨️IndicXlit Keyboard
         link: 'https://xlit.ai4bharat.org/'
         linkPlaceholder: Try online →
         comingSoon: false
