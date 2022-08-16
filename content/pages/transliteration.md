@@ -67,11 +67,12 @@ blocks:
           name: chat
         title: IndicXlit Keyboard (En-Indic)
         link: 'https://xlit.ai4bharat.org/'
+        linkPlaceholder: Try online →
         comingSoon: false
         updated: false
         text: >-
-          A online transliteration interface (En-Indic online keyboard) that
-          converts romanized text into Indic text as you type.
+          A transliteration interface (En-Indic online keyboard) that converts
+          romanized text into Indic text as you type.
       - icon:
           color: ''
           style: float
