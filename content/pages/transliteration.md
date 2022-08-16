@@ -39,7 +39,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicXlit
+        title: "\U0001F680IndicXlit model"
         link: /indic-xlit
         comingSoon: false
         updated: false
