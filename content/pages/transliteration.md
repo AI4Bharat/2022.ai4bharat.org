@@ -76,13 +76,14 @@ blocks:
           color: ''
           style: float
           name: chat
-        title: IndicXlit Keyboard (Indic-En)
-        link: ''
-        comingSoon: true
+        title: IndicXlit Converter (Indic-En)
+        link: 'https://xlit.ai4bharat.org/converter'
+        linkPlaceholder: Try online →
+        comingSoon: false
         updated: false
         text: >-
-          A transliteration interface (Indic-En online keyboard) that converts
-          Indic text into romanized text.
+          A transliteration interface (Indic-En) that converts Indic text into
+          romanized text.
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
