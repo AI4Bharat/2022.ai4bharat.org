@@ -70,8 +70,8 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          A transliteration interface (En-Indic online keyboard) that converts
-          romanized text into Indic text.
+          A online transliteration interface (En-Indic online keyboard) that
+          converts romanized text into Indic text as you type.
       - icon:
           color: ''
           style: float
