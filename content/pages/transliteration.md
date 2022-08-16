@@ -85,6 +85,17 @@ blocks:
         text: >-
           A transliteration interface (Indic-En) that converts Indic text into
           romanized text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: "\U0001F4F1IndicSwipe"
+        link: 'https://swipe.ai4bharat.org/'
+        comingSoon: false
+        updated: false
+        text: >-
+          An on-going research for creating swipe-based keypad typing on Android
+          devices for Indic languages
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton
