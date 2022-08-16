@@ -77,14 +77,14 @@ blocks:
           color: ''
           style: float
           name: chat
-        title: IndicXlit Converter (Indic-En)
+        title: "\U0001F4BBIndicXlit Converter"
         link: 'https://xlit.ai4bharat.org/converter'
         linkPlaceholder: Try online →
         comingSoon: false
         updated: false
         text: >-
-          A transliteration interface (Indic-En) that converts Indic text into
-          romanized text.
+          A transliteration interface that converts Indic text into romanized
+          text and vice versa.
       - icon:
           color: ''
           style: float
