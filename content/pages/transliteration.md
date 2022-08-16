@@ -54,7 +54,7 @@ blocks:
           style: float
           name: ''
         title: IndicLangID
-        link: /
+        link: ''
         comingSoon: true
         updated: false
         text: >-
