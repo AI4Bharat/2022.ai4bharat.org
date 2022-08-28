@@ -21,7 +21,7 @@ blocks:
         https://res.cloudinary.com/ai4bharat/image/upload/v1658214899/FlyerShort_paapza.png
     _template: hero
   - quote: Our Mission
-    author: ''
+    author: Artificial Intelligence for Bhārat
     color: tint
     _template: testimonial
   - quoteContent: |-
