@@ -5,7 +5,8 @@ blocks:
     text: >
       AI4Bharat is an inter-disciplinary team of researchers, language experts,
       and software developers. We share a passion for building open-source
-      content and tools for Indian languages.
+      content and tools for Indian languages, hence the name of the initiative:
+      "*Artificial Intelligence for **Bhārat*", shortened  `AI4Bhārat`.
     _template: hero
   - items:
       - teamGroup: founders
