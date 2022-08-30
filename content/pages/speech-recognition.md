@@ -40,13 +40,13 @@ blocks:
           color: ''
           style: float
           name: chat
-        title: Pratilipi Dataset
+        title: Shrutilipi Dataset
         link: /pratilipi
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
-          6,000 hours of speech and text for 10 Indian languages mined and
-          aligned from audio broadcasts and PDF transcripts. from All India
+          Over 6,400 hours of labelled audio across 12 Indian languages mined
+          and aligned from audio broadcasts and PDF transcripts from All India
           Radio.
       - icon:
           color: ''
@@ -90,7 +90,8 @@ blocks:
     color: default
     _template: testimonial
   - items:
-      - icon:
+      - iconShown: false
+        icon:
           color: ''
           style: float
           name: user
@@ -99,9 +100,9 @@ blocks:
           We are working with Desicrew to collect voice samples from across 500
           districts in the country. We are beginning with TamilNadu in August
           2022.
-        iconShown: false
         iconColor: ''
-      - icon:
+      - iconShown: false
+        icon:
           color: ''
           style: float
           name: ''
@@ -110,8 +111,8 @@ blocks:
           Karya is an application developed at Microsoft Research and maintained
           by Karya Inc. We are using Karya to collect voice samples from across
           the country.
-        iconShown: false
-      - icon:
+      - iconShown: false
+        icon:
           color: ''
           style: float
           name: chat
@@ -119,7 +120,6 @@ blocks:
         text: >-
           We are working with NPTEL to deploy the Chitralekha tool for
           subtitling and translating higher education videos. 
-        iconShown: false
     _template: flatCardsGrid
   - tagline: ''
     headline: IndicASR Workshop
