@@ -40,10 +40,12 @@ blocks:
           color: ''
           style: float
           name: chat
-        title: Shrutilipi Dataset
-        link: /pratilipi
+        title: Shrutilipi
+        link: /shrutilipi
         comingSoon: false
         updated: false
+        pointerDetail1: ''
+        pointerDetail2: ''
         text: >-
           Over 6,400 hours of labelled audio across 12 Indian languages mined
           and aligned from audio broadcasts and PDF transcripts from All India
