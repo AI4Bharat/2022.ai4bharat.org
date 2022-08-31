@@ -45,6 +45,27 @@ blocks:
 
       ![](https://res.cloudinary.com/ai4bharat/image/upload/v1661927359/alignment-figure_pie8yd.png
       "Mining Process")
+
+
+      ## Citing our work
+
+
+      If you are using any of the resources, please cite the following article:
+
+
+      ```
+
+      @misc{https://doi.org/10.48550/arxiv.2208.12666,
+        doi = {10.48550/ARXIV.2208.12666},
+        url = {https://arxiv.org/abs/2208.12666},
+        author = {Bhogale, Kaushal Santosh and Raman, Abhigyan and Javed, Tahir and Doddapaneni, Sumanth and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},
+        title = {Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {arXiv.org perpetual, non-exclusive license}
+      }
+
+      ```
     _template: content
 ---
 
