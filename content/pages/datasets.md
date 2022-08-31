@@ -62,6 +62,18 @@ blocks:
           color: ''
           style: float
           name: AI4B
+        title: Shrutilipi
+        link: /shrutilipi
+        comingSoon: false
+        updated: false
+        text: >-
+          Over 6,400 hours of labelled audio across 12 Indian languages mined
+          and aligned from audio broadcasts and PDF transcripts from All India
+          Radio.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
         title: IndicXTREME
         link: /indic-xtreme
         comingSoon: true
@@ -91,18 +103,6 @@ blocks:
         text: >-
           17,000 hours of raw speech data for 40 Indian languages from a wide
           variety of domains including education, news, technology, and finance.
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Shrutilipi
-        link: /shrutilipi
-        comingSoon: false
-        updated: false
-        text: >-
-          Over 6,400 hours of labelled audio across 12 Indian languages mined
-          and aligned from audio broadcasts and PDF transcripts from All India
-          Radio.
       - icon:
           color: ''
           style: float
