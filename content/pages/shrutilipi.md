@@ -74,6 +74,21 @@ blocks:
       19.3          | 19.1          | 20            | 19.9          | 18.9 |
     color: default
     _template: table
+  - caption: Results on Kathbath Unknown Test Set
+    markdownTable: >-
+      |                       | bn   | gu  | hi   | mr   | or   | ta   | te   |
+      Avg. |
+
+      | --------------------- | ---- | --- | ---- | ---- | ---- | ---- | ---- |
+      ---- |
+
+      | Existing              | 14.4 | 15  | 14.7 | 25.6 | 31.5 | 24.1 | 22.3 |
+      21.1 |
+
+      | Existing + Shrutilipi | 13.4 | 9.5 | 9.6  | 15.7 | 21.5 | 19.7 | 17.7 |
+      15.3 |
+    color: default
+    _template: table
   - body: >
       ## Citing our work
 
