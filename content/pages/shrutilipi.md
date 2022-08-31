@@ -66,6 +66,73 @@ blocks:
       }
 
       ```
+
+
+      We would like to hear from you if:
+
+
+      *   You are using our resources. Please let us know how you are putting
+      these resources to use.
+
+      *   You have any feedback on these resources.
+
+
+      ## License
+
+
+      The Shrutilipi dataset, models and code are released under the MIT
+      License.
+
+
+      ## Contributors
+
+
+      *   Kaushal Bhogale
+
+      *   Abhigyan Raman
+
+      *   Tahir Javed
+
+      *   Sumanth Doddapaneni
+
+      *   Anoop Kunchukuttan
+
+      *   Mitesh Khapra
+
+      *   Pratush Kumar
+
+
+      ## Contact
+
+
+      *   Anoop Kunchukuttan
+      ([anoop.kunchukuttan@gmail.com](mailto:anoop.kunchukuttan@gmail.com))
+
+      *   Mitesh Khapra
+      ([miteshk@cse.iitm.ac.in](mailto:miteshk@cse.iitm.ac.in))
+
+      *   Pratyush Kumar
+      ([pratyush@cse.iitm.ac.in](mailto:pratyush@cse.iitm.ac.in))
+
+
+      ## Acknowledgements
+
+
+      We would like to thank the Ministry of Electronics and Information
+      Technology ([MeitY](https://www.meity.gov.in/ "MeitY")) of the Government
+      of India and the Centre for Development of Advanced Computing
+      (\[C-DAC]\(https://www.cdac.in/index.aspx?id=pune)), Pune for generously
+      supporting this work and providing us access to multiple GPU nodes on the
+      Param Siddhi Supercomputer. We would like to thank the EkStep Foundation
+      and Nilekani Philanthropies for their generous grant which went into
+      hiring human resources as well as cloud resources needed for this work. We
+      would like to thank Megh Makhwana from Nvidia for helping in training
+      Conformer-based ASR models. We would like to thank the EkStep Foundation
+      for providing the Tarini dataset. We would like to thank Janki Nawale and
+      Anupama Sujatha from AI4Bharat for helping in coordinating the annotation
+      task, and extend thanks to all the annotators of AI4Bharat team.&#x20;
+    _template: content
+  - body: ''
     _template: content
 ---
 
