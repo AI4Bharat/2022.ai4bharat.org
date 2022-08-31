@@ -15,11 +15,11 @@ blocks:
       hours of data across all languages.
 
 
-      Read more in our paper - [Effectiveness of Mining Audio and Text Pairs
+      Read more in our paper - [*Effectiveness of Mining Audio and Text Pairs
       from Public Data for Improving ASR Systems for Low-Resource
-      Languages](https://arxiv.org/abs/2208.12666 "Effectiveness of Mining Audio
-      and Text Pairs from Public Data for Improving ASR Systems for Low-Resource
-      Languages")
+      Languages*](https://arxiv.org/abs/2208.12666 "Effectiveness of Mining
+      Audio and Text Pairs from Public Data for Improving ASR Systems for
+      Low-Resource Languages")
     _template: content
   - caption: Dataset Details
     markdownTable: |-
