@@ -53,6 +53,27 @@ blocks:
       ![](https://res.cloudinary.com/ai4bharat/image/upload/v1661927359/alignment-figure_pie8yd.png
       "Mining Process")
     _template: content
+  - caption: Results on Hindi Benchmarks
+    markdownTable: >-
+      | Benchmarks                | Kathbath-Known | Kathbath-UnKnown | Tarini |
+      CommonVoice 6 | CommonVoice 7 | CommonVoice 8 | CommonVoice 9 | Avg. |
+
+      | ------------------------- | -------------- | ---------------- | ------ |
+      ------------- | ------------- | ------------- | ------------- | ---- |
+
+      | W2V (MUCS)                | 14.1           | 14.7             | 22.7   |
+      19.4          | 19.5          | 20.7          | 20.5          | 18.8 |
+
+      | W2V (MUCS + Shrutilipi)   | 9.4            | 9.6              | 19.7   |
+      15            | 13.4          | 13.9          | 13.7          | 13.5 |
+
+      | Conf. (MUCS)              | 17.2           | 17.7             | 25.4   |
+      20.9          | 21.4          | 22.9          | 22.8          | 21.2 |
+
+      | Conf. (MUCS + Shrutilipi) | 15.2           | 14.9             | 23.9   |
+      19.3          | 19.1          | 20            | 19.9          | 18.9 |
+    color: default
+    _template: table
   - body: >
       ## Citing our work
 
