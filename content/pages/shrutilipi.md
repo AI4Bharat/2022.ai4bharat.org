@@ -41,6 +41,10 @@ blocks:
       documents from the AIR dataset in the figure below. For a detailed
       description of the data mining process, please refer to our
       [paper](https://arxiv.org/abs/2208.12666 "paper").
+
+
+      ![](https://res.cloudinary.com/ai4bharat/image/upload/v1661927359/alignment-figure_pie8yd.png
+      "Mining Process")
     _template: content
 ---
 
