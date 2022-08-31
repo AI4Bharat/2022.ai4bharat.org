@@ -13,6 +13,13 @@ blocks:
       Indian languages: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi,
       Odia, Punjabi, Sanskrit, Tamil, Telugu, Urdu. The corpus has over 6400
       hours of data across all languages.
+
+
+      Read more in our paper - [Effectiveness of Mining Audio and Text Pairs
+      from Public Data for Improving ASR Systems for Low-Resource
+      Languages](https://arxiv.org/abs/2208.12666 "Effectiveness of Mining Audio
+      and Text Pairs from Public Data for Improving ASR Systems for Low-Resource
+      Languages")
     _template: content
   - caption: Dataset Details
     markdownTable: |-
