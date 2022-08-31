@@ -13,9 +13,6 @@ blocks:
       Indian languages: Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi,
       Odia, Punjabi, Sanskrit, Tamil, Telugu, Urdu. The corpus has over 6400
       hours of data across all languages.
-
-
-      ## Dataset Details
     _template: content
   - caption: Dataset Details
     markdownTable: |-
