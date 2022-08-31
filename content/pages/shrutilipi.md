@@ -17,5 +17,24 @@ blocks:
 
       ## Dataset Details
     _template: content
+  - caption: Dataset Details
+    markdownTable: |-
+      |  Language | Size (in Hours) |
+      |:---------:|:---------------:|
+      |  bengali  |       443       |
+      |  gujarati |       460       |
+      |   hindi   |       1620      |
+      |  kannada  |       459       |
+      | malayalam |       359       |
+      |  marathi  |       1015      |
+      |    odia   |       601       |
+      |  punjabi  |        94       |
+      |  sanskrit |        27       |
+      |   tamil   |       794       |
+      |   telugu  |       390       |
+      |    urdu   |       193       |
+      |   Total   |       6457      |
+    color: default
+    _template: table
 ---
 
