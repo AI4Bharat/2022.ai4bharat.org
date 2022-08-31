@@ -95,13 +95,13 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Pratilipi
-        link: /pratilipi
-        comingSoon: true
+        title: Shrutilipi
+        link: /shrutilipi
+        comingSoon: false
         updated: false
         text: >-
-          6,000 hours of speech and text for 10 Indian languages mined and
-          aligned from audio broadcasts and PDF transcripts. from All India
+          Over 6,400 hours of labelled audio across 12 Indian languages mined
+          and aligned from audio broadcasts and PDF transcripts from All India
           Radio.
       - icon:
           color: ''
