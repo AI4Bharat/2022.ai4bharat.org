@@ -121,16 +121,17 @@ blocks:
       We would like to thank the Ministry of Electronics and Information
       Technology ([MeitY](https://www.meity.gov.in/ "MeitY")) of the Government
       of India and the Centre for Development of Advanced Computing
-      (\[C-DAC]\(https://www.cdac.in/index.aspx?id=pune)), Pune for generously
-      supporting this work and providing us access to multiple GPU nodes on the
-      Param Siddhi Supercomputer. We would like to thank the EkStep Foundation
-      and Nilekani Philanthropies for their generous grant which went into
-      hiring human resources as well as cloud resources needed for this work. We
-      would like to thank Megh Makhwana from Nvidia for helping in training
-      Conformer-based ASR models. We would like to thank the EkStep Foundation
-      for providing the Tarini dataset. We would like to thank Janki Nawale and
-      Anupama Sujatha from AI4Bharat for helping in coordinating the annotation
-      task, and extend thanks to all the annotators of AI4Bharat team.&#x20;
+      ([C-DAC](https://www.cdac.in/index.aspx?id=pune "CDAC")), Pune for
+      generously supporting this work and providing us access to multiple GPU
+      nodes on the Param Siddhi Supercomputer. We would like to thank the EkStep
+      Foundation and Nilekani Philanthropies for their generous grant which went
+      into hiring human resources as well as cloud resources needed for this
+      work. We would like to thank Megh Makhwana from Nvidia for helping in
+      training Conformer-based ASR models. We would like to thank the EkStep
+      Foundation for providing the Tarini dataset. We would like to thank Janki
+      Nawale and Anupama Sujatha from AI4Bharat for helping in coordinating the
+      annotation task, and extend thanks to all the annotators of AI4Bharat
+      team.&#x20;
     _template: content
   - body: ''
     _template: content
