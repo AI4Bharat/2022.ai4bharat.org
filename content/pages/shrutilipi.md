@@ -89,6 +89,14 @@ blocks:
       15.3 |
     color: default
     _template: table
+  - caption: Results on MUCS Benchmark
+    markdownTable: |-
+      |                       | gu   | hi   | mr   | or   | ta   | te   | Avg. |
+      | --------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+      | Existing              | 17.9 | 12   | 13.6 | 23.3 | 20.5 | 16.4 | 17.3 |
+      | Existing + Shrutilipi | 12.8 | 11.1 | 11.4 | 23   | 20.7 | 13.8 | 15.5 |
+    color: default
+    _template: table
   - body: >
       ## Citing our work
 
