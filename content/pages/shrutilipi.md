@@ -33,5 +33,14 @@ blocks:
       |   Total   |       6457      |
     color: default
     _template: table
+  - body: >
+      ## Shrutilipi - Mining Process
+
+
+      We summarize the key procedure we used for mining audio-text pairs from
+      documents from the AIR dataset in the figure below. For a detailed
+      description of the data mining process, please refer to our
+      [paper](https://arxiv.org/abs/2208.12666 "paper").
+    _template: content
 ---
 
