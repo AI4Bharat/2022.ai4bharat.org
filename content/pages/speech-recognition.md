@@ -56,12 +56,12 @@ blocks:
           name: trophy
         title: IndicSUPERB
         link: /indic-superb
-        comingSoon: true
+        comingSoon: false
         updated: false
         text: >-
           A benchmark of speech recognition tasks including ASR, speaker
-          verification and identification, and keyword detection for 10 Indian
-          languages.
+          verification, speaker identification, language identification, query
+          by example, and keyword detection for 12 Indian languages.
       - icon:
           color: ''
           style: float
