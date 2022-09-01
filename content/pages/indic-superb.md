@@ -28,16 +28,15 @@ blocks:
       ## Citing our work
 
 
-      If you are using any of the resources, please cite the following article:
+      If you are using any of the resources, please cite the following
+      article:@misc\{https://doi.org/10.48550/arxiv.2208.11761,
 
 
       ```
-
-      @misc{https://doi.org/10.48550/arxiv.2208.12666,
-        doi = {10.48550/ARXIV.2208.12666},
-        url = {https://arxiv.org/abs/2208.12666},
-        author = {Bhogale, Kaushal Santosh and Raman, Abhigyan and Javed, Tahir and Doddapaneni, Sumanth and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},
-        title = {Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages},
+        doi = {10.48550/ARXIV.2208.11761},
+        url = {https://arxiv.org/abs/2208.11761},
+        author = {Javed, Tahir and Bhogale, Kaushal Santosh and Raman, Abhigyan and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},
+        title = {IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian languages},
         publisher = {arXiv},
         year = {2022},
         copyright = {arXiv.org perpetual, non-exclusive license}
@@ -96,36 +95,7 @@ blocks:
 
       We would like to thank the Ministry of Electronics and Information
       Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India
-      and the Centre for Development of Advanced Computing
-      ([C-DAC](https://www.cdac.in/index.aspx?id=pune)), Pune for generously
-      supporting this work and providing us access to multiple GPU nodes on the
-      Param Siddhi Supercomputer. We would like to thank the EkStep Foundation
-      and Nilekani Philanthropies for their generous grant which went into
-      hiring human resources as well as cloud resources needed for this work. We
-      would like to thank DesiCrew for connecting us to native speakers for
-      collecting data. We would like to thank Vivek Seshadri from Karya Inc. for
-      helping setup the data collection infrastructure on the Karya platform. We
-      would like to thank all the members of AI4Bharat team in helping create
-      the Query by Example dataset.&#x20;
-
-
-      We would like to thank the Ministry of Electronics and Information
-      Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India
       and the Centre for Development of Advanced Computing (
-
-
-      We would like to thank the Ministry of Electronics and Information
-      Technology  of the Government of India and the Centre for Development of
-      Advanced Computing , Pune for generously supporting this work and
-      providing us access to multiple GPU nodes on the Param Siddhi
-      Supercomputer. We would like to thank the EkStep Foundation and Nilekani
-      Philanthropies for their generous grant which went into hiring human
-      resources as well as cloud resources needed for this work. We would like
-      to thank Megh Makhwana from Nvidia for helping in training Conformer-based
-      ASR models. We would like to thank the EkStep Foundation for providing the
-      Tarini dataset. We would like to thank Janki Nawale and Anupama Sujatha
-      from AI4Bharat for helping in coordinating the annotation task, and extend
-      thanks to all the annotators of AI4Bharat team.&#x20;
     _template: content
 ---
 
