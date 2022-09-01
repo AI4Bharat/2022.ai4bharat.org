@@ -20,15 +20,8 @@ blocks:
       languages*](https://arxiv.org/pdf/2208.11761.pdf "")
     color: default
     _template: content
-  - caption: Kathbath
-    markdownTable: >+
-      |  | bengali| gujarati| hindi |kannada| malayalam| marathi| odia| punjabi|
-      sanskrit| tamil| telugu| urdu| 
-
-      |-|-|-|-|-|-|-|-|-|-|-|-|-|
-
-
-
+  - caption: Kathbath dataset details
+    markdownTable: "|  | bengali| gujarati| hindi |kannada| malayalam| marathi| odia| punjabi| sanskrit| tamil| telugu| urdu| \n|-|-|-|-|-|-|-|-|-|-|-|-|-|\nData duration (hours) |115.8 |129.3 |150.2 |65.8 |147.3 |185.2 |111.6 |136.9 |115.5 |185.1 |154.9 |86.7|\nNo. of male speakers | 18 | 44 | 58 | 53 | 12 | 82 | 10 | 65 | 95 | 116 | 53 |36 |\nNo. of female speakers | 28\t|35 |63\t|26\t|20\t|61\t|32\t|77\t|110 |42| 51|31|\nVocabulary (no. of unique words)|  6k | 109k  | 54k | 181k | 268k | 132k | 94k | 56k | 298k | 171k | 147k | 44k |\n"
     color: default
     _template: table
 ---
