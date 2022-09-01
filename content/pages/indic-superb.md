@@ -94,11 +94,6 @@ blocks:
 
 
       We would like to thank the Ministry of Electronics and Information
-      Technology  of the Government of India and the Centre for Development of
-      Advanced Computing (
-
-
-      We would like to thank the Ministry of Electronics and Information
       Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India
       and the Centre for Development of Advanced Computing
       ([C-DAC](https://www.cdac.in/index.aspx?id=pune)), Pune for generously
