@@ -13,9 +13,9 @@ blocks:
       idntification, query by example and keyword spotting.
 
 
-      Read more in our paper - [*Effectiveness of Mining Audio and Text Pairs
-      from Public Data for Improving ASR Systems for Low-Resource
-      Languages*](https://arxiv.org/pdf/2208.11761.pdf "")
+      Read more in our paper - [*IndicSUPERB: A Speech Processing Universal
+      Performance Benchmark for Indian
+      languages*](https://arxiv.org/pdf/2208.11761.pdf "")
     _template: content
   - caption: Kathbath
     markdownTable: >+
