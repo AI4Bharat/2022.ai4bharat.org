@@ -16,6 +16,7 @@ blocks:
       Read more in our paper - [*IndicSUPERB: A Speech Processing Universal
       Performance Benchmark for Indian
       languages*](https://arxiv.org/pdf/2208.11761.pdf "")
+    color: default
     _template: content
   - caption: Kathbath
     markdownTable: >+
