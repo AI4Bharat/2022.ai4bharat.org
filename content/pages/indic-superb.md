@@ -7,10 +7,12 @@ blocks:
       ***
 
 
-      IndicSUPERB is a robust benchmark consisting of 6 Speech language
-      understanding tasks across 12 Indian languages.  The tasks include
+      IndicSUPERB is a robust benchmark consisting of 6 speech language
+      understanding (SLU) tasks across 12 Indian languages.  The tasks include
       automatic  speech recognition, automatic speaker verification, speech
-      idntification, query by example and keyword spotting.
+      idntification, query by example and keyword spotting. The IndicSUPERB also
+      encompasses Kathbath dataset which has 1684 hours of labelled speech data
+      across 12 Indian Languages.      &#x20;
 
 
       Read more in our paper - [*IndicSUPERB: A Speech Processing Universal
