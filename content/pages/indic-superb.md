@@ -94,8 +94,23 @@ blocks:
 
 
       We would like to thank the Ministry of Electronics and Information
+      Technology  of the Government of India and the Centre for Development of
+      Advanced Computing (
+
+
+      We would like to thank the Ministry of Electronics and Information
       Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India
-      and the Centre for Development of Advanced Computing (
+      and the Centre for Development of Advanced Computing
+      ([C-DAC](https://www.cdac.in/index.aspx?id=pune)), Pune for generously
+      supporting this work and providing us access to multiple GPU nodes on the
+      Param Siddhi Supercomputer. We would like to thank the EkStep Foundation
+      and Nilekani Philanthropies for their generous grant which went into
+      hiring human resources as well as cloud resources needed for this work. We
+      would like to thank DesiCrew for connecting us to native speakers for
+      collecting data. We would like to thank Vivek Seshadri from Karya Inc. for
+      helping setup the data collection infrastructure on the Karya platform. We
+      would like to thank all the members of AI4Bharat team in helping create
+      the Query by Example dataset.&#x20;
     _template: content
 ---
 
