@@ -25,7 +25,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: world
         title: Language Experts
         link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
         linkPlaceholder: Apply Here
