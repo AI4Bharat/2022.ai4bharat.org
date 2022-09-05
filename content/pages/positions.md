@@ -42,6 +42,7 @@ blocks:
           name: ''
         title: AI Residents
         link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
+        linkPlaceholder: Apply Here
         comingSoon: false
         updated: false
         text: >-
