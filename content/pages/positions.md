@@ -28,6 +28,7 @@ blocks:
           name: ''
         title: Language Experts
         link: 'https://forms.gle/nAwU5qJDaBZoKddR6'
+        linkPlaceholder: Apply Here
         comingSoon: false
         updated: false
         text: >-
