@@ -11,12 +11,17 @@ blocks:
           color: orange
           style: float
           name: aperture
-        title: Here's Another Feature
+        title: Transcriptionist
+        link: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSfEOrRdR4SxFbzFD9CSR1scrrEUMdbsg7wsbZ6Vfxn6FQoq8A/viewform
+        linkPlaceholder: 'Apply Here '
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Looking for highly motivated transcriptionists for all 22 official
+          Indian languages, who can transcript videos in their native language.
+          This is a remote (WFH), full-time position. You will be getting many
+          opportunities to improve your know-how in AI speech processing.
       - icon:
           color: ''
           style: float
