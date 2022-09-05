@@ -39,7 +39,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: map
         title: AI Residents
         link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
         linkPlaceholder: Apply Here
