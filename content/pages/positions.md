@@ -11,7 +11,7 @@ blocks:
           color: orange
           style: float
           name: aperture
-        title: Transcriptionist
+        title: Transcriptionists
         link: >-
           https://docs.google.com/forms/d/e/1FAIpQLSfEOrRdR4SxFbzFD9CSR1scrrEUMdbsg7wsbZ6Vfxn6FQoq8A/viewform
         linkPlaceholder: 'Apply Here '
