@@ -58,6 +58,7 @@ blocks:
         title: Full Stack Developers
         link: >-
           https://docs.google.com/forms/d/e/1FAIpQLSel3F8MmkET7cfgzi2nCxPAcY6-UuXcVt1tY7YmNykEY8xUhg/viewform
+        linkPlaceholder: Apply Here
         comingSoon: false
         updated: false
         text: >-
