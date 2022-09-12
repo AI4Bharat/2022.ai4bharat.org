@@ -38,7 +38,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicNLG Suite
-        link: /indic-nlg-suite
+        link: /indicnlg-suite
         comingSoon: false
         updated: false
         text: >-
