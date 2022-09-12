@@ -92,7 +92,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicFT
-        link: /indic-ft
+        link: /indicft
         comingSoon: false
         updated: false
         text: >-
