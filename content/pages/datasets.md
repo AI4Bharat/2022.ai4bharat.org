@@ -56,7 +56,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicNLG Suite
-        link: /indic-nlg-suite
+        link: /indicnlg-suite
         text: ' This is a benchmark containing various tasks to evaluate the natural language generation capabilities of language models for Indian languages.'
       - icon:
           color: ''
