@@ -30,7 +30,7 @@ blocks:
           style: float
           name: code
         title: IndicWav2Vec
-        link: /indic-wav-2-vec
+        link: /indicwav2vec
         comingSoon: false
         updated: true
         text: >-
