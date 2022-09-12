@@ -9,7 +9,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicFT
-        link: /indic-ft
+        link: /indicft
         text: >-
           fastText is a well-suited model for Indian languages because of their
           rich morphological structure. We pre-train and benchmark fastText
