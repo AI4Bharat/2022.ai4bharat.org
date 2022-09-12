@@ -9,7 +9,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicCorp
-        link: /indic-corp
+        link: /corpora
         text: >-
           Large sentence-level monolingual
 
