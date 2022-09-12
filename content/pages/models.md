@@ -67,7 +67,7 @@ blocks:
           style: circle
           name: AI4B
         title: IndicWav2Vec
-        link: /indic-wav-2-vec
+        link: /indicwav2vec
         text: >
           IndicWav2Vec is a multilingual speech model pretrained on 40 Indian
           langauges. This model represents the largest diversity of Indian
