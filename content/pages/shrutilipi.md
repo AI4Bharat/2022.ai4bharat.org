@@ -45,12 +45,14 @@ blocks:
       The dataset can be downloaded from the links given below -
 
 
-      Download transcrips in fairseq format -
+      Download transcripts -
       [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip
       "Fairseq Manifests")
 
 
-      The transcripts and audio paths are provided in fairseq format.&#x20;
+      The transcripts and audio paths are provided in
+      [fairseq](https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md#fine-tune-a-pre-trained-model-with-ctc)
+      format. We brea
     _template: content
   - caption: Audio Download Links
     markdownTable: >-
