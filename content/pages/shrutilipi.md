@@ -38,7 +38,7 @@ blocks:
       |   Total   |       6457      |
     color: default
     _template: table
-  - caption: Download Links
+  - caption: Audio Download Links
     markdownTable: >-
       |  Language |  Download Link  |
 
