@@ -46,8 +46,8 @@ blocks:
 
 
       Download transcrips in fairseq format -
-      [https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip
-      "Link")
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip
+      "Fairseq Manifests")
 
 
       The transcripts and audio paths are provided in fairseq format.&#x20;
