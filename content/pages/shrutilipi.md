@@ -38,6 +38,20 @@ blocks:
       |   Total   |       6457      |
     color: default
     _template: table
+  - body: >
+      ## Downloads
+
+
+      The dataset can be downloaded from the links given below -
+
+
+      Download transcrips in fairseq format -
+      [https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\_fairseq.zip
+      "Link")
+
+
+      The transcripts and audio paths are provided in fairseq format.&#x20;
+    _template: content
   - caption: Audio Download Links
     markdownTable: >-
       |  Language |  Download Link  |
