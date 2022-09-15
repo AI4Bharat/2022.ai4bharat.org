@@ -148,11 +148,11 @@ blocks:
       | - | - |  
 
       | IndicWav2Vec Large |
-      [fairseq](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/pretraining/indicwav2vec-large.pt)
+      [fairseq](https://indic-asr-public.objectstore.e2enetworks.net/aaai_ckpts/pretrained_models/indicw2v_large_pretrained.pt)
       | 
 
       | IndicWav2Vec Base |
-      [fairseq](https://storage.googleapis.com/ai4b-public-data/indic-wav2vec/checkpoints/pretraining/indicwav2vec-base.pt)
+      [fairseq](https://indic-asr-public.objectstore.e2enetworks.net/aaai_ckpts/pretrained_models/indicw2v_base_pretrained.pt)
       | 
     markupTable: >-
 
