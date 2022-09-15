@@ -38,11 +38,12 @@ blocks:
       ## Citing our work
 
 
-      If you are using any of the resources, please cite the following
-      article:@misc\{https://doi.org/10.48550/arxiv.2208.11761,
+      If you are using any of the resources, please cite the following article:
 
 
       ```
+
+      @misc{https://doi.org/10.48550/arxiv.2208.11761,
         doi = {10.48550/ARXIV.2208.11761},
         url = {https://arxiv.org/abs/2208.11761},
         author = {Javed, Tahir and Bhogale, Kaushal Santosh and Raman, Abhigyan and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},
