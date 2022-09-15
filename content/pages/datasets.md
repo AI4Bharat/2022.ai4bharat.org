@@ -73,6 +73,29 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: ''
+        title: IndicSUPERB
+        link: /indic-superb
+        comingSoon: false
+        updated: false
+        text: >-
+          A benchmark of speech recognition tasks including ASR, speaker
+          verification, speaker identification, language identification, query
+          by example, and keyword detection for 12 Indian languages.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Dhwani
+        link: /dhwani
+        comingSoon: false
+        updated: false
+        text: >-
+          17,000 hours of raw speech data for 40 Indian languages from a wide
+          variety of domains including education, news, technology, and finance.
+      - icon:
+          color: ''
+          style: float
           name: AI4B
         title: IndicXTREME
         link: /indic-xtreme
@@ -92,29 +115,6 @@ blocks:
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Dhwani
-        link: /dhwani
-        comingSoon: false
-        updated: false
-        text: >-
-          17,000 hours of raw speech data for 40 Indian languages from a wide
-          variety of domains including education, news, technology, and finance.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: IndicSUPERB
-        link: /indic-superb
-        comingSoon: false
-        updated: false
-        text: >-
-          A benchmark of speech recognition tasks including ASR, speaker
-          verification, speaker identification, language identification, query
-          by example, and keyword detection for 12 Indian languages.
     _template: featuresAlt
 ---
 
