@@ -17,13 +17,15 @@ blocks:
 
       Read more in our paper - [*IndicSUPERB: A Speech Processing Universal
       Performance Benchmark for Indian
-      languages*](https://arxiv.org/pdf/2208.11761.pdf "")
+      languages*](https://arxiv.org/pdf/2208.11761.pdf)
     color: default
     _template: content
   - caption: Kathbath dataset details
     markdownTable: "|  | bengali| gujarati| hindi |kannada| malayalam| marathi| odia| punjabi| sanskrit| tamil| telugu| urdu| \n|-|-|-|-|-|-|-|-|-|-|-|-|-|\nData duration (hours) |115.8 |129.3 |150.2 |65.8 |147.3 |185.2 |111.6 |136.9 |115.5 |185.1 |154.9 |86.7|\nNo. of male speakers | 18 | 44 | 58 | 53 | 12 | 82 | 10 | 65 | 95 | 116 | 53 |36 |\nNo. of female speakers | 28\t|35 |63\t|26\t|20\t|61\t|32\t|77\t|110 |42| 51|31|\nVocabulary (no. of unique words)|  6k | 109k  | 54k | 181k | 268k | 132k | 94k | 56k | 298k | 171k | 147k | 44k |\n"
     color: default
     _template: table
+  - body: "## Downloads\n\nThe dataset can be downloaded from the links given below -\n\n**Audio Dataset Format**\n\n*   The audio files for each language are are present in separate folders.\n*   The speaker and gender information is present in the name of the audiofile\n*   The audio files are stored in\_`m4a`\_format. For resampling please check the sample code [here](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data\\_prep\\_scripts/ft\\_scripts)\n*   The audio filenames are numbered by sentence ids in the bulletin, eg.\_`sent_1.wav`\n\n**Folder Structure**\n\n```\ndata\n├── bengali\n│   ├── <bulletin-1>\n│   │   ├── sent_1.wav\n│   │   ├── sent_2.wav\n│   │   ├── ...\n│   │   └── sent_n.txt\n│   ├── <bulletin-2>\n│   └── ...\n├── gujarati\n├── ...\n```\n"
+    _template: content
   - caption: Benchmarks
     markdownTable: |-
       Automatic Speech Recognition 
