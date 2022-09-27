@@ -178,20 +178,20 @@ blocks:
       here](https://bhashini.gov.in/ulca/search-model/63074ab02f73e063a4a83270/model)
       |
 
-      | Marathi | mr|
-      [https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/mr](https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/mr)
+      | Marathi | mr| [Try out
+      here](https://bhashini.gov.in/ulca/search-model/630c14c32f73e063a4a83272/model)
       |
 
       | Nepali | ne| [coming soon - will be back shortly]() |
 
       | Odia | or| [coming soon - will be back shortly]() |
 
-      | Tamil | ta|
-      [https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/ta](https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/ta)
+      | Tamil | ta| [Try out
+      here](https://bhashini.gov.in/ulca/search-model/63076fe5ecae176a1558ffa4/model)
       |
 
-      | Telugu | te|
-      [https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/te](https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/te)
+      | Telugu | te| [Try out
+      here](https://bhashini.gov.in/ulca/search-model/6307704d2f73e063a4a83271/model)
       |
 
       | Sinhala | si| [coming soon - will be back shortly]() |
