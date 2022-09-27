@@ -174,8 +174,8 @@ blocks:
 
       | Gujarati | gu | [coming soon - will be back shortly]() |
 
-      | Hindi | hi |
-      [https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/hi](https://ai4b-dev-asr.ulcacontrib.org/asr/v1/recognize/hi)
+      | Hindi | hi | [Try out
+      here](https://bhashini.gov.in/ulca/search-model/63074ab02f73e063a4a83270/model)
       |
 
       | Marathi | mr|
