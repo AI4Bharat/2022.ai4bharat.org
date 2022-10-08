@@ -88,19 +88,19 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Aparna_htfuwe.jpg
       - teamGroup: tech
         personName: Abhigyan Raman अभिज्ञान रमन
-        personDesignation: 'Ai Resident, AI4Bharat, IIT Madras'
+        personDesignation: 'AI Resident, AI4Bharat, IIT Madras'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Abhigyan_ftxlbr.jpg
       - teamGroup: tech
         personName: Aditya Mitra আদিতো মিত্রো
-        personDesignation: 'Intern, Student, KIIT'
+        personDesignation: 'Ex-Intern, Student, KIIT'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/aditya_eha417.jpg
       - teamGroup: tech
         personName: Akshat Sharma अक्षत शर्मा
-        personDesignation: 'Intern, Student at PICT, Pune'
+        personDesignation: 'Ex-Intern, Student at PICT, Pune'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
@@ -118,13 +118,13 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Ananya_pz8hxp.jpg
       - teamGroup: tech
         personName: Anindita H.K  ಅನಿಂದಿತಾ ಎಚ್.ಕೆ
-        personDesignation: 'Intern, AI4Bharat'
+        personDesignation: 'Ex-Intern, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Anindita_HK_nnuha4.jpg
       - teamGroup: tech
         personName: Anuran Roy অনুরণ রায়
-        personDesignation: 'Intern, Student at VIT'
+        personDesignation: 'Ex-Intern, Student at VIT'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330597/Team%20pictures/Tech/Screenshot_2021-12-21_23-26-12_hlj6g8.png
@@ -142,7 +142,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Aswanth_Kumar_M_i30tio.png
       - teamGroup: tech
         personName: Atharva Naphade
-        personDesignation: 'Intern, Student at PICT, Pune'
+        personDesignation: 'Ex-Intern, Student at PICT, Pune'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Atharva_Naphade_rmcot4.jpg
@@ -172,7 +172,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/GokulNC_pzsdle.jpg
       - teamGroup: tech
         personName: Gowtham கெளதம் ரமேஷ்
-        personDesignation: 'Ai Resident, AI4Bharat'
+        personDesignation: 'AI Resident, AI4Bharat'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Gowtham_s4bar6.jpg
@@ -220,13 +220,13 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Nandini_Mundra_hk8j3k.jpg
       - teamGroup: tech
         personName: Nishant Nayak निशान्त नायक्
-        personDesignation: 'Intern, Student at NIT-K, Surathkal'
+        personDesignation: 'Ex-Intern, Student at NIT-K, Surathkal'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Nishant_Nayak_mvb5ac.jpg
       - teamGroup: tech
         personName: Prakhar Rathi  प्रखर  राठी
-        personDesignation: 'Intern, Alumni, Shiv Nadar University '
+        personDesignation: 'Open Source Contributor, Alumni, Shiv Nadar University '
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Prakhar_zzlmor.jpg
@@ -256,7 +256,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658329423/Team%20pictures/Tech/Raghavan_mopqhk.jpg
       - teamGroup: tech
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
-        personDesignation: 'Intern, Student at PICT, Pune'
+        personDesignation: 'Ex-Intern, Student at PICT, Pune'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/rugved_hgterg.jpg
@@ -304,7 +304,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/yash_mpcpdi.jpg
       - teamGroup: tech
         personName: Yogesh Bhatt योगेश भट्ट
-        personDesignation: 'Intern, Student at Graphic Era University'
+        personDesignation: 'Ex-Intern, Student at Graphic Era University'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
