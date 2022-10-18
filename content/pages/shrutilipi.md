@@ -38,7 +38,7 @@ blocks:
       |   Total   |       6457      |
     color: default
     _template: table
-  - body: "## Downloads\n\nThe dataset can be downloaded from the links given below -\n\nDownload transcripts - [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\\_fairseq.zip \"Fairseq Manifests\")\n\nThe transcripts and audio paths are provided in [fairseq](https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md#fine-tune-a-pre-trained-model-with-ctc) format, which can be directly used for training models using the fairseq library. It consists of 3 files -&#x20;\n\n`train.tsv`\_file - Each line in the file contains the relative path to an audio file and the number of frames in the audio separated by tabs. The file also contains a header which has the absolute path to the dataset.\n\n\n`train.wrd`\_(word) file - each line contains the transcription for the audio file in the '.tsv' file which is corresponding to the same line number (ignoring the header in the '.tsv' file).\n\n\n`train.ltr`\_(letter) file - Tokenized transcriptions for the corresponding sentences in 'wrd' file. (tokenized to characters)\n\n**Audio Dataset Format**\n\n*   The audio files for each news bulletin are present in separate folders.\n*   The audio files are stored in\_`wav`\_format sampled at 16KHz.\n*   The audio filenames are numbered by sentence ids in the bulletin, eg.\_`sent_1.wav`\n\n**Folder Structure**\n\n```\ndata\n├── bengali\n│   ├── <bulletin-1>\n│   │   ├── sent_1.wav\n│   │   ├── sent_2.wav\n│   │   ├── ...\n│   │   └── sent_n.txt\n│   ├── <bulletin-2>\n│   └── ...\n├── gujarati\n├── ...\n```\n"
+  - body: "## Downloads\n\nThe dataset can be downloaded from the links given below -\n\nDownload transcripts - [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutilipi/shrutilipi\\_fairseq.zip)\n\nThe transcripts and audio paths are provided in [fairseq](https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md#fine-tune-a-pre-trained-model-with-ctc) format, which can be directly used for training models using the fairseq library. It consists of 3 files -&#x20;\n\n`train.tsv`\_file - Each line in the file contains the relative path to an audio file and the number of frames in the audio separated by tabs. The file also contains a header which has the absolute path to the dataset.\n\n`train.wrd`\_(word) file - each line contains the transcription for the audio file in the '.tsv' file which is corresponding to the same line number (ignoring the header in the '.tsv' file).\n\n`train.ltr`\_(letter) file - Tokenized transcriptions for the corresponding sentences in 'wrd' file. (tokenized to characters)\n\n**Audio Dataset Format**\n\n*   The audio files for each news bulletin are present in separate folders.\n*   The audio files are stored in\_`wav`\_format sampled at 16KHz.\n*   The audio filenames are numbered by sentence ids in the bulletin, eg.\_`sent_1.wav`\n\n**Folder Structure**\n\n```\ndata\n├── bengali\n│   ├── <bulletin-1>\n│   │   ├── sent_1.wav\n│   │   ├── sent_2.wav\n│   │   ├── ...\n│   │   └── sent_n.txt\n│   ├── <bulletin-2>\n│   └── ...\n├── gujarati\n├── ...\n```\n"
     _template: content
   - caption: Audio Download Links
     markdownTable: >-
@@ -152,91 +152,7 @@ blocks:
       | Existing + Shrutilipi | 12.8 | 11.1 | 11.4 | 23   | 20.7 | 13.8 | 15.5 |
     color: default
     _template: table
-  - body: >
-      ## Citing our work
-
-
-      If you are using any of the resources, please cite the following article:
-
-
-      ```
-
-      @misc{https://doi.org/10.48550/arxiv.2208.12666,
-        doi = {10.48550/ARXIV.2208.12666},
-        url = {https://arxiv.org/abs/2208.12666},
-        author = {Bhogale, Kaushal Santosh and Raman, Abhigyan and Javed, Tahir and Doddapaneni, Sumanth and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},
-        title = {Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages},
-        publisher = {arXiv},
-        year = {2022},
-        copyright = {arXiv.org perpetual, non-exclusive license}
-      }
-
-      ```
-
-
-      We would like to hear from you if:
-
-
-      *   You are using our resources. Please let us know how you are putting
-      these resources to use.
-
-      *   You have any feedback on these resources.
-
-
-      ## License
-
-
-      The Shrutilipi dataset, models and code are released under the MIT
-      License.
-
-
-      ## Contributors
-
-
-      *   Kaushal Bhogale
-
-      *   Abhigyan Raman
-
-      *   Tahir Javed
-
-      *   Sumanth Doddapaneni
-
-      *   Anoop Kunchukuttan
-
-      *   Mitesh Khapra
-
-      *   Pratush Kumar
-
-
-      ## Contact
-
-
-      *   Anoop Kunchukuttan
-      ([anoop.kunchukuttan@gmail.com](mailto:anoop.kunchukuttan@gmail.com))
-
-      *   Mitesh Khapra
-      ([miteshk@cse.iitm.ac.in](mailto:miteshk@cse.iitm.ac.in))
-
-      *   Pratyush Kumar
-      ([pratyush@cse.iitm.ac.in](mailto:pratyush@cse.iitm.ac.in))
-
-
-      ## Acknowledgements
-
-
-      We would like to thank the Ministry of Electronics and Information
-      Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India
-      and the Centre for Development of Advanced Computing
-      ([C-DAC](https://www.cdac.in/index.aspx?id=pune)), Pune for generously
-      supporting this work and providing us access to multiple GPU nodes on the
-      Param Siddhi Supercomputer. We would like to thank the EkStep Foundation
-      and Nilekani Philanthropies for their generous grant which went into
-      hiring human resources as well as cloud resources needed for this work. We
-      would like to thank Megh Makhwana from Nvidia for helping in training
-      Conformer-based ASR models. We would like to thank the EkStep Foundation
-      for providing the Tarini dataset. We would like to thank Janki Nawale and
-      Anupama Sujatha from AI4Bharat for helping in coordinating the annotation
-      task, and extend thanks to all the annotators of AI4Bharat team.&#x20;
+  - body: "## Citing our work\n\nIf you are using any of the resources, please cite the following article:\n\n```\n@misc{https://doi.org/10.48550/arxiv.2208.12666,\n  doi = {10.48550/ARXIV.2208.12666},\n  url = {https://arxiv.org/abs/2208.12666},\n  author = {Bhogale, Kaushal Santosh and Raman, Abhigyan and Javed, Tahir and Doddapaneni, Sumanth and Kunchukuttan, Anoop and Kumar, Pratyush and Khapra, Mitesh M.},\n  title = {Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages},\n  publisher = {arXiv},\n  year = {2022},\n  copyright = {arXiv.org perpetual, non-exclusive license}\n}\n```\n\nWe would like to hear from you if:\n\n*   You are using our resources. Please let us know how you are putting these resources to use.\n*   You have any feedback on these resources.\n\n## License\n\n### Dataset\n\nThe Shrutilipi dataset is released under this licensing scheme:\n\n*   We do not own any of the raw text and audio from which this dataset has been extracted.\n*   The raw dataset and audio have been crawled from the publicly available website: [https://newsonair.gov.in](https://newsonair.gov.in/)\n*   We license the actual packaging of this data under the\_[Creative Commons CC0 license (“no rights reserved”)](http://creativecommons.org/publicdomain/zero/1.0).\n*   To the extent possible under law,\_[AI4Bharat](https://ai4bharat.iitm.ac.in/samanantar)\_has waived all copyright and related or neighboring rights to\_Samanantar\n*   This work is published from: India.\n\n### Code and Models\n\nThe code and models are released under the MIT License.\n\n## Contributors\n\n*   Kaushal Bhogale\n*   Abhigyan Raman\n*   Tahir Javed\n*   Sumanth Doddapaneni\n*   Anoop Kunchukuttan\n*   Mitesh Khapra\n*   Pratush Kumar\n\n## Contact\n\n*   Anoop Kunchukuttan ([anoop.kunchukuttan@gmail.com](mailto:anoop.kunchukuttan@gmail.com))\n*   Mitesh Khapra ([miteshk@cse.iitm.ac.in](mailto:miteshk@cse.iitm.ac.in))\n*   Pratyush Kumar ([pratyush@cse.iitm.ac.in](mailto:pratyush@cse.iitm.ac.in))\n\n## Acknowledgements\n\nWe would like to thank the Ministry of Electronics and Information Technology ([MeitY](https://www.meity.gov.in/)) of the Government of India and the Centre for Development of Advanced Computing ([C-DAC](https://www.cdac.in/index.aspx?id=pune)), Pune for generously supporting this work and providing us access to multiple GPU nodes on the Param Siddhi Supercomputer. We would like to thank the EkStep Foundation and Nilekani Philanthropies for their generous grant which went into hiring human resources as well as cloud resources needed for this work. We would like to thank Megh Makhwana from Nvidia for helping in training Conformer-based ASR models. We would like to thank the EkStep Foundation for providing the Tarini dataset. We would like to thank Janki Nawale and Anupama Sujatha from AI4Bharat for helping in coordinating the annotation task, and extend thanks to all the annotators of AI4Bharat team.&#x20;\n"
     _template: content
 ---
 
