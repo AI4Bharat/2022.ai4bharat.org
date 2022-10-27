@@ -95,6 +95,40 @@ blocks:
       GB)  |
     color: default
     _template: table
+  - caption: Model Download links
+    markdownTable: >-
+      |  Language |  Download Link (3.6GB)  |
+
+      |:---------:|:---------------:|
+
+      |  bengali  |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/bengali/checkpoint_best.pt)
+      |
+
+      |  gujarati |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/gujarati/checkpoint_best.pt
+      )|
+
+      |   hindi   |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/hindi/checkpoint_best.pt)
+      |
+
+      |  marathi  |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/marathi/checkpoint_best.pt)|
+
+      |    odia   |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/odia/checkpoint_best.pt)
+      |
+
+      |   tamil   |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/tamil/checkpoint_best.pt)
+      |
+
+      |   telugu  |
+      [Link](https://indic-asr-public.objectstore.e2enetworks.net/shrutil/shrutilipi_models/telugu/checkpoint_best.pt)
+      |
+    color: ''
+    _template: table
   - body: >
       ## Shrutilipi - Mining Process
 
