@@ -40,7 +40,7 @@ blocks:
       <td>Soham News Article Classification</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/soham-articles.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/soham-articles.tar.gz">link</a></td>
 
       </tr>
 
@@ -49,7 +49,7 @@ blocks:
       <td>iNLTK Headline Classification</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/inltk-headlines.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/inltk-headlines.tar.gz">link</a></td>
 
       </tr>
 
@@ -58,7 +58,7 @@ blocks:
       <td>BBC News Article Classification</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/bbc-articles.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/bbc-articles.tar.gz">link</a></td>
 
       </tr>
 
@@ -67,7 +67,7 @@ blocks:
       <td>AI4Bharat Wikipedia Section Titles</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-section-titles.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/wiki-section-titles.tar.gz">link</a></td>
 
       </tr>
 
@@ -76,7 +76,7 @@ blocks:
       <td>AI4Bharat Cloze-style Question Answering</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wiki-cloze.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/wiki-cloze.tar.gz">link</a></td>
 
       </tr>
 
@@ -85,7 +85,7 @@ blocks:
       <td>AI4Bharat Winnograd Natural Language Inference</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wnli-translated.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/wnli-translated.tar.gz">link</a></td>
 
       </tr>
 
@@ -94,7 +94,7 @@ blocks:
       <td>AI4Bharat Choice of Plausible Alternatives</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/copa-translated.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/copa-translated.tar.gz">link</a></td>
 
       </tr>
 
@@ -103,7 +103,7 @@ blocks:
       <td>WikiAnnNER</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/wikiann-ner.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/wikiann-ner.tar.gz">link</a></td>
 
       </tr>
 
@@ -112,7 +112,7 @@ blocks:
       <td>CVIT-MKB Cross-lingual Sentence Retrieval</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/cvit-mkb.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/cvit-mkb.tar.gz">link</a></td>
 
       </tr>
 
@@ -121,7 +121,7 @@ blocks:
       <td>IITP Movie Reviews Sentiment</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-movie-reviews.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/iitp-movie-reviews.tar.gz">link</a></td>
 
       </tr>
 
@@ -130,7 +130,7 @@ blocks:
       <td>IITP Product Reviews</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/iitp-product-reviews.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/iitp-product-reviews.tar.gz">link</a></td>
 
       </tr>
 
@@ -139,7 +139,7 @@ blocks:
       <td>ACTSA Sentiment Classifcation</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/actsa.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/actsa.tar.gz">link</a></td>
 
       </tr>
 
@@ -148,7 +148,7 @@ blocks:
       <td>MIDAS Discourse</td>
 
       <td><a
-      href="https://storage.googleapis.com/ai4bharat-public-indic-nlp-corpora/evaluations/midas-discourse.tar.gz">link</a></td>
+      href="https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/IndicGLUE/midas-discourse.tar.gz">link</a></td>
 
       </tr>
 
@@ -166,7 +166,7 @@ blocks:
       </table>
     color: default
     _template: table
-  - body: "**\n\nThe code to run evaluations on the above dataset is provided in the\_[IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the\_[citations](https://indicnlp.ai4bharat.org/indic-glue/#citations).\n\n### Tasks\n\n#### News Category Classification\n\nPredict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:\n\n*Article Snippet*:\n\n```\nகர்நாடக சட்டப் பேரவையில் வெற்றி பெற்ற எம்எல்ஏக்கள் இன்று பதவியேற்றுக் கொண்ட நிலையில் , காங்கிரஸ் எம்எல்ஏ ஆனந்த் சிங் க்கள் ஆப்சென்ட் ஆகி அதிர்ச்சியை ஏற்படுத்தியுள்ளார் . உச்சநீதிமன்ற உத்தரவுப்படி இன்று மாலை முதலமைச்சர் எடியூரப்பா இன்று நம்பிக்கை வாக்கெடுப்பு நடத்தி பெரும்பான்மையை நிரூபிக்க உச்சநீதிமன்றம் உத்தரவிட்டது . \r\n\n```\n\n*Category*: Politics\n\n*Datasets*\n\n*   AI4Bharat\n*   Soham Articles Genre Classification\n*   iNLTK Headlines Genre Classifcation\n*   BBC News Articles\n\n***\n\n#### Headline Prediction\n\nPredict the correct headline for a news article from a given list of four candidate headlines. The dataset contains around 880k examples across 11 Indian languages. Example:\n\n*News Article:*\n\n```\n ರಾಷ್ಟ್ರೀಯ\\nಪುಣೆ: 23 ವರ್ಷದ ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯೊಬ್ಬರನ್ನು ನಡು ರಸ್ತೆಯಲ್ಲಿಯೇ ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಬರ್ಬರವಾಗಿ ಹತ್ಯೆ ಮಾಡಿರುವ ಘಟನೆ ಪುಣೆಯಲ್ಲಿ ಶನಿವಾರ ರಾತ್ರಿ ನಡೆದಿದೆ.\\nಅಂತರ ದಾಸ್ ಕೊಲೆಯಾದ ಮಹಿಳಾ ಟೆಕ್ಕಿಯಾಗಿದ್ದಾರೆ. ಅಂತರಾ ಅವರು ಪಶ್ಚಿಮ ಬಂಗಾಳದ ಮೂಲದವರಾಗಿದ್ದಾರೆ. ಕಳೆದ ರಾತ್ರಿ 8.00 ಗಂಟೆ ಸುಮಾರಿಗೆ ಕೆಲಸ ಮುಗಿಸಿ ಮನೆಗೆ ತೆರಳುತ್ತಿದ್ದ ಸಂದರ್ಭದಲ್ಲಿ ಅಂತರಾ ಅವರ ಮೇಲೆ ದಾಳಿ ಮಾಡಿರುವ ದುಷ್ಕರ್ಮಿಗಳು ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಹಲ್ಲೆ ನಡೆಸಿದ್ದಾರೆಂದು ಪೊಲೀಸರು ಹೇಳಿದ್ದಾರೆ.\\nದಾಳಿ ನಡೆಸಿದ ನಂತರ ರಕ್ತದ ಮಡುವಿನಲ್ಲಿ ಬಿದ್ದು ಒದ್ದಾಡುತ್ತಿದ್ದ ಅಂತರಾ ಅವರನ್ನು ಸ್ಥಳೀಯರು ಆಸ್ಪತ್ರೆಗೆ ದಾಳಸಿದ್ದಾರೆ. ಆದರೆ, ಆಸ್ಪತ್ರೆಗೆ ದಾಖಲಿಸುವಷ್ಟರಲ್ಲಿ ಅಂತರಾ ಅವರು ಸಾವನ್ನಪ್ಪಿದ್ದಾರೆಂದು ಅವರು ಹೇಳಿದ್ದಾರೆ.\\nಪ್ರಕರಣ ದಾಖಲಿಸಿಕೊಂಡಿರುವ ಪೊಲೀಸರು ತನಿಖೆ ಆರಂಭಿಸಿದ್ದಾರೆ\",\r\n\n```\n\n*   *Candidate 1*: ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯ ಬರ್ಬರ ಹತ್ಯೆ\_*\\[correct answer]*\n*   *Candidate 2:*\_ಮಾನಸಿಕ ಅಸ್ವಸ್ಥೆ ಮೇಲೆ ಮಕ್ಕಳ ಕಳ್ಳಿ ಎಂದು ಭೀಕರ ಹಲ್ಲೆ\n*   *Candidate 3:*\_ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ\n*   *Candidate 4:*\_ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Wikipedia Section Title Prediction\n\nPredict the correct title for a Wikipedia section from a given list of four candidate titles. The dataset has 400k examples across 11 Indian languages.\n\n*Section Text*:\n\n```\n2005માં, જેકમેન નિર્માણ કંપની, સીડ પ્રોડકશન્સ ઊભી કરવા તેના લાંબાસમયના મદદનીશ જહોન પાલેર્મો સાથે જોડાયા, જેમનો પ્રથમ પ્રોજેકટ 2007માં વિવા લાફલિન હતો. જેકમેનની અભિનેત્રી પત્ની ડેબોરા-લી ફર્નેસ પણ કંપનીમાં જોડાઈ, અને પાલેર્મોએ પોતાના, ફર્નેસ અને જેકમેન માટે “ યુનિટી ” અર્થવાળા લખાણની આ ત્રણ વીંટીઓ બનાવી.[૨૭] ત્રણેયના સહયોગ અંગે જેકમેને જણાવ્યું કે “ મારી જિંદગીમાં જેમની સાથે મેં કામ કર્યું તે ભાગીદારો અંગે ડેબ અને જહોન પાલેર્મો અંગે હું ખૂબ નસીબદાર છું. ખરેખર તેથી કામ થયું. અમારી પાસે જુદું જુદું સાર્મથ્ય હતું. હું તે પસંદ કરતો હતો. I love it. તે ખૂબ ઉત્તેજક છે. ”[૨૮]ફોકસ આધારિત સીડ લેબલ, આમન્ડા સ્કિવેઈટઝર, કેથરિન ટેમ્બલિન, એલન મંડેલબમ અને જોય મરિનો તેમજ સાથે સિડની આધારિત નિર્માણ કચેરીનું સંચાલન કરનાર અલાના ફ્રીનો સમાવેશ થતાં કદમાં વિસ્તૃત બની. આ કંપીનોનો ઉદ્દેશ જેકમેનના વતનના દેશની સ્થાનિક પ્રતિભાને કામે લેવા મધ્યમ બજેટવાળી ફિલ્મો બનાવવાનો છે. \r\n\n```\n\n*   *Candidate 1:*\_એકસ-મેન\n*   *Candidate 2:*\_કારકીર્દિ\n*   *Candidate 3:*\_નિર્માણ કંપન \\[*correct answer*]\n*   *Candidate 4:*\_ઓસ્ટ્રેલિય\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Cloze-style Question Answering\n\nGiven a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:\n\n*Text*\n\n```\nਹੋਮੀ ਭਾਬਾ ਦਾ ਜਨਮ 1949 ਈ ਨੂਂ ਮੁੰਬਈ ਵਿੱਚ ਪਾਰਸੀ ਪਰਿਵਾਰ ਵਿੱਚ ਹੋਇਆ । ਸੇਂਟ ਮੇਰੀ ਤੋਂ ਮੁਢਲੀ ਸਿਖਿਆ ਪ੍ਰਾਪਤ ਕਰਕੇ ਉਹ ਬੰਬੇ ਯੂਨੀਵਰਸਿਟੀ ਗ੍ਰੈਜੁਏਸ਼ਨ ਲਈ ਚਲਾ ਗਿਆ । ਇਸ ਤੋਂ ਬਾਅਦ ਉਹ ਉਚੇਰੀ ਸਿਖਿਆ ਲਈ <MASK> ਚਲਾ ਗਿਆ । ਉਸਨੇ ਓਥੇ ਆਕਸਫੋਰਡ ਯੂਨੀਵਰਸਿਟੀ ਤੋਂ ਐਮ.ਏ ਅਤੇ ਐਮ ਫਿਲ ਦੀਆਂ ਡਿਗਰੀਆਂ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ । ਤਕਰੀਬਨ ਦਸ ਸਾਲ ਤਕ ਉਸਨੇ ਸੁਸੈਕਸ ਯੂਨੀਵਰਸਿਟੀ ਦੇ ਅੰਗਰੇਜ਼ੀ ਵਿਭਾਗ ਵਿੱਚ ਬਤੌਰ ਲੈਕਚਰਾਰ ਕਾਰਜ ਨਿਭਾਇਆ । ਇਸਤੋਂ ਇਲਾਵਾ ਹੋਮੀ ਭਾਬਾ ਪੈਨਸੁਲਵੇਨਿਆ , ਸ਼ਿਕਾਗੋ ਅਤੇ ਅਮਰੀਕਾ ਦੀ ਹਾਰਵਰਡ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਵੀ ਪ੍ਰੋਫ਼ੇਸਰ ਦੇ ਆਹੁਦੇ ਤੇ ਰਿਹਾ ।\r\n\n```\n\n*   *Candidate 1*: ਬਰਤਾਨੀਆ\_*\\[correct answer]*\n*   *Candidate 2*: ਭਾਰਤ\n*   *Candidate 3*: ਸ਼ਿਕਾਗੋ\n*   *Candidate 4*: ਪਾਕਿਸਤਾਨ\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Named Entity Recognition\n\nRecognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.\n"
+  - body: "\\*\\*\n\nThe code to run evaluations on the above dataset is provided in the\_[IndicBERT repo](https://github.com/AI4Bharat/indic-bert). To find the source of each dataset, please refer the\_[citations](https://indicnlp.ai4bharat.org/indic-glue/#citations).\n\n### Tasks\n\n#### News Category Classification\n\nPredict the genre of a given news article. The dataset contains around 125k news articles across 9 Indian languages. Example:\n\n*Article Snippet*:\n\n```\nகர்நாடக சட்டப் பேரவையில் வெற்றி பெற்ற எம்எல்ஏக்கள் இன்று பதவியேற்றுக் கொண்ட நிலையில் , காங்கிரஸ் எம்எல்ஏ ஆனந்த் சிங் க்கள் ஆப்சென்ட் ஆகி அதிர்ச்சியை ஏற்படுத்தியுள்ளார் . உச்சநீதிமன்ற உத்தரவுப்படி இன்று மாலை முதலமைச்சர் எடியூரப்பா இன்று நம்பிக்கை வாக்கெடுப்பு நடத்தி பெரும்பான்மையை நிரூபிக்க உச்சநீதிமன்றம் உத்தரவிட்டது . \r\n\n```\n\n*Category*: Politics\n\n*Datasets*\n\n*   AI4Bharat\n*   Soham Articles Genre Classification\n*   iNLTK Headlines Genre Classifcation\n*   BBC News Articles\n\n***\n\n#### Headline Prediction\n\nPredict the correct headline for a news article from a given list of four candidate headlines. The dataset contains around 880k examples across 11 Indian languages. Example:\n\n*News Article:*\n\n```\n ರಾಷ್ಟ್ರೀಯ\\nಪುಣೆ: 23 ವರ್ಷದ ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯೊಬ್ಬರನ್ನು ನಡು ರಸ್ತೆಯಲ್ಲಿಯೇ ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಬರ್ಬರವಾಗಿ ಹತ್ಯೆ ಮಾಡಿರುವ ಘಟನೆ ಪುಣೆಯಲ್ಲಿ ಶನಿವಾರ ರಾತ್ರಿ ನಡೆದಿದೆ.\\nಅಂತರ ದಾಸ್ ಕೊಲೆಯಾದ ಮಹಿಳಾ ಟೆಕ್ಕಿಯಾಗಿದ್ದಾರೆ. ಅಂತರಾ ಅವರು ಪಶ್ಚಿಮ ಬಂಗಾಳದ ಮೂಲದವರಾಗಿದ್ದಾರೆ. ಕಳೆದ ರಾತ್ರಿ 8.00 ಗಂಟೆ ಸುಮಾರಿಗೆ ಕೆಲಸ ಮುಗಿಸಿ ಮನೆಗೆ ತೆರಳುತ್ತಿದ್ದ ಸಂದರ್ಭದಲ್ಲಿ ಅಂತರಾ ಅವರ ಮೇಲೆ ದಾಳಿ ಮಾಡಿರುವ ದುಷ್ಕರ್ಮಿಗಳು ಮಾರಾಕಾಸ್ತ್ರಗಳಿಂದ ಹಲ್ಲೆ ನಡೆಸಿದ್ದಾರೆಂದು ಪೊಲೀಸರು ಹೇಳಿದ್ದಾರೆ.\\nದಾಳಿ ನಡೆಸಿದ ನಂತರ ರಕ್ತದ ಮಡುವಿನಲ್ಲಿ ಬಿದ್ದು ಒದ್ದಾಡುತ್ತಿದ್ದ ಅಂತರಾ ಅವರನ್ನು ಸ್ಥಳೀಯರು ಆಸ್ಪತ್ರೆಗೆ ದಾಳಸಿದ್ದಾರೆ. ಆದರೆ, ಆಸ್ಪತ್ರೆಗೆ ದಾಖಲಿಸುವಷ್ಟರಲ್ಲಿ ಅಂತರಾ ಅವರು ಸಾವನ್ನಪ್ಪಿದ್ದಾರೆಂದು ಅವರು ಹೇಳಿದ್ದಾರೆ.\\nಪ್ರಕರಣ ದಾಖಲಿಸಿಕೊಂಡಿರುವ ಪೊಲೀಸರು ತನಿಖೆ ಆರಂಭಿಸಿದ್ದಾರೆ\",\r\n\n```\n\n*   *Candidate 1*: ಇನ್ಫೋಸಿಸ್ ಮಹಿಳಾ ಟೆಕ್ಕಿಯ ಬರ್ಬರ ಹತ್ಯೆ\_*\\[correct answer]*\n*   *Candidate 2:*\_ಮಾನಸಿಕ ಅಸ್ವಸ್ಥೆ ಮೇಲೆ ಮಕ್ಕಳ ಕಳ್ಳಿ ಎಂದು ಭೀಕರ ಹಲ್ಲೆ\n*   *Candidate 3:*\_ಕಸಬ ಬೆಂಗ್ರೆಯಲ್ಲಿ ಮುಸುಕುಧಾರಿಗಳ ತಂಡದಿಂದ ಮೂವರು ಯುವಕರ ಮೇಲೆ ಹಲ್ಲೆ : ಓರ್ವ ಗಂಭೀರ\n*   *Candidate 4:*\_ಕಣಿವೆ ರಾಜ್ಯದಲ್ಲಿ mobile ಬಂದ್, ಪ್ರಿಂಟಿಂಗ್ ಪ್ರೆಸ್ ಮೇಲೆ ದಾಳಿ\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Wikipedia Section Title Prediction\n\nPredict the correct title for a Wikipedia section from a given list of four candidate titles. The dataset has 400k examples across 11 Indian languages.\n\n*Section Text*:\n\n```\n2005માં, જેકમેન નિર્માણ કંપની, સીડ પ્રોડકશન્સ ઊભી કરવા તેના લાંબાસમયના મદદનીશ જહોન પાલેર્મો સાથે જોડાયા, જેમનો પ્રથમ પ્રોજેકટ 2007માં વિવા લાફલિન હતો. જેકમેનની અભિનેત્રી પત્ની ડેબોરા-લી ફર્નેસ પણ કંપનીમાં જોડાઈ, અને પાલેર્મોએ પોતાના, ફર્નેસ અને જેકમેન માટે “ યુનિટી ” અર્થવાળા લખાણની આ ત્રણ વીંટીઓ બનાવી.[૨૭] ત્રણેયના સહયોગ અંગે જેકમેને જણાવ્યું કે “ મારી જિંદગીમાં જેમની સાથે મેં કામ કર્યું તે ભાગીદારો અંગે ડેબ અને જહોન પાલેર્મો અંગે હું ખૂબ નસીબદાર છું. ખરેખર તેથી કામ થયું. અમારી પાસે જુદું જુદું સાર્મથ્ય હતું. હું તે પસંદ કરતો હતો. I love it. તે ખૂબ ઉત્તેજક છે. ”[૨૮]ફોકસ આધારિત સીડ લેબલ, આમન્ડા સ્કિવેઈટઝર, કેથરિન ટેમ્બલિન, એલન મંડેલબમ અને જોય મરિનો તેમજ સાથે સિડની આધારિત નિર્માણ કચેરીનું સંચાલન કરનાર અલાના ફ્રીનો સમાવેશ થતાં કદમાં વિસ્તૃત બની. આ કંપીનોનો ઉદ્દેશ જેકમેનના વતનના દેશની સ્થાનિક પ્રતિભાને કામે લેવા મધ્યમ બજેટવાળી ફિલ્મો બનાવવાનો છે. \r\n\n```\n\n*   *Candidate 1:*\_એકસ-મેન\n*   *Candidate 2:*\_કારકીર્દિ\n*   *Candidate 3:*\_નિર્માણ કંપન \\[*correct answer*]\n*   *Candidate 4:*\_ઓસ્ટ્રેલિય\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Cloze-style Question Answering\n\nGiven a text with an entity randomly masked, the task is to predict that masked entity from a list of 4 candidate entities. The dataset contains around 239k examples across 11 languages. Example:\n\n*Text*\n\n```\nਹੋਮੀ ਭਾਬਾ ਦਾ ਜਨਮ 1949 ਈ ਨੂਂ ਮੁੰਬਈ ਵਿੱਚ ਪਾਰਸੀ ਪਰਿਵਾਰ ਵਿੱਚ ਹੋਇਆ । ਸੇਂਟ ਮੇਰੀ ਤੋਂ ਮੁਢਲੀ ਸਿਖਿਆ ਪ੍ਰਾਪਤ ਕਰਕੇ ਉਹ ਬੰਬੇ ਯੂਨੀਵਰਸਿਟੀ ਗ੍ਰੈਜੁਏਸ਼ਨ ਲਈ ਚਲਾ ਗਿਆ । ਇਸ ਤੋਂ ਬਾਅਦ ਉਹ ਉਚੇਰੀ ਸਿਖਿਆ ਲਈ <MASK> ਚਲਾ ਗਿਆ । ਉਸਨੇ ਓਥੇ ਆਕਸਫੋਰਡ ਯੂਨੀਵਰਸਿਟੀ ਤੋਂ ਐਮ.ਏ ਅਤੇ ਐਮ ਫਿਲ ਦੀਆਂ ਡਿਗਰੀਆਂ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ । ਤਕਰੀਬਨ ਦਸ ਸਾਲ ਤਕ ਉਸਨੇ ਸੁਸੈਕਸ ਯੂਨੀਵਰਸਿਟੀ ਦੇ ਅੰਗਰੇਜ਼ੀ ਵਿਭਾਗ ਵਿੱਚ ਬਤੌਰ ਲੈਕਚਰਾਰ ਕਾਰਜ ਨਿਭਾਇਆ । ਇਸਤੋਂ ਇਲਾਵਾ ਹੋਮੀ ਭਾਬਾ ਪੈਨਸੁਲਵੇਨਿਆ , ਸ਼ਿਕਾਗੋ ਅਤੇ ਅਮਰੀਕਾ ਦੀ ਹਾਰਵਰਡ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਵੀ ਪ੍ਰੋਫ਼ੇਸਰ ਦੇ ਆਹੁਦੇ ਤੇ ਰਿਹਾ ।\r\n\n```\n\n*   *Candidate 1*: ਬਰਤਾਨੀਆ\_*\\[correct answer]*\n*   *Candidate 2*: ਭਾਰਤ\n*   *Candidate 3*: ਸ਼ਿਕਾਗੋ\n*   *Candidate 4*: ਪਾਕਿਸਤਾਨ\n\n*Datasets*\n\n*   AI4Bharat\n\n***\n\n#### Named Entity Recognition\n\nRecognize entities and their coarse types in a sequence of words. The dataset contains around 787k examples across 11 Indian languages.\n"
     _template: content
   - caption: Example
     markupTable: |-
