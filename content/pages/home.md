@@ -189,17 +189,18 @@ blocks:
     color: default
     _template: testimonial
   - items:
+      - title: Tools Site
+        image: ''
+        link: 'https://tools.ai4bharat.org/'
+        text: >-
+          A showcase of different tools build by AI4Bharat that leverage our
+          Models and APIs.
       - title: Models Site
         image: ''
         link: 'https://models.ai4bharat.org/'
         text: >-
           A showcase of different models developed at AI4Bharat. Choose one
           model and try it out in real-time.
-      - title: Here's Another Feature
-        image: /mountain.png
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
     _template: photoCardsGrid2
   - quote: Our Sponsors
     author: ''
