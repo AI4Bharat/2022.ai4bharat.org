@@ -189,21 +189,37 @@ blocks:
     color: default
     _template: testimonial
   - items:
-      - title: Tools Site
-        image: >-
-          https://res.cloudinary.com/dlblb9lej/image/upload/v1668588086/toolssite_j7rotb.png
-        link: 'https://tools.ai4bharat.org/'
+      - iconShown: true
+        icon:
+          color: ''
+          style: float
+          name: ''
+        title: Models Site
+        link: ''
         text: >-
-          A showcase of different tools build by AI4Bharat that leverage our
-          Models and APIs.
-      - title: Models Site
-        image: >-
-          https://res.cloudinary.com/dlblb9lej/image/upload/v1668588086/modelssite_uaxibu.png
-        link: 'https://models.ai4bharat.org/'
+          A showcase for models features developed at AI4Bharat. Choose one of
+          the areas and try them out in real-time.
+      - iconShown: true
+        icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        link: ''
         text: >-
-          A showcase of different models developed at AI4Bharat. Choose one
-          model and try it out in real-time.
-    _template: photoCardsGrid2
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - iconShown: true
+        icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        link: ''
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: flatCardsGrid
   - quote: Our Sponsors
     author: ''
     color: default
