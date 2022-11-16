@@ -195,30 +195,11 @@ blocks:
           style: float
           name: ''
         title: Models Site
-        link: ''
+        link: 'https://models.ai4bharat.org/'
         text: >-
           A showcase for models features developed at AI4Bharat. Choose one of
           the areas and try them out in real-time.
-      - iconShown: true
-        icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        link: ''
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - iconShown: true
-        icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        link: ''
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+    highlightColor: orange
     _template: flatCardsGrid
   - quote: Our Sponsors
     author: ''
