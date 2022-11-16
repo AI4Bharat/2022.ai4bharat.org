@@ -190,7 +190,8 @@ blocks:
     _template: testimonial
   - items:
       - title: Tools Site
-        image: ''
+        image: >-
+          https://res.cloudinary.com/dlblb9lej/image/upload/v1668588086/toolssite_j7rotb.png
         link: 'https://tools.ai4bharat.org/'
         text: >-
           A showcase of different tools build by AI4Bharat that leverage our
