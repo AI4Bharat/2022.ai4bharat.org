@@ -199,6 +199,17 @@ blocks:
         text: >-
           A showcase for models features developed at AI4Bharat. Choose one of
           the areas and try them out in real-time.
+        iconColor: ''
+      - iconShown: true
+        icon:
+          color: ''
+          style: float
+          name: cloud
+        title: Tools Site
+        link: 'https://tools.ai4bharat.org/'
+        text: >-
+          A showcase for the different tools developed at AI4Bharat. Each tool
+          leverages the different models and APIs developed by AI4Bharat.
     highlightColor: orange
     _template: flatCardsGrid
   - quote: Our Sponsors
