@@ -1,9 +1,5 @@
 ---
 blocks:
-  - quote: Tools and Models
-    author: Umashankar
-    color: default
-    _template: testimonial
   - tagline: ''
     headline: Launch at IIT Madras
     text: >
@@ -188,32 +184,23 @@ blocks:
           Open-sourced tool for document-level translation with NMT and
           transliteration support. 
     _template: featuresAlt
+  - quote: Tools and Models
+    author: Umashankar
+    color: default
+    _template: testimonial
   - items:
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
+      - title: Models Site
+        image: ''
+        link: 'https://models.ai4bharat.org/'
+        text: >-
+          A showcase of different models developed at AI4Bharat. Choose one
+          model and try it out in real-time.
+      - title: Here's Another Feature
+        image: /mountain.png
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-    _template: features
+    _template: photoCardsGrid2
   - quote: Our Sponsors
     author: ''
     color: default
