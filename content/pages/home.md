@@ -196,7 +196,8 @@ blocks:
           A showcase of different tools build by AI4Bharat that leverage our
           Models and APIs.
       - title: Models Site
-        image: ''
+        image: >-
+          https://res.cloudinary.com/dlblb9lej/image/upload/v1668588086/modelssite_uaxibu.png
         link: 'https://models.ai4bharat.org/'
         text: >-
           A showcase of different models developed at AI4Bharat. Choose one
