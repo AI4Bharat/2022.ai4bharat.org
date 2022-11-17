@@ -157,12 +157,6 @@ export const Footer = ({ data, icon, rawData }) => {
         <p className="mb-4">
           <a href="https://sign-language.ai4bharat.org/#/" className="text-gray-600">Sign Language</a>
         </p>
-        <p className="mb-4">
-          <a href="/shoonya" className="text-gray-600">Shoonya</a>
-        </p>
-        <p className="mb-4">
-          <a href="/chitralekha" className="text-gray-600">Chitralekha</a>
-        </p>
       </div>
       <div className="">
         <h6 className="uppercase font-bold mb-4 flex justify-center md:justify-start">
