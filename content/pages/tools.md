@@ -2,7 +2,7 @@
 blocks:
   - quote: Tools
     author: Umashankar
-    color: primary
+    color: tint
     _template: testimonial
 ---
 
