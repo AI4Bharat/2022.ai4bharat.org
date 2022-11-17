@@ -37,13 +37,18 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: AI4B
+        title: Chitralekha
+        link: /chitralekha
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Chitralekha is an open source platform tool for video subtitling
+          across various Indic languages, using ML model support (ASR for
+          Transcription and NMT for Translation) Chitralekha offers support for
+          multiple input sources (Ex : Youtube, local etc) and transcription
+          generation process (Ex : Models, Source captions, Custom subtitle
+          files etc).
       - icon:
           color: ''
           style: float
