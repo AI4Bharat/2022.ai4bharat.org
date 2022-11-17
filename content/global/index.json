@@ -128,8 +128,8 @@
             "href": "/tools",
             "label": "Tools",
             "icon": {
-              "color": "orange",
-              "style": "circle",
+              "color": "",
+              "style": "",
               "name": "settings"
             }
           },
