@@ -24,7 +24,7 @@ blocks:
           style: float
           name: AI4B
         title: Shoonya
-        link: 'https://demo.shoonya.ai4bharat.org/'
+        link: /shoonya
         linkPlaceholder: ''
         comingSoon: false
         updated: false
