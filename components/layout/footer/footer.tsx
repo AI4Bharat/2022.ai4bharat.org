@@ -174,11 +174,17 @@ export const Footer = ({ data, icon, rawData }) => {
         <p className="mb-4">
           <a href="/models" className="text-gray-600">Models</a>
         </p>
+        <p className="mb-4">
+          <a href="/tools" className="text-gray-600">Tools</a>
+        </p>
         {/* <p className="mb-4">
           <a href="/data-reports" className="text-gray-600">Data Reports</a>
         </p> */}
         <p>
           <a href="/publications" className="text-gray-600">Publications</a>
+        </p>
+        <p>
+          <a href="https://github.com/AI4Bharat/indicnlp_catalog" className="text-gray-600">IndicNLP Catalog</a>
         </p>
       </div>
  
