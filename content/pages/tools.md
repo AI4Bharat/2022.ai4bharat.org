@@ -52,13 +52,16 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
-        title: Here's Another Feature
+          name: AI4B
+        title: Indic Glossary Explorer
+        link: /glossary_explorer
+        linkPlaceholder: ''
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Indic Glossary Explorer is an open source service to store and explore
+          relevant Indic glossary which are domain specific. The service also
+          provides the capabities for glossary contribution (individual/batch).
     _template: featuresAlt
 ---
 
