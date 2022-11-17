@@ -19,7 +19,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: cloud
+          name: settings
         title: Tools
         link: /tools
         text: ''
