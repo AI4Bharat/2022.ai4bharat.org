@@ -105,6 +105,15 @@
         "orientation": "Vertical",
         "subitems": [
           {
+            "href": "/tools",
+            "label": "Tools",
+            "icon": {
+              "color": "orange",
+              "style": "circle",
+              "name": "settings"
+            }
+          },
+          {
             "href": "/datasets",
             "label": "Datasets",
             "icon": {
