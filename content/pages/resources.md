@@ -7,6 +7,13 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: cloud
+        title: Tools
+        link: /tools
+        text: ''
+      - icon:
+          color: ''
+          style: float
           name: world
         title: Datasets
         link: /datasets
