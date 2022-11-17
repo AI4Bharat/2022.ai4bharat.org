@@ -10,7 +10,7 @@ blocks:
           style: float
           name: AI4B
         title: Anuvaad
-        link: 'https://users.anuvaad.org/'
+        link: /anuvaad
         linkPlaceholder: ''
         comingSoon: false
         updated: false
