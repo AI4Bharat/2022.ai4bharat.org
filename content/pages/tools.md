@@ -11,7 +11,7 @@ blocks:
           name: AI4B
         title: Anuvaad
         link: 'https://users.anuvaad.org/'
-        linkPlaceholder: Try Demo →
+        linkPlaceholder: ''
         comingSoon: false
         updated: false
         text: >-
