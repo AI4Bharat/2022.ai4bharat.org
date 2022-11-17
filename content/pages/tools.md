@@ -10,11 +10,15 @@ blocks:
           style: float
           name: AI4B
         title: Anuvaad
+        link: 'https://users.anuvaad.org/'
+        linkPlaceholder: Try Demo →
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Anuvaad is an open source judicial domain, document-translation
+          platform to translate judicial documents at scale. Separate instances
+          of Anuvaad are deployed to Supreme Court of India (SUVAS) and Supreme
+          Court of Bangladesh (Amar Vasha).
     _template: featuresAlt
 ---
 
