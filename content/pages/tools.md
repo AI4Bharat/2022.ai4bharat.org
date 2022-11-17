@@ -54,7 +54,7 @@ blocks:
           style: float
           name: AI4B
         title: Indic Glossary Explorer
-        link: /glossary_explorer
+        link: /glossary-explorer
         linkPlaceholder: ''
         comingSoon: false
         updated: false
