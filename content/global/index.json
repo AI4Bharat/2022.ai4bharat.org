@@ -77,24 +77,6 @@
               "name": "like"
             },
             "description": "Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for sign recognition for various 10 sign languages from around the world."
-          },
-          {
-            "href": "/shoonya",
-            "label": "Shoonya",
-            "icon": {
-              "color": "orange",
-              "style": "float",
-              "name": "map"
-            },
-            "description": "Open-source workbench for AI-assisted language work on Indian languages with initial focus on translation."
-          },
-          {
-            "href": "/chitralekha",
-            "label": "Chitralekha",
-            "icon": {
-              "name": "code"
-            },
-            "description": "Open-source tool for AI-assisted video subtitling and translating with a focus on educational and media content."
           }
         ]
       },
