@@ -1164,7 +1164,8 @@ blocks:
         personName: Vivaswini  विवस्विनी
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770396/Team%20pictures/Language/Vivaswini-Satish_jwzxjb.jpg
       - teamGroup: language
         personName: Sagen Murmu ᱥᱟᱜᱮᱱ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
