@@ -1002,11 +1002,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Anwesha Singbal अन्वेषा सिंगबाळ
-        personDesignation: 'Language Expert, Konkani'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: 'Language Expert, Malayalam'
         personImage:
