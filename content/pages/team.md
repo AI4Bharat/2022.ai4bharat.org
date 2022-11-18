@@ -1232,7 +1232,8 @@ blocks:
         personName: Goutham M ಗೌತಮ್‌ ಎಮ್
         personDesignation: 'Language Expert, Kannada'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668762873/Team%20pictures/Language/gautam-dikshit_s1e2ef.jpg
       - teamGroup: language
         personName: Vijay Deo Jha  विजय देव झा
         personDesignation: 'Language Expert, Maithili'
