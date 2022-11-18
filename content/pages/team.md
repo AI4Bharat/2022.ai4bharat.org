@@ -285,6 +285,12 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/tahir_txp1qo.jpg
       - teamGroup: tech
+        personName: Umashankar Kumaravelan உமாசங்கர் குமாரவேலன்
+        personDesignation: "Project Associate, IIT Madras"
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668683662/Team%20pictures/Tech/UmashankarPhoto_vu7y16.jpg
+      - teamGroup: tech
         personName: "Varun Gumma वरुण गुम्मा "
         personDesignation: "M.Tech, IIT Madras"
         personImage:
@@ -308,12 +314,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
-      - teamGroup: tech
-        personName: Umashankar Kumaravelan உமாசங்கர் குமாரவேலன்
-        personDesignation: "Project Associate, IIT Madras"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1668683662/Team%20pictures/Tech/UmashankarPhoto_vu7y16.jpg
       - teamGroup: language
         personName: Aakanksha Dubey आकांक्षा दुबे
         personDesignation: "Language Expert,  Hindi"
