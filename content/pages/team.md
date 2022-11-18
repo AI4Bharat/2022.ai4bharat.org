@@ -1226,7 +1226,8 @@ blocks:
         personName: Jayesh Adhyaru જયેશ અધ્યારુ
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770384/Team%20pictures/Language/Jayesh-Adhyaru_yoq0h8.jpg
       - teamGroup: language
         personName: Goutham M ಗೌತಮ್‌ ಎಮ್
         personDesignation: 'Language Expert, Kannada'
