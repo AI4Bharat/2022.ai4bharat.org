@@ -971,6 +971,415 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/Photo_VrindaSarkar_ai4bhar_ynpomo.jpg
+
+      - teamGroup: language
+        personName: Priyeshi Kumari प्रियेशी कुमारी
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Hirendra Kumar Jha हीरेन्द्र कुमार झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Saket Kumar  साकेत कुमार
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sandeep Kumar Jha  संदीप कुमार झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
+        personDesignation: "Language Expert, Gujarati"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Anwesha Singbal अन्वेषा सिंगबाळ
+        personDesignation: "Language Expert, Konkani"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
+        personDesignation: "Language Expert, Malayalam"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Baburam Murmu বাবুরাম মুরমু
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Baren Kisku ᱵᱚᱨᱮᱱ ᱠᱤᱥᱠᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Urmila  Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Prasanta Kumar Hansda ᱯᱨᱚᱥᱟᱱᱛᱚ ᱠᱩᱢᱟᱨ ᱦᱟᱸᱥᱫᱟ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sova Tudu শোভা টুডু
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Raju Mardi ᱨᱟᱡᱩ  ᱢᱟᱨᱰᱤ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Promila Hansda ᱯᱨᱚᱢᱤᱞᱟ ᱦᱟᱸᱥᱫᱟ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Churki Hansda ᱪᱩᱲᱠᱤ ᱦᱟᱸᱥᱫᱟ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Shivapriya Murali சிவப்பிரியா முரளி
+        personDesignation: "Language Expert, Tamil"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Pankaj Kumar पंकज कुमार
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sanjay Kumar Jha संजय कुमार झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Rahul Kumar Jha राहुल कुमार झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Vikas Vineet  विकास विनीत
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Yogendra Pathak Viyogi योगेन्र्a पाठक वियोगी
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sagen Murmu ᱥᱟᱜᱮᱱ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Shivakumar R M ಶಿವಕುಮಾರ ಆರ್.ಎಮ್.
+        personDesignation: "Language Expert, Kannada"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Karuna Vempati  కరుణ వెంపటి
+        personDesignation: "Language Expert, Telugu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: V Sayeelakshmi Rajaganapathy வெ.சாயிலக்ஷ்மி ராஜகணபதி
+        personDesignation: "Language Expert, Tamil"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Jimal Patel  જીમલ પટેલ
+        personDesignation: "Language Expert, Gujarati"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Faiz Mohammad Masi ફૈઝ મોહંમદ મસી
+        personDesignation: "Language Expert, Gujarati"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Aishwarya Diwakar ایشوریا دواکر
+        personDesignation: "Language Expert, Urdu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sharat Krishna Raikar शरत कृष्णा रायकार
+        personDesignation: "Language Expert, Konkani"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Surendra Chandra Tripathy ସୁରେନ୍ଦ୍ର ଚନ୍ଦ୍ର ତ୍ରିପାଠୀ
+        personDesignation: "Language Expert, Odia"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Parneet Kaur Punjabi
+        personDesignation: "Language Expert, Punjabi"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sailaja Nittala शैलजा निट्ट्ला
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Radhika Deshpande  देशपाण्डे-राधिका
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Karuna Vempati కరుణ వెంపటి
+        personDesignation: "Language Expert, Telugu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Uma Jayaraman उमा जयरामन्
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Javaid Aziz Bhat  جاوید عزیز بٹ
+        personDesignation: "Language Expert, Urdu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Hasan Akram  حسن اکرم
+        personDesignation: "Language Expert, Urdu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Irfan Ahmed عرفان احمد
+        personDesignation: "Language Expert, Urdu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Shallu Rani  ਸ਼ਾਲੂ ਰਾਣੀ
+        personDesignation: "Language Expert, Punjabi"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Vivaswini  विवस्विनी
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sagen Murmu ᱥᱟᱜᱮᱱ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Urmila Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Komola Murmu  ᱠᱚᱢᱚᱞ ᱢᱩᱨᱢᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sumaya Jehangir سُمییہ جہانگیٖر
+        personDesignation: "Language Expert, Kashmiri"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Shambhobi Ghosh শাম্ভবী ঘোষ
+        personDesignation: "Language Expert, Bengali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sharmila G ஷர்மிளா கி
+        personDesignation: "Language Expert, Tamil"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Naresh Kapadia નરેશ કાપડીઆ
+        personDesignation: "Language Expert, Gujarati"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Ravishankar Venkateswaran रविशङ्कर वेङ्कटेस्वरन्
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Suprith Sridharamurthy  सुप्रीतः श्रीधरमूर्तिः
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Manoj Kumar Pathak  मनोज कुमार पाठक
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Jayesh Adhyaru જયેશ અધ્યારુ
+        personDesignation: "Language Expert, Gujarati"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Goutham M ಗೌತಮ್‌ ಎಮ್
+        personDesignation: "Language Expert, Kannada"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Vijay Deo Jha  विजय देव झा
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: R. Manoj Varma  ആർ. മനോജ് വർമ്മ
+        personDesignation: "Language Expert, Malayalam"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sandesh Prabhudesai संदेश प्रभुदेसाय
+        personDesignation: "Language Expert, Konkani"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Vasudev Aital वासुदेवः ऐतालः
+        personDesignation: "Language Expert, Sanskrit"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Mohammad Afaan محمد عفان
+        personDesignation: "Language Expert, Urdu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Sripati Tudu  ᱥᱨᱤᱯᱚᱛᱤ ᱴᱩᱰᱩ
+        personDesignation: "Language Expert, Santali"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Anju Bala Dogri
+        personDesignation: "Language Expert, Dogri"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Dr.Preeti Dubey डॉ.  प्रीति दुबे
+        personDesignation: "Language Expert, Dogri"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Monika Chandel मोनिका चंदेल
+        personDesignation: "Language Expert, Dogri"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: N. Sujatha Devi ఎన్. సుజాత దేవి
+        personDesignation: "Language Expert, Telugu"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Jeetumoni Basumatary Jeetumoni Basumatary
+        personDesignation: "Language Expert, Bodo"
+        personImage:
+          src: >-
+
+      - teamGroup: language
+        personName: Tulika Swati  तूलिका स्वाती
+        personDesignation: "Language Expert, Maithili"
+        personImage:
+          src: >-
+
       - teamGroup: visitingResearchers
         personName: Raj Dabre राज डाबरे
         personDesignation: "Researcher, NICT  Japan"

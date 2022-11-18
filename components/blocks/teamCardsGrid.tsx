@@ -111,6 +111,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -146,6 +149,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -181,6 +187,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -216,6 +225,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -251,6 +263,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -285,6 +300,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               size="small"
             >
               {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
                 data.items.map(function (block, i) {
                   return (
                     <>
@@ -320,6 +338,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
           size="small"
         >
           {data.items &&
+            data.items.sort((a, b) =>
+              a.personName.localeCompare(b.personName)
+            ) &&
             data.items.map(function (block, i) {
               return (
                 <>
