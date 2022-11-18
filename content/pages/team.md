@@ -1158,7 +1158,8 @@ blocks:
         personName: Hasan Akram  حسن اکرم
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770415/Team%20pictures/Language/HASAN-AKRAM_c2qtuy.jpg
       - teamGroup: language
         personName: Irfan Ahmed عرفان احمد
         personDesignation: 'Language Expert, Urdu'
