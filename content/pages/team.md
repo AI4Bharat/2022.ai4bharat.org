@@ -338,7 +338,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/Adithi_R_AdithiR_ai4bharat.or_fszpvl.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Alfina ꯑꯜꯐꯤꯅꯥ
         personDesignation: "Language Expert, Manipuri"
         personImage:
@@ -416,7 +416,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/IMG_20211128_145559-01_BikashChetia_ai4bhar_ifau55.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Binita Basumatary बिनिता बोसुमोतारि
         personDesignation: "Language Expert, Bodo"
         personImage:
@@ -506,7 +506,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/My_Photo_BihungBrahma_ai4bhar_ksxokl.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Dwithun Wary दैथुन उवारी
         personDesignation: "Language Expert, Bodo"
         personImage:
@@ -662,7 +662,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/PARESH_PRABHU_PHOTO_PareshPrabhu_ai4bhar_rlmqx7.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Prabu Srinivas Ks பிரபு ‌‌‌‌‌‌ஸ்ரீனிவாஸ் கொ.சோ.
         personDesignation: "Language Expert, Tamil"
         personImage:
@@ -841,7 +841,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889811/Team%20pictures/Language/photo_SidwmaBrahma_ai4bhar_lrhyyy.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Sonal Padhiyar સોનલ પઢિયાર
         personDesignation: "Language Expert, Gujarati"
         personImage:
@@ -900,7 +900,7 @@ blocks:
         personDesignation: "Language Expert, Malayalam"
         personImage:
           src: "-"
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Sufiya Pathan सूफ़िया पठान
         personDesignation: "Language Expert,  Hindi"
         personImage:
@@ -924,7 +924,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657890613/Team%20pictures/Language/202108_Photo_2_SureshaR_ai4bharat.o_srgi1p.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Suruthi Shree A சுருதி ஸ்ரீ அ
         personDesignation: "Language Expert, Tamil"
         personImage:
