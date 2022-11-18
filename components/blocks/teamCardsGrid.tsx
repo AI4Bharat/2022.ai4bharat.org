@@ -279,6 +279,40 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               )}
             </Container>
           </TabPanel>
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
+                    <>
+                      {block.teamGroup == "previousEmployees" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
+                    </>
+                  );
+                })}
+
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
+            </Container>
+          </TabPanel>
         </Tabs>
       ) : (
         <Container
