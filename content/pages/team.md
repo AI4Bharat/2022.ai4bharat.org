@@ -1257,7 +1257,8 @@ blocks:
         personName: Mohammad Afaan محمد عفان
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770387/Team%20pictures/Language/Mohammad-Afaan_xygx8y.jpg
       - teamGroup: language
         personName: Sripati Tudu  ᱥᱨᱤᱯᱚᱛᱤ ᱴᱩᱰᱩ
         personDesignation: 'Language Expert, Santali'
