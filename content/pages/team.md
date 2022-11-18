@@ -1105,7 +1105,8 @@ blocks:
         personName: Faiz Mohammad Masi ફૈઝ મોહંમદ મસી
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770384/Team%20pictures/Language/Faiz-Mohammad_xn9pcc.jpg
       - teamGroup: language
         personName: Aishwarya Diwakar ایشوریا دواکر
         personDesignation: 'Language Expert, Urdu'
