@@ -1183,7 +1183,8 @@ blocks:
         personName: Komola Murmu  ᱠᱚᱢᱚᱞ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668763104/Team%20pictures/Language/Image_-_Murmu_k_xosodm.jpg
       - teamGroup: language
         personName: Sumaya Jehangir سُمییہ جہانگیٖر
         personDesignation: 'Language Expert, Kashmiri'
