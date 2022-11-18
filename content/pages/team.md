@@ -525,7 +525,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658231282/Team%20pictures/Language/20220627_141531_HafsahFaquih_ai4bhar_xrjffe.jpg
       - teamGroup: language
-        personName: Harisha H M ಹರೀಶ ಹೆಚ್. ಎಂ.
+        personName: Harisha H M हरिश ह म.
         personDesignation: "Language Expert, Sanskrit"
         personImage:
           src: >-
@@ -615,7 +615,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/Photo_2__MuhammadAnzarSareshw_q1ynl8.jpg
       - teamGroup: language
-        personName: "Nazima "
+        personName: "Nazima نظیما "
         personDesignation: "Language Expert, Kashmiri"
         personImage:
           src: >-
@@ -1006,7 +1006,7 @@ blocks:
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770395/Team%20pictures/Language/Surendra-Chandra-Tripathy_ed2bst.jpg
       - teamGroup: language
-        personName: Parneet Kaur Punjabi
+        personName: Parneet Kaur ਪਰਨੀਤ ਕੌਰ
         personDesignation: "Language Expert, Punjabi"
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668762954/Team%20pictures/Language/PARNEET-KAUR_szza9a.jpg
