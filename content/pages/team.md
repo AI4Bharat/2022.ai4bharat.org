@@ -1250,7 +1250,8 @@ blocks:
         personName: Vasudev Aital वासुदेवः ऐतालः
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770395/Team%20pictures/Language/Vasudev-Aital_dtorou.jpg
       - teamGroup: language
         personName: Mohammad Afaan محمد عفان
         personDesignation: 'Language Expert, Urdu'
