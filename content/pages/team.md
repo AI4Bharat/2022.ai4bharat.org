@@ -1063,11 +1063,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Vikas Vineet  विकास विनीत
-        personDesignation: 'Language Expert, Maithili'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: Yogendra Pathak Viyogi योगेन्र्a पाठक वियोगी
         personDesignation: 'Language Expert, Maithili'
         personImage:
