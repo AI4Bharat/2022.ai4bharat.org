@@ -1096,7 +1096,8 @@ blocks:
         personName: Jimal Patel  જીમલ પટેલ
         personDesignation: 'Language Expert, Gujarati'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668763124/Team%20pictures/Language/Jimal-Patel_l3kwir.jpg
       - teamGroup: language
         personName: Faiz Mohammad Masi ફૈઝ મોહંમદ મસી
         personDesignation: 'Language Expert, Gujarati'
