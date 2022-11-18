@@ -1234,7 +1234,8 @@ blocks:
         personName: Vijay Deo Jha  विजय देव झा
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770396/Team%20pictures/Language/Vijay-Deo-Jha_nyzgpe.jpg
       - teamGroup: language
         personName: R. Manoj Varma  ആർ. മനോജ് വർമ്മ
         personDesignation: 'Language Expert, Malayalam'
