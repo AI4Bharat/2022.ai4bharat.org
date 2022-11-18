@@ -1272,7 +1272,8 @@ blocks:
         personName: Dr.Preeti Dubey डॉ.  प्रीति दुबे
         personDesignation: 'Language Expert, Dogri'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770382/Team%20pictures/Language/Dr.Preeti-Dubey_gmbkn1.jpg
       - teamGroup: language
         personName: Monika Chandel मोनिका चंदेल
         personDesignation: 'Language Expert, Dogri'
