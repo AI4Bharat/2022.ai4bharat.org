@@ -1042,11 +1042,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Churki Hansda ᱪᱩᱲᱠᱤ ᱦᱟᱸᱥᱫᱟ
-        personDesignation: 'Language Expert, Santali'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
