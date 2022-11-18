@@ -1286,7 +1286,8 @@ blocks:
         personName: Anju Bala Dogri
         personDesignation: 'Language Expert, Dogri'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770236/Team%20pictures/Language/Anju-Bala_nhcyth.jpg
       - teamGroup: language
         personName: Dr.Preeti Dubey डॉ.  प्रीति दुबे
         personDesignation: 'Language Expert, Dogri'
