@@ -8,8 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { RightArrowIcon } from "tinacms";
 import { FaArrowRight } from "react-icons/fa";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 //   style={{ flexBasis: "16rem" }}
 
@@ -20,26 +19,33 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
   // }
   // console.log('data.teamGroup '+data.teamGroup)
   return (
-<div>
-                     
-                        <div className="relative mt-16 sm:mb-12">
-                            <div className="overflow-hidden shadow-md bg-white pb-5 rounded-lg">
-                              {data.personImage &&
-                                <div className="absolute -mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32">
-                                        <img src={data.personImage.src} alt={data.personImage.alt} className="rounded-full object-cover h-full w-full shadow-md" />              
-                                        </div>
-                                </div>
-                              }
-    
-                                <div className="px-6 mt-16">
-                                  {data.personName &&
-                                    <div className="font-bold text-xl text-center p-1">{data.personName}</div>
-                                  }
-                                  {data.personDesignation &&
-                                    <p className="text-gray-800 text-sm text-center p-1">{data.personDesignation}</p>
-                                  }
-                                    {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
+    <div>
+      <div className="relative mt-16 sm:mb-12">
+        <div className="overflow-hidden shadow-md bg-white pb-5 rounded-lg">
+          {data.personImage && (
+            <div className="absolute -mt-20 w-full flex justify-center">
+              <div className="h-32 w-32">
+                <img
+                  src={data.personImage.src}
+                  alt={data.personImage.alt}
+                  className="rounded-full object-cover h-full w-full shadow-md"
+                />
+              </div>
+            </div>
+          )}
+
+          <div className="px-6 mt-16">
+            {data.personName && (
+              <div className="font-bold text-xl text-center p-1">
+                {data.personName}
+              </div>
+            )}
+            {data.personDesignation && (
+              <p className="text-gray-800 text-sm text-center p-1">
+                {data.personDesignation}
+              </p>
+            )}
+            {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
                                       <div className="w-full flex justify-center pt-5 pb-5">
                                         <a href="javascript:void(0)" className="mx-5">
                                             <div>
@@ -65,16 +71,10 @@ export const TeamCard = ({ featuresColor, data, tinaField }) => {
                                             </div>
                                         </a>
                                     </div> */}
-                                </div>
-                            </div>
-                        </div>
-                     
-              
-                        
-
-</div>
-
-    
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -82,18 +82,30 @@ export const TeamCardsGrid = ({ data, parentField }) => {
   return (
     <Section color={data.color} className="pb-12">
       {/* {console.log('data.tabsEnabled '+data.tabsEnabled)} */}
-      {data.tabsEnabled 
-      ?
-      <Tabs>
+      {data.tabsEnabled ? (
+        <Tabs>
           <TabList className="flex flex-col md:flex-row p-6 w-max mx-auto overflow-auto">
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Founders</Tab>
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Delivery and Operations</Tab>
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Tech</Tab>
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Language</Tab>
-            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">Visiting Researchers</Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Founders
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Delivery and Operations
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Tech
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Language
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Visiting Researchers
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Previous Employees
+            </Tab>
           </TabList>
 
-          <TabPanel> 
+          <TabPanel>
             <Container
               className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
               size="small"
@@ -101,183 +113,246 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               {data.items &&
                 data.items.map(function (block, i) {
                   return (
-                  <>
-                  {/* {console.log(block.teamGroup)}  */}
-                  {(block.teamGroup == "founders") && 
-                    <TeamCard
-                      tinaField={`${parentField}.items.${i}`}
-                      featuresColor={data.color}
-                      key={i}
-                      data={block}
-                    />
-                  }
-                  </>
+                    <>
+                      {/* {console.log(block.teamGroup)}  */}
+                      {block.teamGroup == "founders" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
+                    </>
                   );
                 })}
-              {data.link &&            
-              <div className="flex justify-center items-center">
-              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-              </div>
-              }
-              </Container>
-            </TabPanel>
-
-
-            <TabPanel> 
-              <Container
-                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
-                size="small"
-              >
-                {data.items &&
-                  data.items.map(function (block, i) {
-                    return (
-                    <>
-                      {(block.teamGroup == "operations") && 
-                      <TeamCard
-                        tinaField={`${parentField}.items.${i}`}
-                        featuresColor={data.color}
-                        key={i}
-                        data={block}
-                      />
-                  }
-                    </>
-                    );
-                  })}
-                      
-              {data.link &&            
-              <div className="flex justify-center items-center">
-              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-              </div>
-              }
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
             </Container>
-            </TabPanel>
+          </TabPanel>
 
-            <TabPanel> 
-              <Container
-                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
-                size="small"
-              >
-                {data.items &&
-                  data.items.map(function (block, i) {
-                    return (
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
                     <>
-                      {(block.teamGroup == "tech") && 
-                      <TeamCard
-                        tinaField={`${parentField}.items.${i}`}
-                        featuresColor={data.color}
-                        key={i}
-                        data={block}
-                      />
-                  }
+                      {block.teamGroup == "operations" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
                     </>
-                    );
-                  })}
-                      
-              {data.link &&            
-              <div className="flex justify-center items-center">
-              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-              </div>
-              } 
-            </Container>
-            </TabPanel>
+                  );
+                })}
 
-            <TabPanel> 
-              <Container
-                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
-                size="small"
-              >
-                {data.items &&
-                  data.items.map(function (block, i) {
-                    return (
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
+            </Container>
+          </TabPanel>
+
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
                     <>
-                      {(block.teamGroup == "language") && 
-                      <TeamCard
-                        tinaField={`${parentField}.items.${i}`}
-                        featuresColor={data.color}
-                        key={i}
-                        data={block}
-                      />
-                  }
+                      {block.teamGroup == "tech" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
                     </>
-                    );
-                  })}
-                      
-              {data.link &&            
-              <div className="flex justify-center items-center">
-              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-              </div>
-              }
+                  );
+                })}
+
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
             </Container>
-            </TabPanel>
+          </TabPanel>
 
-
-            <TabPanel> 
-              <Container
-                className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
-                size="small"
-              >
-                {data.items &&
-                  data.items.map(function (block, i) {
-                    return (
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
                     <>
-                      {(block.teamGroup == "visitingResearchers") && 
-                      <TeamCard
-                        tinaField={`${parentField}.items.${i}`}
-                        featuresColor={data.color}
-                        key={i}
-                        data={block}
-                      />
-                  }
+                      {block.teamGroup == "language" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
                     </>
-                    );
-                  })}
-                      
-              {data.link &&            
-              <div className="flex justify-center items-center">
-              <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-              </div>
-              }
+                  );
+                })}
+
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
             </Container>
-            </TabPanel>
+          </TabPanel>
 
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
+                    <>
+                      {block.teamGroup == "visitingResearchers" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
+                    </>
+                  );
+                })}
 
-      </Tabs>
-   
-   : <Container
-        className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
-        size="small"
-      >
-        {data.items &&
-          data.items.map(function (block, i) {
-            return (
-            <>
-              <TeamCard
-                tinaField={`${parentField}.items.${i}`}
-                featuresColor={data.color}
-                key={i}
-                data={block}
-              />
-        
-            </>
-            );
-          })}
-              
-      {data.link &&            
-      <div className="flex justify-center items-center">
-      <a href={data.link} className="flex justify-center text-center font-semibold text-md text-blue-600"><p className="inline-block">See full team</p> <FaArrowRight className="inline-block mt-1 ml-1" /></a>
-      </div>
-      }
-      </Container>
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
+            </Container>
+          </TabPanel>
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.map(function (block, i) {
+                  return (
+                    <>
+                      {block.teamGroup == "previousEmployees" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
+                    </>
+                  );
+                })}
 
-}
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
+            </Container>
+          </TabPanel>
+        </Tabs>
+      ) : (
+        <Container
+          className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+          size="small"
+        >
+          {data.items &&
+            data.items.map(function (block, i) {
+              return (
+                <>
+                  <TeamCard
+                    tinaField={`${parentField}.items.${i}`}
+                    featuresColor={data.color}
+                    key={i}
+                    data={block}
+                  />
+                </>
+              );
+            })}
+
+          {data.link && (
+            <div className="flex justify-center items-center">
+              <a
+                href={data.link}
+                className="flex justify-center text-center font-semibold text-md text-blue-600"
+              >
+                <p className="inline-block">See full team</p>{" "}
+                <FaArrowRight className="inline-block mt-1 ml-1" />
+              </a>
+            </div>
+          )}
+        </Container>
+      )}
     </Section>
   );
 };
 
 const defaultTeamCard = {
-  personName:"",
-  personDesignation:"",
-  
+  personName: "",
+  personDesignation: "",
 };
 
 export const teamCardsGridBlockSchema: TinaTemplate = {
@@ -286,7 +361,12 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
   ui: {
     previewSrc: "/blocks/features.png",
     defaultItem: {
-      items: [defaultTeamCard, defaultTeamCard, defaultTeamCard, defaultTeamCard],
+      items: [
+        defaultTeamCard,
+        defaultTeamCard,
+        defaultTeamCard,
+        defaultTeamCard,
+      ],
     },
   },
   fields: [
@@ -350,9 +430,7 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
           ui: {
             component: "textarea",
           },
-        }, 
-        
-    
+        },
       ],
     },
     {
@@ -366,14 +444,14 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
       ],
     },
     {
-      type:"string",
+      type: "string",
       label: "Link",
       name: "link",
     },
     {
-      type:"boolean",
+      type: "boolean",
       label: "Tabs Enabled?",
       name: "tabsEnabled",
-    }
+    },
   ],
 };
