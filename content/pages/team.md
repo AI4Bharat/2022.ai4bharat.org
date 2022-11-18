@@ -908,7 +908,7 @@ blocks:
         personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: "Language Expert, Malayalam"
         personImage:
-          src: "https://res.cloudinary.com/ai4bharat/image/upload/v1668763050/Team%20pictures/Language/CV-Sudheendran_cluqzq.jpg"
+          src: "https://res.cloudinary.com/ai4bharat/image/upload/v1668780817/Team%20pictures/Language/CV-Sudheendran_ehejoi.jpg"
       - teamGroup: language
         personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
         personDesignation: "Language Expert, Santali"
@@ -1155,7 +1155,7 @@ blocks:
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770394/Team%20pictures/Language/Sripati-Tudu_ut9mqn.jpg
       - teamGroup: language
-        personName: Anju Bala Dogri
+        personName: Anju Bala अंजू बाला
         personDesignation: "Language Expert, Dogri"
         personImage:
           src: >-
@@ -1178,7 +1178,7 @@ blocks:
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770394/Team%20pictures/Language/Sujatha-N_rcnxv3.jpg
       - teamGroup: language
-        personName: "Jeetumoni Basumatary "
+        personName: "Jeetumoni Basumatary जितुमनि बसुमथारि"
         personDesignation: "Language Expert, Bodo"
         personImage:
           src: >-
