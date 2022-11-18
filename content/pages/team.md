@@ -1072,7 +1072,8 @@ blocks:
         personName: V Sayeelakshmi Rajaganapathy வெ.சாயிலக்ஷ்மி ராஜகணபதி
         personDesignation: 'Language Expert, Tamil'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770416/Team%20pictures/Language/Sayeelakshmi-Rajaganapathy_xjwsuu.jpg
       - teamGroup: language
         personName: Jimal Patel  જીમલ પટેલ
         personDesignation: 'Language Expert, Gujarati'
