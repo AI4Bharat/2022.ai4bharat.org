@@ -1148,7 +1148,8 @@ blocks:
         personName: Javaid Aziz Bhat  جاوید عزیز بٹ
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770384/Team%20pictures/Language/javaid-Aziz-Bhat_oqu5u3.jpg
       - teamGroup: language
         personName: Hasan Akram  حسن اکرم
         personDesignation: 'Language Expert, Urdu'
