@@ -1045,7 +1045,8 @@ blocks:
         personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770384/Team%20pictures/Language/GUNA-HEMBROM_ncyuvk.jpg
       - teamGroup: language
         personName: Shivapriya Murali சிவப்பிரியா முரளி
         personDesignation: 'Language Expert, Tamil'
