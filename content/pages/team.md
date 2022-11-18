@@ -968,11 +968,6 @@ blocks:
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/1657621019997_-_Shivapriya_Murali_eql5sy.jpg
       - teamGroup: language
-        personName: Pankaj Kumar पंकज कुमार
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: https://res.cloudinary.com/ai4bharat/image/upload/v1668762947/Team%20pictures/Language/Pankaj-Kumar_oduof9.jpg
-      - teamGroup: language
         personName: Rahul Kumar Jha राहुल कुमार झा
         personDesignation: "Language Expert, Maithili"
         personImage:
@@ -1115,9 +1110,9 @@ blocks:
         personDesignation: "Language Expert, Gujarati"
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668762943/Team%20pictures/Language/Naresh-Kapadia_y6t0vw.jpg
-      - teamGroup: language
+      - teamGroup: operations
         personName: Ravishankar Venkateswaran रविशङ्कर वेङ्कटेस्वरन्
-        personDesignation: "Language Expert, Sanskrit"
+        personDesignation: "Delivery Head"
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770389/Team%20pictures/Language/Ravishankar-Venkateswaran_vrlatb.jpg
       - teamGroup: language
