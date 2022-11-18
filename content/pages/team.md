@@ -1219,7 +1219,8 @@ blocks:
         personName: Manoj Kumar Pathak  मनोज कुमार पाठक
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770416/Team%20pictures/Language/Manoj-Pathak_k7afld.jpg
       - teamGroup: language
         personName: Jayesh Adhyaru જયેશ અધ્યારુ
         personDesignation: 'Language Expert, Gujarati'
