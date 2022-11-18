@@ -1007,16 +1007,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Baburam Murmu বাবুরাম মুরমু
-        personDesignation: 'Language Expert, Santali'
-        personImage:
-          src: ''
-      - teamGroup: language
-        personName: Baren Kisku ᱵᱚᱨᱮᱱ ᱠᱤᱥᱠᱩ
-        personDesignation: 'Language Expert, Santali'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: Urmila  Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
