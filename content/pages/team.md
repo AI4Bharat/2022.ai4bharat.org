@@ -1071,7 +1071,8 @@ blocks:
         personName: Yogendra Pathak Viyogi योगेन्र्a पाठक वियोगी
         personDesignation: 'Language Expert, Maithili'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770418/Team%20pictures/Language/Yogendra-Pathak-VIYOGI_yrrf1h.jpg
       - teamGroup: language
         personName: Sagen Murmu ᱥᱟᱜᱮᱱ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
