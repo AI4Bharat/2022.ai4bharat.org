@@ -943,11 +943,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889808/Team%20pictures/Language/pass_photo_TikaRamRai_ai4bharat_gjwwwu.jpg
       - teamGroup: language
-        personName: Urmila Murmu ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
-        personDesignation: 'Language Expert, Santali'
-        personImage:
-          src: '-'
-      - teamGroup: language
         personName: Veda Bharti  वेदा भारती
         personDesignation: 'Language Expert,  Hindi'
         personImage:
@@ -999,11 +994,6 @@ blocks:
       - teamGroup: language
         personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: 'Language Expert, Malayalam'
-        personImage:
-          src: ''
-      - teamGroup: language
-        personName: Urmila  Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
-        personDesignation: 'Language Expert, Santali'
         personImage:
           src: ''
       - teamGroup: language
@@ -1175,7 +1165,8 @@ blocks:
         personName: Urmila Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668773314/Team%20pictures/Language/IMG_20181125_155808_-_Jiwijiyarjharna_official_zf6qxn.jpg
       - teamGroup: language
         personName: Komola Murmu  ᱠᱚᱢᱚᱞ ᱢᱩᱨᱢᱩ
         personDesignation: 'Language Expert, Santali'
