@@ -1127,7 +1127,8 @@ blocks:
         personName: Uma Jayaraman उमा जयरामन्
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770395/Team%20pictures/Language/Uma-Jayaraman_nnnkh3.jpg
       - teamGroup: language
         personName: Javaid Aziz Bhat  جاوید عزیز بٹ
         personDesignation: 'Language Expert, Urdu'
