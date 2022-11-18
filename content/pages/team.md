@@ -94,13 +94,13 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Abhigyan_ftxlbr.jpg
       - teamGroup: previousEmployees
         personName: Aditya Mitra আদিতো মিত্রো
-        personDesignation: "Ex-Intern, Student, KIIT"
+        personDesignation: "Tech Team, Student, KIIT"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/aditya_eha417.jpg
       - teamGroup: previousEmployees
         personName: Akshat Sharma अक्षत शर्मा
-        personDesignation: "Ex-Intern, Student at PICT, Pune"
+        personDesignation: "Tech Team, Student at PICT, Pune"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Akshat_Sharma_SE_vyemgl.png
@@ -118,13 +118,13 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Ananya_pz8hxp.jpg
       - teamGroup: previousEmployees
         personName: Anindita H.K  ಅನಿಂದಿತಾ ಎಚ್.ಕೆ
-        personDesignation: "Ex-Intern, AI4Bharat"
+        personDesignation: "Tech Team, AI4Bharat"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Anindita_HK_nnuha4.jpg
       - teamGroup: previousEmployees
         personName: Anuran Roy অনুরণ রায়
-        personDesignation: "Ex-Intern, Student at VIT"
+        personDesignation: "Tech Team, Student at VIT"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330597/Team%20pictures/Tech/Screenshot_2021-12-21_23-26-12_hlj6g8.png
@@ -142,7 +142,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Aswanth_Kumar_M_i30tio.png
       - teamGroup: previousEmployees
         personName: Atharva Naphade
-        personDesignation: "Ex-Intern, Student at PICT, Pune"
+        personDesignation: "Tech Team, Student at PICT, Pune"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/Atharva_Naphade_rmcot4.jpg
@@ -220,7 +220,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799587/Team%20pictures/Tech/Nandini_Mundra_hk8j3k.jpg
       - teamGroup: previousEmployees
         personName: Nishant Nayak निशान्त नायक्
-        personDesignation: "Ex-Intern, Student at NIT-K, Surathkal"
+        personDesignation: "Tech Team, Student at NIT-K, Surathkal"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799588/Team%20pictures/Tech/Nishant_Nayak_mvb5ac.jpg
@@ -256,7 +256,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658329423/Team%20pictures/Tech/Raghavan_mopqhk.jpg
       - teamGroup: previousEmployees
         personName: Rugved Somwanshi ऋग्वेद सोमवंशी
-        personDesignation: "Ex-Intern, Student at PICT, Pune"
+        personDesignation: "Tech Team, Student at PICT, Pune"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799589/Team%20pictures/Tech/rugved_hgterg.jpg
@@ -310,7 +310,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/yash_mpcpdi.jpg
       - teamGroup: previousEmployees
         personName: Yogesh Bhatt योगेश भट्ट
-        personDesignation: "Ex-Intern, Student at Graphic Era University"
+        personDesignation: "Tech Team, Student at Graphic Era University"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799585/Team%20pictures/Tech/Yogesh_Profile_zfewva.jpg
