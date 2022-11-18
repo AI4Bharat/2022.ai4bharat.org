@@ -977,11 +977,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Hirendra Kumar Jha हीरेन्द्र कुमार झा
-        personDesignation: 'Language Expert, Maithili'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: Saket Kumar  साकेत कुमार
         personDesignation: 'Language Expert, Maithili'
         personImage:
@@ -1164,7 +1159,8 @@ blocks:
         personName: Irfan Ahmed عرفان احمد
         personDesignation: 'Language Expert, Urdu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770384/Team%20pictures/Language/Irfan_ba2d1j.jpg
       - teamGroup: language
         personName: Shallu Rani  ਸ਼ਾਲੂ ਰਾਣੀ
         personDesignation: 'Language Expert, Punjabi'
