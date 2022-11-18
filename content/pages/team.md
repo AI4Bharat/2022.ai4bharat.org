@@ -1280,7 +1280,8 @@ blocks:
         personName: Monika Chandel मोनिका चंदेल
         personDesignation: 'Language Expert, Dogri'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770387/Team%20pictures/Language/Monika-Chandel_qxzg1r.jpg
       - teamGroup: language
         personName: N. Sujatha Devi ఎన్. సుజాత దేవి
         personDesignation: 'Language Expert, Telugu'
