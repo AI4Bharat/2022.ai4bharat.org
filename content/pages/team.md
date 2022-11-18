@@ -1083,11 +1083,6 @@ blocks:
         personImage:
           src: ''
       - teamGroup: language
-        personName: Karuna Vempati  కరుణ వెంపటి
-        personDesignation: 'Language Expert, Telugu'
-        personImage:
-          src: ''
-      - teamGroup: language
         personName: V Sayeelakshmi Rajaganapathy வெ.சாயிலக்ஷ்மி ராஜகணபதி
         personDesignation: 'Language Expert, Tamil'
         personImage:
@@ -1139,7 +1134,8 @@ blocks:
         personName: Karuna Vempati కరుణ వెంపటి
         personDesignation: 'Language Expert, Telugu'
         personImage:
-          src: ''
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770385/Team%20pictures/Language/Karuna-Vempati_dffbww.jpg
       - teamGroup: language
         personName: Uma Jayaraman उमा जयरामन्
         personDesignation: 'Language Expert, Sanskrit'
