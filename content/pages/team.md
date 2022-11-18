@@ -513,12 +513,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/photo_DwithunWary_ai4bhara_clypwh.jpg
       - teamGroup: language
-        personName: Guna Hembrom ᱜᱩᱱᱟᱹ ᱦᱮᱢᱵᱽᱨᱚᱢ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889810/Team%20pictures/Language/Guna_Hembrom_-_GUNA_HEMBROM_sdh8ox.jpg
-      - teamGroup: language
         personName: Habeebunnisa حبیب النساء
         personDesignation: "Language Expert, Urdu"
         personImage:
@@ -698,12 +692,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/DSC_0640_PrasadJog_ai4bharat._n9ovom.jpg
-      - teamGroup: language
-        personName: Priyeshi Kumari प्रियेशी कुमारी
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220705_164119_-_Priyeshi_Kumari_gvbikp.jpg
       - teamGroup: language
         personName: Pukhrambam Sanju Singh ꯄꯨꯈ꯭ꯔꯝꯕꯝ ꯁꯟꯖꯨ ꯁꯤꯡꯍ
         personDesignation: "Language Expert, Manipuri"
@@ -916,11 +904,6 @@ blocks:
         personDesignation: "Language Expert, Maithili"
         personImage:
           src: "https://res.cloudinary.com/ai4bharat/image/upload/v1657890354/Team%20pictures/Language/sujit_-_Sujit_Singh_jha_liw3vl.jpg"
-      - teamGroup: language
-        personName: Pranav Vinodrai Pandya પ્રણવ વિનોદરાય પંડ્યા
-        personDesignation: "Language Expert, Gujarati"
-        personImage:
-          src: "https://res.cloudinary.com/ai4bharat/image/upload/v1657889812/Team%20pictures/Language/PUM_0667_-_pranav_pandya_tmey4o.jpg"
       - teamGroup: language
         personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
         personDesignation: "Language Expert, Malayalam"
