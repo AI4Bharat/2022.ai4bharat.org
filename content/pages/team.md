@@ -699,22 +699,11 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/DSC_0640_PrasadJog_ai4bharat._n9ovom.jpg
       - teamGroup: language
-        personName: Prasanta Kumar Hansda ᱯᱨᱚᱥᱟᱱᱛᱚ ᱠᱩᱢᱟᱨ ᱦᱟᱸᱥᱫᱟ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: "-"
-      - teamGroup: language
         personName: Priyeshi Kumari प्रियेशी कुमारी
         personDesignation: "Language Expert, Maithili"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220705_164119_-_Priyeshi_Kumari_gvbikp.jpg
-      - teamGroup: language
-        personName: Promila Hansda ᱯᱨᱚᱢᱤᱞᱟ ᱦᱟᱸᱥᱫᱟ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890513/Team%20pictures/Language/%E1%B1%AF%E1%B1%A8%E1%B1%9A%E1%B1%A2%E1%B1%A4%E1%B1%9E%E1%B1%9F_-_Promila_Hansda_votjpp.jpg
       - teamGroup: language
         personName: Pukhrambam Sanju Singh ꯄꯨꯈ꯭ꯔꯝꯕꯝ ꯁꯟꯖꯨ ꯁꯤꯡꯍ
         personDesignation: "Language Expert, Manipuri"
@@ -727,18 +716,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657890438/Team%20pictures/Language/WhatsApp_Image_2021-12-04_at_8.34.42_AM_RadhikaDeshpande_ai4_k17cz3.jpg
-      - teamGroup: language
-        personName: Rahul Kumar Jha राहुल कुमार झा
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890652/Team%20pictures/Language/20220704_133715_-_rahul_jha_tedggn.jpg
-      - teamGroup: language
-        personName: Raju Mardi ᱨᱟᱡᱩ ᱢᱟᱨᱰᱤ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890503/Team%20pictures/Language/%E1%B1%A8%E1%B1%9F%E1%B1%A1%E1%B1%A9_%E1%B1%A2%E1%B1%9F%E1%B1%A8%E1%B1%B0%E1%B1%A4_-_Raju_Mardi_quuant.jpg
       - teamGroup: language
         personName: Rakshit Ghai रक्षित घई
         personDesignation: "Language Expert,  Hindi"
@@ -770,41 +747,17 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/SAI_SUDEEP_DAS_SaiSudeepDas_ai4bhar_vckg25.jpg
       - teamGroup: language
-        personName: Saket Kumar साकेत कुमार
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/saket_kumar_-_Kumar_Saket_xuz9jv.jpg
-      - teamGroup: language
-        personName: Sandeep Kumar Jha संदीप कुमार झा
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890460/Team%20pictures/Language/WhatsApp_Image_2022-07-07_at_2.24.17_PM_-_sandeep_Jha_am2ebe.jpg
-      - teamGroup: language
         personName: Sanjay Kumar Jha संजय कुमार झा
         personDesignation: "Language Expert, Maithili"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889844/Team%20pictures/Language/San_Pic_-_Sanjay_Aripana_otwqca.jpg
       - teamGroup: language
-        personName: Sanjiban Murmu ᱥᱚᱧᱡᱤᱵᱚᱱ ᱢᱩᱨᱢᱩ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889803/Team%20pictures/Language/IMG_20220712_144057_-_SANJIBAN_MURMU_aa3csr.jpg
-      - teamGroup: language
         personName: Sansuma Brahma सानसुमा ब्रह्म'
         personDesignation: "Language Expert, Bodo"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657890192/Team%20pictures/Language/SANSUMA_SansumaBrahma_ai4bha_p53wnc.jpg
-      - teamGroup: language
-        personName: Satya Hembram ᱥᱚᱛᱛᱚ ᱦᱮᱢᱵᱽᱨᱚᱢ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1658334457/Team%20pictures/Language/WhatsApp_Image_2022-07-12_at_2.55.33_PM_-_Sattya_yrbx2p.jpg
       - teamGroup: language
         personName: Satyabrata Barik ସତ୍ୟବ୍ରତ ବାରିକ୍
         personDesignation: "Language Expert, Odia"
@@ -817,12 +770,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889807/Team%20pictures/Language/My_Photo_-_Shakir_ShakirAzeemCB_ai4bha_hy3ajy.jpg
-      - teamGroup: language
-        personName: Shivapriya Murali சிவப்பிரியா முரளி
-        personDesignation: "Language Expert, Tamil"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889800/Team%20pictures/Language/1657621019997_-_Shivapriya_Murali_eql5sy.jpg
       - teamGroup: language
         personName: Shreerupa Chattopadhyay শ্রীরূপা চট্টোপাধ্যায়
         personDesignation: "Language Expert, Bengali"
@@ -853,12 +800,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889805/Team%20pictures/Language/compress_pic_sounak_1_100_kb-min_SounakDutta_ai4bhara_tszoma.jpg
-      - teamGroup: language
-        personName: Sova Tudu শোভা টুডু
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657890275/Team%20pictures/Language/Sova-Pic_-_Sova_tudu_sedwaf.jpg
       - teamGroup: language
         personName: Srija Mukherjee সৃজা মুখার্জী
         personDesignation: "Language Expert, Bengali"
@@ -895,23 +836,12 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657890342/Team%20pictures/Language/Suchishraba_photo_SuchishrabaSarangi_a_pacr7z.jpg
-      - teamGroup: language
-        personName: Sudheendran C V സുധീന്ദ്രൻ സി വി
-        personDesignation: "Language Expert, Malayalam"
-        personImage:
-          src: "-"
       - teamGroup: previousEmployees
         personName: Sufiya Pathan सूफ़िया पठान
         personDesignation: "Language Expert,  Hindi"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889804/Team%20pictures/Language/IMG-20160920-WA0014_SufiyaPathan_ai4bhar_vx8yp0.jpg
-      - teamGroup: language
-        personName: Sujeet Kumar Singh Jha सुजीत कुमार सिंह झा
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1658230573/Team%20pictures/Language/sujit_-_Sujit_Singh_jha_p8hy7q.jpg
       - teamGroup: language
         personName: Sunita Dahal सुनिता दहाल
         personDesignation: "Language Expert, Nepali"
@@ -1043,11 +973,6 @@ blocks:
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668762947/Team%20pictures/Language/Pankaj-Kumar_oduof9.jpg
       - teamGroup: language
-        personName: Sanjay Kumar Jha संजय कुमार झा
-        personDesignation: "Language Expert, Maithili"
-        personImage:
-          src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770390/Team%20pictures/Language/Sanjay-Aripana_zaxtwu.jpg
-      - teamGroup: language
         personName: Rahul Kumar Jha राहुल कुमार झा
         personDesignation: "Language Expert, Maithili"
         personImage:
@@ -1158,11 +1083,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1668770396/Team%20pictures/Language/Vivaswini-Satish_jwzxjb.jpg
-      - teamGroup: language
-        personName: Sagen Murmu ᱥᱟᱜᱮᱱ ᱢᱩᱨᱢᱩ
-        personDesignation: "Language Expert, Santali"
-        personImage:
-          src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770389/Team%20pictures/Language/Sagen_Murmu_-_Murmu_k_gwibam.jpg
       - teamGroup: language
         personName: Urmila Murmu  ᱩᱨᱢᱤᱞᱟ ᱢᱩᱨᱢᱩ
         personDesignation: "Language Expert, Santali"
