@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: Armin Vrik ਅਰਮਿਨ ਵਿਰਕ
+        personDesignation: 'Language Expert, Punjabi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669036778/Team%20pictures/Language/Armin_Vrik_photo_u1f2ty.jpg
+      - teamGroup: language
         personName: Ria Borah Sonowal रिया ब'रा सन'वाल
         personDesignation: 'Language Expert, Bodo'
         personImage:
