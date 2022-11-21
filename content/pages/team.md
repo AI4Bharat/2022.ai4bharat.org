@@ -9,8 +9,11 @@ blocks:
       "Artificial Intelligence for Bhārat", shortened  `AI4Bhārat`.
     _template: hero
   - items:
-      - personName: ''
-        personDesignation: ''
+      - personName: Dr. Nalini नलिनी
+        personDesignation: 'Language Expert, Sindhi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669014853/Team%20pictures/Language/Nalini_Vijaykumar_iljaxa.jpg
       - teamGroup: language
         personName: Tripura Panchagnula త్రిపుర పంచాగ్నుల
         personDesignation: 'Language Expert, Telugu'
