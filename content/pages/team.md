@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: 'Karan Vanni करन वाणी '
+        personDesignation: 'Language Expert, Sindhi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669020754/Team%20pictures/Language/KARAN_VANNI_rssgdq.jpg
+      - teamGroup: language
         personName: Dr. Nalini नलिनी
         personDesignation: 'Language Expert, Sindhi'
         personImage:
