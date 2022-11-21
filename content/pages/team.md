@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: Ria Borah Sonowal रिया ब'रा सन'वाल
+        personDesignation: 'Language Expert, Bodo'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669036780/Team%20pictures/Language/Ria_Sonowal_po0qgx.webp
+      - teamGroup: language
         personName: 'Karan Vanni करन वाणी '
         personDesignation: 'Language Expert, Sindhi'
         personImage:
