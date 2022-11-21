@@ -9,8 +9,10 @@ blocks:
       "Artificial Intelligence for Bhārat", shortened  `AI4Bhārat`.
     _template: hero
   - items:
+      - personName: ''
+        personDesignation: ''
       - teamGroup: language
-        personName: Tripura Panchagnula
+        personName: Tripura Panchagnula త్రిపుర పంచాగ్నుల
         personDesignation: 'Language Expert, Telugu'
         personImage:
           src: >-
