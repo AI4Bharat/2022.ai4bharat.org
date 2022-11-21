@@ -63,7 +63,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1658330094/Team%20pictures/Operations/Janki_1_kvx74t.jpg
       - teamGroup: operations
         personName: "Krishnan K S\tகிருஷ்ணன் கே எஸ்"
-        personDesignation: "Chief of Operations, AI4Bharat"
+        personDesignation: "Chief of Delivery & Operations, AI4Bharat"
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658493526/Team%20pictures/Operations/krishnan_Krishnan_Karunganni_hw4qcs.jpg
@@ -1095,7 +1095,7 @@ blocks:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668762943/Team%20pictures/Language/Naresh-Kapadia_y6t0vw.jpg
       - teamGroup: operations
         personName: Ravishankar Venkateswaran रविशङ्कर वेङ्कटेस्वरन्
-        personDesignation: "Delivery Head, AI4Bharat"
+        personDesignation: "Delivery Head (Translation), AI4Bharat"
         personImage:
           src: https://res.cloudinary.com/ai4bharat/image/upload/v1668770389/Team%20pictures/Language/Ravishankar-Venkateswaran_vrlatb.jpg
       - teamGroup: language
