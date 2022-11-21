@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: Tripura Panchagnula
+        personDesignation: 'Language Expert, Telugu'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669014853/Team%20pictures/Language/Tripura_Panchagnula_afoper.jpg
+      - teamGroup: language
         personName: Dr. Narayan Dutt Mishra डॉ.नारायणदत्तमिश्रः
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
