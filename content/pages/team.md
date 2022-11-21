@@ -9,7 +9,8 @@ blocks:
       "Artificial Intelligence for Bhārat", shortened  `AI4Bhārat`.
     _template: hero
   - items:
-      - personName: Dr. Nalini नलिनी
+      - teamGroup: language
+        personName: Dr. Nalini नलिनी
         personDesignation: 'Language Expert, Sindhi'
         personImage:
           src: >-
