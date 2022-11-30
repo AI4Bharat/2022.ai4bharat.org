@@ -10,7 +10,7 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
-        personName: Armin Vrik ਅਰਮਿਨ ਵਿਰਕ
+        personName: Armin Virk ਅਰਮਿਨ ਵਿਰਕ
         personDesignation: 'Language Expert, Punjabi'
         personImage:
           src: >-
