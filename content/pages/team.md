@@ -1075,7 +1075,7 @@ blocks:
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889813/Team%20pictures/Language/RadhikaDeshpande_RadhikaDeshpande_ai4_dmrnwc.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1668770416/Team%20pictures/Language/Radhika-Deshpande_ml3x75.jpg
       - teamGroup: language
         personName: Karuna Vempati కరుణ వెంపటి
         personDesignation: 'Language Expert, Telugu'
