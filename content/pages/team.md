@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: Veena Gupta वीणा गुप्ता
+        personDesignation: 'Language Expert, Dogri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669791549/Team%20pictures/Language/8308621F-4516-4385-8F46-957B8479772D_-_KHUSHI_GUPTA_lgpj8m.jpg
+      - teamGroup: language
         personName: Armin Virk ਅਰਮਿਨ ਵਿਰਕ
         personDesignation: 'Language Expert, Punjabi'
         personImage:
