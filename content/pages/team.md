@@ -10,6 +10,12 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
+        personName: 'Kulbushan Singh कुलभूषण सिंह '
+        personDesignation: 'Language Expert, Dogri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1669791545/Team%20pictures/Language/IMG_20221018_181531_98_-_Dogra_Diaries_ngrx6l.jpg
+      - teamGroup: language
         personName: Veena Gupta वीणा गुप्ता
         personDesignation: 'Language Expert, Dogri'
         personImage:
