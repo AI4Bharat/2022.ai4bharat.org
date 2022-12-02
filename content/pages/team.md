@@ -10,12 +10,6 @@ blocks:
     _template: hero
   - items:
       - teamGroup: language
-        personName: Naziya Rasool نازیا رسول
-        personDesignation: 'Language Expert, Urdu'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1669791541/Team%20pictures/Language/IMG_20221128_114300_-_naziya_rasool_sdtiat.jpg
-      - teamGroup: language
         personName: 'Kulbushan Singh कुलभूषण सिंह '
         personDesignation: 'Language Expert, Dogri'
         personImage:
