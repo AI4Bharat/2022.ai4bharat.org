@@ -37,12 +37,12 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
-        comingSoon: false
+        title: IndicBERT v2
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Language model trained on IndicCorp v2 with competitive performance on
+          IndicXTREME
       - icon:
           color: ''
           style: float
