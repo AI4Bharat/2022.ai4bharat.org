@@ -24,28 +24,6 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: store
-        title: IndicCorp v2
-        comingSoon: true
-        updated: false
-        text: >-
-          IndicCorp v2, the largest collection of texts for Indic languages
-          consisting of 20.9 billion tokens of which 14.4B tokens correspond to
-          23 Indic languages and 6.5B tokens of Indian English content curated
-          from Indian websites.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: IndicBERT v2
-        comingSoon: true
-        updated: false
-        text: >-
-          Language model trained on IndicCorp v2 with competitive performance on
-          IndicXTREME
-      - icon:
-          color: ''
-          style: float
           name: AI4B
         title: IndicCorp
         link: /corpora
@@ -72,6 +50,17 @@ blocks:
           color: ''
           style: float
           name: AI4B
+        title: Naamapadam
+        link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
+        comingSoon: false
+        updated: true
+        text: >-
+          Training and evaluation datasets for named entity recognition in
+          multiple Indian language.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
         title: IndicXTREME
         comingSoon: true
         updated: false
@@ -81,14 +70,25 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: AI4B
-        title: Naamapadam
-        link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
-        comingSoon: false
-        updated: true
+          name: store
+        title: IndicCorp v2
+        comingSoon: true
+        updated: false
         text: >-
-          Training and evaluation datasets for named entity recognition in
-          multiple Indian language.
+          IndicCorp v2, the largest collection of texts for Indic languages
+          consisting of 20.9 billion tokens of which 14.4B tokens correspond to
+          23 Indic languages and 6.5B tokens of Indian English content curated
+          from Indian websites.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicBERT v2
+        comingSoon: true
+        updated: false
+        text: >-
+          Language model trained on IndicCorp v2 with competitive performance on
+          IndicXTREME
     color: default
     _template: featuresAlt
   - quote: Models
