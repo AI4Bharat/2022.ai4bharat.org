@@ -50,7 +50,7 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: IndicXtreme
+        title: IndicXTREME
         comingSoon: true
         updated: false
         text: >-
