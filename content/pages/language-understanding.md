@@ -24,6 +24,28 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: store
+        title: IndicCorp v2
+        comingSoon: true
+        updated: false
+        text: >-
+          IndicCorp v2, the largest collection of texts for Indic languages
+          consisting of 20.9 billion tokens of which 14.4B tokens correspond to
+          23 Indic languages and 6.5B tokens of Indian English content curated
+          from Indian websites.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
           name: AI4B
         title: IndicCorp
         link: /corpora
