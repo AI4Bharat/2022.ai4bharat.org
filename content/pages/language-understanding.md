@@ -178,12 +178,13 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Here's Another Feature
-        comingSoon: false
-        updated: false
+        title: IndicBERTv2
+        link: /bertv2
+        comingSoon: true
+        updated: true
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Language model trained on IndicCorp v2 with competitive performance on
+          IndicXTREME
     _template: featuresAlt
   - quote: Our Partners
     author: Anoop K
