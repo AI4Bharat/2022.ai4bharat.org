@@ -1,5 +1,9 @@
 ---
 blocks:
+  - quote: Benchmarks
+    author: ''
+    color: primary
+    _template: testimonial
   - tagline: ''
     headline: Language Understanding
     text: >
