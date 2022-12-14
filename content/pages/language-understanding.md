@@ -174,6 +174,16 @@ blocks:
           Named Entity Recognizer models for multiple Indian languages. The
           models are trained on the Naampadam NER dataset mined from Samanantar
           parallel corpora.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
     _template: featuresAlt
   - quote: Our Partners
     author: Anoop K
