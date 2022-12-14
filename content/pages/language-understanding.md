@@ -20,6 +20,39 @@ blocks:
     author: Anoop K
     color: tint
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: IndicGLUE
+        link: /indic-glue
+        comingSoon: false
+        updated: false
+        text: >-
+          Benchmark for 6 NLU tasks spanning 11 Indian languages containing
+          standard training and evaluation sets.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: featuresAlt
   - quote: Benchmarks
     author: Sumanth
     color: tint
