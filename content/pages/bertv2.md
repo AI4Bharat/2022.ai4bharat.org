@@ -8,6 +8,56 @@ blocks:
       24 Indic languages. IndicBERT performs competitive to strong baselines and
       performs best on 7 out of 9 tasks on IndicXTREME benchmark.
     _template: content
+  - caption: Models
+    markupTable: >-
+      <table>
+
+      <thead>
+
+      <tr>
+
+      <th>Dataset</th>
+
+      <th>Download Link</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td>IndicBERT</td>
+
+      <td><a href="https://huggingface.co/ai4bharat/IndicBERTv2-MLM-only">HF
+      Model</a></td>
+
+      </tr>
+
+      <tr>
+
+      <td>IndicBERT+Samanatar</td>
+
+      <td><a href="https://huggingface.co/ai4bharat/IndicBERTv2-MLM-Sam-TLM">HF
+      Model</a></td>
+
+      </tr>
+
+      <tr>
+
+      <td>IndicBERT+Back Trans.</td>
+
+      <td><a href="https://huggingface.co/ai4bharat/IndicBERTv2-MLM-Back-TLM">HF
+      Model</a></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    color: default
+    _template: table
   - body: >
       # Coming Soon
 
