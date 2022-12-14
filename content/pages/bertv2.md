@@ -1,5 +1,13 @@
 ---
 blocks:
+  - body: >
+      # IndicBERT v2
+
+
+      IndicBERT v2 is a multilingual BERT model trained on IndicCorpv2, covering
+      24 Indic languages. IndicBERT performs competitive to strong baselines and
+      performs best on 7 out of 9 tasks on IndicXTREME benchmark.
+    _template: content
   - body: |+
       # Citation
 
