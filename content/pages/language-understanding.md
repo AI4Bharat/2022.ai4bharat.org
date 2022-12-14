@@ -62,11 +62,22 @@ blocks:
           style: float
           name: AI4B
         title: IndicXTREME
+        link: /indicxtreme
         comingSoon: true
         updated: false
         text: >-
           Benchmark for zero-shot and cross-lingual evaluation of various NLU
           tasks in multiple Indian languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicBERT v2
+        comingSoon: true
+        updated: false
+        text: >-
+          Language model trained on IndicCorp v2 with competitive performance on
+          IndicXTREME
       - icon:
           color: ''
           style: float
@@ -79,16 +90,6 @@ blocks:
           consisting of 20.9 billion tokens of which 14.4B tokens correspond to
           23 Indic languages and 6.5B tokens of Indian English content curated
           from Indian websites.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: IndicBERT v2
-        comingSoon: true
-        updated: false
-        text: >-
-          Language model trained on IndicCorp v2 with competitive performance on
-          IndicXTREME
     color: default
     _template: featuresAlt
   - quote: Models
