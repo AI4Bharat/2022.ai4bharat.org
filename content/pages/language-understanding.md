@@ -25,12 +25,13 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: Here's Another Feature
+        title: IndicGLUE
+        link: /indic-glue
         comingSoon: false
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Benchmark for 6 NLU tasks spanning 11 Indian languages containing
+          standard training and evaluation sets.
       - icon:
           color: ''
           style: float
