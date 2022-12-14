@@ -39,7 +39,7 @@ blocks:
         title: IndicXTREME
         link: /indicxtreme
         comingSoon: true
-        updated: false
+        updated: true
         text: >-
           Benchmark for zero-shot and cross-lingual evaluation of various NLU
           tasks in multiple Indian languages.
