@@ -73,6 +73,7 @@ blocks:
           style: float
           name: ''
         title: IndicBERT v2
+        link: /bertv2
         comingSoon: true
         updated: false
         text: >-
