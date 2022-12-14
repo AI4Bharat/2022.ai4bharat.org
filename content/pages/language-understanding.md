@@ -1,9 +1,5 @@
 ---
 blocks:
-  - quote: Benchmarks
-    author: ''
-    color: primary
-    _template: testimonial
   - tagline: ''
     headline: Language Understanding
     text: >
@@ -22,6 +18,10 @@ blocks:
     _template: testimonial
   - quote: Datasets
     author: Anoop K
+    color: tint
+    _template: testimonial
+  - quote: Benchmarks
+    author: Sumanth
     color: tint
     _template: testimonial
   - items:
