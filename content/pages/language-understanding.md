@@ -35,7 +35,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: Here's Another Feature
         comingSoon: false
         updated: false
