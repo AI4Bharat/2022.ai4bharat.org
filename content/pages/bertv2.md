@@ -8,10 +8,17 @@ blocks:
       24 Indic languages. IndicBERT performs competitive to strong baselines and
       performs best on 7 out of 9 tasks on IndicXTREME benchmark.
     _template: content
-  - body: |
+  - body: >
       # Coming Soon
 
+
       Hugginface Examples
+
+
+      # Code
+
+
+      [https://github.com/AI4Bharat/IndicBERT](https://github.com/AI4Bharat/IndicBERT)
     _template: content
   - body: |+
       # Citation
