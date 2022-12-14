@@ -43,16 +43,6 @@ blocks:
         text: >-
           Benchmark for zero-shot and cross-lingual evaluation of various NLU
           tasks in multiple Indian languages.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        comingSoon: false
-        updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
     _template: featuresAlt
   - quote: Datasets
     author: Anoop K
@@ -77,17 +67,6 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: IndicGLUE
-        link: /indic-glue
-        comingSoon: false
-        updated: false
-        text: >-
-          Benchmark for 6 NLU tasks spanning 11 Indian languages containing
-          standard training and evaluation sets.
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
         title: Naamapadam
         link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
         comingSoon: false
@@ -95,28 +74,6 @@ blocks:
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: IndicXTREME
-        link: /indicxtreme
-        comingSoon: true
-        updated: false
-        text: >-
-          Benchmark for zero-shot and cross-lingual evaluation of various NLU
-          tasks in multiple Indian languages.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: IndicBERT v2
-        link: /bertv2
-        comingSoon: true
-        updated: false
-        text: >-
-          Language model trained on IndicCorp v2 with competitive performance on
-          IndicXTREME
       - icon:
           color: ''
           style: float
