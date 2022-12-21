@@ -1,18 +1,18 @@
 ---
 blocks:
-  - tagline: ''
-    headline: Launch at IIT Madras
+  - tagline: Artificial-Intelligence For Bhārat
+    headline: AI4Bharat
     text: >
-      “Nilekani Center at
+      The “Nilekani Center at
 
-      AI4Bharat” was officially launched on 28th July at IIT Madras. The launch
+      AI4Bhārat” was officially launched on 28th July at IIT Madras. The launch
 
       was followed by the first workshops on Indian language technology under
       the AI4Bharat
 
       initiative of IIT Madras.&#x20;
     actions:
-      - label: Click here for more information
+      - label: More details about the launch
         type: button
         icon: true
         link: /launch
