@@ -118,22 +118,7 @@ blocks:
 
       Dataset Descriptions and Examples
     _template: content
-  - body: |
-      # Citation
-
-      ```
-      @misc{https://doi.org/10.48550/arxiv.2212.05409,
-        doi = {10.48550/ARXIV.2212.05409},
-        url = {https://arxiv.org/abs/2212.05409},
-        author = {Doddapaneni, Sumanth and Aralikatte, Rahul and Ramesh, Gowtham and Goyal, Shreya and Khapra, Mitesh M. and Kunchukuttan, Anoop and Kumar, Pratyush},
-        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {IndicXTREME: A Multi-Task Benchmark For Evaluating Indic Languages},
-        publisher = {arXiv},
-        year = {2022},
-        copyright = {arXiv.org perpetual, non-exclusive license}
-      }
-
-      ```
+  - body: "### Contributors\n\n*   Sumanth Doddapaneni (AI4Bharat, IITM)\n*   Rahul Aralikatte (McGill, MILA)\n*   Gowtham Ramesh,\_(AI4Bharat, IITM)\n*   Shreya Goyal, (AI4Bharat)\n*   Mitesh Khapra, \_(AI4Bharat, IITM)\n*   Anoop Kunchukuttan, (Microsoft,\_AI4Bharat, IITM)\n*   Pratyush Kumar,\_\_(Microsoft,\_AI4Bharat, IITM)\n\nCorresponding authors: Sumanth Doddapaneni\n\n### Citing\n\nIf you are using any of the resources, please cite the following article:\n\n```\n@misc{https://doi.org/10.48550/arxiv.2212.05409,\n  doi = {10.48550/ARXIV.2212.05409},\n  url = {https://arxiv.org/abs/2212.05409},\n  author = {Doddapaneni, Sumanth and Aralikatte, Rahul and Ramesh, Gowtham and Goyal, Shreya and Khapra, Mitesh M. and Kunchukuttan, Anoop and Kumar, Pratyush},\n  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},\n  title = {IndicXTREME: A Multi-Task Benchmark For Evaluating Indic Languages},\n  publisher = {arXiv},\n  year = {2022}, \n  copyright = {arXiv.org perpetual, non-exclusive license}\n}\n```\n\n### License\n\nIndicXTREME is released under this licensing scheme:\n\n*   We do not own any of the text from which this data has been extracted.\n*   We license the actual packaging of this data under the\_[Creative Commons CC0 license (“no rights reserved”)]().\n*   To the extent possible under law,\_[AI4Bharat]()\_has waived all copyright and related or neighboring rights to\_IndicXTREME.\n*   This work is published from: India.\n"
     _template: content
 ---
 
