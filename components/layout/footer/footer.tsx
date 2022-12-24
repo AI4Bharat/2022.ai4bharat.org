@@ -202,7 +202,7 @@ export const Footer = ({ data, icon, rawData }) => {
                 />
               </a>
         )}
-          Address: Department of Computer Science and Engineering, IIT Madras, Chennai - 600036
+          Address: Department of Computer Science and Engineering, IIT Madras, Tamil Nadu - 600036
         </div>
         <div className="flex items-center justify-center md:justify-start mb-4">
             {data.social && data.social.github && (
