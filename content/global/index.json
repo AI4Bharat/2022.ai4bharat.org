@@ -79,7 +79,7 @@
             "description": "Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for sign recognition for various 10 sign languages from around the world."
           },
           {
-            "href": "home",
+            "href": "/tts",
             "label": "Speech Synthesis",
             "icon": {
               "color": "orange",
