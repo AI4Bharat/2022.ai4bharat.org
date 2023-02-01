@@ -93,7 +93,7 @@ blocks:
         comingSoon: false
         updated: false
         pointerDetail1: ''
-        text: Open-source text-to-speech models 13 Indian languages.
+        text: Open-source text-to-speech models for 13 Indian languages.
       - icon:
           color: orange
           style: float
