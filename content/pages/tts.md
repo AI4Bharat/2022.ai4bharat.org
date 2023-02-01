@@ -14,8 +14,8 @@ blocks:
       [Video](https://www.youtube.com/watch?v=SiEXBVudlJw) &#x20;
 
 
-      We open-source state-of-the-art monolingual multi-speaker models based on
-      FastPitch and HiFiGAN for over 13 Indian languages.
+      We open-source state-of-the-art monolingual multi-speaker text-to-speech
+      models based on FastPitch and HiFiGAN for over 13 Indian languages.
 
 
       #### Summary
@@ -31,23 +31,11 @@ blocks:
       paper, we evaluate the choice of acoustic models, vocoders, supplementary
       loss functions, training schedules, and speaker and language diversity for
       Dravidian and Indo-Aryan languages. Based on this, we identify monolingual
-      models with FastPitch and HiFi-GAN V1, trained jointly on male and female
+      models with FastPitch and HiFi-GAN, trained jointly on male and female
       speakers to perform the best. With this setup, we train and evaluate TTS
       models for 13 languages and find our models to significantly improve upon
       existing models in all languages as measured by mean opinion scores. We
       open-source all models on the Bhashini platform.
-
-
-      Paper link -
-      [https://arxiv.org/pdf/2211.09536.pdf](https://arxiv.org/pdf/2211.09536.pdf)
-
-
-      Github link -
-      [https://github.com/AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS)
-
-
-      You can view some samples here -
-      [https://models.ai4bharat.org/#/tts/samples](https://models.ai4bharat.org/#/tts/samples)
     _template: content
 ---
 
