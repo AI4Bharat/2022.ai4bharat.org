@@ -85,6 +85,16 @@ blocks:
     _template: testimonial
   - items:
       - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Text-to-Speech
+        link: /tts
+        comingSoon: false
+        updated: false
+        pointerDetail1: ''
+        text: Open-source text-to-speech models 13 Indian languages.
+      - icon:
           color: orange
           style: float
           name: world
