@@ -85,16 +85,6 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Text-to-Speech
-        link: /tts
-        comingSoon: false
-        updated: false
-        pointerDetail1: ''
-        text: Open-source text-to-speech models for 13 Indian languages.
-      - icon:
           color: orange
           style: float
           name: world
@@ -194,6 +184,18 @@ blocks:
         text: >-
           Open-sourced tool for document-level translation with NMT and
           transliteration support. 
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Text-to-Speech
+        link: /tts
+        comingSoon: false
+        updated: false
+        pointerDetail1: ''
+        text: >-
+          Open-source text-to-speech models for 13 Indian languages for female
+          and male speakers.
     _template: featuresAlt
   - quote: Tools and Models
     author: Umashankar
