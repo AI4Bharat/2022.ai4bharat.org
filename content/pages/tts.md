@@ -7,7 +7,8 @@ blocks:
       # Indic Text-to-Speech
 
 
-      [Paper](https://arxiv.org/abs/2211.09536) | Code | Samples | Video | Live
+      [Paper](https://arxiv.org/abs/2211.09536) |
+      [Code](https://github.com/AI4Bharat/Indic-TTS) | Samples | Video | Live
       Demo
 
 
