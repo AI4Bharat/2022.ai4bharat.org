@@ -84,8 +84,8 @@ blocks:
         updated: false
         text: >-
           IndicTextToSpeech is a non-autoregressive state-of-the-art neural
-          model that is based on FastPitch and HiFiGAN that supports speech
-          synthesis for over 13 Indian Languages for female and male speakers.
+          model based on FastPitch and HiFiGAN that supports speech synthesis
+          for over 13 Indian Languages for female and male speakers.
     _template: featuresAlt
 ---
 
