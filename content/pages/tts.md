@@ -1,7 +1,7 @@
 ---
 blocks:
   - body: >
-      [Speech Synthesis](/tts "") / [Models](/models) /
+      [Speech Synthesis](/tts "") / [Models](/models "") /
       [IndicWav2Vec](/indic-wav-2-vec)
 
 
