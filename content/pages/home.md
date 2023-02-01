@@ -194,8 +194,8 @@ blocks:
         updated: false
         pointerDetail1: ''
         text: >-
-          Open-source text-to-speech models for 13 Indian languages for female
-          and male speakers.
+          Open-source text-to-speech models for 13 Indian languages with support
+          for female and male speakers.
     _template: featuresAlt
   - quote: Tools and Models
     author: Umashankar
