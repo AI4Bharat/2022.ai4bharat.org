@@ -27,9 +27,11 @@ blocks:
       not been thoroughly investigated for Indian language speech synthesis.
       Such investigation is computationally expensive given the number and
       diversity of Indian languages, relatively lower resource availability, and
-      the diverse set of advances in neural TTS that remain untested. In this
-      paper, we evaluate the choice of acoustic models, vocoders, supplementary
-      loss functions, training schedules, and speaker and language diversity for
+      the diverse set of advances in neural TTS that remain untested.&#x20;
+
+
+      We evaluate the choice of acoustic models, vocoders, supplementary loss
+      functions, training schedules, and speaker and language diversity for
       Dravidian and Indo-Aryan languages. Based on this, we identify monolingual
       models with FastPitch and HiFi-GAN, trained jointly on male and female
       speakers to perform the best. With this setup, we train and evaluate TTS
