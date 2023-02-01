@@ -74,6 +74,18 @@ blocks:
           languages in the pool of multilingual speech models. We fine-tune this
           model for downstream ASR for 9 languages and obtain state-of-the-art
           results on 3 public benchmarks, namely MUCS, MSR and OpenSLR.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicFastPitch
+        link: /tts
+        comingSoon: false
+        updated: false
+        text: >-
+          FastPitch is a non-autoregressive state-of-the-art acoustic model that
+          converts text to mel-spectrograms which is converted to speech with
+          the help of a neural vocoder such as HiFiGAN.
     _template: featuresAlt
 ---
 
