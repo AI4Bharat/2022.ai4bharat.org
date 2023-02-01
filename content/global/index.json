@@ -83,7 +83,7 @@
             "label": "Speech Synthesis",
             "icon": {
               "color": "orange",
-              "name": "code"
+              "name": "chat"
             },
             "description": "Open-source text-to-speech models for 13 Indian languages with support for female and male speakers."
           }
