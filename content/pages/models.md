@@ -78,14 +78,14 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicFastPitch
+        title: IndicTextToSpeech
         link: /tts
         comingSoon: false
         updated: false
         text: >-
-          FastPitch is a non-autoregressive state-of-the-art acoustic model that
-          converts text to mel-spectrograms which is converted to speech with
-          the help of a neural vocoder such as HiFiGAN.
+          IndicTextToSpeech is a non-autoregressive state-of-the-art neural
+          model that is based on FastPitch and HiFiGAN that supports speech
+          synthesis for over 13 Indian Languages for female and male speakers.
     _template: featuresAlt
 ---
 
