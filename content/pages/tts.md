@@ -1,11 +1,21 @@
 ---
 blocks:
   - body: >
-      [Speech Synthesis](/tts "") / [Models](/models "") /
-      [IndicWav2Vec](/indic-wav-2-vec)
+      [Speech Synthesis](/tts "") / [Models](/models "")&#x20;
 
 
-      # Text-to-Speech
+      # Indic Text-to-Speech
+
+
+      [Paper](https://arxiv.org/abs/2211.09536) | Code | Samples | Video | Live
+      Demo
+
+
+      We open-source state-of-the-art monolingual multi-speaker models based on
+      FastPitch and HiFiGAN for over 13 Indian languages.
+
+
+      #### Summary
 
 
       Deep learning based text-to-speech (TTS) systems have been evolving
