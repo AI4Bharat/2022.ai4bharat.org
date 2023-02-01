@@ -27,6 +27,10 @@ blocks:
 
       Github link -
       [https://github.com/AI4Bharat/Indic-TTS](https://github.com/AI4Bharat/Indic-TTS)
+
+
+      You can view some samples here -
+      [https://models.ai4bharat.org/#/tts/samples](https://models.ai4bharat.org/#/tts/samples)
     _template: content
 ---
 
