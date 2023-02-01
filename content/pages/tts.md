@@ -8,8 +8,8 @@ blocks:
 
 
       [Paper](https://arxiv.org/abs/2211.09536) |
-      [Code](https://github.com/AI4Bharat/Indic-TTS) | Samples | Video | Live
-      Demo
+      [Code](https://github.com/AI4Bharat/Indic-TTS) |
+      [API](https://models.ai4bharat.org/#/tts) | Samples | Video &#x20;
 
 
       We open-source state-of-the-art monolingual multi-speaker models based on
