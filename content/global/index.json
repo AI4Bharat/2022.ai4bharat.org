@@ -81,6 +81,10 @@
           {
             "href": "home",
             "label": "Speech Synthesis",
+            "icon": {
+              "color": "orange",
+              "name": "code"
+            },
             "description": "Open-source text-to-speech models for 13 Indian languages with support for female and male speakers."
           }
         ]
