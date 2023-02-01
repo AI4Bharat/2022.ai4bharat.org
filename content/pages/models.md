@@ -77,7 +77,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicTextToSpeech
         link: /tts
         comingSoon: false
