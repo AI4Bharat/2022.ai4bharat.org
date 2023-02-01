@@ -77,6 +77,11 @@
               "name": "like"
             },
             "description": "Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for sign recognition for various 10 sign languages from around the world."
+          },
+          {
+            "href": "home",
+            "label": "Speech Synthesis",
+            "description": "Open-source text-to-speech models for 13 Indian languages with support for female and male speakers."
           }
         ]
       },
