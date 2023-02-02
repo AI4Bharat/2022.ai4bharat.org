@@ -49,7 +49,7 @@ blocks:
     _template: featuresAlt
   - items:
       - title: Translation
-        image: /mountain.png
+        image: /Bhashaverse3_g2jhgu.webp
         text: Translate Across 11 Languages!
     _template: photoCardsGrid2
 ---
