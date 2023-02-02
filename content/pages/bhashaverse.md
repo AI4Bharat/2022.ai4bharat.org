@@ -35,9 +35,9 @@ blocks:
         updated: false
         text: ' Translate from one Indian language to another.'
       - icon:
-          color: ''
+          color: orange
           style: float
-          name: ''
+          name: TTS
         title: Text to Speech
         comingSoon: false
         updated: false
