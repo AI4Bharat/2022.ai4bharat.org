@@ -48,15 +48,18 @@ import {
   SupportIcon,
   ViewGridIcon,
   XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+} from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import { FiAperture } from "react-icons/fi";
 import { useTheme } from "../layout";
 import { FaBeer, FaCoffee } from "react-icons/fa";
 import TinaIconSvg from "../../public/tina.svg";
 import AI4BharatIcon from "../../public/logo 1.svg";
-import AI4BharatIconAlt from "../../public/logo_alt.svg"
+import AI4BharatIconAlt from "../../public/logo_alt.svg";
 import type { TinaField } from "tinacms";
+import { SiAudiomack } from "react-icons/si";
+import { BiWorld } from "react-icons/bi";
+import { BsSoundwave } from "react-icons/bs";
 
 const iconOptions = {
   code: { bi: BiCodeBlock, hi: HiTerminal },
@@ -80,8 +83,11 @@ const iconOptions = {
   aperture: { bi: FiAperture, hi: FiAperture },
   bookmark: { bi: BookmarkAltIcon, hi: BookmarkAltIcon },
   tina: { bi: TinaIconSvg, hi: TinaIconSvg },
-  AI4B : { bi: AI4BharatIcon, hi: AI4BharatIcon },
-  AI4BAlt : { bi: AI4BharatIconAlt, hi: AI4BharatIconAlt },
+  AI4B: { bi: AI4BharatIcon, hi: AI4BharatIcon },
+  AI4BAlt: { bi: AI4BharatIconAlt, hi: AI4BharatIconAlt },
+  ASR: { bi: BsSoundwave, hi: BsSoundwave },
+  TTS: { bi: SiAudiomack, hi: SiAudiomack },
+  NMT: { bi: BiWorld, hi: BiWorld },
 };
 
 const iconColorClass: { [name: string]: { regular: string; circle: string } } =
