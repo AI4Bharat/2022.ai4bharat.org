@@ -35,12 +35,10 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Text to Speech
         comingSoon: false
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: Generate voice from text in any Indian Language.
     _template: featuresAlt
 ---
 
