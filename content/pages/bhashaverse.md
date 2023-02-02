@@ -27,12 +27,10 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Here's Another Feature
+        title: Translation
         comingSoon: false
         updated: false
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: ' Translate from one Indian language to another.'
       - icon:
           color: ''
           style: float
