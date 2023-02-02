@@ -21,7 +21,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: ASR
         title: Automatic Speech Recognition
         comingSoon: false
         updated: false
