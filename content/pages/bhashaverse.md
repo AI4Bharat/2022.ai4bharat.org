@@ -16,27 +16,14 @@ blocks:
     _template: hero
   - items:
       - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Automatic Speech Recognition
-        text: Users can convert their voice to text in any Indian Language.
-      - icon:
-          color: ''
-          style: float
-          name: ''
+          color: orange
+          style: circle
+          name: cloud
         title: Here's Another Feature
         text: >-
           This is where you might talk about the feature, if this wasn't just
           filler text.
-      - icon:
-          color: ''
-          style: float
-          name: ''
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+    color: ''
     _template: features
 ---
 
