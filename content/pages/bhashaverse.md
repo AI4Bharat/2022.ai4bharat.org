@@ -12,6 +12,10 @@ blocks:
         type: button
         icon: false
         link: 'https://play.google.com/store/apps/details?id=com.ekstep.bhashaverse'
+      - label: Privacy Policy
+        type: link
+        icon: true
+        link: 'https://ai4bharat.org/bhashaverse-privacy-policy'
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1675360341/Bhashaverse1_k4c61u.webp
