@@ -47,10 +47,5 @@ blocks:
         updated: false
         text: Generate voice from text in any Indian Language.
     _template: featuresAlt
-  - items:
-      - title: Translation
-        image: /Bhashaverse3_g2jhgu.webp
-        text: Translate Across 11 Languages!
-    _template: photoCardsGrid2
 ---
 
