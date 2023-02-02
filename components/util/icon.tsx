@@ -58,7 +58,6 @@ import AI4BharatIcon from "../../public/logo 1.svg";
 import AI4BharatIconAlt from "../../public/logo_alt.svg";
 import type { TinaField } from "tinacms";
 import { SiAudiomack } from "react-icons/si";
-import { BiWorld } from "react-icons/bi";
 import { BsSoundwave } from "react-icons/bs";
 
 const iconOptions = {
