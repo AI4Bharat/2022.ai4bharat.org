@@ -27,9 +27,9 @@ blocks:
         updated: false
         text: Users can convert their voice to text in any Indian Language.
       - icon:
-          color: ''
+          color: orange
           style: float
-          name: ''
+          name: NMT
         title: Translation
         comingSoon: false
         updated: false
