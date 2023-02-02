@@ -12,6 +12,9 @@ blocks:
         type: button
         icon: false
         link: 'https://play.google.com/store/apps/details?id=com.ekstep.bhashaverse'
+    image:
+      src: >-
+        https://res.cloudinary.com/ai4bharat/image/upload/v1675360341/Bhashaverse1_k4c61u.webp
     color: default
     _template: hero
   - items:
