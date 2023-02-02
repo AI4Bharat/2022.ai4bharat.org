@@ -19,7 +19,7 @@ blocks:
     _template: hero
   - items:
       - icon:
-          color: ''
+          color: orange
           style: float
           name: ASR
         title: Automatic Speech Recognition
