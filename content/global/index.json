@@ -8,7 +8,7 @@
     "color": "default",
     "nav": [
       {
-        "href": "home",
+        "href": "/home",
         "label": "Home",
         "dropdown": false
       },
@@ -151,7 +151,7 @@
         "orientation": "Vertical",
         "subitems": [
           {
-            "href": "team",
+            "href": "/team",
             "label": "Our Team",
             "icon": {
               "color": "orange",
@@ -160,7 +160,7 @@
             }
           },
           {
-            "href": "positions",
+            "href": "/positions",
             "label": "Open Positions",
             "icon": {
               "color": "orange",
