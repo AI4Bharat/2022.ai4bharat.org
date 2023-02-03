@@ -21,7 +21,7 @@ export default function TestPage(
 export const getStaticProps = async ({ params }) => {
   const client = ExperimentalGetTinaClient();
   const tinaProps = await client.ContentQuery({
-    relativePath: `bhashaverse/${params.filename}.md` || `bhashaverse/${params.filename}.mdx`
+    relativePath: `${params.filename}.md` || `${params.filename}.mdx`
 
   });
   return {
