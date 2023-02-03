@@ -50,6 +50,8 @@ type Query {
   document(collection: String, relativePath: String): DocumentNode!
   post(relativePath: String): Post!
   postConnection(before: String, after: String, first: Float, last: Float, sort: String): PostConnection!
+  bhashaverse(relativePath: String): Bhashaverse!
+  bhashaverseConnection(before: String, after: String, first: Float, last: Float, sort: String): BhashaverseConnection!
   global(relativePath: String): Global!
   globalConnection(before: String, after: String, first: Float, last: Float, sort: String): GlobalConnection!
   author(relativePath: String): Author!
@@ -83,7 +85,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
 }
 
-union DocumentNode = Post | Global | Author | Page | Area
+union DocumentNode = Post | Bhashaverse | Global | Author | Page | Area
 
 union PostAuthor = Author
 
@@ -107,6 +109,30 @@ type PostConnection implements Connection {
   pageInfo: PageInfo!
   totalCount: Float!
   edges: [PostConnectionEdges]
+}
+
+union BhashaverseAuthor = Author
+
+type Bhashaverse implements Node & Document {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: BhashaverseAuthor
+  _body: JSON
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+type BhashaverseConnectionEdges {
+  cursor: String!
+  node: Bhashaverse
+}
+
+type BhashaverseConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [BhashaverseConnectionEdges]
 }
 
 type GlobalHeaderIcon {
@@ -517,6 +543,8 @@ type Mutation {
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   updatePost(relativePath: String!, params: PostMutation!): Post!
   createPost(relativePath: String!, params: PostMutation!): Post!
+  updateBhashaverse(relativePath: String!, params: BhashaverseMutation!): Bhashaverse!
+  createBhashaverse(relativePath: String!, params: BhashaverseMutation!): Bhashaverse!
   updateGlobal(relativePath: String!, params: GlobalMutation!): Global!
   createGlobal(relativePath: String!, params: GlobalMutation!): Global!
   updateAuthor(relativePath: String!, params: AuthorMutation!): Author!
@@ -529,6 +557,7 @@ type Mutation {
 
 input DocumentMutation {
   post: PostMutation
+  bhashaverse: BhashaverseMutation
   global: GlobalMutation
   author: AuthorMutation
   page: PageMutation
@@ -536,6 +565,14 @@ input DocumentMutation {
 }
 
 input PostMutation {
+  title: String
+  heroImg: String
+  excerpt: JSON
+  author: String
+  _body: JSON
+}
+
+input BhashaverseMutation {
   title: String
   heroImg: String
   excerpt: JSON
