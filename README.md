@@ -1,10 +1,46 @@
-# Tina Starter 🦙
 
-![tina-cloud-starter-demo](https://user-images.githubusercontent.com/103008/130587027-995ccc45-a852-4f90-b658-13e8e0517339.gif)
+
+# Tina Starter 🦙
 
 This Next.js starter is powered by [TinaCMS](https://app.tina.io) for you and your team to visually live edit the structured content of your website. ✨  
 
 The content is managed through Markdown and JSON files stored in your GitHub repository, and queried through Tina GraphQL API.
+
+
+### Steps to configure nested routes in Tina
+
+* In the `content` folder, create a subfolder for the nested content and add the mdx files. Here I've named it `bhashaverse/nested_route_demo.mdx`.
+  Content folder can have as many mdx files as needed. These filenames will be routed with the generic `[filename].tsx` file mentioned later.
+  Ex: If `content/bhashaverse/test.mdx` is created, it will be viewable at 'http://localhost:3000/bhashaverse/test'
+
+* In the `components` folder, create a subfolder for the template pages. Each subfolder should have 3 files.
+  Here, they are `bhasha.tsx`, `bhashaverse.tsx` and `index.tsx`, all in the `components/bhashaverse` directory.
+
+* In the `pages` directory, create a template file for the nested page. This is located at `pages/bhashaverse.tsx`.
+  Also create a subfolder with the template nested file `[filename].tsx`. Located at `pages/bhashaverse/[filename].tsx`. Make sure the imports in this file point to the right component from the `components/bhashaverse` directory.
+
+* Add a collection to the Tina schema with the necessary fields in `.tina/schema.ts`. Here, the schema is named `bhashaverse`.
+
+* Finally, make sure the GraphQL queries in `.tina/queries/queries.gql` correspond to the schema. Here, I've added query `BhashaverseQuery` and connection `bhashaverseConnection` under the parent `PageQuery`.
+
+
+Thus, files to add / make changes in:
+
+1. `.tina/schema.ts`
+2. `.tina/queries/queries.gql`
+3. `components/bhashaverse/bhasha.tsx`
+   `components/bhashaverse/bhashaverse.tsx`
+   `components/bhashaverse/index.tsx`
+4. `content/bhashaverse/nested_route_demo.mdx`
+5. `pages/bhashaverse/[filename.tsx]`
+   `pages/bhashaverse.tsx`
+
+
+Note:
+As a general rule-of-thumb, do not change anything manually in the .tina/__generated__  files.
+Tina automatically generates the graphql schema when the application is running, from the schema you have written in `.tina/schema.ts`.
+
+
 
 ### Features
 
@@ -80,3 +116,7 @@ These are rebuilt when your `.tina` config changes.
 ## LICENSE
 
 Licensed under the [Apache 2.0 license](./LICENSE).
+
+
+
+
