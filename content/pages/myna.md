@@ -11,6 +11,9 @@ blocks:
         icon: true
         link: >-
           https://chrome.google.com/webstore/detail/myna/naclclhcgpiohboakbpflkifgepmblni
+    image:
+      src: >-
+        https://res.cloudinary.com/ai4bharat/image/upload/v1675613353/Frame_1_qylolp.png
     _template: hero
 ---
 
