@@ -1,6 +1,6 @@
 ---
 blocks:
-  - tagline: ''
+  - tagline: ""
     headline: Bhashaverse
     text: >
       Bhashaverse application is developed to help Indian citizens translate
@@ -11,11 +11,11 @@ blocks:
       - label: View Bhashaverse on Play Store
         type: button
         icon: false
-        link: 'https://play.google.com/store/apps/details?id=com.ekstep.bhashaverse'
+        link: "https://play.google.com/store/apps/details?id=com.ekstep.bhashaverse"
       - label: Privacy Policy
         type: link
         icon: true
-        link: 'https://ai4bharat.org/bhashaverse-privacy-policy'
+        link: "https://ai4bharat.org/bhashaverse/privacy-policy"
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1675360341/Bhashaverse1_k4c61u.webp
@@ -37,7 +37,7 @@ blocks:
         title: Translation
         comingSoon: false
         updated: false
-        text: ' Translate from one Indian language to another.'
+        text: " Translate from one Indian language to another."
       - icon:
           color: orange
           style: float
@@ -48,4 +48,3 @@ blocks:
         text: Generate voice from text in any Indian Language.
     _template: featuresAlt
 ---
-
