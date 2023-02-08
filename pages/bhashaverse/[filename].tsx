@@ -50,9 +50,11 @@ export const getStaticPaths = async () => {
   const client = ExperimentalGetTinaClient();
   const bhashaverseListData = await client.bhashaverseConnection();
   return {
-    paths: bhashaverseListData.data.bhashaverseConnection.edges.map((bhashaverse) => ({
-      params: { filename: bhashaverse.node._sys.filename },
-    })),
+    paths: bhashaverseListData.data.bhashaverseConnection.edges.map(
+      (bhashaverse) => ({
+        params: { filename: bhashaverse.node._sys.filename },
+      })
+    ),
     fallback: "blocking",
   };
 };
