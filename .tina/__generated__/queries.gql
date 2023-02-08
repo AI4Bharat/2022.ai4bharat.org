@@ -37,6 +37,45 @@ query postConnection {
   }
 }
 
+query bhashaverse($relativePath: String!) {
+  bhashaverse(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...BhashaverseParts
+  }
+}
+
+query bhashaverseConnection {
+  bhashaverseConnection {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...BhashaverseParts
+      }
+    }
+  }
+}
+
 query global($relativePath: String!) {
   global(relativePath: $relativePath) {
     ... on Document {

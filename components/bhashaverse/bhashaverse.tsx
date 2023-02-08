@@ -4,7 +4,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { BsArrowRight } from "react-icons/bs";
 import { useTheme } from "../layout";
 
-export const Datasets = ({ data }) => {
+export const Bhashaverse = ({ data }) => {
   const theme = useTheme();
   const titleColorClasses = {
     blue: "group-hover:text-blue-600 dark:group-hover:text-blue-300",
@@ -16,19 +16,19 @@ export const Datasets = ({ data }) => {
     orange: "group-hover:text-orange-600 dark:group-hover:text-orange-300",
     yellow: "group-hover:text-yellow-500 dark:group-hover:text-yellow-300",
   };
-console.log(data);
+//console.log(data);
   return (
     <>
-      {data.map((datasetData) => {
-        const dataset = datasetData.node;
+      {data.map((bhashaverseData) => {
+        const bhashaverse = bhashaverseData.node;
         return (
           <Link
-            key={dataset._sys.filename}
-            href={`/dataset/` + dataset._sys.filename}
+            key={bhashaverse._sys.filename}
+            href={`/bhashaverse/` + bhashaverse._sys.filename}
             passHref
           >
             <a
-              key={dataset.id}
+              key={bhashaverse.id}
               className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600"
             >
               <h3
@@ -36,7 +36,7 @@ console.log(data);
                   titleColorClasses[theme.color]
                 }`}
               >
-                {dataset._values.title}{" "}
+                {bhashaverse._values.title}{" "}
                 <span className="inline-block opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out">
                   <BsArrowRight className="inline-block h-8 -mt-1 ml-1 w-auto opacity-70" />
                 </span>

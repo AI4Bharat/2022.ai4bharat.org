@@ -10,6 +10,18 @@ fragment PostParts on Post {
   _body
 }
 
+fragment BhashaverseParts on Bhashaverse {
+  title
+  heroImg
+  excerpt
+  author {
+    ... on Document {
+      id
+    }
+  }
+  _body
+}
+
 fragment GlobalParts on Global {
   header {
     __typename

@@ -103,7 +103,7 @@ const components: Components<{
   },
 };
 
-export const Dataset = (props) => {
+export const Bhasha = (props) => {
   const theme = useTheme();
   const titleColorClasses = {
     blue: "from-blue-400 to-blue-600 dark:from-blue-300 dark:to-blue-500",
@@ -114,7 +114,7 @@ export const Dataset = (props) => {
     purple:
       "from-purple-400 to-purple-600 dark:from-purple-300 dark:to-purple-500",
     orange:
-      "from-orange-300 to-orange-600 dark:from-orange-400 dark:to-orange-500",
+      "from-orange-300 to-orange-600 dark:from-orange-200 dark:to-orange-500",
     yellow:
       "from-yellow-400 to-yellow-500 dark:from-yellow-300 dark:to-yellow-500",
   };

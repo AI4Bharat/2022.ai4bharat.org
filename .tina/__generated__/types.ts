@@ -75,6 +75,8 @@ export type Query = {
   document: DocumentNode;
   post: Post;
   postConnection: PostConnection;
+  bhashaverse: Bhashaverse;
+  bhashaverseConnection: BhashaverseConnection;
   global: Global;
   globalConnection: GlobalConnection;
   author: Author;
@@ -113,6 +115,20 @@ export type QueryPostArgs = {
 
 
 export type QueryPostConnectionArgs = {
+  before?: InputMaybe<Scalars['String']>;
+  after?: InputMaybe<Scalars['String']>;
+  first?: InputMaybe<Scalars['Float']>;
+  last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryBhashaverseArgs = {
+  relativePath?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryBhashaverseConnectionArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
@@ -211,7 +227,7 @@ export type CollectionDocumentsArgs = {
   sort?: InputMaybe<Scalars['String']>;
 };
 
-export type DocumentNode = Post | Global | Author | Page | Area;
+export type DocumentNode = Post | Bhashaverse | Global | Author | Page | Area;
 
 export type PostAuthor = Author;
 
@@ -238,6 +254,33 @@ export type PostConnection = Connection & {
   pageInfo: PageInfo;
   totalCount: Scalars['Float'];
   edges?: Maybe<Array<Maybe<PostConnectionEdges>>>;
+};
+
+export type BhashaverseAuthor = Author;
+
+export type Bhashaverse = Node & Document & {
+  __typename?: 'Bhashaverse';
+  title?: Maybe<Scalars['String']>;
+  heroImg?: Maybe<Scalars['String']>;
+  excerpt?: Maybe<Scalars['JSON']>;
+  author?: Maybe<BhashaverseAuthor>;
+  _body?: Maybe<Scalars['JSON']>;
+  id: Scalars['ID'];
+  _sys: SystemInfo;
+  _values: Scalars['JSON'];
+};
+
+export type BhashaverseConnectionEdges = {
+  __typename?: 'BhashaverseConnectionEdges';
+  cursor: Scalars['String'];
+  node?: Maybe<Bhashaverse>;
+};
+
+export type BhashaverseConnection = Connection & {
+  __typename?: 'BhashaverseConnection';
+  pageInfo: PageInfo;
+  totalCount: Scalars['Float'];
+  edges?: Maybe<Array<Maybe<BhashaverseConnectionEdges>>>;
 };
 
 export type GlobalHeaderIcon = {
@@ -709,6 +752,8 @@ export type Mutation = {
   createDocument: DocumentNode;
   updatePost: Post;
   createPost: Post;
+  updateBhashaverse: Bhashaverse;
+  createBhashaverse: Bhashaverse;
   updateGlobal: Global;
   createGlobal: Global;
   updateAuthor: Author;
@@ -756,6 +801,18 @@ export type MutationUpdatePostArgs = {
 export type MutationCreatePostArgs = {
   relativePath: Scalars['String'];
   params: PostMutation;
+};
+
+
+export type MutationUpdateBhashaverseArgs = {
+  relativePath: Scalars['String'];
+  params: BhashaverseMutation;
+};
+
+
+export type MutationCreateBhashaverseArgs = {
+  relativePath: Scalars['String'];
+  params: BhashaverseMutation;
 };
 
 
@@ -808,6 +865,7 @@ export type MutationCreateAreaArgs = {
 
 export type DocumentMutation = {
   post?: InputMaybe<PostMutation>;
+  bhashaverse?: InputMaybe<BhashaverseMutation>;
   global?: InputMaybe<GlobalMutation>;
   author?: InputMaybe<AuthorMutation>;
   page?: InputMaybe<PageMutation>;
@@ -815,6 +873,14 @@ export type DocumentMutation = {
 };
 
 export type PostMutation = {
+  title?: InputMaybe<Scalars['String']>;
+  heroImg?: InputMaybe<Scalars['String']>;
+  excerpt?: InputMaybe<Scalars['JSON']>;
+  author?: InputMaybe<Scalars['String']>;
+  _body?: InputMaybe<Scalars['JSON']>;
+};
+
+export type BhashaverseMutation = {
   title?: InputMaybe<Scalars['String']>;
   heroImg?: InputMaybe<Scalars['String']>;
   excerpt?: InputMaybe<Scalars['JSON']>;
@@ -1190,7 +1256,7 @@ export type LayoutQueryFragmentFragment = { __typename?: 'Query', global: { __ty
 export type PageQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type PageQueryQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'Post', id: string, _values: any, author?: { __typename?: 'Author', name?: string | null, avatar?: string | null } | null, _sys: { __typename?: 'SystemInfo', filename: string } } | null } | null> | null }, global: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null, dropdown?: boolean | null, orientation?: string | null, subitems?: Array<{ __typename: 'GlobalHeaderNavSubitems', href?: string | null, label?: string | null, description?: string | null, icon?: { __typename: 'GlobalHeaderNavSubitemsIcon', color?: string | null, style?: string | null, name?: string | null } | null } | null> | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, paraText?: string | null, social?: { __typename: 'GlobalFooterSocial', map?: string | null, facebook?: string | null, twitter?: string | null, linkedin?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null } | null } };
+export type PageQueryQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'Post', id: string, _values: any, author?: { __typename?: 'Author', name?: string | null, avatar?: string | null } | null, _sys: { __typename?: 'SystemInfo', filename: string } } | null } | null> | null }, bhashaverseConnection: { __typename?: 'BhashaverseConnection', edges?: Array<{ __typename?: 'BhashaverseConnectionEdges', node?: { __typename?: 'Bhashaverse', id: string, _values: any, author?: { __typename?: 'Author', name?: string | null, avatar?: string | null } | null, _sys: { __typename?: 'SystemInfo', filename: string } } | null } | null> | null }, global: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null, dropdown?: boolean | null, orientation?: string | null, subitems?: Array<{ __typename: 'GlobalHeaderNavSubitems', href?: string | null, label?: string | null, description?: string | null, icon?: { __typename: 'GlobalHeaderNavSubitemsIcon', color?: string | null, style?: string | null, name?: string | null } | null } | null> | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, paraText?: string | null, social?: { __typename: 'GlobalFooterSocial', map?: string | null, facebook?: string | null, twitter?: string | null, linkedin?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null } | null } };
 
 export type ContentQueryQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -1206,7 +1272,16 @@ export type BlogPostQueryQueryVariables = Exact<{
 
 export type BlogPostQueryQuery = { __typename?: 'Query', post: { __typename?: 'Post', title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, author?: { __typename?: 'Author', name?: string | null, avatar?: string | null, id: string } | null }, global: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null, dropdown?: boolean | null, orientation?: string | null, subitems?: Array<{ __typename: 'GlobalHeaderNavSubitems', href?: string | null, label?: string | null, description?: string | null, icon?: { __typename: 'GlobalHeaderNavSubitemsIcon', color?: string | null, style?: string | null, name?: string | null } | null } | null> | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, paraText?: string | null, social?: { __typename: 'GlobalFooterSocial', map?: string | null, facebook?: string | null, twitter?: string | null, linkedin?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null } | null } };
 
+export type BhashaverseQueryQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
+
+
+export type BhashaverseQueryQuery = { __typename?: 'Query', bhashaverse: { __typename?: 'Bhashaverse', title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, author?: { __typename?: 'Author', name?: string | null, avatar?: string | null, id: string } | null }, global: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null, dropdown?: boolean | null, orientation?: string | null, subitems?: Array<{ __typename: 'GlobalHeaderNavSubitems', href?: string | null, label?: string | null, description?: string | null, icon?: { __typename: 'GlobalHeaderNavSubitemsIcon', color?: string | null, style?: string | null, name?: string | null } | null } | null> | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, paraText?: string | null, social?: { __typename: 'GlobalFooterSocial', map?: string | null, facebook?: string | null, twitter?: string | null, linkedin?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null } | null } };
+
 export type PostPartsFragment = { __typename?: 'Post', title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, author?: { __typename?: 'Author', id: string } | null };
+
+export type BhashaversePartsFragment = { __typename?: 'Bhashaverse', title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, author?: { __typename?: 'Author', id: string } | null };
 
 export type GlobalPartsFragment = { __typename?: 'Global', header?: { __typename: 'GlobalHeader', color?: string | null, icon?: { __typename: 'GlobalHeaderIcon', color?: string | null, style?: string | null, name?: string | null } | null, nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null, label?: string | null, dropdown?: boolean | null, orientation?: string | null, subitems?: Array<{ __typename: 'GlobalHeaderNavSubitems', href?: string | null, label?: string | null, description?: string | null, icon?: { __typename: 'GlobalHeaderNavSubitemsIcon', color?: string | null, style?: string | null, name?: string | null } | null } | null> | null } | null> | null } | null, footer?: { __typename: 'GlobalFooter', color?: string | null, paraText?: string | null, social?: { __typename: 'GlobalFooterSocial', map?: string | null, facebook?: string | null, twitter?: string | null, linkedin?: string | null, github?: string | null } | null } | null, theme?: { __typename: 'GlobalTheme', color?: string | null, font?: string | null, icon?: string | null } | null };
 
@@ -1227,6 +1302,18 @@ export type PostConnectionQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'Post', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } | null } | null> | null } };
+
+export type BhashaverseQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
+
+
+export type BhashaverseQuery = { __typename?: 'Query', bhashaverse: { __typename?: 'Bhashaverse', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } };
+
+export type BhashaverseConnectionQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type BhashaverseConnectionQuery = { __typename?: 'Query', bhashaverseConnection: { __typename?: 'BhashaverseConnection', totalCount: number, edges?: Array<{ __typename?: 'BhashaverseConnectionEdges', node?: { __typename?: 'Bhashaverse', id: string, title?: string | null, heroImg?: string | null, excerpt?: any | null, _body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, author?: { __typename?: 'Author', id: string } | null } | null } | null> | null } };
 
 export type GlobalQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -1337,6 +1424,19 @@ export const LayoutQueryFragmentFragmentDoc = gql`
     ${GlobalPartsFragmentDoc}`;
 export const PostPartsFragmentDoc = gql`
     fragment PostParts on Post {
+  title
+  heroImg
+  excerpt
+  author {
+    ... on Document {
+      id
+    }
+  }
+  _body
+}
+    `;
+export const BhashaversePartsFragmentDoc = gql`
+    fragment BhashaverseParts on Bhashaverse {
   title
   heroImg
   excerpt
@@ -1618,6 +1718,22 @@ export const PageQueryDocument = gql`
       }
     }
   }
+  bhashaverseConnection {
+    edges {
+      node {
+        id
+        _values
+        author {
+          ... on Author {
+            ...AuthorParts
+          }
+        }
+        _sys {
+          filename
+        }
+      }
+    }
+  }
 }
     ${LayoutQueryFragmentFragmentDoc}
 ${AuthorPartsFragmentDoc}`;
@@ -1645,6 +1761,21 @@ export const BlogPostQueryDocument = gql`
 }
     ${LayoutQueryFragmentFragmentDoc}
 ${PostPartsFragmentDoc}`;
+export const BhashaverseQueryDocument = gql`
+    query BhashaverseQuery($relativePath: String!) {
+  ...LayoutQueryFragment
+  bhashaverse(relativePath: $relativePath) {
+    ...BhashaverseParts
+    author {
+      ... on Author {
+        name
+        avatar
+      }
+    }
+  }
+}
+    ${LayoutQueryFragmentFragmentDoc}
+${BhashaversePartsFragmentDoc}`;
 export const PostDocument = gql`
     query post($relativePath: String!) {
   post(relativePath: $relativePath) {
@@ -1686,6 +1817,47 @@ export const PostConnectionDocument = gql`
   }
 }
     ${PostPartsFragmentDoc}`;
+export const BhashaverseDocument = gql`
+    query bhashaverse($relativePath: String!) {
+  bhashaverse(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...BhashaverseParts
+  }
+}
+    ${BhashaversePartsFragmentDoc}`;
+export const BhashaverseConnectionDocument = gql`
+    query bhashaverseConnection {
+  bhashaverseConnection {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...BhashaverseParts
+      }
+    }
+  }
+}
+    ${BhashaversePartsFragmentDoc}`;
 export const GlobalDocument = gql`
     query global($relativePath: String!) {
   global(relativePath: $relativePath) {
@@ -1862,11 +2034,20 @@ export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) 
     BlogPostQuery(variables: BlogPostQueryQueryVariables, options?: C): Promise<{data: BlogPostQueryQuery, variables: BlogPostQueryQueryVariables, query: string}> {
         return requester<{data: BlogPostQueryQuery, variables: BlogPostQueryQueryVariables, query: string}, BlogPostQueryQueryVariables>(BlogPostQueryDocument, variables, options);
       },
+    BhashaverseQuery(variables: BhashaverseQueryQueryVariables, options?: C): Promise<{data: BhashaverseQueryQuery, variables: BhashaverseQueryQueryVariables, query: string}> {
+        return requester<{data: BhashaverseQueryQuery, variables: BhashaverseQueryQueryVariables, query: string}, BhashaverseQueryQueryVariables>(BhashaverseQueryDocument, variables, options);
+      },
     post(variables: PostQueryVariables, options?: C): Promise<{data: PostQuery, variables: PostQueryVariables, query: string}> {
         return requester<{data: PostQuery, variables: PostQueryVariables, query: string}, PostQueryVariables>(PostDocument, variables, options);
       },
     postConnection(variables?: PostConnectionQueryVariables, options?: C): Promise<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}> {
         return requester<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}, PostConnectionQueryVariables>(PostConnectionDocument, variables, options);
+      },
+    bhashaverse(variables: BhashaverseQueryVariables, options?: C): Promise<{data: BhashaverseQuery, variables: BhashaverseQueryVariables, query: string}> {
+        return requester<{data: BhashaverseQuery, variables: BhashaverseQueryVariables, query: string}, BhashaverseQueryVariables>(BhashaverseDocument, variables, options);
+      },
+    bhashaverseConnection(variables?: BhashaverseConnectionQueryVariables, options?: C): Promise<{data: BhashaverseConnectionQuery, variables: BhashaverseConnectionQueryVariables, query: string}> {
+        return requester<{data: BhashaverseConnectionQuery, variables: BhashaverseConnectionQueryVariables, query: string}, BhashaverseConnectionQueryVariables>(BhashaverseConnectionDocument, variables, options);
       },
     global(variables: GlobalQueryVariables, options?: C): Promise<{data: GlobalQuery, variables: GlobalQueryVariables, query: string}> {
         return requester<{data: GlobalQuery, variables: GlobalQueryVariables, query: string}, GlobalQueryVariables>(GlobalDocument, variables, options);

@@ -1,10 +1,10 @@
-import { Dataset } from "../../components/datasets/dataset";
+import { Bhasha } from "../../components/bhashaverse/bhasha";
 import { ExperimentalGetTinaClient } from "../../.tina/__generated__/types";
 import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../../components/layout";
 
 // Use the props returned by get static props
-export default function BlogPostPage(
+export default function BhashaversePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   const { data } = useTina({
@@ -12,11 +12,11 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
-  if (data && data.post) {
+  if (data && data.bhashaverse) {
     // console.log(data);
     return (
       <Layout rawData={data} data={data.global as any}>
-        <Dataset {...data.post} />;
+        <Bhasha {...data.bhashaverse} />;
       </Layout>
     );
   }
@@ -29,7 +29,7 @@ export default function BlogPostPage(
 
 export const getStaticProps = async ({ params }) => {
   const client = ExperimentalGetTinaClient();
-  const tinaProps = await client.BlogPostQuery({
+  const tinaProps = await client.BhashaverseQuery({
     relativePath: `${params.filename}.mdx`,
   });
   return {
@@ -48,11 +48,13 @@ export const getStaticProps = async ({ params }) => {
  */
 export const getStaticPaths = async () => {
   const client = ExperimentalGetTinaClient();
-  const postsListData = await client.postConnection();
+  const bhashaverseListData = await client.bhashaverseConnection();
   return {
-    paths: postsListData.data.postConnection.edges.map((post) => ({
-      params: { filename: post.node._sys.filename },
-    })),
+    paths: bhashaverseListData.data.bhashaverseConnection.edges.map(
+      (bhashaverse) => ({
+        params: { filename: bhashaverse.node._sys.filename },
+      })
+    ),
     fallback: "blocking",
   };
 };

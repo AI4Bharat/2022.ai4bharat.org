@@ -16,6 +16,22 @@ query PageQuery {
       }
     }
   }
+  bhashaverseConnection {
+    edges {
+      node {
+        id
+        _values
+        author {
+          ... on Author {
+            ...AuthorParts
+          }
+        }
+        _sys {
+          filename
+        }
+      }
+    }
+  }
 }
 
 query ContentQuery($relativePath: String!) {
@@ -29,6 +45,19 @@ query BlogPostQuery($relativePath: String!) {
   ...LayoutQueryFragment
   post(relativePath: $relativePath) {
     ...PostParts
+    author {
+      ... on Author {
+        name
+        avatar
+      }
+    }
+  }
+}
+
+query BhashaverseQuery($relativePath: String!) {
+  ...LayoutQueryFragment
+  bhashaverse(relativePath: $relativePath) {
+    ...BhashaverseParts
     author {
       ... on Author {
         name
