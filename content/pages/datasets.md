@@ -98,7 +98,7 @@ blocks:
           style: float
           name: AI4B
         title: IndicXTREME
-        link: /indic-xtreme
+        link: /indicxtreme
         comingSoon: true
         updated: false
         text: >-
