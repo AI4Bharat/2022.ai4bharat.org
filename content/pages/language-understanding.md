@@ -1,6 +1,6 @@
 ---
 blocks:
-  - tagline: ''
+  - tagline: ""
     headline: Language Understanding
     text: >
       Understanding language is central to building intelligent applications
@@ -22,7 +22,7 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicGLUE
@@ -33,7 +33,7 @@ blocks:
           Benchmark for 6 NLU tasks spanning 11 Indian languages containing
           standard training and evaluation sets.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicXTREME
@@ -50,7 +50,7 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicCorp
@@ -62,20 +62,20 @@ blocks:
 
           corpora for 11 Indian languages and Indian English containing 8.5
           billions words (250 million sentences) from multiple news domain
-          sources. 
+          sources.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: Naamapadam
-        link: 'https://huggingface.co/datasets/ai4bharat/naamapadam'
+        link: "https://huggingface.co/datasets/ai4bharat/naamapadam"
         comingSoon: false
         updated: true
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: store
         title: IndicCorp v2
@@ -94,7 +94,7 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicBERT
@@ -107,7 +107,7 @@ blocks:
           parameters) that is competitive with large LMs for Indian language
           tasks.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicFT
@@ -117,14 +117,14 @@ blocks:
         text: >-
           Word embeddings for 11 Indian languages trained on IndicCorp. The
           embeddings are based on the fastText model and are well suited for the
-          morphologically rich nature of Indic languages. 
+          morphologically rich nature of Indic languages.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicNER
-        link: 'https://huggingface.co/ai4bharat/IndicNER'
-        linkPlaceholder: ''
+        link: "https://huggingface.co/ai4bharat/IndicNER"
+        linkPlaceholder: ""
         comingSoon: false
         updated: true
         text: >
@@ -132,7 +132,7 @@ blocks:
           models are trained on the Naampadam NER dataset mined from Samanantar
           parallel corpora.
       - icon:
-          color: ''
+          color: ""
           style: float
           name: AI4B
         title: IndicBERTv2
@@ -149,13 +149,13 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
+          color: ""
           style: float
-          name: ''
+          name: ""
         title: Koo
-        text: Koo is exploring the use of IndicNER to organize tweets.
+        text: Koo is exploring the use of IndicNER to organize koos.
     _template: flatCardsGrid
-  - tagline: ''
+  - tagline: ""
     headline: IndicNLU Workshop
     text: >
       On 28th July, we are conducting a workshop to demonstrate our datasets,
@@ -164,11 +164,10 @@ blocks:
       - label: Sign Up to Attend
         type: button
         icon: true
-        link: 'https://forms.office.com/r/vddNi9fuqS'
+        link: "https://forms.office.com/r/vddNi9fuqS"
       - label: Learn More
         type: link
         icon: false
-        link: ''
+        link: ""
     _template: hero
 ---
-
