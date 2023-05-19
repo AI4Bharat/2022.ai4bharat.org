@@ -1262,6 +1262,12 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1668770385/Team%20pictures/Language/Jeetumoni-Basumatary_dggkay.jpg
+      - teamGroup: tech
+        personName: Chetan Gudagamanal test
+        personDesignation: 'Project Associate'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684480175/Chetan_bkl0bm.jpg
       - teamGroup: language
         personName: Tulika Swati  तूलिका स्वाती
         personDesignation: 'Language Expert, Maithili'
