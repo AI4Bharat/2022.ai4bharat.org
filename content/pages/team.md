@@ -1263,7 +1263,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1668770385/Team%20pictures/Language/Jeetumoni-Basumatary_dggkay.jpg
       - teamGroup: tech
-        personName: Chetan Gudagamanal test
+        personName: Chetan Gudagamanal ಚೇತನ ಗುಡಗಮನಾಳ 
         personDesignation: 'Project Associate'
         personImage:
           src: >-
@@ -1286,6 +1286,306 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1658373300/Team%20pictures/Visiting%20Researchers/Rudra_giizhc.jpg
+      - teamGroup: language
+        personName: Prakash Tejwani प्रकाश तेजवानी
+        personDesignation: 'Language Expert, Sindhi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684495786/Team%20pictures/Language/pic_-_Prakash_Tejwani_mmmmuc.jpg
+      - teamGroup: language
+        personName: Bharti Chainani भारती चैनाणी
+        personDesignation: 'Language Expert, Sindhi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684496145/Team%20pictures/Language/IMG_Bharti_Chainani_wngk2l.jpg
+      - teamGroup: language
+        personName: Pallavi Kaushal ਪੱਲਵੀ ਕੌਸ਼ਲ 
+        personDesignation: 'Language Expert, Punjabi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684496330/Team%20pictures/Language/pallavi_-_paal_paal_a6whs3.jpg
+      - teamGroup: Language
+        personName: Prashant Kumar Jha प्रशान्त कुमार झा
+        personDesignation: 'Language Expert, Maithili'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684496543/Team%20pictures/Language/IMG_Pk_Jha_hvbefu.jpg
+      - teamGroup: Language
+        personName: Alfina Khaidem 
+        personDesignation: 'Language Expert, Manipuri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684496768/Team%20pictures/Language/IMG_Alfina_Khaidem_bsypgo.jpg
+      - teamGroup: Language
+        personName: Kshetrimayum Momo ক্ষেট্রীময়ুম মোমো
+        personDesignation: 'Language Expert, Manipuri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684497167/Team%20pictures/Language/IMG_Momo_Kshetrimayum_ppoghb.jpg
+      - teamGroup: Language
+        personName: Dr. Chandramani Jha डॉ. चन्द्रमणि झा 
+        personDesignation: 'Language Expert, Maithili'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684497343/Team%20pictures/Language/WIN_Chandramani_Sangeet_bawdc0.jpg
+      - teamGroup: Language
+        personName: Ishfaq Nisar اشفاق نثار 
+        personDesignation: 'Language Expert, Kashmiri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684508788/Team%20pictures/Language/asfaq_-_Ishfaq_Nisar_mtea0q.jpg
+      - teamGroup: Language
+        personName: Padmabati Achom
+        personDesignation: 'Language Expert, Manipuri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684509016/Team%20pictures/Language/Padmabati_Achom_aapas5.jpg
+      - teamGroup: operations
+        personName: Saranya Sukumaran சரண்யா
+        personDesignation: 'Data lead'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684509344/Team%20pictures/Operations/saranya_sukumaran_lpgco8.jpg
+      - teamGroup: Quality Assurance
+        personName: Mohanarangan A மோகனரங்கன் . அ 
+        personDesignation: 'QA Executive'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684509720/Team%20pictures/Quality%20Assurance/Mohanarangan_Annamalai_jgbnpt.jpg
+      - teamGroup: Quality Assurance
+        personName: M Ramya மோ ரம்யா
+        personDesignation: 'QA - Tamil'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684509912/Team%20pictures/Quality%20Assurance/IMG-Ramya_M_tooubc.jpg
+      - teamGroup: operations
+        personName: Sneha Ravishankar स्नेहा 
+        personDesignation: 'Data Lead'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684510149/Team%20pictures/Operations/Sneha_Ravishankar_ov5bqa.jpg
+      - teamGroup: Language
+        personName: Shafi Shauq شفیع شوق
+        personDesignation: 'Language Expert, Kashmiri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684510378/Team%20pictures/Language/Shafi_Shauq_ys3fyt.jpg
+      - teamGroup: operations
+        personName: Pratiti Palit প্রতীতি 
+        personDesignation: 'Data Lead'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684662655/Team%20pictures/Operations/Pratiti_Palit_ee1zxk.jpg
+      - teamGroup: Language
+        personName: Ashwini Kamat आश्विनी कामत 
+        personDesignation: 'Language Expert, Konkani'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684662754/Team%20pictures/Language/IMG-Ashwini_Kamat_bsyiod.jpg
+      - teamGroup: tech
+        personName: Shiva Kumar M శివ కుమార్
+        personDesignation: 'Research Intern'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684662875/Team%20pictures/Tech/profile_marepally_shiva_ywcbec.jpg
+      - teamGroup: Quality Assurance
+        personName: Dr. Pankaja R P पङ्कजा रा पा
+        personDesignation: 'QA - Sanskrit'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684662969/Team%20pictures/Quality%20Assurance/IMG-Pankaja_Ganapathy_aaltbc.jpg
+      - teamGroup: Quality Assurance
+        personName: AKSHAY SARJERAO TALEKAR
+        personDesignation: 'QA Marathi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663060/Team%20pictures/Quality%20Assurance/IMG_Akshay_Talekar_r7allo.jpg
+      - teamGroup: Quality Assurance
+        personName: Sunanda sarkar সুনন্দা সরকার
+        personDesignation: 'QA in Bengali'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663180/Team%20pictures/Quality%20Assurance/Sunanda_Sarkar_aezwek.jpg
+      - teamGroup: Quality Assurance
+        personName: Anjali P Nair  അഞ്ജലി പി നായർ 
+        personDesignation: 'QA Malayalam'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663524/Team%20pictures/Quality%20Assurance/IMG_Anjali_Nair_st1tb0.jpg
+      - teamGroup: Quality Assurance
+        personName: Afifa Anjum अफीफा अंजुम 
+        personDesignation: 'QA Hindi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663623/Team%20pictures/Quality%20Assurance/IMG_Afifa_Anjum_b6djzr.jpg
+      - teamGroup: Quality Assurance
+        personName: Manpritkour Ragi मनप्रितकौर रागी
+        personDesignation: 'QA Marathi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663714/Team%20pictures/Quality%20Assurance/manprit_kour_maipgt.jpg
+      - teamGroup: operations
+        personName: Kalaivanan.A கலைவாணன்.அ 
+        personDesignation: 'Operations Lead (Accounts)'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663812/Team%20pictures/Operations/IMG_kalaivanan_appavu_l4osir.jpg
+      - teamGroup: Quality Assurance
+        personName: Prachi Dharashivkar प्राची धाराशिवकर
+        personDesignation: 'QA Marathi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684663925/Team%20pictures/Quality%20Assurance/IMG-prachi_dharashivkhar_oeie2c.jpg
+      - teamGroup: Quality Assurance
+        personName: Anamika Das  অনামিকা দাস
+        personDesignation: 'QA Bengali'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664049/Team%20pictures/Quality%20Assurance/IMG-Anamika_Das_giycht.jpg
+      - teamGroup: Quality Assurance
+        personName: Elumalai E ஏழுமலை ௭
+        personDesignation: 'QA-TAMIL'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664172/Team%20pictures/Quality%20Assurance/IMG_Elumalai_E_l0vcn7.jpg
+      - teamGroup: Quality Assurance
+        personName: Hanan A Vaheed ഹനാൻ എ വഹീദ്
+        personDesignation: 'QA - Malayalam'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664249/Team%20pictures/Quality%20Assurance/HANAN_A_VAHEED_cmcei7.jpg
+      - teamGroup: Quality Assurance
+        personName: PEDDAREDDYGARI PRANEETH REDDY పెద్దరెడ్డిగారి ప్రణీత్ రెడ్డి
+        personDesignation: 'QA - Telugu'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664337/Team%20pictures/Quality%20Assurance/PEDDAREDDYGARI_PRANEETH_REDDY_sl5y4e.jpg
+      - teamGroup: operations
+        personName: Eldho Ittan George എൽദോ ഇട്ടൻ ജോർജ്ജ്
+        personDesignation: 'Data Engineer'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664412/Team%20pictures/Operations/Photo_-_Eldho_Ittan_George_pimgwh.png
+      - teamGroup: Quality Assurance
+        personName: Muthathal Subramanian  முத்தாத்தாள் சுப்ரமணியன்
+        personDesignation: 'QA Tamil'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664497/Team%20pictures/Quality%20Assurance/IMG-Muthathal_Subramanian_pzsfuc.jpg
+      - teamGroup: operations
+        personName: Suganya Kumaresan சுகன்யா குமரேசன் 
+        personDesignation: 'HR-LEAD'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664593/Team%20pictures/Operations/SUGANYA_-_AI4Bharat_Admin_y5rdgt.jpg
+      - teamGroup: Quality Assurance
+        personName: Vishwanath arjun bhandwale  विश्वनाथ अर्जुन भांडवले
+        personDesignation: 'QA Marathi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664696/Team%20pictures/Quality%20Assurance/IMG_Vishwanath_Bhandwale_hyyjsr.webp
+      - teamGroup: operations
+        personName: Saranya B சரண்யா
+        personDesignation: 'Admin Executive'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664798/Team%20pictures/Operations/IMG-Saranya_Baskaran_erbago.jpg
+      - teamGroup: Quality Assurance
+        personName: Haritha M. S. ഹരിത എം. എസ്.
+        personDesignation: 'QA - Malayalam'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664894/Team%20pictures/Quality%20Assurance/Haritha_M.S_z0baig.jpg
+      - teamGroup: tech
+        personName: Sshubam Verma  शुभम वर्मा
+        personDesignation: 'Research Intern, Tech'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684664997/Team%20pictures/Tech/Sshubam_Verma_pic_-_Sshubam_Verma_gcgjtq.png
+      - teamGroup: tech
+        personName: Yash Nair യാഷ് നായർ
+        personDesignation: 'Research Intern, Tech'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665057/Team%20pictures/Tech/Yash_Nair_Prof_-_Yash_Nair_jsxcbg.jpg
+      - teamGroup: Language
+        personName: Sri Harsha Rao Suguru శ్రీ హర్ష రావు సూగూరు
+        personDesignation: 'Transcription reviewer - Telugu'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665134/Team%20pictures/Language/Sri_harsha_rao_bh4dbd.jpg
+      - teamGroup: Language
+        personName: Mainu Basumatary माइनु बसुमतारी 
+        personDesignation: 'Transcriber - Bodo'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665266/Team%20pictures/Language/IMG-Angni_Solo_qswlum.jpg
+      - teamGroup: Language
+        personName: S. Kokila Gopi ஸி . கோகிலா கோபி 
+        personDesignation: 'Transcription Reviewer - Tamil'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665314/Team%20pictures/Language/Kokila_-_Kokila_S_Gopi_ptjsrc.jpg
+      - teamGroup: Quality Assurance
+        personName: Chitralekha Anshu
+        personDesignation: 'QA - Maithili'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665472/Team%20pictures/Quality%20Assurance/IMG_Dr._Chitralekha_Anshu_dqc904.jpg
+      - teamGroup: Language
+        personName: Shilpi Gogoi শিল্পী গগৈ
+        personDesignation: 'Transcriber - Assamese'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665548/Team%20pictures/Language/c_-_Shilpi_Gogoi_dlwj1y.jpg
+      - teamGroup: Quality Assurance
+        personName: Pranita Das ପ୍ରଣିତ। ଦାଶ
+        personDesignation: 'QA - Odia'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665740/Team%20pictures/Quality%20Assurance/photo_-_Pranita_Das_jjhyqr.jpg
+      - teamGroup: Language
+        personName: Suraj Sharma सुरज शर्मा 
+        personDesignation: 'Transcription Reviewer - Nepali'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665803/Team%20pictures/Language/su_-_Suraj_Sharma_lksraz.jpg
+      - teamGroup: operations
+        personName: Sharmistha Dey শর্মিষ্ঠা দে 
+        personDesignation: 'Data Lead'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665875/Team%20pictures/Operations/PXL_Sharmistha_Dey_kodnid.jpg
+      - teamGroup: Quality Assurance
+        personName: Irshad Tantry ارشاد تانترے
+        personDesignation: 'QA - Kashmiri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684665962/Team%20pictures/Quality%20Assurance/Ershad_lnd3o6.jpg
+      - teamGroup: Quality Assurance
+        personName: Tahir Ahmad Sheikh طاہر احمد شیخ
+        personDesignation: 'QA - Kashmiri'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684666030/Team%20pictures/Quality%20Assurance/DSC_Tahir_Ul_islam_hikbxm.jpg
+      - teamGroup: Quality Assurance
+        personName: NIKITA YATIN PAROLEKAR निकिता यतिन पारोळेकर
+        personDesignation: 'QA - Marathi'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684666117/Team%20pictures/Quality%20Assurance/Nikita_Parolekar_Nicks_s4sbgo.jpg
+      - teamGroup: Language
+        personName: Swati Jha स्वाति झा
+        personDesignation: 'Language Expert, Maithili'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684666183/Team%20pictures/Language/DSC_Swati_Jha_ecxn4v.jpg
+      - teamGroup: Language
+        personName: Aditya Bhushan Mishra आदित्य भूषण मिश्र 
+        personDesignation: 'Language Expert, Maithili'
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1684666255/Team%20pictures/Language/IMG-aditya_adi_x1k97b.jpg
     tabsEnabled: true
     _template: teamCardsGrid
 ---
