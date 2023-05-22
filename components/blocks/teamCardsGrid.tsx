@@ -95,6 +95,9 @@ export const TeamCardsGrid = ({ data, parentField }) => {
               Tech
             </Tab>
             <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
+              Quality Assurance
+            </Tab>
+            <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
               Language
             </Tab>
             <Tab className="px-4 py-2 border border-white rounded-t-lg bg-orange-200 focus:bg-orange-800 text-white font-semibold tracking-wider uppercase cursor-pointer hover:bg-orange-400">
@@ -194,6 +197,43 @@ export const TeamCardsGrid = ({ data, parentField }) => {
                   return (
                     <>
                       {block.teamGroup == "tech" && (
+                        <TeamCard
+                          tinaField={`${parentField}.items.${i}`}
+                          featuresColor={data.color}
+                          key={i}
+                          data={block}
+                        />
+                      )}
+                    </>
+                  );
+                })}
+
+              {data.link && (
+                <div className="flex justify-center items-center">
+                  <a
+                    href={data.link}
+                    className="flex justify-center text-center font-semibold text-md text-blue-600"
+                  >
+                    <p className="inline-block">See full team</p>{" "}
+                    <FaArrowRight className="inline-block mt-1 ml-1" />
+                  </a>
+                </div>
+              )}
+            </Container>
+          </TabPanel>
+          <TabPanel>
+            <Container
+              className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+              size="small"
+            >
+              {data.items &&
+                data.items.sort((a, b) =>
+                  a.personName.localeCompare(b.personName)
+                ) &&
+                data.items.map(function (block, i) {
+                  return (
+                    <>
+                      {block.teamGroup == "qualityAssurance" && (
                         <TeamCard
                           tinaField={`${parentField}.items.${i}`}
                           featuresColor={data.color}
@@ -413,6 +453,7 @@ export const teamCardsGridBlockSchema: TinaTemplate = {
             { label: "Founders", value: "founders" },
             { label: "Operations", value: "operations" },
             { label: "Tech", value: "tech" },
+            { label: "Quality Assurance", value: "qualityAssurance" },
             { label: "Language", value: "language" },
             { label: "Visiting Researchers", value: "visitingResearchers" },
           ],
