@@ -13,6 +13,11 @@
         "dropdown": false
       },
       {
+        "href": "/publications",
+        "label": "Publications",
+        "dropdown": false
+      },
+      {
         "href": "areas",
         "label": "Areas",
         "dropdown": true,

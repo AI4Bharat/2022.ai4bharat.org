@@ -44,6 +44,14 @@ export const LongCard = ({ featuresColor, data, tinaField }) => {
           {data.title}
       </div> 
     )}
+    {data.pointerDetail1 &&(
+      <p 
+      className="text-gray-700 text-xs mt-2 mb-2 font-nunito"
+      data-tinafield={`${tinaField}.text`}
+      >
+        {data.pointerDetail1}
+      </p>
+    )}
 
     {data.text && (
       <p 
