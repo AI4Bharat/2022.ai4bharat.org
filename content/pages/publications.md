@@ -5,8 +5,8 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           In-context Example Selection for Machine Translation Using Multiple Features 
@@ -25,12 +25,13 @@ blocks:
         text: >-
           Nandini Mundra, Sumanth Doddapaneni, Raj Dabre, Anoop Kunchukuttan, Ratish Puduppully, Mitesh M. Khapra
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR 
         pointerDetail1: 'INTERSPEECH 2023'
+        comingSoon: true
       - icon:
           color: white
           style: circle
@@ -38,9 +39,10 @@ blocks:
         title: >-
           Svarah: Evaluating English ASR Systems on Indian Accents
         pointerDetail1: 'INTERSPEECH 2023'
+        comingSoon: true
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           Varta: A Large-Scale Headline-Generation Dataset for Indic Languages
@@ -55,9 +57,10 @@ blocks:
         title: >-
           Bhasha-Abhijnaanam: Native-script and Romanized Language Identification for 22 Indic languages
         pointerDetail1: 'ACL 2023'
+        comingSoon: true
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           IndicXTREME: A Multi-Task Benchmark For Evaluating Indic Languages
@@ -76,8 +79,8 @@ blocks:
         text: >-
           Arnav Mhaske, Harshit Kedia, Sumanth Doddapaneni, Mitesh M. Khapra, Pratyush Kumar, Rudra Murthy V, Anoop Kunchukuttan
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           IndicMT Eval: A Dataset to Meta-Evaluate Machine Translation metrics for Indian Languages
@@ -96,8 +99,8 @@ blocks:
         text: >-
           Tahir Javed, Kaushal Santosh Bhogale, Abhigyan Raman, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages 
@@ -116,8 +119,8 @@ blocks:
         text: >-
           Gokul Karthik Kumar, Praveen S V, Pratyush Kumar, Mitesh M. Khapra, Karthik Nandakumar
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           SuperShaper: Task-agnostic super pre-training of BERT models with variable hidden dimensions 
@@ -136,8 +139,8 @@ blocks:
         text: >-
           Yash Madhani, Sushane Parthan, Priyanka Bedekar, Ruchi Khapra, Vivek Seshadri, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           Addressing Resource Scarcity across Sign Languages with Multilingual Pretraining and Unified-Vocabulary Datasets 
@@ -156,8 +159,8 @@ blocks:
         text: >-
           Aman Kumar, Himani Shrotriya, Prachi Sahu, Amogh Mishra, Raj Dabre, Ratish Puduppully, Anoop Kunchukuttan, Mitesh M. Khapra, Pratyush Kumar
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           OpenHands: Making sign language recognition accessible with pose-based pretrained models across languages
@@ -176,8 +179,8 @@ blocks:
         text: >-
           Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully, Mitesh Khapra, Pratyush Kumar
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           A primer on Pretrained Multilingual Language Models 
@@ -196,8 +199,8 @@ blocks:
         text: >-
           Tahir Javed, Sumanth Doddapaneni, Abhigyan Raman, Kaushal Santosh Bhogale, Gowtham Ramesh, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           Samanantar: The largest publicly available parallel corpora collection for 11 indic languages 
@@ -216,8 +219,8 @@ blocks:
         text: >-
           Ananya B. Sai, Tanay Dixit, Dev Yashpal Sheth, Sreyas Mohan, Mitesh M. Khapra
       - icon:
-          color: white
-          style: circle
+          color: ''
+          style: float
           name: AI4B
         title: >-
           IndicNLPSuite: Monolingual corpora, evaluation benchmarks and pre-trained multilingual language models for Indian languages 
