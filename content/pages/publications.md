@@ -622,5 +622,9 @@ blocks:
           languages. Averaged across languages and tasks, the model achieves an
           absolute improvement of 2 points over a strong baseline.
     _template: featuresAlt
+  - quote: '2023'
+    author: Phil Karlton
+    color: default
+    _template: testimonial
 ---
 
