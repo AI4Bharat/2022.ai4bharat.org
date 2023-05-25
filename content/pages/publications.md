@@ -648,6 +648,7 @@ blocks:
         pointerDetail1: >-
           Rahul Aralikatte, Ziling Cheng, Sumanth Doddapaneni, Jackie Chi Kit
           Cheung
+        pointerDetail2: May 2023
         text: >-
           We present Varta, a large-scale multilingual ¯
 
