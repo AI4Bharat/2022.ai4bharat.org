@@ -593,9 +593,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: >-
-          Towards Leaving No Indic Language Behind: Building Monolingual
-          Corpora, Benchmark and Models for Indic Languages
+        title: 'IndicXTREME: A Multi-Task Benchmark For Evaluating Indic Languages'
         link: 'https://arxiv.org/abs/2212.05409'
         comingSoon: false
         updated: false
