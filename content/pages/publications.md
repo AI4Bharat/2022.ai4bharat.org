@@ -376,6 +376,35 @@ blocks:
           color: ''
           style: float
           name: ''
+        title: Towards Building Text-To-Speech Systems for the Next Billion Users
+        link: 'https://arxiv.org/abs/2211.09536'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Gokul Karthik Kumar, Praveen S V, Pratyush Kumar, Mitesh M. Khapra,
+          Karthik Nandakumar
+        pointerDetail2: November 2022
+        text: >-
+          Deep learning based text-to-speech (TTS) systems have been evolving
+          rapidly with advances in model architectures, training methodologies,
+          and generalization across speakers and languages. However, these
+          advances have not been thoroughly investigated for Indian language
+          speech synthesis. Such investigation is computationally expensive
+          given the number and diversity of Indian languages, relatively lower
+          resource availability, and the diverse set of advances in neural TTS
+          that remain untested. In this paper, we evaluate the choice of
+          acoustic models, vocoders, supplementary loss functions, training
+          schedules, and speaker and language diversity for Dravidian and
+          Indo-Aryan languages. Based on this, we identify monolingual models
+          with FastPitch and HiFi-GAN V1, trained jointly on male and female
+          speakers to perform the best. With this setup, we train and evaluate
+          TTS models for 13 languages and find our models to significantly
+          improve upon existing models in all languages as measured by mean
+          opinion scores. We open-source all models on the Bhashini platform.
+      - icon:
+          color: ''
+          style: float
+          name: ''
         title: >-
           IndicNLG Benchmark: Multilingual Datasets for Diverse NLG Tasks in
           Indic Languages
