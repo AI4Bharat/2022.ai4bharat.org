@@ -688,6 +688,7 @@ blocks:
         title: 'Svarah: Evaluating English ASR Systems on Indian Accents'
         comingSoon: true
         updated: false
+        pointerDetail2: '2023'
         text: ''
     _template: featuresAlt
 ---
