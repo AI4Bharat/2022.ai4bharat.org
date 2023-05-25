@@ -136,6 +136,39 @@ blocks:
           Samanantar. Our data and models are available publicly at Samanantar
           and we hope they will help advance research in NMT and multilingual
           NLP for Indic languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Towards Building ASR Systems for the Next Billion Users
+        link: 'https://ojs.aaai.org/index.php/AAAI/article/view/21327'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Tahir Javed, Sumanth Doddapaneni, Abhigyan Raman, Kaushal Santosh
+          Bhogale, Gowtham Ramesh, Anoop Kunchukuttan, Pratyush Kumar, Mitesh M.
+          Khapra
+        pointerDetail2: June 2022
+        text: >-
+          Recent methods in speech and language technology pretrain very large
+          models which are fine-tuned for specific tasks. However, the benefits
+          of such large models are often limited to a few resource rich
+          languages of the world. In this work, we make multiple contributions
+          towards building ASR systems for low resource languages from the
+          Indian subcontinent. First, we curate 17,000 hours of raw speech data
+          for 40 Indian languages from a wide variety of domains including
+          education, news, technology, and finance. Second, using this raw
+          speech data we pretrain several variants of wav2vec style models for
+          40 Indian languages. Third, we analyze the pretrained models to find
+          key features: codebook vectors of similar sounding phonemes are shared
+          across languages, representations across layers are discriminative of
+          the language family, and attention heads often pay attention within
+          small local windows. Fourth, we fine-tune this model for downstream
+          ASR for 9 languages and obtain state-of-the-art results on 3 public
+          datasets, including on very low-resource languages such as Sinhala and
+          Nepali. Our work establishes that multilingual pretraining is an
+          effective strategy for building ASR systems for the linguistically
+          diverse speakers of the Indian subcontinent.
     _template: featuresAlt
 ---
 
