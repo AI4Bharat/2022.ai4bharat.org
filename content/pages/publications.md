@@ -765,6 +765,7 @@ blocks:
           Identification for 22 Indic languages
         comingSoon: true
         updated: false
+        pointerDetail1: 'Yash H. Madhani, Mitesh M. Khapra, Anoop Kunchukuttan'
         pointerDetail2: '2023'
         text: ''
       - icon:
