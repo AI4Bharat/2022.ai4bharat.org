@@ -681,6 +681,14 @@ blocks:
           baselines in both NLU
 
           and NLG benchmarks.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Svarah: Evaluating English ASR Systems on Indian Accents'
+        comingSoon: true
+        updated: false
+        text: ''
     _template: featuresAlt
 ---
 
