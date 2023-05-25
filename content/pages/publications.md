@@ -1,5 +1,9 @@
 ---
 blocks:
+  - quote: '2022'
+    author: Phil Karlton
+    color: default
+    _template: testimonial
   - quote: Publications
     color: tint
     _template: testimonial
