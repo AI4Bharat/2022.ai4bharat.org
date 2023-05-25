@@ -44,8 +44,7 @@ blocks:
           availability of the dataset will accelerate Indic NLP research which
           has the potential to impact more than a billion people. It can also
           help the community in evaluating advances in NLP over a more diverse
-          pool of languages. The data and models are available at
-          https://indicnlp.ai4bharat.org.
+          pool of languages.
     _template: featuresAlt
   - quote: '2021'
     author: Phil Karlton
