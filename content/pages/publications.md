@@ -196,6 +196,34 @@ blocks:
           Nepali. Our work establishes that multilingual pretraining is an
           effective strategy for building ASR systems for the linguistically
           diverse speakers of the Indian subcontinent.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'IndicBART: A Pre-trained Model for Indic Natural Language Generation'
+        link: 'https://aclanthology.org/2022.findings-acl.145/'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Raj Dabre, Himani Shrotriya, Anoop Kunchukuttan, Ratish Puduppully,
+          Mitesh Khapra, Pratyush Kumar
+        pointerDetail2: May 2022
+        text: >-
+          In this paper, we study pre-trained sequence-to-sequence models for a
+          group of related languages, with a focus on Indic languages. We
+          present IndicBART, a multilingual, sequence-to-sequence pre-trained
+          model focusing on 11 Indic languages and English. IndicBART utilizes
+          the orthographic similarity between Indic scripts to improve transfer
+          learning between similar Indic languages. We evaluate IndicBART on two
+          NLG tasks: Neural Machine Translation (NMT) and extreme summarization.
+          Our experiments on NMT and extreme summarization show that a model
+          specific to related languages like IndicBART is competitive with large
+          pre-trained models like mBART50 despite being significantly smaller.
+          It also performs well on very low-resource translation scenarios where
+          languages are not included in pre-training or fine-tuning. Script
+          sharing, multilingual training, and better utilization of limited
+          model capacity contribute to the good performance of the compact
+          IndicBART model.
     _template: featuresAlt
 ---
 
