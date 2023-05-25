@@ -1,9 +1,5 @@
 ---
 blocks:
-  - quote: '2021'
-    author: Phil Karlton
-    color: default
-    _template: testimonial
   - quote: Publications
     color: tint
     _template: testimonial
@@ -88,6 +84,22 @@ blocks:
           help the community in evaluating advances in NLP over a more diverse
           pool of languages. The data and models are available at
           https://indicnlp.ai4bharat.org.
+    _template: featuresAlt
+  - quote: '2021'
+    author: Phil Karlton
+    color: default
+    _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
     _template: featuresAlt
 ---
 
