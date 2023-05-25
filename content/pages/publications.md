@@ -1,9 +1,5 @@
 ---
 blocks:
-  - quote: '2022'
-    author: Phil Karlton
-    color: default
-    _template: testimonial
   - quote: Publications
     color: tint
     _template: testimonial
@@ -95,5 +91,9 @@ blocks:
           better design, analysis and evaluation of such metrics. Our templates
           and code are available at https://iitmnlp.github.io/EvalEval/
     _template: featuresAlt
+  - quote: '2022'
+    author: Phil Karlton
+    color: default
+    _template: testimonial
 ---
 
