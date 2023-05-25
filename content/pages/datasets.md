@@ -115,6 +115,16 @@ blocks:
         text: >-
           Training and evaluation datasets for named entity recognition in
           multiple Indian language.
+      - icon:
+          color: ''
+          style: float
+          name: settings
+        title: Here's Another Feature
+        comingSoon: false
+        updated: false
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
     _template: featuresAlt
 ---
 
