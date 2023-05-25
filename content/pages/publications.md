@@ -691,6 +691,32 @@ blocks:
         updated: false
         pointerDetail2: '2023'
         text: ''
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR'
+        link: 'https://arxiv.org/abs/2305.15386'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Kaushal Santosh Bhogale, Sai Sundaresan, Abhigyan Raman, Tahir Javed,
+          Mitesh M. Khapra, Pratyush Kumar
+        pointerDetail2: May 2023
+        text: >-
+          Improving ASR systems is necessary to make new LLM-based use-cases
+          accessible to people across the globe. In this paper, we focus on
+          Indian languages, and make the case that diverse benchmarks are
+          required to evaluate and improve ASR systems for Indian languages. To
+          address this, we collate Vistaar as a set of 59 benchmarks across
+          various language and domain combinations, on which we evaluate 3
+          publicly available ASR systems and 2 commercial systems. We also train
+          IndicWhisper models by fine-tuning the Whisper models on publicly
+          available training datasets across 12 Indian languages totalling to
+          10.7K hours. We show that IndicWhisper significantly improves on
+          considered ASR systems on the Vistaar benchmark. Indeed, IndicWhisper
+          has the lowest WER in 39 out of the 59 benchmarks, with an average
+          reduction of 4.1 WER. We open-source all datasets, code and models.
     _template: featuresAlt
 ---
 
