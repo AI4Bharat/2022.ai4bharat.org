@@ -260,6 +260,42 @@ blocks:
           Nepali. Our work establishes that multilingual pretraining is an
           effective strategy for building ASR systems for the linguistically
           diverse speakers of the Indian subcontinent.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          IndicNLG Benchmark: Multilingual Datasets for Diverse NLG Tasks in
+          Indic Languages
+        link: 'https://aclanthology.org/2022.emnlp-main.360/'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Aman Kumar, Himani Shrotriya, Prachi Sahu, Amogh Mishra, Raj Dabre,
+          Ratish Puduppully, Anoop Kunchukuttan, Mitesh M. Khapra, Pratyush
+          Kumar
+        pointerDetail2: December 2022
+        text: >-
+          Natural Language Generation (NLG) for non-English languages is
+          hampered by the scarcity of datasets in these languages. We present
+          the IndicNLG Benchmark, a collection of datasets for benchmarking NLG
+          for 11 Indic languages. We focus on five diverse tasks, namely,
+          biography generation using Wikipedia infoboxes, news headline
+          generation, sentence summarization, paraphrase generation and,
+          question generation. We describe the created datasets and use them to
+          benchmark the performance of several monolingual and multilingual
+          baselines that leverage pre-trained sequence-to-sequence models. Our
+          results exhibit the strong performance of multilingual
+          language-specific pre-trained models, and the utility of models
+          trained on our dataset for other related NLG tasks. Our dataset
+          creation methods can be easily applied to modest-resource languages as
+          they involve simple steps such as scraping news articles and Wikipedia
+          infoboxes, light cleaning, and pivoting through machine translation
+          data. To the best of our knowledge, the IndicNLG Benchmark is the
+          first NLG benchmark for Indic languages and the most diverse
+          multilingual NLG dataset, with approximately 8M examples across 5
+          tasks and 11 languages. The datasets and models will be publicly
+          available.
     _template: featuresAlt
 ---
 
