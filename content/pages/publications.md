@@ -636,6 +636,7 @@ blocks:
           Identification for 22 Indic languages
         comingSoon: true
         updated: false
+        pointerDetail2: '2023'
         text: ''
       - icon:
           color: ''
