@@ -637,6 +637,49 @@ blocks:
         comingSoon: true
         updated: false
         text: ''
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Varta: A Large-Scale Headline-Generation Dataset for Indic Languages'
+        link: 'https://arxiv.org/pdf/2305.05858.pdf'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Rahul Aralikatte, Ziling Cheng, Sumanth Doddapaneni, Jackie Chi Kit
+          Cheung
+        text: >-
+          We present Varta, a large-scale multilingual ¯
+
+          dataset for headline generation in Indic languages. This dataset
+          includes 41.8 million
+
+          news articles in 14 different Indic languages
+
+          (and English), which come from a variety of
+
+          high-quality sources. To the best of our knowledge, this is the
+          largest collection of curated
+
+          articles for Indic languages currently available.
+
+          We use the data collected in a series of experiments to answer
+          important questions related
+
+          to Indic NLP and multilinguality research in
+
+          general. We show that the dataset is challenging even for
+          state-of-the-art abstractive models and that they perform only
+          slightly better
+
+          than extractive baselines. Owing to its size,
+
+          we also show that the dataset can be used
+
+          to pretrain strong language models that outperform competitive
+          baselines in both NLU
+
+          and NLG benchmarks.
     _template: featuresAlt
 ---
 
