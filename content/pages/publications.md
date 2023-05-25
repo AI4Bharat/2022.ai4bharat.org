@@ -1,11 +1,15 @@
 ---
 blocks:
-  - quote: '2020'
-    author: ''
+  - quote: '2021'
+    author: Phil Karlton
     color: default
     _template: testimonial
   - quote: Publications
     color: tint
+    _template: testimonial
+  - quote: '2020'
+    author: ''
+    color: default
     _template: testimonial
   - items:
       - icon:
