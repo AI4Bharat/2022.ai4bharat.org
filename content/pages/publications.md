@@ -114,8 +114,28 @@ blocks:
           Pratyush Kumar, Mitesh Shantadevi Khapra
         pointerDetail2: '2022'
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          We present Samanantar, the largest publicly available parallel corpora
+          collection for Indic languages. The collection contains a total of
+          49.7 million sentence pairs between English and 11 Indic languages
+          (from two language families). Specifically, we compile 12.4 million
+          sentence pairs from existing, publicly available parallel corpora, and
+          additionally mine 37.4 million sentence pairs from the Web, resulting
+          in a 4× increase. We mine the parallel sentences from the Web by
+          combining many corpora, tools, and methods: (a) Web-crawled
+          monolingual corpora, (b) document OCR for extracting sentences from
+          scanned documents, (c) multilingual representation models for aligning
+          sentences, and (d) approximate nearest neighbor search for searching
+          in a large collection of sentences. Human evaluation of samples from
+          the newly mined corpora validate the high quality of the parallel
+          sentences across 11 languages. Further, we extract 83.4 million
+          sentence pairs between all 55 Indic language pairs from the
+          English-centric parallel corpus using English as the pivot language.
+          We trained multilingual NMT models spanning all these languages on
+          Samanantar which outperform existing models and baselines on publicly
+          available benchmarks, such as FLORES, establishing the utility of
+          Samanantar. Our data and models are available publicly at Samanantar
+          and we hope they will help advance research in NMT and multilingual
+          NLP for Indic languages.
     _template: featuresAlt
 ---
 
