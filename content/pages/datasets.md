@@ -119,12 +119,12 @@ blocks:
           color: ''
           style: float
           name: settings
-        title: Here's Another Feature
-        comingSoon: false
+        title: Svarah
+        comingSoon: true
         updated: false
         text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+          Indian-accented English benchmark comprising of data from 17/22 Indian
+          languages
     _template: featuresAlt
 ---
 
