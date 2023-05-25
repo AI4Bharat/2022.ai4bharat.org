@@ -631,13 +631,58 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: >-
-          Bhasha-Abhijnaanam: Native-script and Romanized Language
-          Identification for 22 Indic languages
-        comingSoon: true
+        title: A Comprehensive Analysis of Adapter Efficiency
+        link: 'https://arxiv.org/abs/2305.07491'
+        comingSoon: false
         updated: false
-        pointerDetail2: '2023'
-        text: ''
+        pointerDetail1: >-
+          Nandini Mundra, Sumanth Doddapaneni, Raj Dabre, Anoop Kunchukuttan,
+          Ratish Puduppully, Mitesh M. Khapra
+        pointerDetail2: May 2023
+        text: >-
+          Adapters have been positioned as a parameter-efficient fine-tuning
+          (PEFT) approach, whereby a minimal number of parameters are added to
+          the model and fine-tuned. However, adapters have not been sufficiently
+          analyzed to understand if PEFT translates to benefits in
+          training/deployment efficiency and maintainability/extensibility.
+          Through extensive experiments on many adapters, tasks, and languages
+          in supervised and cross-lingual zero-shot settings, we clearly show
+          that for Natural Language Understanding (NLU) tasks, the parameter
+          efficiency in adapters does not translate to efficiency gains compared
+          to full fine-tuning of models. More precisely, adapters are relatively
+          expensive to train and have slightly higher deployment latency.
+          Furthermore, the maintainability/extensibility benefits of adapters
+          can be achieved with simpler approaches like multi-task training via
+          full fine-tuning, which also provide relatively faster training times.
+          We, therefore, recommend that for moderately sized models for NLU
+          tasks, practitioners should rely on full fine-tuning or multi-task
+          training rather than using adapters.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: 'Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR'
+        link: 'https://arxiv.org/abs/2305.15386'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Kaushal Santosh Bhogale, Sai Sundaresan, Abhigyan Raman, Tahir Javed,
+          Mitesh M. Khapra, Pratyush Kumar
+        pointerDetail2: May 2023
+        text: >-
+          Improving ASR systems is necessary to make new LLM-based use-cases
+          accessible to people across the globe. In this paper, we focus on
+          Indian languages, and make the case that diverse benchmarks are
+          required to evaluate and improve ASR systems for Indian languages. To
+          address this, we collate Vistaar as a set of 59 benchmarks across
+          various language and domain combinations, on which we evaluate 3
+          publicly available ASR systems and 2 commercial systems. We also train
+          IndicWhisper models by fine-tuning the Whisper models on publicly
+          available training datasets across 12 Indian languages totalling to
+          10.7K hours. We show that IndicWhisper significantly improves on
+          considered ASR systems on the Vistaar benchmark. Indeed, IndicWhisper
+          has the lowest WER in 39 out of the 59 benchmarks, with an average
+          reduction of 4.1 WER. We open-source all datasets, code and models.
       - icon:
           color: ''
           style: float
@@ -686,7 +731,9 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: 'Svarah: Evaluating English ASR Systems on Indian Accents'
+        title: >-
+          Bhasha-Abhijnaanam: Native-script and Romanized Language
+          Identification for 22 Indic languages
         comingSoon: true
         updated: false
         pointerDetail2: '2023'
@@ -695,28 +742,11 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: 'Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR'
-        link: 'https://arxiv.org/abs/2305.15386'
-        comingSoon: false
+        title: 'Svarah: Evaluating English ASR Systems on Indian Accents'
+        comingSoon: true
         updated: false
-        pointerDetail1: >-
-          Kaushal Santosh Bhogale, Sai Sundaresan, Abhigyan Raman, Tahir Javed,
-          Mitesh M. Khapra, Pratyush Kumar
-        pointerDetail2: May 2023
-        text: >-
-          Improving ASR systems is necessary to make new LLM-based use-cases
-          accessible to people across the globe. In this paper, we focus on
-          Indian languages, and make the case that diverse benchmarks are
-          required to evaluate and improve ASR systems for Indian languages. To
-          address this, we collate Vistaar as a set of 59 benchmarks across
-          various language and domain combinations, on which we evaluate 3
-          publicly available ASR systems and 2 commercial systems. We also train
-          IndicWhisper models by fine-tuning the Whisper models on publicly
-          available training datasets across 12 Indian languages totalling to
-          10.7K hours. We show that IndicWhisper significantly improves on
-          considered ASR systems on the Vistaar benchmark. Indeed, IndicWhisper
-          has the lowest WER in 39 out of the 59 benchmarks, with an average
-          reduction of 4.1 WER. We open-source all datasets, code and models.
+        pointerDetail2: '2023'
+        text: ''
     _template: featuresAlt
 ---
 
