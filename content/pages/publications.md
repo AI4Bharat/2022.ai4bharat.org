@@ -231,6 +231,46 @@ blocks:
           color: ''
           style: float
           name: ''
+        title: >-
+          Addressing Resource Scarcity across Sign Languages with Multilingual
+          Pretraining and Unified-Vocabulary Datasets
+        link: >-
+          https://proceedings.neurips.cc/paper_files/paper/2022/hash/eb011fd258c763c44d8c6a0e9ce04f17-Abstract-Datasets_and_Benchmarks.html
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Gokul NC, Manideep Ladi, Sumit Negi, Prem Selvaraj, Pratyush Kumar,
+          Mitesh Khapra
+        pointerDetail2: '2022'
+        text: >-
+          There are over 300 sign languages in the world, many of which have
+          very limited or no labelled sign-to-text datasets. To address
+          low-resource data scenarios, self-supervised pretraining and
+          multilingual finetuning have been shown to be effective in natural
+          language and speech processing. In this work, we apply these ideas to
+          sign language recognition.We make three contributions.- First, we
+          release SignCorpus, a large pretraining dataset on sign languages
+          comprising about 4.6K hours of signing data across 10 sign languages.
+          SignCorpus is curated from sign language videos on the internet,
+          filtered for data quality, and converted into sequences of pose
+          keypoints thereby removing all personal identifiable information
+          (PII).- Second, we release Sign2Vec, a graph-based model with 5.2M
+          parameters that is pretrained on SignCorpus. We envisage Sign2Vec as a
+          multilingual large-scale pretrained model which can be fine-tuned for
+          various sign recognition tasks across languages.- Third, we create
+          MultiSign-ISLR -- a multilingual and label-aligned dataset of
+          sequences of pose keypoints from 11 labelled datasets across 7 sign
+          languages, and MultiSign-FS -- a new finger-spelling training and test
+          set across 7 languages. On these datasets, we fine-tune Sign2Vec to
+          create multilingual isolated sign recognition models. With experiments
+          on multiple benchmarks, we show that pretraining and multilingual
+          transfer are effective giving significant gains over state-of-the-art
+          results.All datasets, models, and code has been made open-source via
+          the OpenHands toolkit.
+      - icon:
+          color: ''
+          style: float
+          name: ''
         title: Towards Building ASR Systems for the Next Billion Users
         link: 'https://ojs.aaai.org/index.php/AAAI/article/view/21327'
         comingSoon: false
