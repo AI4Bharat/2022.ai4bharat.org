@@ -95,5 +95,27 @@ blocks:
     author: Phil Karlton
     color: default
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          Samanantar: The Largest Publicly Available Parallel Corpora Collection
+          for 11 Indic Languages
+        link: 'https://aclanthology.org/2022.tacl-1.9/'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Gowtham Ramesh, Sumanth Doddapaneni, Aravinth Bheemaraj, Mayank
+          Jobanputra, Raghavan AK, Ajitesh Sharma, Sujit Sahoo, Harshita Diddee,
+          Mahalakshmi J, Divyanshu Kakwani, Navneet Kumar, Aswin Pradeep,
+          Srihari Nagaraj, Kumar Deepak, Vivek Raghavan, Anoop Kunchukuttan,
+          Pratyush Kumar, Mitesh Shantadevi Khapra
+        pointerDetail2: '2022'
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+    _template: featuresAlt
 ---
 
