@@ -132,7 +132,7 @@ blocks:
               ACL 2023
             </td>
             <td>
-              Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages** <br/><small>Arnav Mhaske, Harshit Kedia, Sumanth Doddapaneni, Mitesh M. Khapra, Pratyush Kumar, Rudra Murthy V, Anoop Kunchukuttan</small>
+              Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages <br/><small>Arnav Mhaske, Harshit Kedia, Sumanth Doddapaneni, Mitesh M. Khapra, Pratyush Kumar, Rudra Murthy V, Anoop Kunchukuttan</small>
             </td>
             <td>
               <details><summary>Abstract</summary>We present, Naamapadam, the largest publicly available Named Entity Recognition (NER) dataset for the 11 major Indian languages from two language families. In each language, it contains more than 400k sentences annotated with a total of at least 100k entities from three standard entity categories (Person, Location and Organization) for 9 out of the 11 languages. The training dataset has been automatically created from the Samanantar parallel corpus by projecting automatically tagged entities from an English sentence to the corresponding Indian language sentence. We also create manually annotated testsets for 8 languages containing approximately 1000 sentences per language. We demonstrate the utility of the obtained dataset on existing testsets and the Naamapadam-test data for 8 Indic languages. We also release IndicNER, a multilingual mBERT model fine-tuned on the Naamapadam training set. IndicNER achieves the best F1 on the Naamapadam-test set compared to an mBERT model fine-tuned on existing datasets. IndicNER achieves an F1 score of more than 80 for 7 out of 11 Indic languages. The dataset and models are available under open-source licenses at https://ai4bharat.iitm.ac.in/naamapadam.</details>
@@ -170,7 +170,7 @@ blocks:
               <details><summary>Abstract</summary>A cornerstone in AI research has been the creation and adoption of standardized training and test datasets to earmark the progress of state-of-the-art models. A particularly successful example is the GLUE dataset for training and evaluating Natural Language Understanding (NLU) models for English. The large body of research around self-supervised BERT-based language models revolved around performance improvements on NLU tasks in GLUE. To evaluate language models in other languages, several language-specific GLUE datasets were created. The area of speech language understanding (SLU) has followed a similar trajectory. The success of large self-supervised models such as wav2vec2 enable creation of speech models with relatively easy to access unlabelled data. These models can then be evaluated on SLU tasks, such as the SUPERB benchmark. In this work, we extend this to Indic languages by releasing the IndicSUPERB benchmark. Specifically, we make the following three contributions. (i) We collect Kathbath containing 1,684 hours of labelled speech data across 12 Indian languages from 1,218 contributors located in 203 districts in India. (ii) Using Kathbath, we create benchmarks across 6 speech tasks: Automatic Speech Recognition, Speaker Verification, Speaker Identification (mono/multi), Language Identification, Query By Example, and Keyword Spotting for 12 languages. (iii) On the released benchmarks, we train and evaluate different self-supervised models alongside a commonly used baseline FBANK. We show that language-specific fine-tuned models are more accurate than baseline on most of the tasks, including a large gap of 76\% for the Language Identification task. However, for speaker identification, self-supervised models trained on large datasets demonstrate an advantage. We hope IndicSUPERB contributes to the progress of developing speech language understanding models for Indian languages.</details>
             </td>
             <td>
-              <a href="https://arxiv.org/abs/2208.11761" target="_blank">Paper</a>
+              <a href="https://arxiv.org/abs/2208.11761" target="_blank">Paper</a>, <a href="https://github.com/AI4Bharat/IndicSUPERB" target="_blank">Code</a>
             </td>
           </tr>
         </tbody>
@@ -186,7 +186,7 @@ blocks:
               <details><summary>Abstract</summary>End-to-end (E2E) models have become the default choice for state-of-the-art speech recognition systems. Such models are trained on large amounts of labelled data, which are often not available for low-resource languages. Techniques such as self-supervised learning and transfer learning hold promise, but have not yet been effective in training accurate models. On the other hand, collecting labelled datasets on a diverse set of domains and speakers is very expensive. In this work, we demonstrate an inexpensive and effective alternative to these approaches by ``mining'' text and audio pairs for Indian languages from public sources, specifically from the public archives of All India Radio. As a key component, we adapt the Needleman-Wunsch algorithm to align sentences with corresponding audio segments given a long audio and a PDF of its transcript, while being robust to errors due to OCR, extraneous text, and non-transcribed speech. We thus create Shrutilipi, a dataset which contains over 6,400 hours of labelled audio across 12 Indian languages totalling to 4.95M sentences. On average, Shrutilipi results in a 2.3x increase over publicly available labelled data. We establish the quality of Shrutilipi with 21 human evaluators across the 12 languages. We also establish the diversity of Shrutilipi in terms of represented regions, speakers, and mentioned named entities. Significantly, we show that adding Shrutilipi to the training set of Wav2Vec models leads to an average decrease in WER of 5.8\% for 7 languages on the IndicSUPERB benchmark. For Hindi, which has the most benchmarks (7), the average WER falls from 18.8% to 13.5%. This improvement extends to efficient models: We show a 2.3% drop in WER for a Conformer model (10x smaller than Wav2Vec). Finally, we demonstrate the diversity of Shrutilipi by showing that the model trained with it is more robust to noisy input.</details>
             </td>
             <td>
-              <a href="https://arxiv.org/abs/2208.12666" target="_blank">Paper</a>, <a href="https://github.com/AI4Bharat/IndicBERT" target="_blank">Code</a>
+              <a href="https://arxiv.org/abs/2208.12666" target="_blank">Paper</a>, <a href="https://ai4bharat.iitm.ac.in/shrutilipi" target="_blank">Code</a>
             </td>
           </tr>
         </tbody>
@@ -328,7 +328,7 @@ blocks:
               <details><summary>Abstract</summary>Recent methods in speech and language technology pretrain very LARGE models which are fine-tuned for specific tasks. However, the benefits of such LARGE models are often limited to a few resource rich languages of the world. In this work, we make multiple contributions towards building ASR systems for low resource languages from the Indian subcontinent. First, we curate 17,000 hours of raw speech data for 40 Indian languages from a wide variety of domains including education, news, technology, and finance. Second, using this raw speech data we pretrain several variants of wav2vec style models for 40 Indian languages. Third, we analyze the pretrained models to find key features: codebook vectors of similar sounding phonemes are shared across languages, representations across layers are discriminative of the language family, and attention heads often pay attention within small local windows. Fourth, we fine-tune this model for downstream ASR for 9 languages and obtain state-of-the-art results on 3 public datasets, including on very low-resource languages such as Sinhala and Nepali. Our work establishes that multilingual pretraining is an effective strategy for building ASR systems for the linguistically diverse speakers of the Indian subcontinent. Our code, data and models are available publicly at https://indicnlp.ai4bharat.org/indicwav2vec/ and we hope they will help advance research in ASR for Indic languages.</details>
             </td>
             <td>
-              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21327" target="_blank">Paper</a>
+              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21327" target="_blank">Paper</a>, <a href="https://github.com/AI4Bharat/IndicWav2Vec" target="_blank">Code</a>
             </td>
           </tr>
         </tbody>
@@ -411,16 +411,33 @@ blocks:
         <tbody>
           <tr>
             <td>
-              ArXiv 2020
+              EMNLP 2020
             </td>
             <td>
-              **IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages <br/><small>Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar</small>
+              IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages <br/><small>Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar</small>
             </td>
             <td>
               <details><summary>Abstract</summary>In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls. The word embeddings are based on FastText, hence suitable for handling morphological complexity of Indian languages. The pre-trained language models are based on the compact ALBERT model. Lastly, we compile the IndicGLUE benchmark for Indian language NLU. To this end, we create datasets for the following tasks: Article Genre Classification, Headline Prediction, Wikipedia Section-Title Prediction, Cloze-style Multiple choice QA, Winograd NLI and COPA. We also include publicly available datasets for some Indic languages for tasks like Named Entity Recognition, Cross-lingual Sentence Retrieval, Paraphrase detection, etc. Our embeddings are competitive or better than existing pre-trained embeddings on multiple tasks. We hope that the availability of the dataset will accelerate Indic NLP research which has the potential to impact more than a billion people. It can also help the community in evaluating advances in NLP over a more diverse pool of languages.</details>
             </td>
             <td>
               <a href="https://arxiv.org/abs/2107.00676" target="_blank">Paper</a>
+            </td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <td>
+              ArXiv 2020
+            </td>
+            <td>
+              AI4Bharat-IndicNLP Corpus: Monolingual Corpora and Word Embeddings for Indic Languages <br/><small>Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra, Pratyush Kumar</small>
+            </td>
+            <td>
+              <details><summary>Abstract</summary>We present the IndicNLP corpus, a large-scale, general-domain corpus containing 2.7 billion words for 10 Indian languages from two language families. We share pre-trained word embeddings trained on these corpora. We create news article category classification datasets for 9 languages to evaluate the embeddings. We show that the IndicNLP embeddings significantly outperform publicly available pre-trained embedding on multiple evaluation tasks. We hope that the availability of the corpus will accelerate Indic NLP research.</details>
+            </td>
+            <td>
+              <a href="https://arxiv.org/abs/2005.00085" target="_blank">Paper</a>
             </td>
           </tr>
         </tbody>
