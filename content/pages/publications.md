@@ -626,5 +626,17 @@ blocks:
     author: Phil Karlton
     color: default
     _template: testimonial
+  - items:
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          Bhasha-Abhijnaanam: Native-script and Romanized Language
+          Identification for 22 Indic languages
+        comingSoon: true
+        updated: false
+        text: ''
+    _template: featuresAlt
 ---
 
