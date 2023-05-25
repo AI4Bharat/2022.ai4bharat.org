@@ -87,8 +87,7 @@ blocks:
           with scores assigned by humans to the perturbed output. The proposed
           templates thus allow for a fine-grained assessment of automatic
           evaluation metrics exposing their limitations and will facilitate
-          better design, analysis and evaluation of such metrics. Our templates
-          and code are available at https://iitmnlp.github.io/EvalEval/
+          better design, analysis and evaluation of such metrics.
       - icon:
           color: ''
           style: float
