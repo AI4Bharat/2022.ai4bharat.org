@@ -557,6 +557,38 @@ blocks:
           fluency-based errors in Indian languages, and there is a need to
           develop metrics focused on Indian languages. We hope that our dataset
           and analysis will help promote further research in this area.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          Naamapadam: A Large-Scale Named Entity Annotated Data for Indic
+          Languages
+        link: 'https://arxiv.org/abs/2212.10168'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Arnav Mhaske, Harshit Kedia, Sumanth Doddapaneni, Mitesh M. Khapra,
+          Pratyush Kumar, Rudra Murthy V, Anoop Kunchukuttan
+        pointerDetail2: December 2022
+        text: >-
+          We present, Naamapadam, the largest publicly available Named Entity
+          Recognition (NER) dataset for the 11 major Indian languages from two
+          language families. In each language, it contains more than 400k
+          sentences annotated with a total of at least 100k entities from three
+          standard entity categories (Person, Location and Organization) for 9
+          out of the 11 languages. The training dataset has been automatically
+          created from the Samanantar parallel corpus by projecting
+          automatically tagged entities from an English sentence to the
+          corresponding Indian language sentence. We also create manually
+          annotated testsets for 8 languages containing approximately 1000
+          sentences per language. We demonstrate the utility of the obtained
+          dataset on existing testsets and the Naamapadam-test data for 8 Indic
+          languages. We also release IndicNER, a multilingual mBERT model
+          fine-tuned on the Naamapadam training set. IndicNER achieves the best
+          F1 on the Naamapadam-test set compared to an mBERT model fine-tuned on
+          existing datasets. IndicNER achieves an F1 score of more than 80 for 7
+          out of 11 Indic languages. 
     _template: featuresAlt
 ---
 
