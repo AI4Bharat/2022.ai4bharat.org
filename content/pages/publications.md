@@ -1,5 +1,9 @@
 ---
 blocks:
+  - quote: '2020'
+    author: ''
+    color: default
+    _template: testimonial
   - quote: Publications
     color: tint
     _template: testimonial
