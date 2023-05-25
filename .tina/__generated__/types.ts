@@ -1045,7 +1045,6 @@ export type PageBlocksLongCardsGridItemsMutation = {
   link?: InputMaybe<Scalars['String']>;
   comingSoon?: InputMaybe<Scalars['Boolean']>;
   updated?: InputMaybe<Scalars['Boolean']>;
-  pointerDetail1?: InputMaybe<Scalars['String']>;
   text?: InputMaybe<Scalars['String']>;
 };
 
