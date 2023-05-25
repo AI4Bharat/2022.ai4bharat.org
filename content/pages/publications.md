@@ -90,6 +90,33 @@ blocks:
           evaluation metrics exposing their limitations and will facilitate
           better design, analysis and evaluation of such metrics. Our templates
           and code are available at https://iitmnlp.github.io/EvalEval/
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: A Primer on Pretrained Multilingual Language Models
+        link: 'https://arxiv.org/abs/2107.00676'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Sumanth Doddapaneni, Gowtham Ramesh, Mitesh M. Khapra, Anoop
+          Kunchukuttan, Pratyush Kumar
+        pointerDetail2: July 2021
+        text: >-
+          Multilingual Language Models (\MLLMs) such as mBERT, XLM, XLM-R,
+          \textit{etc.} have emerged as a viable option for bringing the power
+          of pretraining to a large number of languages. Given their success in
+          zero-shot transfer learning, there has emerged a large body of work in
+          (i) building bigger \MLLMs~covering a large number of languages (ii)
+          creating exhaustive benchmarks covering a wider variety of tasks and
+          languages for evaluating \MLLMs~ (iii) analysing the performance of
+          \MLLMs~on monolingual, zero-shot cross-lingual and bilingual tasks
+          (iv) understanding the universal language patterns (if any) learnt by
+          \MLLMs~ and (v) augmenting the (often) limited capacity of \MLLMs~ to
+          improve their performance on seen or even unseen languages. In this
+          survey, we review the existing literature covering the above broad
+          areas of research pertaining to \MLLMs. Based on our survey, we
+          recommend some promising directions of future research.
     _template: featuresAlt
   - quote: '2022'
     author: Phil Karlton
