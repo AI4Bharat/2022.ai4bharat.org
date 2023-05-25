@@ -524,6 +524,39 @@ blocks:
           multilingual NLG dataset, with approximately 8M examples across 5
           tasks and 11 languages. The datasets and models will be publicly
           available.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: >-
+          IndicMT Eval: A Dataset to Meta-Evaluate Machine Translation metrics
+          for Indian Languages
+        link: 'https://arxiv.org/abs/2212.10180'
+        comingSoon: false
+        updated: false
+        pointerDetail1: >-
+          Ananya B. Sai, Vignesh Nagarajan, Tanay Dixit, Raj Dabre, Anoop
+          Kunchukuttan, Pratyush Kumar, Mitesh M. Khapra
+        pointerDetail2: December 2022
+        text: >-
+          The rapid growth of machine translation (MT) systems has necessitated
+          comprehensive studies to meta-evaluate evaluation metrics being used,
+          which enables a better selection of metrics that best reflect MT
+          quality. Unfortunately, most of the research focuses on high-resource
+          languages, mainly English, the observations for which may not always
+          apply to other languages. Indian languages, having over a billion
+          speakers, are linguistically different from English, and to date,
+          there has not been a systematic study of evaluating MT systems from
+          English into Indian languages. In this paper, we fill this gap by
+          creating an MQM dataset consisting of 7000 fine-grained annotations,
+          spanning 5 Indian languages and 7 MT systems, and use it to establish
+          correlations between annotator scores and scores obtained using
+          existing automatic metrics. Our results show that pre-trained metrics,
+          such as COMET, have the highest correlations with annotator scores.
+          Additionally, we find that the metrics do not adequately capture
+          fluency-based errors in Indian languages, and there is a need to
+          develop metrics focused on Indian languages. We hope that our dataset
+          and analysis will help promote further research in this area.
     _template: featuresAlt
 ---
 
