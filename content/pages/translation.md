@@ -72,6 +72,16 @@ blocks:
         updated: false
         text: >-
           IndicTrans2 is the first open-source transformer-based multilingual NMT model that supports high-quality translations across all the 22 scheduled Indic languages — including multiple scripts for low-resouce languages like Kashmiri, Manipuri and Sindhi. It adopts script unification wherever feasible to leverage transfer learning by lexical sharing between languages. Overall, the model supports five scripts Perso-Arabic (Kashmiri, Sindhi, Urdu), Ol Chiki (Santali), Meitei (Manipuri), Latin (English), and Devanagari (used for all the remaining languages).
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: Bharat Parallel Corpus Collection (BPCC)
+        link: /bpcc
+        comingSoon: false
+        updated: false
+        text: >-
+          Training data for IT2
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton

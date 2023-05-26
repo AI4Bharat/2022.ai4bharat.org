@@ -125,6 +125,16 @@ blocks:
         text: >-
           Indian-accented English benchmark comprising of data from 17/22 Indian
           languages
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: Bharat Parallel Corpus Collection (BPCC)
+        link: /bpcc
+        comingSoon: false
+        updated: false
+        text: >-
+          Training data for IT2
     _template: featuresAlt
 ---
 
