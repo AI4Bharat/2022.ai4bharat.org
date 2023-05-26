@@ -5,9 +5,7 @@ blocks:
     text: ''
     _template: hero
   - body: >
-      \[[Preprint is available
-      here](https://arxiv.org/abs/2305.16307)]\(https://arxiv.org/abs/2305.16307)
-      \
+      [Preprint is available here](https://arxiv.org/abs/2305.16307)\
 
 
 
