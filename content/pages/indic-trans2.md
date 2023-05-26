@@ -8,8 +8,7 @@ blocks:
       languages
     _template: hero
   - body: >
-      [Preprint is available here](https://arxiv.org/abs/2305.16307)\
-
+      [Preprint is available here](https://arxiv.org/abs/2305.16307)
 
 
       IndicTrans2 is the first open-source transformer-based multilingual NMT
@@ -171,8 +170,7 @@ blocks:
       ```
 
 
-      Note: We recommend creating a virtual environment with python>=3.7.\
-
+      Note: We recommend creating a virtual environment with python>=3.7.\\
 
 
       ## Data
@@ -267,7 +265,7 @@ blocks:
     color: default
     _template: table
   - body: >
-      ### Evaluation 
+      ### Evaluation
 
 
       IN22 test set is a newly created comprehensive benchmark for evaluating
@@ -301,9 +299,7 @@ blocks:
       Repository](https://github.com/AI4Bharat/IndicTrans2)&#x20;
     _template: content
   - body: >
-      License\
-
-
+      License\\
 
 
       The mined corpora collection (BPCC-Mined), existing seed corpora
