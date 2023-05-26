@@ -134,7 +134,9 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          Training data for IT2
+          BPCC is a comprehensive and publicly available parallel corpus
+          containing a mix of Human labelled data and automatically mined data;
+          totaling to approximately 230 million bitext pairs.
     _template: featuresAlt
 ---
 
