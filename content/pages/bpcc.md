@@ -110,6 +110,13 @@ blocks:
     color: default
     _template: table
   - body: >
+      \
+
+      License
+
+      -------
+
+
       The mined corpora collection (BPCC-Mined), existing seed corpora
       (NLLB-Seed, ILCI, MASSIVE), Backtranslation data (BPCC-BT), are released
       under the following licensing scheme:
@@ -155,5 +162,21 @@ blocks:
       |
     color: default
     _template: table
+  - body: |
+      Citation\
+
+
+
+      ```
+      @article{ai4bharat2023indictrans2,
+        title   = {IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages},
+        author  = {AI4Bharat and Jay Gala and Pranjal A. Chitale and Raghavan AK and Sumanth Doddapaneni and Varun Gumma and Aswanth Kumar and Janki Nawale and Anupama Sujatha and Ratish Puduppully and Vivek Raghavan and Pratyush Kumar and Mitesh M. Khapra and Raj Dabre and Anoop Kunchukuttan},
+        year    = {2023},
+        journal = {arXiv preprint arXiv: 2305.16307}
+      }
+      ```
+
+      ##
+    _template: content
 ---
 
