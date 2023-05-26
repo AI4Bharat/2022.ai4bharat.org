@@ -1,8 +1,14 @@
 ---
 blocks:
+  - tagline: ''
+    headline: IndicTrans2
+    text: ''
+    _template: hero
   - body: >
-      [Preprint is available
-      ](https://arxiv.org/abs/2305.16307)here([https://arxiv.org/abs/2305.16307]())
+      \[[Preprint is available
+      here](https://arxiv.org/abs/2305.16307)]\(https://arxiv.org/abs/2305.16307)
+      \
+
 
 
       IndicTrans2 is the first open-source transformer-based multilingual NMT
@@ -31,9 +37,5 @@ blocks:
 
       Here is the list of languages supported by the IndicTrans2 models:
     _template: content
-  - tagline: ''
-    headline: IndicTrans2
-    text: ''
-    _template: hero
 ---
 
