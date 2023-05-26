@@ -314,11 +314,11 @@ blocks:
       *   We do not own any of the text from which this data has been extracted.
 
       *   We license the actual packaging of this data under the Creative
-      Commons \[CC0 license (“no rights
-      reserved”)]\(https://creativecommons.org/share-your-work/public-domain/cc0/).
+      Commons [CC0 license (“no rights
+      reserved”)](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
       *   To the extent possible under law,
-      \[AI4Bharat]\(https://ai4bharat.iitm.ac.in/) has waived all copyright and
+      [AI4Bharat](https://ai4bharat.iitm.ac.in/) has waived all copyright and
       related or neighboring rights to BPCC-Mined, existing seed corpora
       (NLLB-Seed, ILCI, MASSIVE) and BPCC-BT.
 
