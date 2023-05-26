@@ -62,6 +62,16 @@ blocks:
           can then be edited by humans. These automatic translations act as
           initial hints and reduce the cognitive load on humans, thereby
           improving the efficiency of human translation.
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicTrans2
+        link: /indic-trans2
+        comingSoon: false
+        updated: false
+        text: >-
+          IndicTrans2 is the first open-source transformer-based multilingual NMT model that supports high-quality translations across all the 22 scheduled Indic languages — including multiple scripts for low-resouce languages like Kashmiri, Manipuri and Sindhi. It adopts script unification wherever feasible to leverage transfer learning by lexical sharing between languages. Overall, the model supports five scripts Perso-Arabic (Kashmiri, Sindhi, Urdu), Ol Chiki (Santali), Meitei (Manipuri), Latin (English), and Devanagari (used for all the remaining languages).
     _template: featuresAlt
   - quote: Our Partners
     author: Phil Karlton

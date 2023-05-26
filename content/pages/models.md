@@ -86,6 +86,17 @@ blocks:
           IndicTextToSpeech is a non-autoregressive state-of-the-art neural
           model based on FastPitch and HiFiGAN that supports speech synthesis
           for over 13 Indian Languages for female and male speakers.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: IndicTrans
+        link: /indic-trans
+        text: >-
+          A multilingual single-script transformer based model for translating
+          between English and Indian languages. This model is trained using the
+          Samanantar corpus and at the time of its release was the state of the
+          art open source model as evaluated on Facebook's FLORES benchmark.
     _template: featuresAlt
 ---
 
