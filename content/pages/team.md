@@ -387,12 +387,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889801/Team%20pictures/Language/Adithi_R_AdithiR_ai4bharat.or_fszpvl.jpg
       - teamGroup: language
-        personName: Alfina ꯑꯜꯐꯤꯅꯥ
-        personDesignation: 'Language Expert, Manipuri'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657889809/Team%20pictures/Language/FB_IMG_1656500495615_AlfinaKhaidem_ai4bha_ucbpmv.jpg
-      - teamGroup: language
         personName: Anagha H. N. ಅನಘಾ ಹೆಚ್. ಎನ್.
         personDesignation: 'Language Expert, Kannada'
         personImage:

@@ -90,13 +90,10 @@ blocks:
           color: ''
           style: float
           name: AI4B
-        title: IndicTrans
-        link: /indic-trans
+        title: IndicTrans2
+        link: /indic-trans2
         text: >-
-          A multilingual single-script transformer based model for translating
-          between English and Indian languages. This model is trained using the
-          Samanantar corpus and at the time of its release was the state of the
-          art open source model as evaluated on Facebook's FLORES benchmark.
+          IndicTrans2 is the first open-source transformer-based multilingual NMT model that supports high-quality translations across all the 22 scheduled Indic languages — including multiple scripts for low-resouce languages like Kashmiri, Manipuri and Sindhi. It adopts script unification wherever feasible to leverage transfer learning by lexical sharing between languages. Overall, the model supports five scripts Perso-Arabic (Kashmiri, Sindhi, Urdu), Ol Chiki (Santali), Meitei (Manipuri), Latin (English), and Devanagari (used for all the remaining languages).
     _template: featuresAlt
 ---
 
