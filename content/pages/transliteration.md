@@ -23,6 +23,18 @@ blocks:
           color: ''
           style: float
           name: ''
+        title: Bhasha-Abhijnaanam
+        link: /bhasha-abhijnaanam
+        comingSoon: false
+        updated: false
+        text: >-
+          Bhasha-Abhijnaanam is a language identification test set for
+          native-script as well as Romanized text which spans 22 Indic
+          languages.
+      - icon:
+          color: ''
+          style: float
+          name: ''
         title: "\U0001F4DCAksharantar dataset"
         link: /aksharantar
         comingSoon: false
