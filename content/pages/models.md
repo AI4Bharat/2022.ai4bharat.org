@@ -7,7 +7,7 @@ blocks:
       - icon:
           color: ''
           style: float
-          name: ''
+          name: AI4B
         title: IndicLID
         link: /indiclid
         comingSoon: false
