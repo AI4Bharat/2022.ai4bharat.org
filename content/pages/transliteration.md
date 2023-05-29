@@ -65,7 +65,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: IndicLangID
+        title: IndicLID
         link: /indiclangid
         comingSoon: false
         updated: false
