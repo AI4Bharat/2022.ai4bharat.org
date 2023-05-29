@@ -66,8 +66,8 @@ blocks:
           style: float
           name: ''
         title: IndicLangID
-        link: ''
-        comingSoon: true
+        link: /indiclangid
+        comingSoon: false
         updated: false
         text: >-
           A model for identifying the language of romanized content on social
