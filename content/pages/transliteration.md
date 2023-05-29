@@ -23,7 +23,7 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Bhasha-Abhijnaanam
+        title: Bhasha-Abhijnaanam Dataset
         link: /bhasha-abhijnaanam
         comingSoon: false
         updated: false
