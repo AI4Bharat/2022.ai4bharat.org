@@ -8,14 +8,18 @@ blocks:
           color: ''
           style: float
           name: ''
-        title: Bhasha-Abhijnaanam
-        link: /bhasha-abhijnaanam
+        title: IndicLID
+        link: /indiclid
         comingSoon: false
         updated: false
         text: >-
-          Bhasha-Abhijnaanam is a language identification test set for
-          native-script as well as Romanized text which spans 22 Indic
-          languages.
+          IndicLID, is a language identifier for all 22 Indian languages listed
+          in the Indian constitution in both native-script and romanized text.
+          IndicLID is the first LID for romanized text in Indian languages. It
+          is a two stage classifier that is ensemble of a fast linear classifier
+          and a slower classifier finetuned from a pre-trained LM. It can
+          predict 47 classes (24 native-script classes and 21 roman-script
+          classes plus English and Others).
       - icon:
           color: ''
           style: float
