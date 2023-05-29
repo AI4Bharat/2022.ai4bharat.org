@@ -5,9 +5,9 @@ blocks:
     _template: testimonial
   - items:
       - icon:
-          color: ''
+          color: white
           style: float
-          name: ''
+          name: AI4B
         title: Bhasha-Abhijnaanam
         link: /bhasha-abhijnaanam
         comingSoon: false
