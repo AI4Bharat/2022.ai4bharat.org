@@ -1640,13 +1640,13 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1684756084/Team%20pictures/Language/SANJEEV_JHA_coyk4h.jpg
-      - teamGroup: Quality Assurance
+      - teamGroup: qualityAssurance
         personName: MOHAMMED IRFAN
         personDesignation: QA - Odia 
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1685425478/Team%20pictures/Quality%20Assurance/IMG_Mohammad_Irfan_eig5fu.jpg
-      - teamGroup: Quality Assurance
+      - teamGroup: qualityAssurance
         personName: Aliva Pradhan ଅଲିଭା ପ୍ରଧାନ 
         personDesignation: QA-Odia
         personImage:
@@ -1658,13 +1658,13 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1685426555/Team%20pictures/Tech/PXL_DEVBRAT_ANURAGI_lwy7j6.jpg
-      - teamGroup: Quality Assurance
+      - teamGroup: qualityAssurance
         personName: Sujatha Bala सुजाता बाला
         personDesignation: QA - Sanskrit
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1685426665/Team%20pictures/Quality%20Assurance/IMG_Sujatha_Bala_fbra6j.jpg
-      - teamGroup: Quality Assurance
+      - teamGroup: qualityAssurance
         personName: Ulka Antariksha ଉଲକା ଅନ୍ତରୀକ୍ଷା
         personDesignation: QA - Odia 
         personImage:
