@@ -1261,7 +1261,7 @@ blocks:
         personDesignation: 'Project Associate'
         personImage:
           src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1684480175/Chetan_bkl0bm.jpg
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685429227/Team%20pictures/Tech/Chetan_Gudagamanal_uyynb2.jpg
       - teamGroup: language
         personName: Tulika Swati  तूलिका स्वाती
         personDesignation: 'Language Expert, Maithili'
@@ -1370,12 +1370,6 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1684662655/Team%20pictures/Operations/Pratiti_Palit_ee1zxk.jpg
-      - teamGroup: language
-        personName: Ashwini Kamat आश्विनी कामत 
-        personDesignation: 'Language Expert, Konkani'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1684662754/Team%20pictures/Language/IMG-Ashwini_Kamat_bsyiod.jpg
       - teamGroup: tech
         personName: Shiva Kumar M శివ కుమార్
         personDesignation: 'Research Intern'
@@ -1646,6 +1640,126 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1684756084/Team%20pictures/Language/SANJEEV_JHA_coyk4h.jpg
+      - teamGroup: Quality Assurance
+        personName: MOHAMMED IRFAN
+        personDesignation: QA - Odia 
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685425478/Team%20pictures/Quality%20Assurance/IMG_Mohammad_Irfan_eig5fu.jpg
+      - teamGroup: Quality Assurance
+        personName: Aliva Pradhan ଅଲିଭା ପ୍ରଧାନ 
+        personDesignation: QA-Odia
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426452/Team%20pictures/Quality%20Assurance/Aliva_Pradhan_vfdw1c.jpg
+      - teamGroup: tech
+        personName: Devbrat Anuragi देवब्रत अनूरागी 
+        personDesignation: Project Associate 
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426555/Team%20pictures/Tech/PXL_DEVBRAT_ANURAGI_lwy7j6.jpg
+      - teamGroup: Quality Assurance
+        personName: Sujatha Bala सुजाता बाला
+        personDesignation: QA - Sanskrit
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426665/Team%20pictures/Quality%20Assurance/IMG_Sujatha_Bala_fbra6j.jpg
+      - teamGroup: Quality Assurance
+        personName: Ulka Antariksha ଉଲକା ଅନ୍ତରୀକ୍ଷା
+        personDesignation: QA - Odia 
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426759/Team%20pictures/Quality%20Assurance/IMG_Ulka_Antariksha_f8gfqe.jpg
+      - teamGroup: language
+        personName: Dhiraj Kumar Jha धीरज कुमार झा 
+        personDesignation: ASR Primary Coordinator - Maithili
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426917/Team%20pictures/Language/Dhiraj_Kumar_Jha_-_Dhiraj_Kumar_f2dene.jpg
+      - teamGroup: language
+        personName: Nimmi kumari निम्मी कुमारी
+        personDesignation: Transcription Reviewer - Maithili
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685426975/Team%20pictures/Language/image_-_Nimmijha1_gmail.com_bnde0i.jpg
+      - teamGroup: language
+        personName: SABITA MISHRA  सबिता मिश्रा  
+        personDesignation: TRANSCRIBER - Maithili
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427124/Team%20pictures/Language/golu_jha_h3qn6y.jpg
+      - teamGroup: language
+        personName: Avanindra Kumar Jha अवनीन्द्र कुमार झा
+        personDesignation: TRANSCRIBER - Maithili
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427190/Team%20pictures/Language/Avanindra_Jha_rbtxiu.jpg
+      - teamGroup: language
+        personName: Pabita Basumatary पबिता बसुमतारी
+        personDesignation: Transcriber - Bodo
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427268/Team%20pictures/Language/DSC_Pabita_Basumatary_omtcga.jpg
+      - teamGroup: language
+        personName: Rakesh kumar
+        personDesignation: ASR Coordinator - Dogri
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427361/Team%20pictures/Language/IMG_Rakesh_kotwal_udocew.jpg
+      - teamGroup: language
+        personName: Navedika Mishra
+        personDesignation: ASR Coordinator - Dogri
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427421/Team%20pictures/Language/IMG_4638_-_Navedika_Mishra_c1ucfa.jpg
+      - teamGroup: language
+        personName: Nayana Adarkar नयना आडारकार
+        personDesignation: Transcription Reviewer - Konkani
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427586/Team%20pictures/Language/nayana_adarkar_xkzyca.jpg
+      - teamGroup: language
+        personName: Ashwini Kamat आश्विनी कामत
+        personDesignation: Language Expert, Konkani
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685427946/Team%20pictures/Language/IMG-Ashwini_Kamat_uwlrki.jpg
+      - teamGroup: language
+        personName: MANTHAN H. DESSAI मंथन देस्सै
+        personDesignation: ASR Coordinator - Konkani
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428064/Team%20pictures/Language/IMG_Manthan_Dessai_fg4r1p.jpg
+      - teamGroup: language
+        personName: Santoshi Mahendra Bakal संतोषी महेंद्र बकाल
+        personDesignation: ASR Coordinator - Konkani
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428279/Team%20pictures/Language/IMG_Santoshi_Bakal_ouwmw7.jpg
+      - teamGroup: language
+        personName: Snehal Devanand Prabhu स्नेहल देवानंद प्रभू
+        personDesignation: ASR Coordinator - Konkani
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428423/Team%20pictures/Language/IMG_Snehal_Prabhudessai_sjpgan.jpg
+      - teamGroup: language
+        personName: shashanka hatwar शशाङ्कः हत्वार्
+        personDesignation: ASR Primary Coordinator - Sanskrit
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428528/Team%20pictures/Language/Shashanka_Hatwar_inrp0s.jpg
+      - teamGroup: language
+        personName: Navedika Mishra
+        personDesignation: ASR Coordinator - Dogri
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428619/Team%20pictures/Language/nabu_-_Navedika_Mishra_fwmm9l.jpg
+      - teamGroup: language
+        personName: Manas Pratim Kalita মানস প্ৰতিম কলিতা
+        personDesignation: ASR Coordinator - Assamese
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685428692/Team%20pictures/Language/Manas_Pratim_Kalita_pywm0o.jpg
     tabsEnabled: true
     _template: teamCardsGrid
 ---
