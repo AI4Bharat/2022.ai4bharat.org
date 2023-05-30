@@ -251,6 +251,13 @@ blocks:
           We are also supported by EkStep Foundation with mentorship and
           software engineering to build and deploy open-source applications for
           Indian languages.
+      - title: Nvidia
+        image: ''
+        text: >-
+          We receive valuable support from Nvidia India, granting us access to
+          their cutting-edge compute resources and researchers. This
+          collaboration enables us to actively contribute to the development of
+          open-source models.
     _template: photoCardsGrid2
   - quote: Our Team
     author: Phil Karlton
