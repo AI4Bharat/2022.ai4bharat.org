@@ -1,6 +1,34 @@
 ---
 blocks:
-  - body: "# Aksharantar\n\n***\n\nAksharantar is the largest publicly available transliteration dataset for 21 Indic languages. The corpus has 26M Indic language-English transliteration pairs.\n\n### Downloads\n\n*   The Aksharantar dataset can be downloaded from the\_[Aksharantar Hugging Face repository](https://huggingface.co/datasets/ai4bharat/Aksharantar/tree/main).\n*   Each language-pair corpus in the Aksharantar dataset is split into training, validation and test subsets. Each subset is a JSONL file consisting of individual data instances comprising a unique identifier, native word, English word, transliteration source and a score (if applicable).\n*   Individual language-pair download links are provided in the\_[data split](https://github.com/SushaneP/indicnlp.ai4bharat.org/edit/master/content/pages/aksharantar.md#data-split)\_below.\n\n### Data Split\n\nThe language-wise splits for Aksharantar is shown in the table with total number of word pairs (in millions). Individual download links for each language-pair are as against the hyperlink.\n"
+  - body: >
+      # Bhasha-Abhijnaanam
+
+
+      ***
+
+
+      Bhasha-Abhijnaanam is a language identification test set for&#x20;
+
+      native-script as well as Romanized text which spans 22 Indic languages.
+
+
+      ### Downloads
+
+
+      *   The Bhasha-Abhijnaanam dataset can be downloaded from the
+      [Bhasha-Abhijnaanam Hugging Face
+      repository](https://huggingface.co/datasets/ai4bharat/Bhasha-Abhijnaanam)
+
+      *   Bhasha-Abhijnaanam dataset is a JSONL file consisting of individual
+      data instances comprising a unique identifier, native sentence, romanized
+      sentence(if available), language, script and source.
+
+
+      ### Test Set
+
+
+      The language-wise statistics for Bhasha-Abhijnaanam is shown in the table
+      with total number of sentences.
     color: default
     _template: content
   - markdownTable: >-
