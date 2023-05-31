@@ -315,12 +315,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/Siddesh_Ramesh_Hegde_yw0cbc.jpg
       - teamGroup: tech
-        personName: Sumanth Doddapaneni సుమంత్
-        personDesignation: 'Ph.D., AI4Bharat, IIT Madras'
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1657799584/Team%20pictures/Tech/Sumanth_w2bf2a.jpg
-      - teamGroup: tech
         personName: Sushane Parthan सुशेन पार्थन
         personDesignation: 'Part-Time Ph.D., IIT Madras/ Indian Navy'
         personImage:
@@ -740,7 +734,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657889802/Team%20pictures/Language/IMG_20220629_171752_PukhrambamSanjuSingh_vaftgy.jpg
-      - teamGroup: previousEmployees
+      - teamGroup: language
         personName: Radhika Deshpande राधिका देशपांडे
         personDesignation: 'Language Expert, Marathi'
         personImage:
@@ -1076,7 +1070,7 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1668770389/Team%20pictures/Language/Sailaja-Nittala_xuyqiy.jpg
-      - teamGroup: language
+      - teamGroup: previousEmployees
         personName: Radhika Deshpande  देशपाण्डे-राधिका
         personDesignation: 'Language Expert, Sanskrit'
         personImage:
@@ -1600,7 +1594,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1684754523/Team%20pictures/Tech/profile_-_ashwin_s_fxkhpn.jpg
       - teamGroup: tech
         personName: Sumanth Doddapaneni సుమంత్
-        personDesignation: 'PhD Student - Tech'
+        personDesignation: 'PhD Student, AI4Bharat, IIT Madras'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1684754623/Team%20pictures/Tech/SUMANTH_DODDAPANENI_h0dnty.jpg
@@ -1624,7 +1618,7 @@ blocks:
             https://res.cloudinary.com/ai4bharat/image/upload/v1684755014/Team%20pictures/Quality%20Assurance/Manickam_K_M_vmowyv.jpg
       - teamGroup: language
         personName: Madhu Vanisree மது வாணிஸ்ரீ 
-        personDesignation: 'Transcription Reviewer, Tamil language'
+        personDesignation: 'Transcription Reviewer, Tamil'
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1684755952/Team%20pictures/Language/Vani_Photo_-_Vanisree_Madhu_fvjemi.jpg
@@ -1707,12 +1701,6 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1685427361/Team%20pictures/Language/IMG_Rakesh_kotwal_udocew.jpg
       - teamGroup: language
-        personName: Navedika Mishra
-        personDesignation: ASR Coordinator - Dogri
-        personImage:
-          src: >-
-            https://res.cloudinary.com/ai4bharat/image/upload/v1685427421/Team%20pictures/Language/IMG_4638_-_Navedika_Mishra_c1ucfa.jpg
-      - teamGroup: language
         personName: Nayana Adarkar नयना आडारकार
         personDesignation: Transcription Reviewer - Konkani
         personImage:
@@ -1760,6 +1748,12 @@ blocks:
         personImage:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1685428692/Team%20pictures/Language/Manas_Pratim_Kalita_pywm0o.jpg
+      - teamGroup: language
+        personName: Baiju Kumar Jha बैजू कुमार झा
+        personDesignation: TRANSCRIBER - Maithili
+        personImage:
+          src: >-
+            https://res.cloudinary.com/ai4bharat/image/upload/v1685512078/Team%20pictures/Language/IMG_Baiju_Kumar_Jha_jpnxmm.jpg
     tabsEnabled: true
     _template: teamCardsGrid
 ---
