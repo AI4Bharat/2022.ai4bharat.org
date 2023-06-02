@@ -7,6 +7,18 @@ blocks:
       - icon:
           color: ''
           style: float
+          name: AI4B
+        title: Bharat Parallel Corpus Collection (BPCC)
+        link: /bpcc
+        comingSoon: false
+        updated: false
+        text: >-
+          BPCC is a comprehensive and publicly available parallel corpus
+          containing a mix of Human labelled data and automatically mined data;
+          totaling to approximately 230 million bitext pairs.
+      - icon:
+          color: ''
+          style: float
           name: ''
         title: IndicCrop v2
         link: 'https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2'
@@ -17,6 +29,17 @@ blocks:
           consisting of 20.9 billion tokens of which 14.4B tokens correspond to
           23 Indic languages and 6.5B tokens of Indian English content curated
           from Indian websites.
+      - icon:
+          color: ''
+          style: float
+          name: AI4B
+        title: IndicXTREME
+        link: /indicxtreme
+        comingSoon: false
+        updated: false
+        text: >-
+          Benchmark for zero-shot and cross-lingual evaluation of various NLU
+          tasks in multiple Indian languages.
       - icon:
           color: white
           style: float
@@ -30,18 +53,16 @@ blocks:
           native-script as well as Romanized text which spans 22 Indic
           languages.
       - icon:
-          color: white
+          color: ''
           style: float
           name: AI4B
-        title: IndicCorp
-        link: /corpora
+        title: Naamapadam
+        link: /naamapadam
+        comingSoon: false
+        updated: false
         text: >-
-          Large sentence-level monolingual
-
-          corpora for 11 languages from two language families (Indo-Aryan branch
-          and Dravidian) and Indian English with an average 9-fold increase in
-          size over OSCAR. This corpora was created by crawling content from
-          news articles, magazines and blogposts.
+          Training and evaluation datasets for named entity recognition in
+          multiple Indian language.
       - icon:
           color: white
           style: float
@@ -55,6 +76,16 @@ blocks:
           8.6M pairs between English-Hindi. Of these 34.6M pairs are newly mined
           as a part of this work.
       - icon:
+          color: ''
+          style: float
+          name: settings
+        title: Svarah
+        comingSoon: true
+        updated: false
+        text: >-
+          Indian-accented English benchmark comprising of data from 17/22 Indian
+          languages
+      - icon:
           color: white
           style: float
           name: AI4B
@@ -65,17 +96,6 @@ blocks:
           containing 26M word pairs spanning 21 languages mined from Wikidata,
           Samanantar and IndicCorp. It also contains a challenging and diverse
           benchmark for evaluating transliteration models.
-      - icon:
-          color: white
-          style: float
-          name: AI4B
-        title: IndicGLUE
-        link: /indic-glue
-        text: >-
-          This is a benchmark for 6 NLU tasks spanning 11 Indian languages
-          containing standard training and evaluation sets to evaluate the
-          natural language understanding capabilities of language models for
-          Indian languages.  
       - icon:
           color: white
           style: float
@@ -119,49 +139,29 @@ blocks:
           17,000 hours of raw speech data for 40 Indian languages from a wide
           variety of domains including education, news, technology, and finance.
       - icon:
-          color: ''
+          color: white
           style: float
           name: AI4B
-        title: IndicXTREME
-        link: /indicxtreme
-        comingSoon: true
-        updated: false
+        title: IndicGLUE
+        link: /indic-glue
         text: >-
-          Benchmark for zero-shot and cross-lingual evaluation of various NLU
-          tasks in multiple Indian languages.
+          This is a benchmark for 6 NLU tasks spanning 11 Indian languages
+          containing standard training and evaluation sets to evaluate the
+          natural language understanding capabilities of language models for
+          Indian languages.  
       - icon:
-          color: ''
+          color: white
           style: float
           name: AI4B
-        title: Naamapadam
-        link: /naamapadam
-        comingSoon: true
-        updated: false
+        title: IndicCorp
+        link: /corpora
         text: >-
-          Training and evaluation datasets for named entity recognition in
-          multiple Indian language.
-      - icon:
-          color: ''
-          style: float
-          name: settings
-        title: Svarah
-        comingSoon: true
-        updated: false
-        text: >-
-          Indian-accented English benchmark comprising of data from 17/22 Indian
-          languages
-      - icon:
-          color: ''
-          style: float
-          name: AI4B
-        title: Bharat Parallel Corpus Collection (BPCC)
-        link: /bpcc
-        comingSoon: false
-        updated: false
-        text: >-
-          BPCC is a comprehensive and publicly available parallel corpus
-          containing a mix of Human labelled data and automatically mined data;
-          totaling to approximately 230 million bitext pairs.
+          Large sentence-level monolingual
+
+          corpora for 11 languages from two language families (Indo-Aryan branch
+          and Dravidian) and Indian English with an average 9-fold increase in
+          size over OSCAR. This corpora was created by crawling content from
+          news articles, magazines and blogposts.
     _template: featuresAlt
 ---
 
