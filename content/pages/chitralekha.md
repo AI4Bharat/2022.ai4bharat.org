@@ -12,7 +12,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657467019/chitralekha_cisupk.png
       alt: ''
-    _template: hero
+    _template: describeWithImage
   - title: Features
     description: |+
 

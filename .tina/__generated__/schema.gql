@@ -248,6 +248,27 @@ type PageBlocksHero {
   color: String
 }
 
+type PageBlocksDescribeWithImageActions {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
+type PageBlocksDescribeWithImageImage {
+  src: String
+  alt: String
+}
+
+type PageBlocksDescribeWithImage {
+  tagline: String
+  headline: String
+  text: JSON
+  actions: [PageBlocksDescribeWithImageActions]
+  image: PageBlocksDescribeWithImageImage
+  color: String
+}
+
 type PageBlocksFeaturesItemsIcon {
   color: String
   style: String
@@ -491,7 +512,7 @@ type PageBlocksTable {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksLongCardsGrid | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
+union PageBlocks = PageBlocksHero | PageBlocksDescribeWithImage | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksLongCardsGrid | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -662,6 +683,27 @@ input PageBlocksHeroMutation {
   text: JSON
   actions: [PageBlocksHeroActionsMutation]
   image: PageBlocksHeroImageMutation
+  color: String
+}
+
+input PageBlocksDescribeWithImageActionsMutation {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
+input PageBlocksDescribeWithImageImageMutation {
+  src: String
+  alt: String
+}
+
+input PageBlocksDescribeWithImageMutation {
+  tagline: String
+  headline: String
+  text: JSON
+  actions: [PageBlocksDescribeWithImageActionsMutation]
+  image: PageBlocksDescribeWithImageImageMutation
   color: String
 }
 
@@ -910,6 +952,7 @@ input PageBlocksTableMutation {
 
 input PageBlocksMutation {
   hero: PageBlocksHeroMutation
+  describeWithImage: PageBlocksDescribeWithImageMutation
   features: PageBlocksFeaturesMutation
   featuresAlt: PageBlocksFeaturesAltMutation
   featuresAlt2: PageBlocksFeaturesAlt2Mutation
