@@ -79,7 +79,8 @@ blocks:
           style: float
           name: store
         title: IndicCorp v2
-        comingSoon: true
+        link: 'https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2'
+        comingSoon: false
         updated: false
         text: >-
           IndicCorp v2, the largest collection of texts for Indic languages
