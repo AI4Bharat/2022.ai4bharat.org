@@ -11,6 +11,6 @@ blocks:
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1668679554/glossexplorer_tkln8o.png
-    _template: describeWithImage
+    _template: hero
 ---
 

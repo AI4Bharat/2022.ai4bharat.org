@@ -99,24 +99,6 @@ fragment PageParts on Page {
       }
       color
     }
-    ... on PageBlocksDescribeWithImage {
-      tagline
-      headline
-      text
-      actions {
-        __typename
-        label
-        type
-        icon
-        link
-      }
-      image {
-        __typename
-        src
-        alt
-      }
-      color
-    }
     ... on PageBlocksFeatures {
       items {
         __typename

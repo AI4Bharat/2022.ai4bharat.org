@@ -6,7 +6,6 @@ import { featureAltBlockSchema2 } from "../components/blocks/featuresalt2";
 import { longCardsGridBlockSchema } from "../components/blocks/longCardsGrid";
 import { CardGrid2BlockSchema } from "../components/blocks/cardsGrid2";
 import { heroBlockSchema } from "../components/blocks/hero";
-import { describeWithImageBlockSchema } from "../components/blocks/describeWithImage";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { iconSchema } from "../components/util/icon";
 import { chipSchema } from "../components/util/chip";
@@ -496,7 +495,6 @@ const schema = defineSchema({
           },
           templates: [
             heroBlockSchema,
-            describeWithImageBlockSchema,
             featureBlockSchema,
             featureAltBlockSchema,
             featureAltBlockSchema2,

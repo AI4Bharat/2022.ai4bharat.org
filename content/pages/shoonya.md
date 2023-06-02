@@ -12,7 +12,7 @@ blocks:
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657468492/shoonya_mnzhwq.png
-    _template: describeWithImage
+    _template: hero
   - title: Features supported
     description: |+
 

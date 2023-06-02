@@ -7,7 +7,7 @@ blocks:
       and software developers. We share a passion for building open-source
       content and tools for Indian languages, hence the name of the initiative:
       "Artificial Intelligence for Bhārat", shortened  `AI4Bhārat`.
-    _template: describeWithImage
+    _template: hero
   - items:
       - teamGroup: language
         personName: 'Kulbushan Singh कुलभूषण सिंह '
