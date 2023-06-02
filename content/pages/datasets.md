@@ -5,6 +5,19 @@ blocks:
     _template: testimonial
   - items:
       - icon:
+          color: ''
+          style: float
+          name: ''
+        title: IndicCrop v2
+        link: 'https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2'
+        comingSoon: false
+        updated: false
+        text: >-
+          IndicCorp v2, the largest collection of texts for Indic languages
+          consisting of 20.9 billion tokens of which 14.4B tokens correspond to
+          23 Indic languages and 6.5B tokens of Indian English content curated
+          from Indian websites.
+      - icon:
           color: white
           style: float
           name: AI4B
