@@ -6,6 +6,11 @@ blocks:
       The focus of AI4Bharat is on building open-source language AI for Indian
       languages, including datasets, models, and applications.
 
+    actions:
+      - label: Get to know about our Launch
+        type: link
+        icon: true
+        link: /launch
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1685697207/nilekani_center_cbigs8.png
