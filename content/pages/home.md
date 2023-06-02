@@ -1,5 +1,13 @@
 ---
 blocks:
+  - tagline: Artificial-Intelligence For Bhārat
+    headline: Welcome to AI4Bharat!
+    text: ''
+    image:
+      src: >-
+        https://res.cloudinary.com/ai4bharat/image/upload/v1685697207/nilekani_center_cbigs8.png
+      alt: Nilekani Center
+    _template: hero
   - quote: Our Mission
     author: Artificial Intelligence for Bhārat
     color: tint
