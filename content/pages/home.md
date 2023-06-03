@@ -3,7 +3,7 @@ blocks:
   - tagline: Artificial-Intelligence For Bhārat
     headline: Welcome to AI4Bharat!
     text: >
-      The focus of AI4Bharat is on building open-source language AI for Indian
+      The focus of AI4Bhārat is on building open-source language AI for Indian
       languages, including datasets, models, and applications.
     image:
       src: >-
