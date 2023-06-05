@@ -4,10 +4,26 @@ blocks:
     headline: Chitralekha
     text: "Chitralekha is an open-source tool for video transcription with optional translation support with a focus on Indian languages. With a proliferation of video content, we need tools to transcribe them efficiently and also to make the transcriptions accessible in other languages. And given that transcription and translation tasks are tedious we want to meaningfully support them with open-source AI models. \_\n"
     actions:
-      - label: Click here to watch Chitraekha Demo
+      - label: View Analytics
         type: button
         icon: true
-        link: 'https://www.youtube.com/watch?v=Jq3CcEb9pxQ'
+        link: 'https://tools.ai4bharat.org/#/chitralekha'
+      - label: API Specs
+        type: button
+        icon: true
+        link: 'https://backend.chitralekha.ai4bharat.org/swagger/'
+      - label: Introduction Video
+        type: button
+        icon: true
+        link: 'https://www.youtube.com/watch?v=wmtYXKupumA'
+      - label: Tutorial
+        type: button
+        icon: true
+        link: 'https://github.com/AI4Bharat/Chitralekha/wiki'
+      - label: Codebase
+        type: button
+        icon: true
+        link: 'https://github.com/AI4Bharat/Chitralekha'
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657467019/chitralekha_cisupk.png
