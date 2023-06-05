@@ -4,14 +4,30 @@ blocks:
     headline: Shoonya
     text: "Shoonya\_is an open-source platform to improve the efficiency of language work in Indian languages with AI tools and custom-built UI interfaces and features. This is a key requirement to create larger datasets for training AI models such as neural machine translation for a large number of Indian languages. \_\n\nShoonya has been envisaged as supporting various types of language work including translation, text validation, speech transcription, optical character recognition and so on. The current focus of Shoonya is on translation.&#x20;\n"
     actions:
-      - label: Click here to access Shoonya Demo
+      - label: View Analytics
         type: button
         icon: true
-        link: >-
-          https://github.com/AI4Bharat/Shoonya/wiki/Shoonya-Demo(public)-Instance
+        link: 'https://tools.ai4bharat.org/#/shoonya'
+      - label: API Specs
+        type: button
+        icon: true
+        link: 'https://backend.shoonya.ai4bharat.org/swagger/'
+      - label: Introduction Video
+        type: button
+        icon: true
+        link: 'https://www.youtube.com/watch?v=N4PBSB2fQto'
+      - label: Tutorial
+        type: button
+        icon: true
+        link: 'https://github.com/AI4Bharat/Shoonya/wiki'
+      - label: Codebase
+        type: button
+        icon: true
+        link: 'https://github.com/AI4Bharat/Shoonya'
     image:
       src: >-
         https://res.cloudinary.com/dechqhn3b/image/upload/v1657468492/shoonya_mnzhwq.png
+    color: ''
     _template: hero
   - title: Features supported
     description: |+
