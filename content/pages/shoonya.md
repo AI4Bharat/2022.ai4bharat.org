@@ -61,7 +61,7 @@ blocks:
           color: orange
           style: float
           name: trophy
-        title: Maker-Checker Flow
+        title: Maker-Checker-Superchecker Flow
         text: >-
           Shoonya provides multiple ways to evaluate the quality of translated
           data with automated maker-checker flows.
@@ -82,7 +82,7 @@ blocks:
           For low-resource language, Shoonya supports showing annotators
           translations in other languages.
     _template: flatCardsGrid
-  - quote: Shoonya v1 has been Released Publicly on 28th July
+  - quote: Shoonya v2 has been Released Publicly
     author: ''
     color: primary
     _template: testimonial
