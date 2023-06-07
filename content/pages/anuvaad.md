@@ -9,6 +9,27 @@ blocks:
       (SUVAS)](https://economictimes.indiatimes.com/news/politics-and-nation/supreme-court-develops-software-to-make-all-its-17-benches-paperless/articleshow/75989143.cms?from=mdr)
       and [Supreme court of Bangladesh (Amar
       Vasha)](https://www.ddnews.gov.in/international/bangladesh-supreme-court-launches-ai-based-translation-software-%E2%80%98amar-vasha%E2%80%99).
+    actions:
+      - label: View Analytics
+        type: button
+        icon: true
+        link: 'https://tools.ai4bharat.org/#/anuvaad'
+      - label: API Specs
+        type: button
+        icon: true
+        link: 'https://app.swaggerhub.com/apis/Anuvaad/AnuvaadApi/1.0.0'
+      - label: Introduction Video
+        type: button
+        icon: true
+        link: 'https://www.youtube.com/watch?v=Y2pBaME4qiY'
+      - label: Tutorial
+        type: button
+        icon: true
+        link: 'https://anuvaad.sunbird.org/'
+      - label: Codebase
+        type: button
+        icon: true
+        link: 'https://github.com/project-anuvaad/anuvaad'
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1658861166/Anuvaad_Screenshot_zmrbtd.png
