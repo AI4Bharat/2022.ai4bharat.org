@@ -23,7 +23,7 @@ blocks:
       - label: Codebase
         type: button
         icon: true
-        link: 'https://github.com/AI4Bharat/Shoonya'
+        link: 'https://github.com/AI4Bharat/Shoonya/releases/tag/v2.0'
     image:
       src: >-
         https://res.cloudinary.com/ai4bharat/image/upload/v1686128024/shoonya_hzheiq.png
