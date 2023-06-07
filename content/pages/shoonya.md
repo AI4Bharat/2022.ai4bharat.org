@@ -26,7 +26,7 @@ blocks:
         link: 'https://github.com/AI4Bharat/Shoonya'
     image:
       src: >-
-        https://res.cloudinary.com/dechqhn3b/image/upload/v1657468492/shoonya_mnzhwq.png
+        https://res.cloudinary.com/ai4bharat/image/upload/v1686128024/shoonya_hzheiq.png
     color: ''
     _template: hero
   - title: Features supported
@@ -81,6 +81,28 @@ blocks:
         text: >-
           For low-resource language, Shoonya supports showing annotators
           translations in other languages.
+      - iconShown: false
+        icon:
+          color: ''
+          style: float
+          name: ''
+        title: Bhashini/ULCA compatible datasets
+        link: ''
+        text: >-
+          Shoonya has feature to generate the dataset in ULCA format, so that
+          the final reviewed datasets can be directly submitted to Bhashini
+          (National Language Translation Mission initiative)
+      - iconShown: false
+        icon:
+          color: ''
+          style: float
+          name: ''
+        title: Defining new Project Types instantly
+        link: ''
+        text: >-
+          Shoonya leverages Label Studio, which is an open source library to
+          plug & play the major data labeling types. This gives the flexibility
+          to define a new project type quickly in Shoonya with minimal changes.
     _template: flatCardsGrid
   - quote: Shoonya v2 has been Released Publicly
     author: ''
