@@ -22,7 +22,7 @@ export const URLEmbed = ({ data, parentField = "" }) => {
                 width='100%'
                 height="1000"
 
-                src={"https://tools.ai4bharat.org/"}
+                src={data.url}
                 title='youtube player'
                 allow="accelerometer; autoplay; clipboard-write; encripted-media; gyroscope;"
                 >
@@ -47,7 +47,7 @@ export const urlEmbedBlockSchema: TinaTemplate = {
       title: "Data",
       description: "Curate and create the largest public datasets across tasks and languages",
       color: "default",
-      url: "/AI4Bharat Launch.pdf",
+      url: "https://tools.ai4bharat.org/",
     },
   },
   fields: [
