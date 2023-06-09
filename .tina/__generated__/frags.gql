@@ -299,6 +299,13 @@ fragment PageParts on Page {
       url
       color
     }
+    ... on PageBlocksUrlEmbed {
+      title
+      header
+      description
+      url
+      color
+    }
     ... on PageBlocksTable {
       caption
       markdownTable

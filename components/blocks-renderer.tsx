@@ -17,6 +17,7 @@ import { PhotoCardSingle } from "./blocks/photoCardSingle";
 import { TeamCardsGrid } from "./blocks/teamCardsGrid";
 import { JobCardsGrid } from "./blocks/jobCards";
 import { PDFEmbed } from "./blocks/pdfEmbed";
+import { URLEmbed } from "./blocks/urlEmbed";
 import { Table } from "./blocks/table";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
@@ -95,6 +96,15 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                     key={i + block.__typename}
                   >
                     <PDFEmbed data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+                case "PageBlocksUrlEmbed":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <URLEmbed data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               case "PageBlocksBanner":

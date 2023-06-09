@@ -484,6 +484,14 @@ type PageBlocksPdfEmbed {
   color: String
 }
 
+type PageBlocksUrlEmbed {
+  title: String
+  header: String
+  description: String
+  url: String
+  color: String
+}
+
 type PageBlocksTable {
   caption: String
   markdownTable: String
@@ -491,7 +499,7 @@ type PageBlocksTable {
   color: String
 }
 
-union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksLongCardsGrid | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksTable
+union PageBlocks = PageBlocksHero | PageBlocksFeatures | PageBlocksFeaturesAlt | PageBlocksFeaturesAlt2 | PageBlocksLongCardsGrid | PageBlocksCardGrid2 | PageBlocksContent | PageBlocksVideoCarousel | PageBlocksTestimonial | PageBlocksFlatCardsGrid | PageBlocksBanner | PageBlocksFaq | PageBlocksQuote | PageBlocksTeamCardsGrid | PageBlocksPhotoCardsGrid2 | PageBlocksPhotoCardSingle | PageBlocksJobCardsGrid | PageBlocksPdfEmbed | PageBlocksUrlEmbed | PageBlocksTable
 
 type Page implements Node & Document {
   blocks: [PageBlocks]
@@ -901,6 +909,14 @@ input PageBlocksPdfEmbedMutation {
   color: String
 }
 
+input PageBlocksUrlEmbedMutation {
+  title: String
+  header: String
+  description: String
+  url: String
+  color: String
+}
+
 input PageBlocksTableMutation {
   caption: String
   markdownTable: String
@@ -927,6 +943,7 @@ input PageBlocksMutation {
   photoCardSingle: PageBlocksPhotoCardSingleMutation
   jobCardsGrid: PageBlocksJobCardsGridMutation
   pdfEmbed: PageBlocksPdfEmbedMutation
+  urlEmbed: PageBlocksUrlEmbedMutation
   table: PageBlocksTableMutation
 }
 

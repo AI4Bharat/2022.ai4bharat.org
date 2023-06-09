@@ -19,6 +19,7 @@ import { quoteBlockSchema } from "../components/blocks/quote";
 import { teamCardsGridBlockSchema } from "../components/blocks/teamCardsGrid";
 import { jobCardsGridBlockSchema } from "../components/blocks/jobCards";
 import { pdfEmbedBlockSchema } from "../components/blocks/pdfEmbed";
+import { urlEmbedBlockSchema } from "../components/blocks/urlEmbed";
 import { tableBlockSchema } from "../components/blocks/table"
 
 const schema = defineSchema({
@@ -512,6 +513,7 @@ const schema = defineSchema({
             photoCardSingleBlockSchema,
             jobCardsGridBlockSchema,
             pdfEmbedBlockSchema,
+            urlEmbedBlockSchema,
             tableBlockSchema,
           ],
         },
