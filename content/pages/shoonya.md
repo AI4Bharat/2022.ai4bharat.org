@@ -91,7 +91,7 @@ blocks:
         text: >-
           Shoonya has feature to generate the dataset in ULCA format, so that
           the final reviewed datasets can be directly submitted to Bhashini
-          (National Language Translation Mission initiative)
+          (National Language Translation Mission initiative).
       - iconShown: false
         icon:
           color: ''
