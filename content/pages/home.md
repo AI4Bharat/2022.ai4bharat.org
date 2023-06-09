@@ -6,9 +6,8 @@ blocks:
       The focus of AI4Bhārat is on building open-source language AI for Indian
       languages, including datasets, models, and applications.
     image:
-      src: >-
-        https://res.cloudinary.com/ai4bharat/image/upload/v1685697207/nilekani_center_cbigs8.png
-      alt: Nilekani Center
+      src: ''
+      alt: ''
     _template: hero
   - quote: Our Mission
     author: Artificial Intelligence for Bhārat
