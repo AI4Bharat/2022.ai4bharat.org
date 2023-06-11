@@ -36,7 +36,7 @@ blocks:
         link: ''
         text: >-
           Curate and create the largest public datasets and benchmarks across
-          various tasks and 22 Indian languages.
+          various tasks and the 22 scheduled languages of India.
         iconColor: orange
       - iconShown: true
         icon:
