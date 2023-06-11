@@ -45,8 +45,7 @@ blocks:
         title: AI Models
         text: |-
           Build state-of-the-art, open, foundational  
-          AI models across  
-          tasks and 22 Indian languages.
+          AI models across tasks and 22 regional Indian languages.
         iconColor: orange
       - iconShown: true
         icon:
