@@ -7,9 +7,20 @@ blocks:
       ***
 
 
+      [Paper](https://arxiv.org/pdf/2305.15814.pdf) |
+      [Huggingface](https://huggingface.co/datasets/ai4bharat/Bhasha-Abhijnaanam)
+      |
+      [Benchmarking](https://github.com/AI4Bharat/IndicLID#evaluation-results)&#x20;
+
+
       Bhasha-Abhijnaanam is a language identification test set for&#x20;
 
-      native-script as well as Romanized text which spans 22 Indic languages.
+      native-script as well as romanized text which spans 22 Indic languages.
+      Benchmarking result on Bhasha-Abhijnaanam test set using
+      [IndicLID](https://ai4bharat.iitm.ac.in/indiclid) model can be found
+      [here](https://github.com/AI4Bharat/IndicLID#evaluation-results).  More
+      details regarding Bhasha-Abhijnaanam can be in the
+      [paper](https://arxiv.org/pdf/2305.15814.pdf).&#x20;
 
 
       ### Downloads
@@ -17,7 +28,8 @@ blocks:
 
       *   The Bhasha-Abhijnaanam dataset can be downloaded from the
       [Bhasha-Abhijnaanam Hugging Face
-      repository](https://huggingface.co/datasets/ai4bharat/Bhasha-Abhijnaanam)
+      repository](https://huggingface.co/datasets/ai4bharat/Bhasha-Abhijnaanam
+      "")
 
       *   Bhasha-Abhijnaanam dataset is a JSONL file consisting of individual
       data instances comprising a unique identifier, native sentence, romanized
