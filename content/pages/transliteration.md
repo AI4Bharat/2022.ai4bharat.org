@@ -66,7 +66,7 @@ blocks:
           style: float
           name: ''
         title: IndicLID
-        link: /indiclangid
+        link: /indiclid
         comingSoon: false
         updated: false
         text: >-
