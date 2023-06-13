@@ -7,7 +7,7 @@ blocks:
       ***
 
 
-      [Paper](https://arxiv.org/pdf/2305.15814.pdf) |
+      [Paper](http://arxiv.org/abs/2305.15814) |
       [Huggingface](https://huggingface.co/datasets/ai4bharat/Bhasha-Abhijnaanam)
       |
       [Benchmarking](https://github.com/AI4Bharat/IndicLID#evaluation-results)&#x20;
@@ -20,7 +20,7 @@ blocks:
       [IndicLID](https://ai4bharat.iitm.ac.in/indiclid) model can be found
       [here](https://github.com/AI4Bharat/IndicLID#evaluation-results).  More
       details regarding Bhasha-Abhijnaanam can be in the
-      [paper](https://arxiv.org/pdf/2305.15814.pdf).&#x20;
+      [paper](http://arxiv.org/abs/2305.15814).&#x20;
 
 
       ### Downloads
