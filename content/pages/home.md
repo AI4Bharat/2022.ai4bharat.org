@@ -159,8 +159,9 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          Open-source workbench for AI-assisted language work on Indian
-          languages with initial focus on translation.
+          Open source workbench for AI-assisted language data curation work on
+          Indian languages with focus on different annotation flows on Text,
+          Speech, Images, Conversations data types.
       - icon:
           color: ''
           style: float
