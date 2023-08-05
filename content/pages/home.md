@@ -80,8 +80,9 @@ blocks:
         comingSoon: false
         updated: false
         text: >-
-          Open-source datasets (Samanantar) and models (IndicTrans) for neural
-          machine translation between English and 12 Indic languages.
+          Open source datasets (Samanantar and BPCC) and models (IndicTrans and
+          IndicTrans2) for neural machine translation between English and 22
+          indic languages.
       - icon:
           color: ''
           style: float
