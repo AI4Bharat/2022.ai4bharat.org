@@ -207,7 +207,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/ai4bharat/image/upload/v1657799586/Team%20pictures/Tech/dheeraj_de3qom.jpg
       - teamGroup: tech
-        personName: 'Ganavi K '
+        personName: 'Ganavi K ಗಾನವಿ. ಕೆ'
         personDesignation: 'Software Engineer, Tarento Technologies'
         personImage:
           src: >-
