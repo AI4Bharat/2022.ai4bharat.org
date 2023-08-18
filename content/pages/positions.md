@@ -41,7 +41,8 @@ blocks:
           style: float
           name: map
         title: AI Residents
-        link: 'https://forms.gle/juSYNpgzVKYjUtmMA'
+        link: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSfWO32QPh6caG1C6tnhjHxcU7bPQujMEwXVQsE6dyz9wfEPdg/viewform
         linkPlaceholder: Apply Here
         comingSoon: false
         updated: false
