@@ -57,16 +57,14 @@ blocks:
           style: float
           name: code
         title: Full Stack Developers
-        link: >-
-          https://docs.google.com/forms/d/e/1FAIpQLSel3F8MmkET7cfgzi2nCxPAcY6-UuXcVt1tY7YmNykEY8xUhg/viewform
+        link: 'https://forms.gle/tbi5LuhMhpSHqpZY9'
         linkPlaceholder: Apply Here
         comingSoon: false
         updated: false
         text: >-
-          Looking for highly motivated and capable frontend developers for a 3-6
-          month long internship program, who would work alongside us in building
-          a feature-rich, open-source AI platform targeted at Indian problems
-          and diversity.
+          Internship and Long-term opportunities for front-end and back-end
+          developers looking to contribute to building open-source applications
+          for language technologies.
     _template: featuresAlt
 ---
 
