@@ -3,8 +3,9 @@ blocks:
   - tagline: Artificial-Intelligence For Bhārat
     headline: Welcome to AI4Bharat!
     text: >
-      The focus of AI4Bhārat is on building open-source language AI for Indian
-      languages, including datasets, models, and applications.
+      The Nilekani Center at AI4Bhārat, a research lab at IIT-Madras, focuses on
+      building open-source language AI for Indian languages, including datasets,
+      models, and applications.
     actions:
       - label: Check our launch event!
         type: button
