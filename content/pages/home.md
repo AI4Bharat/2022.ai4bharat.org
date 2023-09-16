@@ -5,6 +5,11 @@ blocks:
     text: >
       The focus of AI4Bhārat is on building open-source language AI for Indian
       languages, including datasets, models, and applications.
+    actions:
+      - label: Check our launch event!
+        type: button
+        icon: true
+        link: /launch
     image:
       src: ''
       alt: ''
